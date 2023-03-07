@@ -1,0 +1,38 @@
+Comment,Designator,Footprint,LCSC
+120Ω,R1,R_0805_2012Metric,C114245
+TPS5450DDA,IC1,SOIC127P600X170-9N,C114425
+10K,R2,R_0805_2012Metric,C115295
+SW_Push,SW1,SW_Push_1P1T_NO_6x6mm_H9.5mm,C13828
+Motor 1,"J4,J5",JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical,C144395
+MAX232,U1,SOIC-16_3.9x9.9mm_P1.27mm,C158068
+10uF,"C7,C8",C_0805_2012Metric,C15850
+10nF,"C16,C17,C19",C_0805_2012Metric,C1710
+100nF,"C2,C3",C_0805_2012Metric,C1711
+1uF,"C1,C4,C6,C9",C_0805_2012Metric,C1761
+330uF,C18,CP_Elec_10x10.5,C19606
+3.16K,R6,R_0805_2012Metric,C218553
+MCP2542FDxMF,U2,SO-8_3.9x4.9mm_P1.27mm,C220598
+SS54,D1,DO-214AC,C22452
+M1_UART_OP1,"JP1,JP2,JP3,JP4,JP9",PinHeader_1x02_P2.00mm_Vertical,C225254
+100uF,"C11,C12",CP_Elec_6.3x7.7,C2836442
+EXP1,"J8,J9",IDC-Header_2x05_P2.54mm_Vertical,C2977596
+1K,R3,R_0805_2012Metric,C309081
+Straight Through,"J6,J7",DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm,C426221
+15uH,L1,Power Inductor 10x11,C439295
+DC12V/24V,"J1,J10",TerminalBlock_bornier-2_P5.08mm,C474952
+CAT24C256,U5,SO-8_3.9x4.9mm_P1.27mm,C79987
+4.7uF,C5,C_0805_2012Metric,C98192
+MountingHole,H4,MountingHole_3.2mm_M3_Pad,
+MountingHole,H3,MountingHole_3.2mm_M3_Pad,
+MountingHole,H2,MountingHole_3.2mm_M3_Pad,
+MountingHole,H1,MountingHole_3.2mm_M3_Pad,
+TestPoint,TP6,TestPoint_Pad_2.0x2.0mm,
+TestPoint,TP5,TestPoint_Pad_2.0x2.0mm,
+TestPoint,TP8,TestPoint_Pad_2.0x2.0mm,
+TestPoint,TP7,TestPoint_Pad_2.0x2.0mm,
+TestPoint,TP4,TestPoint_Pad_2.0x2.0mm,
+TestPoint,TP2,TestPoint_Pad_2.0x2.0mm,
+TestPoint,TP1,TestPoint_Pad_2.0x2.0mm,
+Pico,U3,RPi_Pico_SMD_TH,
+TMC2209 Motor 2,J3,Conn_StepStick,
+TMC2209 Motor 1,J2,Conn_StepStick,

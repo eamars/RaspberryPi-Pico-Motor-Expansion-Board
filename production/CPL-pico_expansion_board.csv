@@ -1,0 +1,43 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,1uF,C_0805_2012Metric,115.381,-79.375,0.0,top
+C2,100nF,C_0805_2012Metric,98.552,-78.486,90.0,top
+C3,100nF,C_0805_2012Metric,94.234,-85.852,180.0,top
+C4,1uF,C_0805_2012Metric,122.428,-81.788,-90.0,top
+C5,4.7uF,C_0805_2012Metric,124.46,-113.538,-90.0,top
+C6,1uF,C_0805_2012Metric,111.571,-86.233,-90.0,top
+C7,10uF,C_0805_2012Metric,111.571,-90.043,90.0,top
+C8,10uF,C_0805_2012Metric,111.571,-82.423,90.0,top
+C9,4.7uF,C_0805_2012Metric,127.254,-113.538,-90.0,top
+C11,100uF,CP_Elec_6.3x7.7,69.596,-104.902,90.0,top
+C12,100uF,CP_Elec_6.3x7.7,69.596,-78.822,90.0,top
+C16,10nF,C_0805_2012Metric,130.048,-113.538,-90.0,top
+C17,10nF,C_0805_2012Metric,120.396,-107.696,0.0,top
+C18,330uF,CP_Elec_10x10.5,115.57,-100.33,180.0,top
+C19,10nF,C_0805_2012Metric,122.682,-93.726,180.0,top
+D1,SS54,DO-214AC,114.554,-107.696,180.0,top
+IC1,TPS5450DDA,SOIC127P600X170-9N,119.126,-112.522,0.0,top
+J1,DC12V/24V,TerminalBlock_bornier-2_P5.08mm,128.778,-123.19,0.0,top
+J2,TMC2209 Motor 1,Conn_StepStick,69.596,-76.122,180.0,top
+J3,TMC2209 Motor 2,Conn_StepStick,69.596,-102.098,180.0,top
+J4,Motor 1,JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical,55.609,-76.26,-90.0,top
+J5,Motor 2,JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical,55.609,-102.088,-90.0,top
+J6,Straight Through,DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm,146.05,-111.252,90.0,top
+J7,NULL Modem,DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm,146.05,-76.2,90.0,top
+J8,EXP1,IDC-Header_2x05_P2.54mm_Vertical,99.822,-120.9135,90.0,top
+J9,EXP2,IDC-Header_2x05_P2.54mm_Vertical,74.676,-120.9135,90.0,top
+J10,CAN_L,TerminalBlock_bornier-2_P5.08mm,129.032,-62.992,180.0,top
+JP1,M1_UART_OP1,PinHeader_1x02_P2.00mm_Vertical,68.935,-68.258,90.0,top
+JP2,M1_UART_OP2,PinHeader_1x02_P2.00mm_Vertical,68.961,-71.628,-90.0,top
+JP3,M2_UART_OP1,PinSocket_1x02_P2.00mm_Vertical,69.104,-94.234,90.0,top
+JP4,M2_UART_OP2,PinSocket_1x02_P2.00mm_Vertical,69.088,-97.536,-90.0,top
+JP9,120JP,PinHeader_1x02_P2.00mm_Vertical,114.554,-72.406,180.0,top
+L1,15uH,Power Inductor 10x11,123.7405,-106.846,90.0,top
+R1,120Ω,R_0805_2012Metric,111.252,-72.136,90.0,top
+R2,10K,R_0805_2012Metric,111.76,-112.268,-90.0,top
+R3,1K,R_0805_2012Metric,80.264,-76.2,90.0,top
+R6,3.16K,R_0805_2012Metric,114.046,-112.268,90.0,top
+SW1,SW_Push,SW_Push_1P1T_NO_6x6mm_H9.5mm,120.904,-74.422,90.0,top
+U1,MAX232,SOIC-16_3.9x9.9mm_P1.27mm,117.159,-86.233,0.0,top
+U2,MCP2542FDxMF,SO-8_3.9x4.9mm_P1.27mm,94.234,-80.518,90.0,top
+U3,Pico,RPi_Pico_SMD_TH,93.726,-86.605,0.0,top
+U5,CAT24C256,SO-8_3.9x4.9mm_P1.27mm,93.726,-95.504,180.0,top
