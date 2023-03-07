@@ -1,6 +1,6 @@
 Raspberry Pi Pico Motor Expansion Board
 =======================================
-The Raspberry Pi Pico Motor Expansion Board is designed to be used as the controller for [OpenTrickler}(https://github.com/eamars/OpenTrickler). The board is designed to trickle certain amount of charges (e.g, gun powder) from the reservoir by reading measurements from the attached precision digital balance and actuate corresponding motors. 
+The Raspberry Pi Pico Motor Expansion Board is designed to be used as the controller for [OpenTrickler](https://github.com/eamars/OpenTrickler). The board is designed to trickle certain amount of charges (e.g, gun powder) from the reservoir by reading measurements from the attached precision digital balance and actuate corresponding motors. 
 
 ![3d_view](resources/3d_view.png)
 
