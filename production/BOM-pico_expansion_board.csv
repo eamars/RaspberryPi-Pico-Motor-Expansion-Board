@@ -22,14 +22,12 @@ DC12V/24V,J1,TerminalBlock_bornier-2_P5.08mm,C474952
 100nF,"C11,C14,C2,C5,C6,C7",C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C49678
 AMS1117-3.3,U5,SOT-223-3_TabPin2,C5181460
 3.16K,R2,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,C52603
+~,"JP5,JP6,JP7",PinHeader_1x03_P2.00mm_Vertical,C541857
 CAT24C256,U3,SO-8_3.9x4.9mm_P1.27mm,C79987
 GREEN,"D2,D3,D4",D_0805_2012Metric_Pad1.15x1.40mm_HandSolder,C84256
 4.7uF,"C1,C3",C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C98192
 ~,TP5,TestPoint_Pad_2.0x2.0mm,
-~,JP5,PinHeader_1x03_P2.00mm_Vertical,
 ~,TP3,TestPoint_Pad_2.0x2.0mm,
 ~,TP2,TestPoint_Pad_2.0x2.0mm,
-~,JP6,PinHeader_1x03_P2.00mm_Vertical,
-~,JP7,PinHeader_1x03_P2.00mm_Vertical,
 ~,TP4,TestPoint_Pad_2.0x2.0mm,
 ~,TP_UART1,TestPoint_Pad_2.0x2.0mm,
