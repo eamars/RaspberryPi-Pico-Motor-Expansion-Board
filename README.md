@@ -36,3 +36,5 @@ A 3D printable enclosure is also supplied in [enclosure](enclosure) directory.
 Revisions
 * v0.1: Initial release.
 * v0.2: Add 2x 100uF caps for stepper motor driver power supply. 
+* v0.3: Fix issues found on v0.2 design. See details at [release](https://github.com/eamars/RaspberryPi-Pico-Motor-Expansion-Board/releases/tag/v0.3) page. 
+Noted the NEOPIXEL output is moved from GP26 to GP13 from this revision. 
