@@ -390,9 +390,9 @@
       (net 31 "unconnected-(J6-Pad8)") (pinfunction "8") (pintype "passive+no_connect") (tstamp c979992f-c22c-40b3-aef8-6b36b4cc4e46))
     (pad "9" thru_hole circle (at 9.695 2.84 90) (size 1.6 1.6) (drill 1) (layers "*.Cu" "*.Mask")
       (net 32 "unconnected-(J6-Pad9)") (pinfunction "9") (pintype "passive+no_connect") (tstamp afe9514f-cb8d-4a49-a933-e02d895e9d50))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_Dsub.3dshapes/DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
+    (model "${KICAD6_3DMODEL_DIR}/Connector_Dsub.3dshapes/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm.step"
+      (offset (xyz 11 0 0))
+      (scale (xyz 1 1 1.1))
       (rotate (xyz 0 0 0))
     )
   )
