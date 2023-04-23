@@ -449,7 +449,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "pico_expansion_board.step",
+      "step": "../enclosure/CAD/pico_expansion_board.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
