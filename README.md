@@ -9,7 +9,6 @@ Peripherals
 * RS232 IO port with either straight through or NULL modem type of connection via on board DB9 connectors. Used to communicate with the precision digital balance. 
 * 2x Stepper motor driver socket designed for TMC stepstick drivers. TMC2209 with UART is recommended. 
 * 2x EXP ports for [RepRap 12864 LED display](https://reprap.org/wiki/RepRapDiscount_Full_Graphic_Smart_Controller)
-* A CAN port to communicate with other system components. 
 * A 40 pin socket for Raspberry Pi Pico or Pico W. 
 
 Power
