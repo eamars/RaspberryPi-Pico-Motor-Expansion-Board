@@ -4,6 +4,8 @@ The Raspberry Pi Pico Motor Expansion Board is designed to be used as the contro
 
 ![3d_view](resources/3d_view.png)
 
+Join our [discord server](https://discord.gg/ZhdThA2vrW) for help and development information. 
+
 Peripherals
 -----------
 * RS232 IO port with either straight through or NULL modem type of connection via on board DB9 connectors. Used to communicate with the precision digital balance. 
