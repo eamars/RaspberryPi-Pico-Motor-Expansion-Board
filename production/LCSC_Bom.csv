@@ -15,7 +15,7 @@ Quantity,Manufacture Part Number,Manufacturer(optional),Description(optional),LC
 2,100uF,,"C8,C9",C2836442,CP_Elec_6.3x7.7,
 1,SW_Push,,SW1,C2837532,SW_Push_1P1T_NO_6x6mm_H9.5mm,
 2,EXP1,,"J8,J9",C2977596,IDC-Header_2x05_P2.54mm_Vertical,
-1,~,,J6,C305942,DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm,
+1,~,,J6,C426221,DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm,
 1,Pico,,U2,C429947,RPi_Pico_SMD_TH,
 1,15uH,,L1,C439295,Power Inductor 10x11,
 1,DC12V/24V,,J1,C474952,TerminalBlock_bornier-2_P5.08mm,
