@@ -27,6 +27,8 @@ The board is designed to be manufactured with 4 layer PCB. Traces are placed at 
 
 The board is designed with hand soldering in mind. The board can also be manufactured by SMT. 
 
+![assembly](resources/assembly.jpg)
+
 BOM and gerber files are provided under [production](production) directory. [Instructions](production/README.md) are also provided regarding the PCB contract manufactoring with JLCPCB. 
 
 ## Enclosure
