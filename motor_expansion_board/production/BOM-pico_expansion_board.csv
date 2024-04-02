@@ -26,8 +26,3 @@ AMS1117-3.3,U5,SOT-223-3_TabPin2,C5181460
 CAT24C256,U3,SO-8_3.9x4.9mm_P1.27mm,C79987
 GREEN,"D2,D3,D4",D_0805_2012Metric_Pad1.15x1.40mm_HandSolder,C84256
 4.7uF,"C1,C3",C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C98192
-~,TP5,TestPoint_Pad_2.0x2.0mm,
-~,TP3,TestPoint_Pad_2.0x2.0mm,
-~,TP2,TestPoint_Pad_2.0x2.0mm,
-~,TP4,TestPoint_Pad_2.0x2.0mm,
-~,TP_UART1,TestPoint_Pad_2.0x2.0mm,
