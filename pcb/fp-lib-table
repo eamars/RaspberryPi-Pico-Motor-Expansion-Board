@@ -1,6 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "RPi_Pico")(type "KiCad")(uri "${KIPRJMOD}/RPi_Pico.pretty")(options "")(descr ""))
-  (lib (name "fab")(type "KiCad")(uri "${KIPRJMOD}/fab.pretty")(options "")(descr ""))
-  (lib (name "Extra Footprints")(type "KiCad")(uri "${KIPRJMOD}/Extra Footprints")(options "")(descr ""))
-)

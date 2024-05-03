@@ -29,11 +29,11 @@ The board is designed with hand soldering in mind. The board can also be manufac
 
 ![assembly](resources/assembly.jpg)
 
-BOM and gerber files are provided under [production](production) directory. [Instructions](production/README.md) are also provided regarding the PCB contract manufactoring with JLCPCB. 
+BOM and gerber files are provided under [production](motor_expansion_board/production) directory. [Instructions](motor_expansion_board/production/README.md) are also provided regarding the PCB contract manufactoring with JLCPCB. 
 
 ## Enclosure
 
-A 3D printable enclosure is also supplied in [enclosure](enclosure) directory. 
+A 3D printable enclosure is also supplied in [enclosure](motor_expansion_board/enclosure) directory. 
 
 ## Revisions
 
@@ -44,9 +44,9 @@ A 3D printable enclosure is also supplied in [enclosure](enclosure) directory.
 * v1.0: Add missing ground PIN for RS232 female connector. First release. 
 * v1.0.1: Fix the LCSC part number for on-board DB9 male connector. Note there is no board silkscreen update. 
 
-# Errata
+## Errata
 
-## v1.0 -> v1.0.1
+### v1.0 -> v1.0.1
 
 In v1.0 the incorrect LCSC part number for DB9 male connector was recorded. If you've ordered the PCBA from JLCPCB by building the v1.0 release, the DB9 connector is likely incorrect. 
 
@@ -59,3 +59,40 @@ If you have DB9 female connector assembled, you will have the incorrect part.
 You can de-solder the DB9 female connector and replace with the DB9 male connector. If you would like to order from LCSC, the part number is [C426221](https://www.lcsc.com/product-detail/_FOXCONN-_C426221.html).
 
 The v1.0.1 already includes the fix. 
+
+# PWM Expansion Board
+
+The PWM Expansion Board is designed to extend the output capability for the existing v1.x of the Raspberry Pi Pico Motor Expansion Board. The PWM Expansion Board added additional 3x 5V PWM output that are suitable for servo motors and Neopixel LEDs. 
+
+![assembly](resources/pwm_expansion_board_install.jpg)
+
+## Peripherals
+
+GPIO26, 27 and 28 are now wired to the PWM output terminals. 
+
+## Power
+
+The PWM Expansion Board is powered by the Raspberry Pi Pico Motor Expansion Board with 5V supply. 
+
+## PCB
+
+The board is designed to be manufactured with 2 layer PCB. Traces are placed at top and bottom layers. GND and 5V are poured to the top and bottom layers. 
+
+## Manufacturing
+
+The board is designed with hand soldering in mind. The board can also be manufactured by SMT with limited selection of components. 
+
+![assembly](resources/pwm_expansion_board_assembly.jpg)
+
+BOM and gerber files are provided under [production](pwm_expansion_board/production) directory. [Instructions](motor_expansion_board/production/README.md) are also provided regarding the PCB contract manufactoring with JLCPCB. 
+
+## Sourcing
+
+You may need to source the following components from third party: 
+
+* Right angle JST XH connector [Aliexpress](https://www.aliexpress.com/item/1005005424915227.html)
+* **20x1** long pin (11mm) header [Aliexpress](https://www.aliexpress.com/item/1005005965643878.html)
+
+## Revisions
+
+* v1.0: Initial Release
