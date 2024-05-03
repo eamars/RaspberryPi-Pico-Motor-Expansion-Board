@@ -4550,7 +4550,7 @@
 		(layer "Edge.Cuts")
 		(uuid "c30249a2-bb8a-446c-bd3e-d619d70f4f90")
 	)
-	(gr_text "OpenTrickler\n5V PWM Expander Board\nVer 0.1"
+	(gr_text "OpenTrickler\n5V PWM Expander Board\nVer 1.0"
 		(at 140.208 53.086 90)
 		(layer "B.SilkS")
 		(uuid "402e5632-00e1-47fa-be49-bbf54ee8ae4b")
