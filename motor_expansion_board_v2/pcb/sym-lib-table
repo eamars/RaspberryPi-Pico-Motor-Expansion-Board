@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "RPi_Pico")(type "KiCad")(uri "${KIPRJMOD}/library/RPi_Pico.kicad_sym")(options "")(descr ""))
+  (lib (name "fab")(type "KiCad")(uri "${KIPRJMOD}/library/fab.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS5450DDAR")(type "KiCad")(uri "${KIPRJMOD}/library/TPS5450DDAR.kicad_sym")(options "")(descr ""))
+  (lib (name "SS54")(type "KiCad")(uri "${KIPRJMOD}/library/SS54.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS5450DDA")(type "KiCad")(uri "${KIPRJMOD}/library/TPS5450DDAR.kicad_sym")(options "")(descr ""))
+)
