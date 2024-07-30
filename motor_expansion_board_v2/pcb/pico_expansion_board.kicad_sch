@@ -5,6 +5,210 @@
 	(uuid "b8f3f05d-f7a7-4c52-a258-9c2fea48c789")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Connector:Conn_01x03_Socket"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Socket"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_Socket_1_1"
+				(arc
+					(start 0 -2.032)
+					(mid -0.5058 -2.54)
+					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.048)
+					(mid -0.5058 2.54)
+					(end 0 2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_01x04_Socket"
 			(pin_names
 				(offset 1.016) hide)
@@ -1071,23 +1275,23 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole"
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
 			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
-				(at 0 5.08 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1112,7 +1316,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1130,7 +1334,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
+			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1139,9 +1343,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_0_1"
+			(symbol "MountingHole_Pad_0_1"
 				(circle
-					(center 0 0)
+					(center 0 1.27)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -1149,6 +1353,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -3604,6 +3828,12 @@
 		(uuid "50141e6b-4fd3-4960-aec3-827fe6edb5ef")
 	)
 	(junction
+		(at 355.6 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d6407f4-f224-49c5-99a3-300e65c1a32f")
+	)
+	(junction
 		(at 360.68 234.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3622,10 +3852,22 @@
 		(uuid "818784bd-a08f-46a0-b027-8ac6452c8207")
 	)
 	(junction
+		(at 351.79 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89d22438-16e1-439c-a521-84aec32eb204")
+	)
+	(junction
 		(at 370.84 234.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b737264-1e8b-442d-95a6-ad85c8c375da")
+	)
+	(junction
+		(at 346.71 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97e5e694-260b-45ee-8d38-8b1665e03ce9")
 	)
 	(junction
 		(at 316.23 220.98)
@@ -3879,6 +4121,16 @@
 	)
 	(wire
 		(pts
+			(xy 346.71 185.42) (xy 346.71 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eb61cbf-6241-455c-8493-1a6a766f1fb9")
+	)
+	(wire
+		(pts
 			(xy 76.2 198.12) (xy 86.36 198.12)
 		)
 		(stroke
@@ -3906,6 +4158,36 @@
 			(type default)
 		)
 		(uuid "39afc56f-610a-4e98-b485-402be0bb0a9e")
+	)
+	(wire
+		(pts
+			(xy 355.6 185.42) (xy 355.6 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b5bc028-7042-441b-9eb5-dad8039c5792")
+	)
+	(wire
+		(pts
+			(xy 337.82 185.42) (xy 337.82 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb71818-3011-40c9-a1e1-d8a1aaf470fe")
+	)
+	(wire
+		(pts
+			(xy 355.6 190.5) (xy 351.79 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d13960d-574b-4413-9303-231209dbca1e")
 	)
 	(wire
 		(pts
@@ -4006,6 +4288,36 @@
 			(type default)
 		)
 		(uuid "5da31121-1efa-460a-9c51-6214ecf31a33")
+	)
+	(wire
+		(pts
+			(xy 217.17 251.46) (xy 213.36 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6299d024-479d-427e-8c6b-35cecab2126b")
+	)
+	(wire
+		(pts
+			(xy 346.71 190.5) (xy 351.79 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6345bc44-886f-4645-b016-94d842943f4d")
+	)
+	(wire
+		(pts
+			(xy 351.79 190.5) (xy 351.79 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eb4918a-0a3e-4938-b121-171d0223ada3")
 	)
 	(wire
 		(pts
@@ -4139,6 +4451,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 251.46) (xy 213.36 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ce3797d-2b97-483a-8c59-54913ebaf4fe")
+	)
+	(wire
+		(pts
 			(xy 280.67 116.84) (xy 280.67 120.65)
 		)
 		(stroke
@@ -4226,6 +4548,36 @@
 			(type default)
 		)
 		(uuid "b3ab5321-9481-41ae-9c32-ff70a5ed3bbe")
+	)
+	(wire
+		(pts
+			(xy 364.49 185.42) (xy 364.49 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b402b363-5b1f-40e1-8713-1bb8b0233133")
+	)
+	(wire
+		(pts
+			(xy 337.82 190.5) (xy 346.71 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4693e80-6578-4ad7-b593-86c9e31860bf")
+	)
+	(wire
+		(pts
+			(xy 364.49 190.5) (xy 355.6 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8316e7e-b2af-4fd9-ab08-32b313c2ce0b")
 	)
 	(wire
 		(pts
@@ -4496,6 +4848,17 @@
 		)
 		(uuid "4ebe379d-d6d3-4799-a0a8-d8f6131a95b2")
 	)
+	(text "RS232 By Pass Connector"
+		(exclude_from_sim no)
+		(at 195.072 236.728 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b3975b0-9075-4f56-8944-fad223188ad3")
+	)
 	(text "Rasberry Pi Pico/W Expansion Board"
 		(exclude_from_sim no)
 		(at 313.69 278.13 0)
@@ -4762,6 +5125,28 @@
 		(uuid "18fd0084-2550-4e0c-8fb2-6004db84950f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 124.9409 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCALE_UART_RX"
+		(shape input)
+		(at 217.17 246.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "19a968b5-3593-401c-91dc-5a0e68bf6fa0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.4476 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5251,6 +5636,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCALE_UART_TX"
+		(shape input)
+		(at 217.17 248.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "60c7c0b5-3c97-4d86-a94a-04838c47fd19")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.75 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6783,6 +7190,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 346.71 182.88 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3694e6ba-7a00-4399-9596-51f66b7ad12f")
+		(property "Reference" "H2"
+			(at 349.25 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 349.25 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 346.71 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 346.71 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bd68e97-4676-405c-9f46-a0786e017251")
+		)
+		(instances
+			(project "pico_expansion_board"
+				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 158.75 194.31 180)
 		(unit 1)
@@ -7533,70 +8007,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 346.71 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4bd98538-e472-4649-aaac-ab9844467c30")
-		(property "Reference" "H1"
-			(at 349.25 182.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 349.25 183.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 346.71 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 346.71 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 346.71 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "pico_expansion_board"
-				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 323.85 227.33 0)
 		(unit 1)
@@ -7955,6 +8365,73 @@
 			(project "pico_expansion_board"
 				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 355.6 182.88 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66a3fb97-0de8-497d-a0e1-a16194a63d02")
+		(property "Reference" "H3"
+			(at 358.14 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 358.14 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 355.6 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 355.6 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "722b393c-905f-4252-8966-89555621a81a")
+		)
+		(instances
+			(project "pico_expansion_board"
+				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -8573,70 +9050,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 368.3 191.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82d7046f-2928-485d-a393-0aed206878b8")
-		(property "Reference" "H4"
-			(at 370.84 192.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 370.84 193.675 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 368.3 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 368.3 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 368.3 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "pico_expansion_board"
-				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "MotorDriver_StepStick_TMC2209_1")
 		(lib_id "fab:MotorDriver_StepStick_TMC2209")
 		(at 265.43 62.23 0)
@@ -8814,6 +9227,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 337.82 182.88 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "909e5a11-f297-4a8a-b55e-7f89fae07060")
+		(property "Reference" "H1"
+			(at 340.36 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 340.36 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 337.82 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 337.82 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 337.82 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01d068b9-ef8e-4098-802b-9a3da9d5cadb")
+		)
+		(instances
+			(project ""
+				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 364.49 182.88 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90ebfc81-58d0-4e6e-b510-50fa89769b67")
+		(property "Reference" "H4"
+			(at 367.03 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 367.03 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 364.49 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 364.49 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 364.49 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d339f06f-e7e0-4586-85a2-6212a7142613")
+		)
+		(instances
+			(project "pico_expansion_board"
+				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 121.92 64.77 270)
 		(unit 1)
@@ -8875,6 +9422,72 @@
 			(project "pico_expansion_board"
 				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 213.36 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95abdb1c-c0cd-478a-8f58-e0e585daf5f8")
+		(property "Reference" "#PWR051"
+			(at 213.36 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.36 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b7c529a-692e-4bef-b103-e61e787b1c94")
+		)
+		(instances
+			(project "pico_expansion_board"
+				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -9530,70 +10143,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 346.71 191.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b783baf9-1277-42f1-8bb4-ebbe0a5b8ebb")
-		(property "Reference" "H2"
-			(at 349.25 192.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 349.25 193.675 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 346.71 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 346.71 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 346.71 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "pico_expansion_board"
-				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 354.33 152.4 0)
 		(unit 1)
@@ -10131,6 +10680,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 222.25 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d437b035-6b8b-4b7f-8a6e-973559e96a31")
+		(property "Reference" "J7"
+			(at 223.52 247.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03_Socket"
+			(at 223.52 250.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+			(at 222.25 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 222.25 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c16e508b-bd1e-4860-a804-680d0c3114b7")
+		)
+		(pin "3"
+			(uuid "d0c96c3d-d69f-4a16-b0a0-2aeea0f59bc6")
+		)
+		(pin "2"
+			(uuid "fb5c2cf7-d8dd-40b3-9885-357e5bf89bdb")
+		)
+		(instances
+			(project "pico_expansion_board"
+				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 133.35 201.93 90)
 		(unit 1)
@@ -10625,35 +11247,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 368.3 181.61 0)
+		(lib_id "power:GND")
+		(at 351.79 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ecf3d9c6-68d1-4224-ba9f-96deebf99cbd")
-		(property "Reference" "H3"
-			(at 370.84 182.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 370.84 183.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 368.3 181.61 0)
+		(uuid "ecaae615-212e-467b-be6a-296cf67aaa9b")
+		(property "Reference" "#PWR046"
+			(at 351.79 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10661,8 +11265,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 368.3 181.61 0)
+		(property "Value" "GND"
+			(at 351.79 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.79 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10671,7 +11292,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 368.3 181.61 0)
+			(at 351.79 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10679,10 +11300,13 @@
 				(hide yes)
 			)
 		)
+		(pin "1"
+			(uuid "3e678902-da07-4f2f-a3a1-ba19cb5b048f")
+		)
 		(instances
 			(project "pico_expansion_board"
 				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789"
-					(reference "H3")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
