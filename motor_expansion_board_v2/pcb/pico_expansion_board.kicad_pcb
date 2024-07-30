@@ -1848,7 +1848,7 @@
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J12"
-			(at 2.5 -3.55 180)
+			(at 2.5 2.286 180)
 			(layer "F.SilkS")
 			(uuid "df78bc17-dc89-4aec-9ba9-7523299ada32")
 			(effects
@@ -19189,6 +19189,18 @@
 		(layer "Edge.Cuts")
 		(uuid "e966fb8d-fc9d-4c7f-9b83-f23193820b23")
 	)
+	(gr_text "IO28"
+		(at 129.54 82.296 0)
+		(layer "B.SilkS")
+		(uuid "04c89a42-cff7-4db4-9f42-c5b80d0640f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "Servo R"
 		(at 136.398 140.716 0)
 		(layer "B.SilkS")
@@ -19225,6 +19237,18 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "PWM OUT"
+		(at 133.858 75.692 0)
+		(layer "B.SilkS")
+		(uuid "46acb37e-9a28-4918-bd58-c6c37e13e4ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "EXP1"
 		(at 117.602 140.716 0)
 		(layer "B.SilkS")
@@ -19249,6 +19273,18 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "IO27"
+		(at 137.286 133.936 0)
+		(layer "B.SilkS")
+		(uuid "a7b9cb0a-043b-4f9d-b588-2dd3d0114cb2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "OpenTrickler Controller v2.0rc"
 		(at 124.714 75.692 0)
 		(layer "B.SilkS")
@@ -19257,6 +19293,18 @@
 			(font
 				(size 1 1)
 				(thickness 0.1875)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "IO26"
+		(at 149.86 133.919 0)
+		(layer "B.SilkS")
+		(uuid "cd9382c2-ae23-4efb-940a-9322b2da5850")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
 			)
 			(justify left bottom mirror)
 		)
@@ -19361,6 +19409,18 @@
 		(at 71.374 126.746 0)
 		(layer "F.SilkS")
 		(uuid "67eccf43-db56-4c9c-838f-61e9cfb6fdfb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PWM OUT"
+		(at 127 75.692 0)
+		(layer "F.SilkS")
+		(uuid "718cd8e2-c10b-4474-9b2b-25d80a8954d6")
 		(effects
 			(font
 				(size 1 1)
