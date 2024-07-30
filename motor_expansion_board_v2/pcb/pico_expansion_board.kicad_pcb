@@ -238,7 +238,7 @@
 		(descr "Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "diode handsolder")
 		(property "Reference" "D3"
-			(at -2.794 0 360)
+			(at -2.794 0 0)
 			(layer "F.SilkS")
 			(uuid "d3ba1bae-38e5-4fcb-a49a-df1306b2cac3")
 			(effects
@@ -2527,7 +2527,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R13"
-			(at 0 1.778 360)
+			(at 0 1.778 0)
 			(layer "F.SilkS")
 			(uuid "302ed7e0-7be4-486a-b7ac-c4acc5230b09")
 			(effects
@@ -2538,7 +2538,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "5181f64a-79ef-43b1-8041-eb866ce28b4d")
 			(effects
@@ -2693,7 +2693,7 @@
 			(uuid "5215671f-8b31-41d2-97b2-3d34fa44d44a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "47b1ce46-0558-423b-a128-7096a466dfb0")
 			(effects
@@ -3079,7 +3079,7 @@
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J7"
-			(at 9.144 0 360)
+			(at 9.144 0 0)
 			(layer "F.SilkS")
 			(uuid "08cd545c-c84c-40df-8f70-7594d09ce6ea")
 			(effects
@@ -3090,7 +3090,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Socket"
-			(at 2.5 4.6 360)
+			(at 2.5 4.6 0)
 			(layer "F.Fab")
 			(uuid "09a5fa53-a304-40c0-9773-295424213d3c")
 			(effects
@@ -3485,7 +3485,7 @@
 			(uuid "51110463-e3e8-4291-be52-bffedd9618cd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 2.7 360)
+			(at 2.5 2.7 0)
 			(layer "F.Fab")
 			(uuid "4af7dd3e-225d-46d1-ad68-858d05b0f7e8")
 			(effects
@@ -6400,7 +6400,7 @@
 		(descr "Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "diode handsolder")
 		(property "Reference" "D1"
-			(at -2.794 0 360)
+			(at -2.794 0 0)
 			(layer "F.SilkS")
 			(uuid "5eb9ada7-8292-4391-a452-6727bcd54e4d")
 			(effects
@@ -6845,7 +6845,7 @@
 		(descr "Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "diode handsolder")
 		(property "Reference" "D5"
-			(at 2.794 0 360)
+			(at 2.794 0 0)
 			(layer "F.SilkS")
 			(uuid "d89e7a26-44b2-4599-b5d5-f409ab48a529")
 			(effects
@@ -7293,7 +7293,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R14"
-			(at 0 1.778 360)
+			(at 0 1.778 0)
 			(layer "F.SilkS")
 			(uuid "c2fd6bf1-08f1-44b4-b3f1-bf43ba29a62b")
 			(effects
@@ -7304,7 +7304,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "5bac1630-b686-4d30-ae7d-5936f09f8641")
 			(effects
@@ -7459,7 +7459,7 @@
 			(uuid "3eff2924-7788-4982-b9b1-354a7f11f322")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "0aa2e516-c081-4ec8-bca2-cd670cb05602")
 			(effects
@@ -14116,7 +14116,7 @@
 		(descr "Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "diode handsolder")
 		(property "Reference" "D2"
-			(at -2.794 0 360)
+			(at -2.794 0 0)
 			(layer "F.SilkS")
 			(uuid "953fd443-29bb-41f6-96fc-f51c48320f36")
 			(effects
@@ -15271,7 +15271,7 @@
 		(descr "Diode SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "diode handsolder")
 		(property "Reference" "D6"
-			(at 2.794 0 360)
+			(at 2.794 0 0)
 			(layer "F.SilkS")
 			(uuid "e8c882f1-0981-4814-8117-12b9953e974b")
 			(effects
@@ -26317,10 +26317,10 @@
 		)
 		(polygon
 			(pts
-				(xy 118.11 85.09) (xy 123.952 85.09) (xy 123.952 90.17) (xy 123.952 106.172) (xy 123.952 106.172)
-				(xy 123.952 108.204) (xy 123.952 108.204) (xy 104.14 108.204) (xy 104.14 128.016) (xy 92.964 128.016)
-				(xy 92.964 113.792) (xy 80.772 113.792) (xy 80.772 108.204) (xy 88.646 108.204) (xy 88.646 88.646)
-				(xy 71.374 88.646) (xy 71.374 75.438) (xy 88.646 75.438) (xy 118.11 75.438)
+				(xy 118.11 85.09) (xy 123.952 85.09) (xy 123.952 90.17) (xy 123.952 106.172) (xy 123.952 108.204)
+				(xy 104.14 108.204) (xy 104.14 128.016) (xy 92.964 128.016) (xy 92.964 113.792) (xy 80.772 113.792)
+				(xy 80.772 108.204) (xy 88.646 108.204) (xy 88.646 88.646) (xy 71.374 88.646) (xy 71.374 75.438)
+				(xy 88.646 75.438) (xy 118.11 75.438)
 			)
 		)
 		(filled_polygon

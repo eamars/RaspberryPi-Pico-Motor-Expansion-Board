@@ -4848,7 +4848,7 @@
 		)
 		(uuid "4ebe379d-d6d3-4799-a0a8-d8f6131a95b2")
 	)
-	(text "RS232 By Pass Connector"
+	(text "RS232 Bypass Connector"
 		(exclude_from_sim no)
 		(at 195.072 236.728 0)
 		(effects
