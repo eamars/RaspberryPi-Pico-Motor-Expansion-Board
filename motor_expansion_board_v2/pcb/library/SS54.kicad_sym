@@ -1,0 +1,62 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "SS54" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "D" (id 0) (at 2.54 0.4826 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "SS54" (id 1) (at 2.54 -2.3114 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "DO-214AC" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "SS54_0_0"
+      (polyline
+        (pts (xy -1.27 -1.27) (xy 1.27 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 0.0) (xy -1.27 1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 1.27) (xy 1.27 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 1.27) (xy -1.27 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 0.0) (xy -1.27 -1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 0.0) (xy 1.27 -1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 1.27) (xy 1.778 1.524)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 -1.27) (xy 0.762 -1.524)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 0.0) (xy -1.27 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 0.0) (xy 1.27 0.0)) (stroke (width 0.1524))
+      )
+      (pin passive line (at -2.54 0.0 0) (length 0)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 2.54 0.0 180.0) (length 0)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "C"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
