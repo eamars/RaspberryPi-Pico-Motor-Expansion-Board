@@ -470,7 +470,7 @@
 		(descr "DC Barrel Jack")
 		(tags "Power Jack")
 		(property "Reference" "J14"
-			(at -8.45 5.75 90)
+			(at -6.508 5.588 90)
 			(layer "F.SilkS")
 			(uuid "bf85a3e0-dcba-4594-bc56-b18c05e45a22")
 			(effects
@@ -1546,7 +1546,7 @@
 		(descr "SO, 8 Pin (https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SO SO")
 		(property "Reference" "U2"
-			(at 0 -3.4 0)
+			(at 0 3.302 0)
 			(layer "F.SilkS")
 			(uuid "67137aff-22c5-4e6e-980d-3425fabc9207")
 			(effects
@@ -1848,7 +1848,7 @@
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J12"
-			(at 2.5 2.286 180)
+			(at -3.596 2.286 -90)
 			(layer "F.SilkS")
 			(uuid "df78bc17-dc89-4aec-9ba9-7523299ada32")
 			(effects
@@ -2738,7 +2738,7 @@
 		(uuid "220b1cce-ff0f-47f1-bb39-1f2ae43ace16")
 		(at 126.7885 122.594 90)
 		(property "Reference" "L1"
-			(at 5.9 11.9 90)
+			(at 12.104 1.7355 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a260d332-c4e9-4927-82b9-e9e4e2b24a73")
@@ -2857,6 +2857,17 @@
 			(pintype "passive")
 			(thermal_bridge_angle 45)
 			(uuid "d89a9764-c336-4f19-ab1e-1ce087a1b555")
+		)
+		(model "${KIPRJMOD}/extra_cad_models/PA4342ANL.STEP"
+			(offset
+				(xyz 5.5 -5.1 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
@@ -3079,7 +3090,7 @@
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J7"
-			(at 9.144 0 0)
+			(at 8.85 -2.286 0)
 			(layer "F.SilkS")
 			(uuid "08cd545c-c84c-40df-8f70-7594d09ce6ea")
 			(effects
@@ -4694,7 +4705,7 @@
 			(pintype "passive")
 			(uuid "209383ad-3353-498c-8ebe-d2a5d6dfc026")
 		)
-		(model ":KICAD7_3DMODEL_DIR:Button_Switch_SMD.3dshapes/SW_SPST_PTS645.step"
+		(model "${KICAD7_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS645.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4713,7 +4724,7 @@
 		(descr "SOIC, 16 Pin (JEDEC MS-012AC, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U4"
-			(at 1.843 -5.9 0)
+			(at 0.827 -5.9 0)
 			(layer "F.SilkS")
 			(uuid "8c22fd71-c851-4135-8ea5-7b8c6b1b40c1")
 			(effects
@@ -6187,7 +6198,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C12"
-			(at -3.556 0 90)
+			(at -2.54 0.254 180)
 			(layer "F.SilkS")
 			(uuid "f9c2eec5-6e7d-4566-8c32-a44d5fac5396")
 			(effects
@@ -7080,7 +7091,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C7"
-			(at 0 -1.68 0)
+			(at 3.048 0 0)
 			(layer "F.SilkS")
 			(uuid "2c048dcf-e80b-4c62-8704-2617f9c32a10")
 			(effects
@@ -7506,7 +7517,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R8"
-			(at 0 -1.65 90)
+			(at 0 2.032 180)
 			(layer "F.SilkS")
 			(uuid "9411f143-4ea6-4458-a03f-22ea9b13dd16")
 			(effects
@@ -9968,7 +9979,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C6"
-			(at 0 -1.68 0)
+			(at 3.048 0 0)
 			(layer "F.SilkS")
 			(uuid "7528c588-1407-490f-91a2-e791b82b7a9a")
 			(effects
@@ -10181,7 +10192,7 @@
 		(descr "JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J5"
-			(at 3.75 -3.55 -90)
+			(at 3.75 -4.064 0)
 			(layer "F.SilkS")
 			(uuid "b7c40d3e-c560-455c-8314-b02a23382e45")
 			(effects
@@ -11155,7 +11166,7 @@
 		(descr "JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J6"
-			(at 3.75 -3.55 -90)
+			(at 3.75 -4.064 0)
 			(layer "F.SilkS")
 			(uuid "0b96cb18-8a19-4e13-b02b-07bd39b43d21")
 			(effects
@@ -12757,6 +12768,17 @@
 			(pintype "unspecified+no_connect")
 			(uuid "b98fe879-0572-45d6-835e-dc33c9e185b0")
 		)
+		(model "${KIPRJMOD}/extra_cad_models/RaspBerryPi Pico W Assembled v3.step"
+			(offset
+				(xyz 0 25 7)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
@@ -13925,7 +13947,7 @@
 		(uuid "ae1b396d-9182-4f16-a148-cec544e21aff")
 		(at 138.684 109.474)
 		(property "Reference" "D4"
-			(at 0.535 -1.921 0)
+			(at 4.826 0 0)
 			(layer "F.SilkS")
 			(uuid "82e2e955-5d82-47f0-9255-300ebf4aa4c6")
 			(effects
@@ -14107,6 +14129,17 @@
 			(net 1 "/power_supply/PH_NET")
 			(pintype "passive")
 			(uuid "7596cffb-82c6-446a-9af8-a2bbab871d7f")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
@@ -14845,7 +14878,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C8"
-			(at 0 -1.68 90)
+			(at 0 -2.032 180)
 			(layer "F.SilkS")
 			(uuid "e38cfd48-4713-4c58-8198-6561b98f5043")
 			(effects
@@ -15058,7 +15091,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R7"
-			(at 0 1.778 90)
+			(at 0 2.032 180)
 			(layer "F.SilkS")
 			(uuid "526567f3-2ca1-4025-b075-a4c1ed71fedd")
 			(effects
@@ -15506,7 +15539,7 @@
 		(descr "Generic StepStick socket")
 		(tags "stepstick generic motor driver socket pinsocket")
 		(property "Reference" "J4"
-			(at 6.8 -20.32 180)
+			(at 6.604 -20.066 180)
 			(layer "F.SilkS")
 			(uuid "50659f5c-ca19-4e35-93c9-26d70330db4e")
 			(effects
@@ -15974,15 +16007,15 @@
 			(pintype "power_in")
 			(uuid "22bd818b-d63a-4502-a5a8-2eca007c0add")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/fab.3dshapes/Conn_StepStick.wrl"
+		(model "${KIPRJMOD}/extra_cad_models/BTT TMC2209-V1.2 v2.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 6.5 9 8.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -16419,7 +16452,7 @@
 		(descr "DDA0008J")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC1"
-			(at 0 0 90)
+			(at -4.826 0 180)
 			(layer "F.SilkS")
 			(uuid "2ef7265b-a914-426b-9514-b367953982a2")
 			(effects
@@ -16747,6 +16780,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/extra_cad_models/TPS5450DDAR.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -17180,7 +17224,7 @@
 		(descr "Generic StepStick socket")
 		(tags "stepstick generic motor driver socket pinsocket")
 		(property "Reference" "J3"
-			(at 6.8 -20.32 180)
+			(at 6.604 -20.134 180)
 			(layer "F.SilkS")
 			(uuid "ab350356-f665-4741-9c9e-2c93d25226ef")
 			(effects
@@ -17648,15 +17692,15 @@
 			(pintype "power_in")
 			(uuid "fb64a929-bd4a-49ac-a4da-e918ab12cc44")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/fab.3dshapes/Conn_StepStick.wrl"
+		(model "${KIPRJMOD}/extra_cad_models/BTT TMC2209-V1.2 v2.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 6.5 9 8.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -18473,7 +18517,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C4"
-			(at 0 -1.68 0)
+			(at 3.048 0 0)
 			(layer "F.SilkS")
 			(uuid "391f43b7-b1e6-4a2a-bf20-b85a591ba592")
 			(effects
@@ -19345,8 +19389,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "<-Straight"
-		(at 153.162 85.344 0)
+	(gr_text "<-\nStraight\nThrough"
+		(at 153.67 87.376 0)
 		(layer "F.SilkS")
 		(uuid "3d813882-57cd-44ed-bc92-55c5f2e8b920")
 		(effects
@@ -19441,8 +19485,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "<-NULL"
-		(at 151.384 82.296 90)
+	(gr_text "<-\nNULL\nModem"
+		(at 152.654 81.788 90)
 		(layer "F.SilkS")
 		(uuid "81bb19d5-f4cb-4f29-a9db-19ec14ac8f5e")
 		(effects
