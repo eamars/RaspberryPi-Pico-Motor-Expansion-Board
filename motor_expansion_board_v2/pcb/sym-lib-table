@@ -5,4 +5,5 @@
   (lib (name "TPS5450DDAR")(type "KiCad")(uri "${KIPRJMOD}/library/TPS5450DDAR.kicad_sym")(options "")(descr ""))
   (lib (name "SS54")(type "KiCad")(uri "${KIPRJMOD}/library/SS54.kicad_sym")(options "")(descr ""))
   (lib (name "TPS5450DDA")(type "KiCad")(uri "${KIPRJMOD}/library/TPS5450DDAR.kicad_sym")(options "")(descr ""))
+  (lib (name "wch_ch224k")(type "KiCad")(uri "${KIPRJMOD}/library/wch_ch224k.kicad_sym")(options "")(descr ""))
 )
