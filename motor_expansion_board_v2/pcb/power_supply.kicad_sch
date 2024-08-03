@@ -3265,7 +3265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00555196-5d80-47a2-94a6-10821fcdeff4")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR056"
 			(at 247.65 128.27 0)
 			(effects
 				(font
@@ -3316,7 +3316,7 @@
 		(instances
 			(project "pico_expansion_board"
 				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789/9e860907-b4f7-43fd-b1fc-8d579fc82450"
-					(reference "#PWR087")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -3332,7 +3332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01bb4c3f-6a55-416d-9cfa-f2d594c12d2c")
-		(property "Reference" "C8"
+		(property "Reference" "C7"
 			(at 181.61 59.69 90)
 			(effects
 				(font
@@ -3375,6 +3375,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C1710"
+			(at 181.61 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "40871713-c64b-41ec-be57-c0eff6954879")
 		)
@@ -3384,7 +3393,7 @@
 		(instances
 			(project "pico_expansion_board"
 				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789/9e860907-b4f7-43fd-b1fc-8d579fc82450"
-					(reference "C8")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3399,7 +3408,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "034d75a7-5fb8-4dbc-a355-d2f502268096")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR053"
 			(at 154.94 97.79 0)
 			(effects
 				(font
@@ -3449,7 +3458,7 @@
 		(instances
 			(project "pico_expansion_board"
 				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789/9e860907-b4f7-43fd-b1fc-8d579fc82450"
-					(reference "#PWR047")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -3465,7 +3474,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d580028-d4da-4db2-8d95-b5b1d0138abb")
-		(property "Reference" "C7"
+		(property "Reference" "C5"
 			(at 128.27 65.405 0)
 			(effects
 				(font
@@ -3510,6 +3519,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C1710"
+			(at 124.46 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "236e56d6-86a5-4cc8-a2f6-1a8ef10d0ef3")
 		)
@@ -3519,7 +3537,7 @@
 		(instances
 			(project "pico_expansion_board"
 				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789/9e860907-b4f7-43fd-b1fc-8d579fc82450"
-					(reference "C7")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3535,7 +3553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11fdded9-d853-4ec0-adf3-b00f80dc12bc")
-		(property "Reference" "R15"
+		(property "Reference" "R7"
 			(at 100.33 140.97 90)
 			(effects
 				(font
@@ -3578,6 +3596,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C17414"
+			(at 100.33 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7d8289a5-06af-48fc-a807-4b3c97bc0b75")
 		)
@@ -3587,7 +3614,7 @@
 		(instances
 			(project ""
 				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789/9e860907-b4f7-43fd-b1fc-8d579fc82450"
-					(reference "R15")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3689,7 +3716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TPS5450DDA"
+		(property "LCSC Part #" "C114425"
 			(at 168.91 76.2 0)
 			(effects
 				(font
@@ -3745,7 +3772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18aee421-d104-44f8-ab93-653578683659")
-		(property "Reference" "C4"
+		(property "Reference" "C3"
 			(at 106.68 65.405 0)
 			(effects
 				(font
@@ -3790,6 +3817,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C98192"
+			(at 102.87 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "28c3ae3a-0f9b-453f-823e-4dbefe7c7e70")
 		)
@@ -3799,7 +3835,7 @@
 		(instances
 			(project "pico_expansion_board"
 				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789/9e860907-b4f7-43fd-b1fc-8d579fc82450"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3815,7 +3851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a14532e-bb62-4d4a-a91a-29eb800ccc56")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR057"
 			(at 243.84 67.31 0)
 			(effects
 				(font
@@ -3865,7 +3901,7 @@
 		(instances
 			(project "pico_expansion_board"
 				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789/9e860907-b4f7-43fd-b1fc-8d579fc82450"
-					(reference "#PWR049")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3924,6 +3960,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C151872"
+			(at 200.66 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part # (backup1)" "C439295"
+			(at 200.66 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part # (backup2)" "C5123010"
+			(at 200.66 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a3601569-9f84-4b7e-9826-45978c118ec7")
 		)
@@ -3949,7 +4012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22ce2a68-5eee-4832-9948-0da2d43d5afe")
-		(property "Reference" "R16"
+		(property "Reference" "R8"
 			(at 153.67 115.57 90)
 			(effects
 				(font
@@ -3992,6 +4055,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C17513"
+			(at 153.67 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f50d760f-9d51-449c-a5a0-81d240d1b67b")
 		)
@@ -4001,7 +4073,7 @@
 		(instances
 			(project ""
 				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789/9e860907-b4f7-43fd-b1fc-8d579fc82450"
-					(reference "R16")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4017,7 +4089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2917a171-c116-4eb8-859e-f43ad2e22d85")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 238.76 88.265 0)
 			(effects
 				(font
@@ -4062,6 +4134,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C52603"
+			(at 236.22 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff35e10e-37f0-471e-8936-4c8cb2134ccb")
 		)
@@ -4071,7 +4152,7 @@
 		(instances
 			(project "pico_expansion_board"
 				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789/9e860907-b4f7-43fd-b1fc-8d579fc82450"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4086,7 +4167,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "489bbd21-0e62-4184-bc6b-50167da31657")
-		(property "Reference" "J13"
+		(property "Reference" "J8"
 			(at 53.34 116.84 0)
 			(effects
 				(font
@@ -4102,7 +4183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-17"
 			(at 57.15 137.16 0)
 			(effects
 				(font
@@ -4121,6 +4202,15 @@
 			)
 		)
 		(property "Description" "USB Power-Only 6P Type-C Receptacle connector"
+			(at 53.34 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C668623"
 			(at 53.34 139.7 0)
 			(effects
 				(font
@@ -4153,7 +4243,7 @@
 		(instances
 			(project ""
 				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789/9e860907-b4f7-43fd-b1fc-8d579fc82450"
-					(reference "J13")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -4169,7 +4259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cc60756-5774-4502-99d0-23aff1bc6e36")
-		(property "Reference" "C6"
+		(property "Reference" "C4"
 			(at 118.11 65.405 0)
 			(effects
 				(font
@@ -4214,6 +4304,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C98192"
+			(at 114.3 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "580b2e0d-a701-4de8-9293-e530bbf9e7d4")
 		)
@@ -4223,7 +4322,7 @@
 		(instances
 			(project "pico_expansion_board"
 				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789/9e860907-b4f7-43fd-b1fc-8d579fc82450"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4239,7 +4338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5af82668-a743-431d-913a-0d86fbb961a2")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR050"
 			(at 114.3 83.82 0)
 			(effects
 				(font
@@ -4289,7 +4388,7 @@
 		(instances
 			(project "pico_expansion_board"
 				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789/9e860907-b4f7-43fd-b1fc-8d579fc82450"
-					(reference "#PWR045")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -4305,7 +4404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62248e68-816f-4f35-a223-3dcdaef49c89")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR048"
 			(at 96.52 147.32 0)
 			(effects
 				(font
@@ -4356,7 +4455,7 @@
 		(instances
 			(project ""
 				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789/9e860907-b4f7-43fd-b1fc-8d579fc82450"
-					(reference "#PWR082")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -4372,7 +4471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "737b2ad8-5383-4482-86d5-541764ea0dbf")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR046"
 			(at 83.82 134.62 0)
 			(effects
 				(font
@@ -4422,7 +4521,7 @@
 		(instances
 			(project "pico_expansion_board"
 				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789/9e860907-b4f7-43fd-b1fc-8d579fc82450"
-					(reference "#PWR078")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -4438,7 +4537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8473cd37-681d-4eae-a21a-591ff5607948")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 238.76 73.025 0)
 			(effects
 				(font
@@ -4483,6 +4582,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C17414"
+			(at 236.22 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac1e8a87-6f32-40a2-9c57-7fb0e403a5e2")
 		)
@@ -4492,7 +4600,7 @@
 		(instances
 			(project "pico_expansion_board"
 				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789/9e860907-b4f7-43fd-b1fc-8d579fc82450"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4507,7 +4615,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "871c171d-f051-49c8-bacf-2ddc84a2fd76")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR051"
 			(at 142.24 166.37 0)
 			(effects
 				(font
@@ -4557,7 +4665,7 @@
 		(instances
 			(project "pico_expansion_board"
 				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789/9e860907-b4f7-43fd-b1fc-8d579fc82450"
-					(reference "#PWR084")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -4608,6 +4716,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 128.27 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C970725"
 			(at 128.27 133.35 0)
 			(effects
 				(font
@@ -4668,7 +4785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "892bc32e-2896-4954-954f-3ff389ac289a")
-		(property "Reference" "C10"
+		(property "Reference" "C9"
 			(at 227.33 73.025 0)
 			(effects
 				(font
@@ -4713,6 +4830,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C1710"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a389abce-c755-45a7-9a48-5793533196e0")
 		)
@@ -4722,7 +4848,7 @@
 		(instances
 			(project "pico_expansion_board"
 				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789/9e860907-b4f7-43fd-b1fc-8d579fc82450"
-					(reference "C10")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -4737,7 +4863,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ded2830-c076-4936-a754-7fc2f60213f6")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR052"
 			(at 147.32 137.16 0)
 			(effects
 				(font
@@ -4787,7 +4913,7 @@
 		(instances
 			(project "pico_expansion_board"
 				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789/9e860907-b4f7-43fd-b1fc-8d579fc82450"
-					(reference "#PWR086")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -4803,7 +4929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fddc2d0-1c68-4b72-bcaa-887647f1f684")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR049"
 			(at 99.06 55.88 0)
 			(effects
 				(font
@@ -4853,7 +4979,7 @@
 		(instances
 			(project "pico_expansion_board"
 				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789/9e860907-b4f7-43fd-b1fc-8d579fc82450"
-					(reference "#PWR044")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -4869,7 +4995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9e77a90-c268-492d-902a-6f21b32c1175")
-		(property "Reference" "C3"
+		(property "Reference" "C6"
 			(at 151.13 125.7299 0)
 			(effects
 				(font
@@ -4914,6 +5040,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C28323"
+			(at 147.32 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "28779aa4-6acd-4306-9e10-f1e2276b2627")
 		)
@@ -4923,7 +5058,7 @@
 		(instances
 			(project ""
 				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789/9e860907-b4f7-43fd-b1fc-8d579fc82450"
-					(reference "C3")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4939,7 +5074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1b9c886-3f5b-426d-b342-dbfa54854aac")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR047"
 			(at 92.71 134.62 0)
 			(effects
 				(font
@@ -4989,7 +5124,7 @@
 		(instances
 			(project "pico_expansion_board"
 				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789/9e860907-b4f7-43fd-b1fc-8d579fc82450"
-					(reference "#PWR079")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -5005,7 +5140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb1950f9-ad6c-4fe4-aac9-6cddd3467a6a")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR045"
 			(at 71.12 133.35 0)
 			(effects
 				(font
@@ -5055,7 +5190,7 @@
 		(instances
 			(project ""
 				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789/9e860907-b4f7-43fd-b1fc-8d579fc82450"
-					(reference "#PWR081")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -5070,7 +5205,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c91f8fb0-05b6-4cbf-8ae8-7cd6f0e48a49")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR044"
 			(at 53.34 168.91 0)
 			(effects
 				(font
@@ -5120,7 +5255,7 @@
 		(instances
 			(project "pico_expansion_board"
 				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789/9e860907-b4f7-43fd-b1fc-8d579fc82450"
-					(reference "#PWR080")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -5136,7 +5271,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb060616-8376-483f-936b-bad261f31fea")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR054"
 			(at 167.64 123.19 0)
 			(effects
 				(font
@@ -5186,7 +5321,7 @@
 		(instances
 			(project "pico_expansion_board"
 				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789/9e860907-b4f7-43fd-b1fc-8d579fc82450"
-					(reference "#PWR085")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -5202,7 +5337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc0f35e5-4e72-443c-b3d2-2b648c327008")
-		(property "Reference" "C9"
+		(property "Reference" "C8"
 			(at 214.63 71.3232 0)
 			(effects
 				(font
@@ -5247,6 +5382,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C19606"
+			(at 212.09 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4be5671a-524c-49a5-8e3e-12713b5221f3")
 		)
@@ -5256,7 +5400,7 @@
 		(instances
 			(project "pico_expansion_board"
 				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789/9e860907-b4f7-43fd-b1fc-8d579fc82450"
-					(reference "C9")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -5318,6 +5462,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C22452"
+			(at 193.04 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A"
 			(uuid "9cc8a849-65a9-497d-92f0-c877a53e9c70")
 		)
@@ -5343,7 +5496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f744f869-eb61-4201-92e8-9776bc29224d")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR055"
 			(at 212.09 101.6 0)
 			(effects
 				(font
@@ -5393,7 +5546,7 @@
 		(instances
 			(project "pico_expansion_board"
 				(path "/b8f3f05d-f7a7-4c52-a258-9c2fea48c789/9e860907-b4f7-43fd-b1fc-8d579fc82450"
-					(reference "#PWR048")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
