@@ -21441,8 +21441,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "OpenTrickler Controller v2.0rc"
-		(at 124.714 75.692 0)
+	(gr_text "OpenTrickler Controller v2.0"
+		(at 123.698 75.692 0)
 		(layer "B.SilkS")
 		(uuid "ad426bd3-7350-4ee6-920f-07e1f79931c9")
 		(effects
@@ -21501,7 +21501,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "<-\nStraight\nThrough"
+	(gr_text "<-\nNULL\nModem"
 		(at 153.67 87.376 0)
 		(layer "F.SilkS")
 		(uuid "3d813882-57cd-44ed-bc92-55c5f2e8b920")
@@ -21597,7 +21597,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "<-\nNULL\nModem"
+	(gr_text "<-\nStraight\nThrough"
 		(at 152.654 81.788 90)
 		(layer "F.SilkS")
 		(uuid "81bb19d5-f4cb-4f29-a9db-19ec14ac8f5e")
@@ -21621,8 +21621,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "OpenTrickler Controller v2.0rc"
-		(at 101.6 75.692 0)
+	(gr_text "OpenTrickler Controller v2.0"
+		(at 102.108 75.692 0)
 		(layer "F.SilkS")
 		(uuid "b0b1707b-3632-4b4a-9712-28e97c91c660")
 		(effects
