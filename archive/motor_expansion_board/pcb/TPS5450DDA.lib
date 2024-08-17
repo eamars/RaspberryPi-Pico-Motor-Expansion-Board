@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model TPS5450DDA
+#/154039/901068/2.49/9/3/Integrated Circuit
+DEF TPS5450DDA IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "TPS5450DDA" 1050 200 50 H V L CNN
+F2 "SOIC127P600X170-9N" 1050 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/tps5450.pdf" 1050 0 50 H I L CNN
+F4 "TPS5450DDA, Switching Regulator, Buck Controller, 5A, Adjustable, 1.22V min., 500kHz, 8-Pin HSOP-EP, SO EP" 1050 -100 50 H I L CNN "Description"
+F5 "1.7" 1050 -200 50 H I L CNN "Height"
+F6 "595-TPS5450DDA" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS5450DDA?qs=h%2FYsCRHtaqPow3uMxnjN5A%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TPS5450DDA" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X BOOT 1 1200 -200 200 L 50 50 0 0 P
+X NC_1 2 0 -200 200 R 50 50 0 0 P
+X NC_2 3 0 -300 200 R 50 50 0 0 P
+X VSENSE 4 1200 -500 200 L 50 50 0 0 P
+X ENA 5 0 -500 200 R 50 50 0 0 P
+X GND 6 500 -1100 200 U 50 50 0 0 P
+X VIN 7 0 0 200 R 50 50 0 0 P
+X PH 8 1200 0 200 L 50 50 0 0 P
+X EP 9 600 -1100 200 U 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -900 200 -900 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
