@@ -38,7 +38,21 @@ The board is designed with hand soldering in mind. The board can also be manufac
 
 ![assembly](resources/assembly.jpg)
 
-BOM and gerber files are provided under [production](motor_expansion_board/production) directory. [Instructions](motor_expansion_board_v2/production/README.md) are also provided regarding the PCB contract manufactoring with JLCPCB. 
+BOM and gerber files are provided under [production](motor_expansion_board_v2/production) directory. [Instructions](motor_expansion_board_v2/production/README.md) are also provided regarding the PCB contract manufactoring with JLCPCB. 
+
+## Components Substitution
+
+There are several components on JLCPCB that can be out of stock from time to time. The table below shows the substitution of those components. 
+
+| Designator  | Part Number           | Primary LCSC Part Number | Substitution LCSC Part Number |
+| ----------- | --------------------- | ------------------------ | ----------------------------- |
+| U2          | CAT24C256 (SOIC-8)    | C79987                   | C81195 (CAT24C128)            |
+| IC1         | TPS5450 (SOP-8)       | C114425                  |                               |
+| U3          | CH224K (ESSOP-10)     | C970725                  |                               |
+| L1          | 15uH Inductor (10x11) | C151872                  | C439295<br>C5123010           |
+| U4          | MAX3232 (SOIC-16)     | C18261                   |                               |
+| J10         | DB9 Male              | C426221                  | C141880                       |
+| U5,U6,U7,U8 | 74LVC1G125            | C23654                   |                               |
 
 ## Revisions
 
