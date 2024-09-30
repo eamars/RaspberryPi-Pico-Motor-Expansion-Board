@@ -501,7 +501,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../enclosure/CAD/pico_expansion_board.step",
+      "step": "../production/pico_expansion_board_v2.step",
       "svg": "",
       "vrml": ""
     },
