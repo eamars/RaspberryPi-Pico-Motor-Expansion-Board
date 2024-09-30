@@ -36,7 +36,7 @@ The board is designed to be manufactured with 4 layer PCB. Traces are placed at 
 
 The board is designed with hand soldering in mind. The board can also be manufactured by SMT. 
 
-![assembly](resources/assembly.jpg)
+![smt_assembly](resources/smt_assembly.png)
 
 BOM and gerber files are provided under [production](motor_expansion_board_v2/production) directory. [Instructions](motor_expansion_board_v2/production/README.md) are also provided regarding the PCB contract manufactoring with JLCPCB. 
 
@@ -57,6 +57,7 @@ There are several components on JLCPCB that can be out of stock from time to tim
 ## Revisions
 
 * v2.0: Initial release
+* v2.1: Move all vias from pads to minimise SMT failure. 
 
 ## Errata
 
