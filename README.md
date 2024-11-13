@@ -1,5 +1,9 @@
 # Raspberry Pi Pico Motor Expansion Board V2
 
+> [!Note]
+> You can purchase the board directly from Mellow 3D and ship worldwide now. 
+> LINK: https://www.aliexpress.com/item/1005008080766173.html
+
 The Raspberry Pi Pico Motor Expansion Board V2 vis designed to be used as the controller for [OpenTrickler](https://github.com/eamars/OpenTrickler). The board is designed to trickle certain amount of charges (e.g, gun powder) from the reservoir by reading measurements from the attached precision digital balance and actuate corresponding motors. 
 
 ![3d_view](resources/3d_view.png)
@@ -36,7 +40,7 @@ The board is designed to be manufactured with 4 layer PCB. Traces are placed at 
 
 The board is designed with hand soldering in mind. The board can also be manufactured by SMT. 
 
-![assembly](resources/assembly.jpg)
+![smt_assembly](resources/smt_assembly.png)
 
 BOM and gerber files are provided under [production](motor_expansion_board_v2/production) directory. [Instructions](motor_expansion_board_v2/production/README.md) are also provided regarding the PCB contract manufactoring with JLCPCB. 
 
@@ -57,6 +61,7 @@ There are several components on JLCPCB that can be out of stock from time to tim
 ## Revisions
 
 * v2.0: Initial release
+* v2.1: Move all vias from pads to minimise SMT failure. 
 
 ## Errata
 
