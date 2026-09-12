@@ -1,0 +1,14 @@
+{
+  "checked_on": "2026-09-12",
+  "scope": "Documentation, provenance and cleanup verification; not electrical or physical design verification",
+  "requirements": 32,
+  "process_requirements": 7,
+  "work_register_entries": 41,
+  "markdown_files": 12,
+  "local_links_checked": 121,
+  "file_hash_checks": 267,
+  "rollback_files": 203,
+  "retained_reference_files": 5,
+  "active_v3_cad_files": 0,
+  "errors": []
+}

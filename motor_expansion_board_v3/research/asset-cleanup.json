@@ -1,0 +1,1030 @@
+{
+  "source": "C:\\workspace\\RaspberryPi-Pico-Motor-Expansion-Board\\motor_expansion_board_v3\\pcb",
+  "backup": "C:\\workspace\\RaspberryPi-Pico-Motor-Expansion-Board\\.git\\v3-development-research-20260912\\imported-owmc-before-cleanup",
+  "file_count": 203,
+  "bytes": 50481575,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 401,
+      "sha256": "d5af9fd90e33b9729023d919e55e3a35ef209698fcb1bf15d5733f38afc561cd"
+    },
+    {
+      "path": "control_block.kicad_sch",
+      "bytes": 169,
+      "sha256": "23318e86e5bc677b2254edd2687081bcc53ccaee27c677241c1626c4a347de27"
+    },
+    {
+      "path": "fabrication-toolkit-options.json",
+      "bytes": 190,
+      "sha256": "b5031a9a1457a0e7ba9c2b5848dbd0c76f7081f6105a91a7f02e73ed1d6b81f6"
+    },
+    {
+      "path": "fp-info-cache",
+      "bytes": 4101295,
+      "sha256": "77882a9ce22e8dab5f2d951c324e0a86154f06e4b8b3ecebeeb877fe2e7f82fd"
+    },
+    {
+      "path": "fp-lib-table",
+      "bytes": 122,
+      "sha256": "2909dc010727ae9213e43058633c8d81e9ba54259a65094db40acb6c227bc7d8"
+    },
+    {
+      "path": "io_block.kicad_sch",
+      "bytes": 169,
+      "sha256": "5383f8885c5110e38b4c0cac77ca34d62423499dbbc4b7c6e4d24520dfe379c9"
+    },
+    {
+      "path": "motor_drive_block.kicad_sch",
+      "bytes": 169,
+      "sha256": "cec33aeba8033728041397f1866992eba4c204205759df094fce9f977683782b"
+    },
+    {
+      "path": "owmc.kicad_dru",
+      "bytes": 12,
+      "sha256": "edd74546c3a662048c2f81cace7014020026bf6586abc6b7333db7df5644bfc7"
+    },
+    {
+      "path": "owmc.kicad_pcb",
+      "bytes": 829943,
+      "sha256": "f130f50178859cd1d91d0c809187c4c3ef86d01aa765da096e3e1bbc7a1165ec"
+    },
+    {
+      "path": "owmc.kicad_prl",
+      "bytes": 2654,
+      "sha256": "a2a0004c9acd573d917342abe1979ada9cc939af6be9bf637e433e44ed47a95e"
+    },
+    {
+      "path": "owmc.kicad_pro",
+      "bytes": 23400,
+      "sha256": "a9a24d33fcd32075704ed341554b083229bc423bfba6b338ff580ea7de0220e0"
+    },
+    {
+      "path": "owmc.kicad_sch",
+      "bytes": 269219,
+      "sha256": "5bac65f15f2af99273987fea407d777b1fc5bc021a9f79c10e4c45bfe02ab026"
+    },
+    {
+      "path": "power_supplies.kicad_sch",
+      "bytes": 234427,
+      "sha256": "cfbf21aca2bf596d59b3f5acc92879a6ef25219b744b958a1af6cd4a62d1c8e6"
+    },
+    {
+      "path": "power_supply_block.kicad_sch",
+      "bytes": 108506,
+      "sha256": "97eb175b20c00fe034b6ddfbd1d15b2e9e57d496a9f4bbcc4ac5c42206c3b050"
+    },
+    {
+      "path": "project.bak",
+      "bytes": 107,
+      "sha256": "36a3862de3f066717e2bcb54ba168d040bb90386a93924c0a7e5cfc9a61d3b6f"
+    },
+    {
+      "path": "sym-lib-table",
+      "bytes": 1206,
+      "sha256": "6b76d7c943ef36ddcdcd47336b87bc0ea5044b94f0e4c287b8ab88e3bc0e9989"
+    },
+    {
+      "path": "top_level_schematic.kicad_sch",
+      "bytes": 3527,
+      "sha256": "79a2b5fc5ce6bc6b0888e49ff8c88e9f620c35428d00d257fa49f05464a8a2fc"
+    },
+    {
+      "path": ".history/.gitignore",
+      "bytes": 90,
+      "sha256": "c3312a64286ddc9011adb4ecbf90e1611d7f2c4653af14d2849fb7da2ea90421"
+    },
+    {
+      "path": ".history/control_block.kicad_sch",
+      "bytes": 161,
+      "sha256": "f8aa298432820e69085256e0e0f2ef88704fc9939c40adcfe354819e5ada4003"
+    },
+    {
+      "path": ".history/io_block.kicad_sch",
+      "bytes": 161,
+      "sha256": "b0bfb3500ce92d3e515dc5ec1770aaf3eca2a60b3b8a3cdab63fad735721ab9f"
+    },
+    {
+      "path": ".history/motor_drive_block.kicad_sch",
+      "bytes": 161,
+      "sha256": "eb5e0a00565d9be76ad925a4d5a2aedb9654a7e621718c2dcc8a2b857b308505"
+    },
+    {
+      "path": ".history/owmc.kicad_sch",
+      "bytes": 254024,
+      "sha256": "732ab53898e968233b2b707654269786574694896b1e85423bfee482a412854e"
+    },
+    {
+      "path": ".history/power_supplies.kicad_sch",
+      "bytes": 221319,
+      "sha256": "c8d1392b8efd2a17e234db7491eb266f85fc69823c3de61a9942e26deebc8c1e"
+    },
+    {
+      "path": ".history/power_supply_block.kicad_sch",
+      "bytes": 102333,
+      "sha256": "6b81c7aa327105eab92fcdbc1108aa98816685513ae1c2290db5cbfffde55251"
+    },
+    {
+      "path": ".history/README.txt",
+      "bytes": 569,
+      "sha256": "15b177287f6d16d6517fbc6a27d7124d206fc05eed3dec20ae0b524fe2955c35"
+    },
+    {
+      "path": ".history/top_level_schematic.kicad_sch",
+      "bytes": 3330,
+      "sha256": "e79d6c4de63bbeb4d1f3025aa2a865abe1b60ad4a0ed1a4487bd82189e53ddad"
+    },
+    {
+      "path": ".history/.git/config",
+      "bytes": 130,
+      "sha256": "c877f343674ad9b00866835132bc23c020e6ec1fabfa4194962982e9d543d7c9"
+    },
+    {
+      "path": ".history/.git/description",
+      "bytes": 73,
+      "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee"
+    },
+    {
+      "path": ".history/.git/HEAD",
+      "bytes": 23,
+      "sha256": "f6f2b945f6c411b02ba3da9c7ace88dcf71b6af65ba2e0d89aa82900042b5a10"
+    },
+    {
+      "path": ".history/.git/index",
+      "bytes": 697,
+      "sha256": "cafa8e84ed9579f146ef94413a5a0a1a0d79ce8843df6fe89754dd3b67d46bd3"
+    },
+    {
+      "path": ".history/.git/hooks/README.sample",
+      "bytes": 177,
+      "sha256": "7319d7f1803fda2b3416143e426b9ec4c3c3c817c75188b2b82cb3e68ff293ab"
+    },
+    {
+      "path": ".history/.git/info/exclude",
+      "bytes": 113,
+      "sha256": "fdb7dc7be17051c3c5067cdf2b8fdf2ca3a8daf2b5e91f34c6ce1ff3a94c5f6a"
+    },
+    {
+      "path": ".history/.git/logs/HEAD",
+      "bytes": 4128,
+      "sha256": "213f123b9468a55f047c907f3b48bf96924bc8c97b8ef54c852e072d5c12c5f1"
+    },
+    {
+      "path": ".history/.git/logs/refs/heads/master",
+      "bytes": 4128,
+      "sha256": "213f123b9468a55f047c907f3b48bf96924bc8c97b8ef54c852e072d5c12c5f1"
+    },
+    {
+      "path": ".history/.git/objects/03/69d6db5a06e665e0f3f1f9da9920b9831e669a",
+      "bytes": 15525,
+      "sha256": "15c50a872b5d7bba0cd853d817d06f61a2458618fffa6d2f9f5e216f8bb037dc"
+    },
+    {
+      "path": ".history/.git/objects/07/5b401d2ea02da3584424abcfdc21ab08392648",
+      "bytes": 3139,
+      "sha256": "671e8e26e5f92df492acc95cc97cbc212c5290d36d0465e5674a840e15209982"
+    },
+    {
+      "path": ".history/.git/objects/0a/b506735b3934a8bd9ae1300aa7296d47cc2db3",
+      "bytes": 15564,
+      "sha256": "33b2e2b220f078f86f9f4c79f0b80563f3bc2a6da77fae1bf2307717711950c4"
+    },
+    {
+      "path": ".history/.git/objects/0b/190fc7fcf693cc4e5cf68f19e5eaf849699e7a",
+      "bytes": 138,
+      "sha256": "845d3b3032b3f275602b4d7609888e6724f2ab2ae32555c0574226611821a817"
+    },
+    {
+      "path": ".history/.git/objects/0e/aed61a93a3104bf2d5ce03945354c3f78b7383",
+      "bytes": 269,
+      "sha256": "b7850ac3d03bd65402acd20277965e8f52ecc3501d8f92035e294aedd2ba7672"
+    },
+    {
+      "path": ".history/.git/objects/10/22aa9babf11119aa9ee97d671e638301dd0084",
+      "bytes": 154,
+      "sha256": "e4b31a652657144d682e169ec54652605f0f765b5d60eedab25daaf812d4674c"
+    },
+    {
+      "path": ".history/.git/objects/10/f21d7d1b5b752e5acd9471f564f940cb108576",
+      "bytes": 153,
+      "sha256": "e557b62811eb03b9c9ac5f89a2ee5d7161f96af897cb7fa82d308de864db64df"
+    },
+    {
+      "path": ".history/.git/objects/11/22c17fd25c09fece8567da4a34c2f824a14b96",
+      "bytes": 35525,
+      "sha256": "465b98a8f505af74a53f1f93db572f975cd0a0770785aad7fbdbdeddb7afa885"
+    },
+    {
+      "path": ".history/.git/objects/12/4430f76d4a9bb6168bc80b2e68ce43164c44b8",
+      "bytes": 257,
+      "sha256": "6e8ac950793018a277f477bcd0d967e29c6b5bf473d839e3fd56e5ad3b8674b3"
+    },
+    {
+      "path": ".history/.git/objects/12/b2c2e72492782ae82c997a792ad4c7431a8114",
+      "bytes": 154,
+      "sha256": "55e44a9606765441bd68a30c31a27a7607fe607be571a75b1cd33645ffea48bd"
+    },
+    {
+      "path": ".history/.git/objects/13/442a23e909b02915e7e01268f5b2e2e331ee60",
+      "bytes": 98,
+      "sha256": "f4effc8521b6ea76cca31bbef2536867cf510cc6324e3b0ae21aaaee8e7cf980"
+    },
+    {
+      "path": ".history/.git/objects/17/476130cc8da053d90f1511ad9278d8b2b0830e",
+      "bytes": 157,
+      "sha256": "8a98e9714718bc85262e202e99f778ae15c45db3bef494fb7f7f3ced5ceb25b8"
+    },
+    {
+      "path": ".history/.git/objects/23/0b37e7244a3a9dd41e5575211af3bedec7a66a",
+      "bytes": 153,
+      "sha256": "32b6e6d0a17b0350efc057011587f9fbb1e2c7b484037eacac274886a8a1d714"
+    },
+    {
+      "path": ".history/.git/objects/23/ebb5f0700e988a76affbfc8be22cea04f573e8",
+      "bytes": 35525,
+      "sha256": "b74634b2b0923e9219b89b739e7e3872dce17687061f95389b66490f0436dc0e"
+    },
+    {
+      "path": ".history/.git/objects/24/17f31b12618730a0d855c6b127689eccab8c97",
+      "bytes": 140,
+      "sha256": "6470f90eb41d795dc81cffd3ef380b4e10fe57dce6590a1249e5328e1fc5f449"
+    },
+    {
+      "path": ".history/.git/objects/25/87924894c09cddbc9b5ce3b3758bc4c3f0faea",
+      "bytes": 156,
+      "sha256": "9e6159a5733875a7cea1c62fe9ea554a7fc29b653c0e999f62685af51a370a5d"
+    },
+    {
+      "path": ".history/.git/objects/25/f1df9608e9b775e658a9a6a80f99b6a1779145",
+      "bytes": 154,
+      "sha256": "8f5f4324f0a8dc1419c467ce2c147281b0450d191bfbcc3af7753e582146be6f"
+    },
+    {
+      "path": ".history/.git/objects/27/0ae5b26446801653475149d8521bab99a37737",
+      "bytes": 154,
+      "sha256": "25796588e307ff3028f98d2da7aeac1a177e4405c70624fba9002eee614fe801"
+    },
+    {
+      "path": ".history/.git/objects/28/df237624a0260039fbd4b31674238ab056b5c9",
+      "bytes": 139,
+      "sha256": "67a9a8b7802f9a5f5e13c6c4b4cc6e372d473af67178f3437d6cdf125e30a278"
+    },
+    {
+      "path": ".history/.git/objects/2c/1d7c280f14f121048ec6bf5e5deafebd5d9b14",
+      "bytes": 140,
+      "sha256": "de62a7a558f8cceef29d1fbbb1f3444ad979c31482a8d2d684905efdbbd0fdeb"
+    },
+    {
+      "path": ".history/.git/objects/3c/1fb5d74f22bc8a5e4ac8269f4b2fea9a6059e8",
+      "bytes": 269,
+      "sha256": "27150daa4c2afdc387e5c5fdfd05d1bf77ba01dd2757a494ea798fc32fac3b21"
+    },
+    {
+      "path": ".history/.git/objects/3e/6b8bab892048133e898cc9488f8b327827f37b",
+      "bytes": 269,
+      "sha256": "d9fd29b7e3832c7207d47d7e3a52fc8c4c891cb1a4ae0d53a65667ce7dc39eac"
+    },
+    {
+      "path": ".history/.git/objects/41/6f0126f73a0d5b33b5840f2d2526e93f7a817d",
+      "bytes": 269,
+      "sha256": "c51282e1187d8919964c35b9dda7c2b3672ef346707a9a7bd78531c61d442642"
+    },
+    {
+      "path": ".history/.git/objects/42/523c4db3c9c820ad328baa40136f57019606c8",
+      "bytes": 269,
+      "sha256": "ffed013efacf0f76508d511b73ce9ce78c2d2fec10a7e5d3384e474003042c63"
+    },
+    {
+      "path": ".history/.git/objects/42/8d30833193bf5ab475d1e50c20a543130bb08b",
+      "bytes": 269,
+      "sha256": "afeb7a92f4a63586e0d7195aca3faea2a5e9bc4430ea0bbab5187f674cf4c193"
+    },
+    {
+      "path": ".history/.git/objects/47/6a51bd46b21ed204bc20787aa2b435b8c45149",
+      "bytes": 154,
+      "sha256": "722ca7bc02eae47b58395435616d0c0712dd7fd294fee71d2776a91e354fbd2b"
+    },
+    {
+      "path": ".history/.git/objects/48/1106590a3ca41ab438cc533000cb8c06753aa5",
+      "bytes": 15667,
+      "sha256": "767d21d2422c4504804fd25d0faaf69d7fbf63d31481b2a1814ed2407296cb38"
+    },
+    {
+      "path": ".history/.git/objects/4b/aa2e5711b7cefdf6590f7f5178c64c46dec44d",
+      "bytes": 139,
+      "sha256": "16045b33ae8e0c8b6cbfe12f79ca66ecd5fc25b56780004992a1a277e0574b45"
+    },
+    {
+      "path": ".history/.git/objects/4f/bb120de7dfb65e9dba6355d1d9b7eeb7d62b65",
+      "bytes": 98,
+      "sha256": "e1de2e028ebe50dcdf42adc023b13f12d88d5baa1e7712237eaaa3ef080d54de"
+    },
+    {
+      "path": ".history/.git/objects/50/da6b19f164d41b1e76692c612b20d5971da351",
+      "bytes": 153,
+      "sha256": "2701eeefd518ddd62e3b5a80384292873d8905de9d71ea0adbdd07732c7a2eb9"
+    },
+    {
+      "path": ".history/.git/objects/51/ae295cccbdc72647ce4dd438b62f2d2338b561",
+      "bytes": 140,
+      "sha256": "cc89d0e1957a04ffa5b5063dc88dca29b462c1f4b075c28aa55eb8e83f62896e"
+    },
+    {
+      "path": ".history/.git/objects/53/032a4dbe8b1f1ada7b149f51e0f268ec4a8e94",
+      "bytes": 41661,
+      "sha256": "ae90c1555c8f3550cb7ff9abc8229f80d787875db67e93379bfc573f847805b0"
+    },
+    {
+      "path": ".history/.git/objects/53/578d48824c0a492f6903871d70f6f655d50baf",
+      "bytes": 141,
+      "sha256": "ac0df7a008dbb5bb47d332312733a58184a82f2e10ffa6bd4a372ae53d5465b8"
+    },
+    {
+      "path": ".history/.git/objects/58/591679488e499fa8637628987f87fe2ccf3455",
+      "bytes": 15515,
+      "sha256": "4cccc5b7d66f47c065bcdbee3698e583881b111fd26fbc6884047c70d8d5d301"
+    },
+    {
+      "path": ".history/.git/objects/58/b537217f39e211e8adb8a674d1a1fe2123ff21",
+      "bytes": 137,
+      "sha256": "ced8b389d192e229afceb687f276695f96454fbb89c1985927afec7a09f06c78"
+    },
+    {
+      "path": ".history/.git/objects/59/272174692860829e8c3a45b0d54775ee993fbd",
+      "bytes": 98,
+      "sha256": "bc97845af1861da9586fc187f31cc04ba2b5c01a93d9c9e904a4de0e02b632b0"
+    },
+    {
+      "path": ".history/.git/objects/5a/f1a06200294315a0ce49957a4f38023d1d68b3",
+      "bytes": 153,
+      "sha256": "c492537dcc36eca9effcd8044afd42918fc9c3071fc0b687ec8ab189d516fe17"
+    },
+    {
+      "path": ".history/.git/objects/5b/16c01df2796d2b9c84d9dfd8bc41f93797aaf0",
+      "bytes": 269,
+      "sha256": "7da18c5128e0dcfc33141c2aa9937bc906ae7d463e72616430405bef93497618"
+    },
+    {
+      "path": ".history/.git/objects/5c/2d57367b49ef28b851d4b0ac4603435e6d13b8",
+      "bytes": 153,
+      "sha256": "f713293b9bd7651a1c60f88acc5c68427e66c5b4803cc23bb74963e3dee57883"
+    },
+    {
+      "path": ".history/.git/objects/5f/f3391f9cc6e5f47810d0654e6d4617a2494844",
+      "bytes": 41607,
+      "sha256": "3a101c3e5a22ebd194b8b186c86f92a5f42052c78a221a23024ef4c863a5ab2d"
+    },
+    {
+      "path": ".history/.git/objects/61/1daf53aaa68a626006e7849376367c6adc6d08",
+      "bytes": 270,
+      "sha256": "2de1b797dc03aadc174a8b682b881b3d9ded3408111db1353d5cb501de1fdffc"
+    },
+    {
+      "path": ".history/.git/objects/63/7aedaeadb24fcf77296659759228d41b1eeba3",
+      "bytes": 15552,
+      "sha256": "28e77a5302287f0270dbd1e50471c3931021a5ab82ead33a0ec098dbc7cd4a5a"
+    },
+    {
+      "path": ".history/.git/objects/64/eab36772efbcc3a2bff7069343bb40684c41bd",
+      "bytes": 853,
+      "sha256": "64d687f3096dfa093128fb05f4a440ff03ae6bce400516dd389b1843766e15bd"
+    },
+    {
+      "path": ".history/.git/objects/67/b75f18849de7321e42477212f09333b5caef14",
+      "bytes": 754,
+      "sha256": "a426c0c3fe7d528e1b844d7dd84ad6aa2e7f7e7409f8bef768d3c2c982a605a4"
+    },
+    {
+      "path": ".history/.git/objects/68/239016ba2d56924832565acba597264b3dbd6d",
+      "bytes": 98,
+      "sha256": "b7a85c05a78cb6a6fda9d8fe5251ba47d85f1a492eb803d500df8798f734f838"
+    },
+    {
+      "path": ".history/.git/objects/68/525ba0e3183122019f7ed339404ab6fec1cb87",
+      "bytes": 179,
+      "sha256": "e9d737e053863f6e755187454ac70b0266efa278797018c70cbb59f4725ab6e2"
+    },
+    {
+      "path": ".history/.git/objects/68/bde9704a170052ade6df0fd22af1ead5ae6d6a",
+      "bytes": 269,
+      "sha256": "68dbf76571876250d44b7c5f5b220aed976e50d335b303c184c6ba90b8f6084b"
+    },
+    {
+      "path": ".history/.git/objects/72/af560f2af70337f16c3289f2cccbc8ea6a3160",
+      "bytes": 270,
+      "sha256": "9c96dd8715e8653139b57ddf60017c846e9d70c53790847c3d0c9110514fd2d9"
+    },
+    {
+      "path": ".history/.git/objects/73/2f3171b25a932ff15afb5bd5f7711dd727721d",
+      "bytes": 139,
+      "sha256": "ecea443ce6a3746ad2bfc1fa870f401af5c647ed7f56ac815959e67414b53ea2"
+    },
+    {
+      "path": ".history/.git/objects/76/8ae514170263c73e80b535cdb65ed60c95881d",
+      "bytes": 269,
+      "sha256": "1777961fd37a09a0ec23957b9e9e05e23df9f58db02c6e077586b481e553de75"
+    },
+    {
+      "path": ".history/.git/objects/78/d8f3a779cffa76235977777e2f6deb856aaa00",
+      "bytes": 206,
+      "sha256": "eb1202fc7d0307ed80c49afa25b02ea95229db52fdc808e0671e761ab3c5dc1f"
+    },
+    {
+      "path": ".history/.git/objects/7a/4e491bac30fb93ceae683fca15177ecfdc884c",
+      "bytes": 154,
+      "sha256": "3558b88f24306633aadbc7fe58fe476aed6fb0a2eae8b826273d6edba976e475"
+    },
+    {
+      "path": ".history/.git/objects/7a/73c584e2c963d2ab2c70cda1ef4006896b63ca",
+      "bytes": 139,
+      "sha256": "6d26c268e72556c668a29b8debdedc7b9724f4d45e62e3e141ebf6e3b93e949a"
+    },
+    {
+      "path": ".history/.git/objects/7f/7a99119ac484a5dd929a6bc77f80204313c95b",
+      "bytes": 153,
+      "sha256": "f0b5028ec4e9915e28dad8a02304591e7773a6e2e670f5c53f89a993b1e7ac36"
+    },
+    {
+      "path": ".history/.git/objects/82/b30c88c17e60d5dfacca187f57bf3ecbd08a17",
+      "bytes": 155,
+      "sha256": "f65d6b614afadc01258afee79f274a0afeb9150bdc11f3114b0cb7de6a24f45d"
+    },
+    {
+      "path": ".history/.git/objects/82/f9c44f3ec83c9a12093933d7f1b35894d38046",
+      "bytes": 268,
+      "sha256": "805eba472616bdf61846398286e73f14efe1d7f6c4b6091274e8801f6d46e65f"
+    },
+    {
+      "path": ".history/.git/objects/86/af3ecb9d3ea0b5e4c2858d356cb37907d00799",
+      "bytes": 152,
+      "sha256": "6dce9f2861682ef2109c333b970cc2447b2addc52924f40625569ad2f5966280"
+    },
+    {
+      "path": ".history/.git/objects/87/16acea486857fdfa2745b64cb9ca7a37c5f8c1",
+      "bytes": 243,
+      "sha256": "43c28d83fe5c0b05a48e28c59bf304002dae3df5976aa903c4caac49bc3d5c98"
+    },
+    {
+      "path": ".history/.git/objects/87/ed6ef2aa02efe25fc8efb8e99705fdcf8ad950",
+      "bytes": 41656,
+      "sha256": "15efeac6bbbbba9a106000bd4631d625d57a50f3d9488dda335e01cfc80003e7"
+    },
+    {
+      "path": ".history/.git/objects/8e/ccadcbc32de0f1121693e7e18a6b59b03566b8",
+      "bytes": 140,
+      "sha256": "514d19d04ccd59151a300eabbf2955967954902523f17130ce087c4511ea7c9b"
+    },
+    {
+      "path": ".history/.git/objects/92/c1158d179848e8f3a3215c79ad2a47f6ec2444",
+      "bytes": 153,
+      "sha256": "e95e9b17ee21200bc549022d0334ee4600f9fa631b3342802287ecc0e71b6a18"
+    },
+    {
+      "path": ".history/.git/objects/96/e4cbbf80704f98db2d98eafcad33c2c63304f2",
+      "bytes": 139,
+      "sha256": "4f13dfdc9cefdd4dad35916167c0c0fc645367d499e290f0a41bdf11b132b02f"
+    },
+    {
+      "path": ".history/.git/objects/97/64c024e30c3ace3e9c648953ab47cb23933165",
+      "bytes": 243,
+      "sha256": "9be0bd98a6c110b79bced10ec4ee9009b2efcfb97025bcf4dc5adf08374b21aa"
+    },
+    {
+      "path": ".history/.git/objects/98/49cd11ba02ce63fbf971e49a2bfa3863baac69",
+      "bytes": 155,
+      "sha256": "706d0e6ae0f8b6eca2ed59a9086c4c66d2381961cf62f2b1663be926f6c3c625"
+    },
+    {
+      "path": ".history/.git/objects/9a/13e778506bd2a87fe22e752c5e4442513f272e",
+      "bytes": 157,
+      "sha256": "774be86fb2496e36c302ebe3f245acc8c818d624e78b35568c431c788e1340a1"
+    },
+    {
+      "path": ".history/.git/objects/9d/cbe030d64270ad2385454eb89adb004763fef1",
+      "bytes": 500,
+      "sha256": "cfb1aae2eb5f53202e9ad1e16191d4dfd340b25a331abfe7c76b95d0c3536288"
+    },
+    {
+      "path": ".history/.git/objects/9f/37c9db74fc54939a67f5d556127dc7618c6cc2",
+      "bytes": 155,
+      "sha256": "d5fc619728b64347ea677e016757ac2cefa4f7fbbce5edcb284792bffdc4fc91"
+    },
+    {
+      "path": ".history/.git/objects/a0/52e606043eda8ada99dcb1b69d3c6b15eb1c1b",
+      "bytes": 153,
+      "sha256": "330434465a15b639fa3776909a1a833700ac54a262e47cf0b3264094ca01eef1"
+    },
+    {
+      "path": ".history/.git/objects/a3/7db28fc4b2fb99844aa4b069429d61551bfd78",
+      "bytes": 32359,
+      "sha256": "63381c5d5abcecc8ed9488a61eaeb8eca65b60c6809debeb44a5c054ecc23779"
+    },
+    {
+      "path": ".history/.git/objects/a6/535d1d580aae54ef46fe3d77a0eb548fae79e4",
+      "bytes": 140,
+      "sha256": "af0c8271d7346ac71ef762fb3c28e3741d646749499d47ee3138e5c9d3088273"
+    },
+    {
+      "path": ".history/.git/objects/a9/4fa9218caaf49b2acf1c5e6b97e2790f34b53f",
+      "bytes": 270,
+      "sha256": "8791620d5f53adedf5d5ca5de1066a9182a67a76f9a4ccac02c0265c1b02abe5"
+    },
+    {
+      "path": ".history/.git/objects/ae/6e6c58872e8c7d5116b3049a1435a6d16ac508",
+      "bytes": 269,
+      "sha256": "e7590bf8c88f19e6fb209f56b0436fbac9c0c0f9eb4c6776dbdefcafb39e14ae"
+    },
+    {
+      "path": ".history/.git/objects/b0/1e6dfb1b5c399f3f003c925204790840fac389",
+      "bytes": 137,
+      "sha256": "d388593524730aa5e14bfffc1ccc5461831e4dc4822489383c6ad78c1cba1b95"
+    },
+    {
+      "path": ".history/.git/objects/b6/7a16534d9ecab558350db20ae25d0b9bcccd00",
+      "bytes": 155,
+      "sha256": "5ac44844e1cb0f97939178ffb343b0091ebc1a96b3ae592744a2b102d232cac8"
+    },
+    {
+      "path": ".history/.git/objects/b7/8e7ea1ca8ce1edf13fa980ec3ba33688ded092",
+      "bytes": 152,
+      "sha256": "b153aec765df8324217d4c3ed94ac71bb9cdb06ff6a1eaf46856810a2fa96072"
+    },
+    {
+      "path": ".history/.git/objects/b7/9f24040f285adbe23ad2fa8a18d6d934dcfd98",
+      "bytes": 268,
+      "sha256": "efd59770a16aa9552337c868071b68dddf1e52922ad935a480bf72b3cfc52f8c"
+    },
+    {
+      "path": ".history/.git/objects/ba/2567e35e0b48312ce1fcf4b9322dd8ff66f76f",
+      "bytes": 7830,
+      "sha256": "dc07dfe04cc76d909b110ce380ade570428bdc02d6ea61d01ef16aa1f23124a9"
+    },
+    {
+      "path": ".history/.git/objects/bb/259aa759b88620ceea45b6bdb295c800fcdfb7",
+      "bytes": 138,
+      "sha256": "119d740ce2935591e3f933e5bdb21d1b1535ff73738534bd816cfe60c924934b"
+    },
+    {
+      "path": ".history/.git/objects/bc/1b057e48bf1f74d4e4ff822a977a9119609b19",
+      "bytes": 269,
+      "sha256": "42aa3a7a2f02fbf57a881bfe219a17860ab13cc0649f738ef66f74d887896802"
+    },
+    {
+      "path": ".history/.git/objects/bc/4d4a54ef84bd49474befcda04d140753722ec0",
+      "bytes": 242,
+      "sha256": "35820db8b45e02bf0e0b46aaa100ff2b6749b7e5a28044c40201df38ff8c38a7"
+    },
+    {
+      "path": ".history/.git/objects/bc/65831653982d2901752e4eccaea7a03d8b296e",
+      "bytes": 154,
+      "sha256": "14fd82fea84c014279ba8b6b209c9e29b62d786136f2a867eee184fe2e04c8c7"
+    },
+    {
+      "path": ".history/.git/objects/be/e53db301d8e92a1b3abee1739eab503466ab05",
+      "bytes": 752,
+      "sha256": "cc875dcbb5592249149c0d0df9d2ec98ce46e4d79dea62904033e038c9f60486"
+    },
+    {
+      "path": ".history/.git/objects/c1/1d00940098b1def68cc6d5a0bc83e4b5da4df2",
+      "bytes": 659,
+      "sha256": "018c6da238dae08abe7a9ec06e5317ac056fd8d83375af6b64fc230309370a96"
+    },
+    {
+      "path": ".history/.git/objects/c2/54494178bc4265fe6aa1e0c792566cf1e4d5dd",
+      "bytes": 570,
+      "sha256": "1ddc8036b0cbaf01c8d7b9a35baa6b76a51461c84853c2155a6399a9301ceff7"
+    },
+    {
+      "path": ".history/.git/objects/c3/c856c4fb63ff6ba3500809333ae8bedc56c822",
+      "bytes": 99,
+      "sha256": "b6703f7604b01615e1e6094532cd07c0297c6d28c82648596d5e282feb447eec"
+    },
+    {
+      "path": ".history/.git/objects/c4/477c02bbdd309f1de98dfe9652d9a030cdb67c",
+      "bytes": 15577,
+      "sha256": "854d7c8209a289770b1ab64895700fd4335efd807bfe3bcab644f9da3dd6d082"
+    },
+    {
+      "path": ".history/.git/objects/c4/adf06a0e0e257b8e592984ca8032e7725de38f",
+      "bytes": 15577,
+      "sha256": "85ddb1f21a158f112fcfeaa5f2722b69c43e1c69a5a2eab64c4cb38aea4a5900"
+    },
+    {
+      "path": ".history/.git/objects/c6/37d27737d176517ca079587764ac5452e8f941",
+      "bytes": 157,
+      "sha256": "9c0dc601d1687c9abc6472d388d3b40eae548a1f7b783410965069bb75eed33a"
+    },
+    {
+      "path": ".history/.git/objects/ca/b627721c773e388f79ff1946996fe2c77f61c2",
+      "bytes": 139,
+      "sha256": "305b01b4d3c652eccd4106265cb832e8cf7b23c33e91b9dd537f20ef3150d121"
+    },
+    {
+      "path": ".history/.git/objects/d0/5d302c84c3059cd8b072faeaab4bb9931ae77c",
+      "bytes": 15547,
+      "sha256": "4b2169a3fb5d0cea3b28f424973d3f6bcfdd9f691b8e042e3b329d25ee0458f7"
+    },
+    {
+      "path": ".history/.git/objects/d8/1cdaa0325423e5c4939d9890856de54786c996",
+      "bytes": 659,
+      "sha256": "ef675adb07ee4f578ad98dc88524366642d92beb221171444d1764ffc777a607"
+    },
+    {
+      "path": ".history/.git/objects/da/14fec9c0f0493a9c2e7f129da7fb1fae752e48",
+      "bytes": 154,
+      "sha256": "732a851aa4095b4c0966e3ab9269dede5d79285763c5a8dfd040aa2ce411e908"
+    },
+    {
+      "path": ".history/.git/objects/db/3db0d99888e3ec6e74a45355c40be74a12ccb1",
+      "bytes": 742,
+      "sha256": "f5221949754a989621eb788f6d45d55cb5e4c3d7effcd9b8421730608fd2821b"
+    },
+    {
+      "path": ".history/.git/objects/dd/73efe3f86519b04113761727ad17bc4347cb7f",
+      "bytes": 125,
+      "sha256": "7297baa0644a272c6eab046a4414423f5524d4711743ab12e1811f3a6ac777c7"
+    },
+    {
+      "path": ".history/.git/objects/e0/d694d65e7a5a9eb61057b6d6fb94e657adcf63",
+      "bytes": 269,
+      "sha256": "0c67482485832048895cf512a07577628cef78c0293107fdb0bedd0ef58ae270"
+    },
+    {
+      "path": ".history/.git/objects/e1/c4b1c54ece967f3320827e03a4727128adae6a",
+      "bytes": 3141,
+      "sha256": "338b890a010126bccea31a714d84a8b4a4b45cd653bbd7e54098b080f2137500"
+    },
+    {
+      "path": ".history/.git/objects/e8/6601285c0acd892f60ea64399d158aac4c5dd3",
+      "bytes": 140,
+      "sha256": "ba56fbcb8b757425684e7574039b88dcdccdfb9cc5c067a532d9a2a6d71eab44"
+    },
+    {
+      "path": ".history/.git/objects/eb/5d4f7c9c829789ec4ab7b43fc06f7f538e5be7",
+      "bytes": 140,
+      "sha256": "7b23e046e8238b0697b5ec92565cb1d72533bed6ee48a6d1cd409b9ca4f44dab"
+    },
+    {
+      "path": ".history/.git/objects/ec/6f89a2f84240e64be1e8ee7fb83ef14ee59f98",
+      "bytes": 157,
+      "sha256": "6393a3f51cc03d73dc05eb0e2ece9654c541aa3614d0d517b7a13cf18c4787b2"
+    },
+    {
+      "path": ".history/.git/objects/ef/feb1c13b1ec34b1c96dcd891caa29d0f1c3e7a",
+      "bytes": 270,
+      "sha256": "095825c418c7ca26e2299e84523632649ae086e0c56df4fb244e0642101b23e8"
+    },
+    {
+      "path": ".history/.git/objects/f0/0d8b79362965ccfd9ab977daa78b62fc95c8d9",
+      "bytes": 7824,
+      "sha256": "32ab3b4efe35047af00ae540fbbfa35b1a60b866270b2cbdb0bcd6803893830e"
+    },
+    {
+      "path": ".history/.git/objects/f3/011cbbff148689fa2fcd455bf2377ab552cb65",
+      "bytes": 154,
+      "sha256": "90b2aa22c410a2f114a5322f74d5000978928557e08b0fe9975b5cfc66f7a110"
+    },
+    {
+      "path": ".history/.git/objects/f9/399c2a2f9363c3541b9073dee3ec190f435e0d",
+      "bytes": 15517,
+      "sha256": "97c80dd8cd531f8a9652b5f63948f99b83a62cc6f974a65e0e38f346398f5724"
+    },
+    {
+      "path": ".history/.git/objects/fc/6b09369ca212228cda51964d33475eb3d68064",
+      "bytes": 140,
+      "sha256": "b779fc3a1234eef15f75de4539057650cdadc5c5ef69f439da9069eaec9f41f1"
+    },
+    {
+      "path": ".history/.git/refs/heads/master",
+      "bytes": 41,
+      "sha256": "b65bf1fbce74a8d604e5fc8796a11f63699f18b7355deef60f76d3e0a8800f68"
+    },
+    {
+      "path": ".history/.git/refs/tags/Last_Save_sch",
+      "bytes": 41,
+      "sha256": "b65bf1fbce74a8d604e5fc8796a11f63699f18b7355deef60f76d3e0a8800f68"
+    },
+    {
+      "path": ".history/.git/refs/tags/Save_sch_1",
+      "bytes": 41,
+      "sha256": "1b375030687deb542c94c654a208f72bec130e4ebc64dcf9e7b754aef9743d30"
+    },
+    {
+      "path": ".history/.git/refs/tags/Save_sch_2",
+      "bytes": 41,
+      "sha256": "b75a0ff8b815902330e58078b128bd0bb7ec62c7ea970235446459089f923446"
+    },
+    {
+      "path": ".history/.git/refs/tags/Save_sch_3",
+      "bytes": 41,
+      "sha256": "da7dace05665d61c3878e827abc636ac1f6798085223b47e0d2d66630386fc91"
+    },
+    {
+      "path": ".history/.git/refs/tags/Save_sch_4",
+      "bytes": 41,
+      "sha256": "819103c3313265135f27c8578d9e3b4632e5ef14d445e05a3e00e002e7febec4"
+    },
+    {
+      "path": ".history/.git/refs/tags/Save_sch_5",
+      "bytes": 41,
+      "sha256": "8b397e06f2a88daf84c05ff2e792ca3bf7d9d1a9064344e1d5e4d9df36cac4df"
+    },
+    {
+      "path": ".history/.git/refs/tags/Save_sch_6",
+      "bytes": 41,
+      "sha256": "b65bf1fbce74a8d604e5fc8796a11f63699f18b7355deef60f76d3e0a8800f68"
+    },
+    {
+      "path": "datasheet/BNO080_085-Datasheet.pdf",
+      "bytes": 1508684,
+      "sha256": "34ac0ca1dda8fb0ecf347b35042bb32d22c953b127a0e414852213edc2c502ca"
+    },
+    {
+      "path": "datasheet/CA-C03.pdf",
+      "bytes": 1762024,
+      "sha256": "dea3cb34034b24ff0c5429f1352670e4396edfdb9508a9dac3c00393de7ea9dc"
+    },
+    {
+      "path": "datasheet/DO0164FMST02_05.pdf",
+      "bytes": 8824708,
+      "sha256": "15d21ade7daf3e78ebe983d63af2f073ed3c939c0f914d852d2dd6643ecf4117"
+    },
+    {
+      "path": "datasheet/esp-hardware-design-guidelines-en-master-esp32s3.pdf",
+      "bytes": 4214012,
+      "sha256": "57de6b6ac4f33dcd71a03dfa23d81c7a985c5e2694bd953ee803bc5570faf66c"
+    },
+    {
+      "path": "datasheet/ESP32-S3-Touch-AMOLED-1.64-schematic.pdf",
+      "bytes": 575587,
+      "sha256": "05277f397913ebda9719282530747fe764554b72a7bd93ce9e293214cdc1b7b1"
+    },
+    {
+      "path": "datasheet/ESP32-S3-Touch-AMOLED-2.06.pdf",
+      "bytes": 1347665,
+      "sha256": "6d531fb458863c666210c92294a07204d675bcb7997a54fc219d92fadbbacf9d"
+    },
+    {
+      "path": "datasheet/ESP32-S3-Touch-LCD-1.47-Schematic.pdf",
+      "bytes": 565780,
+      "sha256": "db1f05c28bbd078e76b430ff2a1332fe7e566731104756a73c84f08c38333ae5"
+    },
+    {
+      "path": "datasheet/ETA6098_V1.1.pdf",
+      "bytes": 563718,
+      "sha256": "f13d2b4f3c82cdaf1976379c6abd133af879fbafd658cfb5f69fb9d661c645ae"
+    },
+    {
+      "path": "datasheet/ft3168.pdf",
+      "bytes": 435112,
+      "sha256": "740376fada2283104eb0f963265dfe85b54c2cf2f6e2c1c216d2f6c6331b9069"
+    },
+    {
+      "path": "datasheet/lm74610-q1.pdf",
+      "bytes": 894626,
+      "sha256": "3e367c1c9200e9d46886a4cab1ea1f35d304eb9cf22c93d8fbf7738750a33600"
+    },
+    {
+      "path": "datasheet/MBR230LSFT1-D.PDF",
+      "bytes": 181500,
+      "sha256": "c6711c4e588572d395ac7095ba72d8403643a43d04ba1fbb1d6b7e175486de57"
+    },
+    {
+      "path": "datasheet/ME6217C33M5G.pdf",
+      "bytes": 249381,
+      "sha256": "fa5da3a17123585b4e30e5a03b389a659cf028f6cef5bf8d08e52c1169b7fb90"
+    },
+    {
+      "path": "datasheet/pogo_4pin_p2.54_right_angle.png",
+      "bytes": 63950,
+      "sha256": "097d79cd1dabdfa921d1ae3e2afda7cd9c2ae0ca4895da8d3e830cfd2f6803df"
+    },
+    {
+      "path": "datasheet/pogo_4pin_p2.54_straight.png",
+      "bytes": 54455,
+      "sha256": "c29e9ec03aa647ec914348019bb9ea7512c17ea05bfa29197fef31f82566e5b8"
+    },
+    {
+      "path": "datasheet/SH-2-Reference-Manual.pdf",
+      "bytes": 1269124,
+      "sha256": "dfa74afa12177982428574ef6a60df0009f32ff8ea339e44db37442e9066b984"
+    },
+    {
+      "path": "datasheet/tidm674.pdf",
+      "bytes": 180107,
+      "sha256": "94e724ba9432ba54df7be2c1b304301dd52575e1cc8109b297f63c97e38619bd"
+    },
+    {
+      "path": "datasheet/AXP2101/AXP2101_C3036461.pdf",
+      "bytes": 1554740,
+      "sha256": "9e51d16d84d905c32a001a123be8e6c58213ee21e42d5bdb1458b731dba10f6d"
+    },
+    {
+      "path": "datasheet/AXP2101/AXP2101\u5e38\u89c1\u95ee\u9898_V1.0.pdf",
+      "bytes": 7599173,
+      "sha256": "a667652d3042a2507a6a95e7cdc5178c276d2eb12de165a411a8d7878d4a6ae2"
+    },
+    {
+      "path": "datasheet/AXP2101/AXP2101\u8bbe\u8ba1\u6307\u5357_V1.0 (1).pdf",
+      "bytes": 726105,
+      "sha256": "13e11a811d758b92ca5a43c861e0224c6ca5079fda38a6e7a9271de3914d1c0c"
+    },
+    {
+      "path": "drawings/board_outline.dxf",
+      "bytes": 3287,
+      "sha256": "20e5d0004d413f2aa5647544bb09a97304ef08988502d175262f0ace063c2b22"
+    },
+    {
+      "path": "library/53261-0271.kicad_sym",
+      "bytes": 2906,
+      "sha256": "924f37ab8cdcc2c3ebc1faee77e7a83f6aeed9ff058b758a772965dbe140bb27"
+    },
+    {
+      "path": "library/53261-0271.step",
+      "bytes": 403029,
+      "sha256": "ee587b3e13dd509bc301154ba19f5f1617c0fc5c39f2256b38d05199e1be4082"
+    },
+    {
+      "path": "library/AXE530127.kicad_sym",
+      "bytes": 9898,
+      "sha256": "e2e069a8273266dd94e7beafde13e7fb1ca5f2ade6a30aa1df59523673f1e38b"
+    },
+    {
+      "path": "library/AXE530127.step",
+      "bytes": 5490434,
+      "sha256": "6489baa28dc72dab33ff9850efbef8118af3754d50e3ebedbb1c514eaeb8786e"
+    },
+    {
+      "path": "library/BNO085.kicad_sym",
+      "bytes": 8859,
+      "sha256": "fbc7ab647018522200024c6c4d6deacb0268c18edc0b1a668f2a8375f46ef0a8"
+    },
+    {
+      "path": "library/BNO085.step",
+      "bytes": 676136,
+      "sha256": "21d9abce28dbacf0aad33801eed2b149ded30a57dbb0e48d90923ab82ab3039b"
+    },
+    {
+      "path": "library/FUET-5517.kicad_mod",
+      "bytes": 2512,
+      "sha256": "96f771c768c340fc0a91c5f061ccfbcb632fb96f5cb71327595bae050aea2c4e"
+    },
+    {
+      "path": "library/IC_BNO085.kicad_mod",
+      "bytes": 8770,
+      "sha256": "bf3bf79917c2ac22ffb232c230dba6af0e0d6ada2b54f289e86be3eaf9d5fffa"
+    },
+    {
+      "path": "library/JST_S2B-PH-SM4-TB_LF__SN_.kicad_mod",
+      "bytes": 4363,
+      "sha256": "025a6bb1190a41daecb3e49cad71d30e485a6ebef9380e625e3799c570b215d4"
+    },
+    {
+      "path": "library/LM74610QDGKRQ1.kicad_sym",
+      "bytes": 4322,
+      "sha256": "12927e48c1db05b5aea07d64e6537d3f9ac9c8ca3612c4ce74171cbd347c8a6a"
+    },
+    {
+      "path": "library/LM74610QDGKRQ1.step",
+      "bytes": 370282,
+      "sha256": "2966734b49eee85c9d0a7780352ad0e5c2485c09d6aac5a4198b6387d953f10a"
+    },
+    {
+      "path": "library/Magnetic Pogo Connector 4 Pin (Type 1).STEP",
+      "bytes": 475214,
+      "sha256": "af2bb001590289ba53c7734ed133c0f64802a20159777ec1b7c2a5571cebf02e"
+    },
+    {
+      "path": "library/Magnetic Pogo Connector 4 Pin (Type 2).STEP",
+      "bytes": 485893,
+      "sha256": "747917b9b0a33edbfb872f15c8645ca7b0721e2c321696a3ebd634f30411b132"
+    },
+    {
+      "path": "library/Magnetic Pogo Connector 4 Pin (Type 3).STEP",
+      "bytes": 485329,
+      "sha256": "3684ccaa1015f23c002cb76a8bb2c4b9fed3e19f53faad64db315221be1ecd95"
+    },
+    {
+      "path": "library/Magnetic Pogo Connector 4 Pin (Type 4).STEP",
+      "bytes": 495525,
+      "sha256": "4860ef897ea9ac98819206e0af0f88132b3f73e5d5cb1339ac637022d3bbdd17"
+    },
+    {
+      "path": "library/MBR230LSFT1G.kicad_sym",
+      "bytes": 2533,
+      "sha256": "ced36c6b4130f5971282c9d5f37a5470ab3d24a6b6acccf1c3b39782e6d5ef6c"
+    },
+    {
+      "path": "library/ME6217C33M5G.kicad_sym",
+      "bytes": 3234,
+      "sha256": "9c67fb7b4c0a5cc5ce4bf2c0a9e90e0d0c0d90c5e3f1c08bd5c220268fe1aa1f"
+    },
+    {
+      "path": "library/ME6217C33M5G.step",
+      "bytes": 163213,
+      "sha256": "b2f5db9751303de8e965706f96bf7f12fe4192f9a8575fc6916e5972ab692057"
+    },
+    {
+      "path": "library/Microfit_picofit_1.25.STEP",
+      "bytes": 567190,
+      "sha256": "e1b452a82d35802e1c6f772ea524f9ff5d706d9b83dadcada9467bae652492cb"
+    },
+    {
+      "path": "library/MOLEX_53261-0271.kicad_mod",
+      "bytes": 3361,
+      "sha256": "6de9119032c140d9e308b7691dd48703fe4e1f8ee1822437edb0000512aaa9bf"
+    },
+    {
+      "path": "library/PANASONIC_AXE530127.kicad_mod",
+      "bytes": 21217,
+      "sha256": "3fc3ad3f6188b16575dc02ac1e15e748410b36b531d82c61e772d6dc95de4da8"
+    },
+    {
+      "path": "library/PKLCS1212E4001-R1.kicad_sym",
+      "bytes": 4137,
+      "sha256": "3a9580540feeeb0d3e594c4bf47edcc4d3d5afeac08aecd9a799cededca33ab9"
+    },
+    {
+      "path": "library/PKLCS1212E4001-R1.step",
+      "bytes": 131540,
+      "sha256": "f169e40dd30717c788194f5494d25025d5e56c9539a8ae5de3827a2a6e09cba7"
+    },
+    {
+      "path": "library/project.bak",
+      "bytes": 15598,
+      "sha256": "a5182b8c3a048a73aa314a88d45c013ff7117ba35f8e1b69187b47c99eaaf307"
+    },
+    {
+      "path": "library/project.kicad_sym",
+      "bytes": 15598,
+      "sha256": "d5155d110bc1c75ce979375be82d14fb769affc04c9a531659488abf02c329c7"
+    },
+    {
+      "path": "library/QFN_2016_4pins.STEP",
+      "bytes": 147986,
+      "sha256": "d2856b76ed5a17562371c5ddeaf02460eda0b6ea9950a3a5195025ad3d16257c"
+    },
+    {
+      "path": "library/S2B-PH-SM4-TB_LF__SN_.kicad_sym",
+      "bytes": 2830,
+      "sha256": "b51263858b1502d0f12d6dcce4afa60fae7272dde711d678924a473dcddce1c1"
+    },
+    {
+      "path": "library/S2B-PH-SM4-TB_LF__SN_.step",
+      "bytes": 378257,
+      "sha256": "24f5eca8c16334c234574fdcb3ced9afd8f1d0533ffe5a5eb91c274ae90674d1"
+    },
+    {
+      "path": "library/S4B-PH-SM4-TB.kicad_sym",
+      "bytes": 4030,
+      "sha256": "7f25c082ac6cbc4cd5b806d873dd2d37f2ce93c327308c97f8f39db306e6b650"
+    },
+    {
+      "path": "library/S4B-PH-SM4-TB.step",
+      "bytes": 495687,
+      "sha256": "cfbc79a1eb9c9a96b9cef247a59d94995856914d0891ee3f342230503ead5c85"
+    },
+    {
+      "path": "library/SOD-123F.kicad_mod",
+      "bytes": 960,
+      "sha256": "a9fc1e579555e67222d24513f36acd3b4dffa8da6e356c9d5375a90f0016d791"
+    },
+    {
+      "path": "library/SOP65P490X110-8N.kicad_mod",
+      "bytes": 2365,
+      "sha256": "e8c0b50c2930574a52a41902cb271a47d19b119635dd9bf315100644ee23bcd3"
+    },
+    {
+      "path": "library/SOT23-5.kicad_mod",
+      "bytes": 1931,
+      "sha256": "2a9a389ba212935b2133ec0273a5f65102b5fcba85e80193c009a3de08392192"
+    },
+    {
+      "path": "library/SPKR_PKLCS1212E4001-R1.kicad_mod",
+      "bytes": 2019,
+      "sha256": "db9a670954e33dc86d223e5df6cc26f4644f916a28653372795c00cdb1f4f989"
+    },
+    {
+      "path": "library/SW_TL1105WF160Q.kicad_mod",
+      "bytes": 4836,
+      "sha256": "195f5811663b42a4614bec8ddc21c7b8df3de956f83af7f4436f02e8fdc881f4"
+    },
+    {
+      "path": "library/TL1105WF160Q.kicad_sym",
+      "bytes": 3337,
+      "sha256": "fb13126756dbfbf7d89b6f12a2bdf9ad73e75ecda8ffe972ea965e57d4eca784"
+    },
+    {
+      "path": "library/TL1105WF160Q.step",
+      "bytes": 435455,
+      "sha256": "a989647f999800943acbe0630721c932df77a2f494ef0d03259ac4836cfd3315"
+    }
+  ],
+  "decision": "DEC-018",
+  "performed_on": "2026-09-12",
+  "independent_audit_agent": "/root/mechanical_compatibility",
+  "operation": "Moved complete imported pcb tree intact into local rollback; recreated empty production CAD directory",
+  "all_203_backup_hashes_verified": true,
+  "retained_reference_manifest": "motor_expansion_board_v3/references/manifest.json",
+  "archive_v2_modified": false
+}

@@ -1,5 +1,7 @@
 # Raspberry Pi Pico Motor Expansion Board V2
 
+V3 is a new design in specification and research; no V3 schematic or PCB exists yet. OWMC is [reference material only](motor_expansion_board_v3/references/README.md). Use the [master progress tracker](motor_expansion_board_v3/PROGRESS.md) for all work status and mandatory design gates. The [requirements](motor_expansion_board_v3/REQUIREMENTS.md) cover hardware and process; the [development summary](motor_expansion_board_v3/DEVELOPMENT_SUMMARY.md) describes the architecture and workflow. Independent mechanical, electrical, firmware and display findings are in the [compatibility report](motor_expansion_board_v3/COMPATIBILITY_RESEARCH.md), supported by [application research](motor_expansion_board_v3/USE_CASE_RESEARCH.md) and the [power/USB proposal](motor_expansion_board_v3/POWER_ARCHITECTURE.md). The remaining sections describe the archived V2 product.
+
 > [!Note]
 > You can purchase the board directly from Mellow 3D and ship worldwide now. 
 > LINK: https://www.aliexpress.com/item/1005008080766173.html
@@ -42,7 +44,7 @@ The board is designed with hand soldering in mind. The board can also be manufac
 
 ![smt_assembly](resources/smt_assembly.png)
 
-BOM and gerber files are provided under [production](motor_expansion_board_v2/production) directory. [Instructions](motor_expansion_board_v2/production/README.md) are also provided regarding the PCB contract manufactoring with JLCPCB. 
+BOM and gerber files are provided under the archived [production](archive/motor_expansion_board_v2/production) directory. [Instructions](archive/motor_expansion_board_v2/production/README.md) are also provided regarding PCB contract manufacturing with JLCPCB.
 
 ## Components Substitution
 

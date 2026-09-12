@@ -1,0 +1,58 @@
+{
+  "recorded_on": "2026-09-12",
+  "decision": "DEC-018",
+  "policy": "Only useful reference evidence retained; production assets are separately qualified and vendored under pcb/libraries",
+  "files": [
+    {
+      "path": "motor_expansion_board_v3/references/owmc/owmc.kicad_sch",
+      "role": "Reference only; not a V3 production dependency",
+      "reason_retained": "MCU, external flash, clock and RF circuit evidence",
+      "sha256": "767247e1132cc35bd95a4045d4ab90956443ab52cb5b2b2be2eb4ef8f54d2b7d",
+      "source_url": "https://github.com/eamars/OpenWeaponMountComputerHardware",
+      "source_commit": "dce2f2533f86f468a69d2141414c9320d7366f53",
+      "source_working_copy_modified": false,
+      "license_note": "User-provided project reference; no root license file found in inspected checkout",
+      "limitations": "Self-contained embedded 2D evidence only; no configured ERC/DRC or complete 3D reconstruction"
+    },
+    {
+      "path": "motor_expansion_board_v3/references/owmc/power_supplies.kicad_sch",
+      "role": "Reference only; not a V3 production dependency",
+      "reason_retained": "Adjacent child sheet preserves cross-sheet MCU/RF supply, reset and USB dependencies",
+      "sha256": "f8aedbb217499786b6bc978726b33001ada5d81f6f17e467e17c5f0a9d90984e",
+      "source_url": "https://github.com/eamars/OpenWeaponMountComputerHardware",
+      "source_commit": "dce2f2533f86f468a69d2141414c9320d7366f53",
+      "source_working_copy_modified": true,
+      "license_note": "User-provided project reference; no root license file found in inspected checkout",
+      "limitations": "Self-contained embedded 2D evidence only; no configured ERC/DRC or complete 3D reconstruction"
+    },
+    {
+      "path": "motor_expansion_board_v3/references/owmc/owmc.kicad_pcb",
+      "role": "Reference only; not a V3 production dependency",
+      "reason_retained": "Embedded 2D placement/footprints support MCU/RF reference inspection; not the V3 starting layout",
+      "sha256": "f130f50178859cd1d91d0c809187c4c3ef86d01aa765da096e3e1bbc7a1165ec",
+      "source_url": "https://github.com/eamars/OpenWeaponMountComputerHardware",
+      "source_commit": "dce2f2533f86f468a69d2141414c9320d7366f53",
+      "source_working_copy_modified": false,
+      "license_note": "User-provided project reference; no root license file found in inspected checkout",
+      "limitations": "Self-contained embedded 2D evidence only; no configured ERC/DRC or complete 3D reconstruction"
+    },
+    {
+      "path": "motor_expansion_board_v3/references/vendor/TDO-TS040WVS02CP-B1617A-v1.0.pdf",
+      "role": "Manufacturer reference, not production approval",
+      "reason_retained": "Chosen QSPI candidate connector/protocol/power qualification; source inconsistencies documented",
+      "sha256": "265c5bbb3b0a8cfda705843115c8a8a1db7eb76795a48f349305c5d2949fb3d9",
+      "source_url": "https://www.shtdo.com/Admin/Others/DownloadsPage.aspx?nid=28&id=1563&ref=claproducts&pre=1&t=92726061be261a19",
+      "checked_on": "2026-09-12",
+      "rights_note": "Manufacturer publication retained as attributed technical reference; no license to vendor implementation code inferred"
+    },
+    {
+      "path": "motor_expansion_board_v3/references/vendor/Fly-2209-Schematic-v1.0.pdf",
+      "role": "Manufacturer reference, not production approval",
+      "reason_retained": "User-requested TMC2209 StepStick support-circuit reference",
+      "sha256": "058bc43b17b2a06ca5bd18efb575b5384883d345d63df6c61516b2a26b33978a",
+      "source_url": "https://raw.githubusercontent.com/Mellow-3D/Fly-Drivers/c0ffd6f2027eac64d2768ec59325dbcfd9f7e5f4/2209/Fly-2209-Schematic.pdf",
+      "checked_on": "2026-09-12",
+      "rights_note": "Manufacturer publication retained as attributed technical reference; no license to vendor implementation code inferred"
+    }
+  ]
+}

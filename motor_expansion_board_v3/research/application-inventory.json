@@ -1,0 +1,249 @@
+{
+  "recorded_on": "2026-09-12",
+  "scope": "Source-backed hardware-use-case research; not executed firmware or hardware validation.",
+  "sources": [
+    {
+      "root": "C:/workspace/OpenTrickler",
+      "git_head": "6a0b9711194d59aa796af89c6224d7331031c4ff",
+      "git_status_porcelain": [],
+      "files": [
+        {
+          "path": "readme.md",
+          "sha256": "f09ce928998d934baa095cc602c30ccd142132f353a3a719e5e8dd7129b37f38"
+        },
+        {
+          "path": "Manual/sourcing_guide.md",
+          "sha256": "f429e390069ac861becf3dcba66364ce44c58a0062e79e8f8aa722916229e98e"
+        },
+        {
+          "path": "CommunityContributions/eamars/neopixel_led_mod/readme.md",
+          "sha256": "779c5e71944a0bdf5e471d4c5f9b16d7e58f97a09294e7c23b8291ab272a2841"
+        },
+        {
+          "path": "Resources/interface_pattern.png",
+          "sha256": "e5c66d8b8fe169f307c791c925077d91f58acd2aee25dac11f76b755b9502ec2"
+        }
+      ]
+    },
+    {
+      "root": "C:/workspace/OpenTrickler-RP2040-Controller",
+      "git_head": "4e384a384d714200eb5157a08e33d424e8e49f85",
+      "git_status_porcelain": [],
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "bd0c4888371ee9e1a8a732c836b7f74e7cb3de1cf1bb7c04bb3bb5b1b0e03dab"
+        },
+        {
+          "path": "CMakeLists.txt",
+          "sha256": "d75b8a8ad961fdbc5f57352f20207afc6af9a3a601e278ac47aeaef16fa14e99"
+        },
+        {
+          "path": "targets/raspberrypi_pico_w_config.h",
+          "sha256": "8bd04c312606514d9876155e888486ca1911cdc4985bf23ea67aff4cffa91101"
+        },
+        {
+          "path": "manuals/firmware_update_via_usb.md",
+          "sha256": "756d09c8bccda6dc5196110e0075d51fbf662b82ce74ac08c36437925cb36aa7"
+        },
+        {
+          "path": "src/app.c",
+          "sha256": "b5ce1309fb2e9e7351c9864e893990cf2269bddb967b32f1f1ee4f4f56c76c3a"
+        },
+        {
+          "path": "src/servo_gate.c",
+          "sha256": "838a78ed12159472a35692c5570d8d7633117e5678ad06a9e6d2e8d647e1f0c4"
+        },
+        {
+          "path": "src/neopixel_led.c",
+          "sha256": "1ee2aa1c3a762e82331121c3a6a6c9455904e11e17547c944c225c644d276a1e"
+        },
+        {
+          "path": "src/neopixel_led.h",
+          "sha256": "135837e6b0aaa1235c6e7e8a9c9d0f39aa61a56e6c685d6f2ab3a165dcc8a27b"
+        },
+        {
+          "path": "src/mini_12864_module.cpp",
+          "sha256": "ca93cf83ca4bd9894f171ce6dd7d1bf6b0aaf810956b2c3f93d78f7a7a39e88f"
+        },
+        {
+          "path": "src/display.c",
+          "sha256": "1e94d86d1536254680a7e9e6f8a65d934bf2c0bfa0f774dcc297e371338aabee"
+        },
+        {
+          "path": "src/eeprom.h",
+          "sha256": "3145d30d85af015ff72862290c2646e48fcd5a08c4f3a7e71a63ae7766cec2ca"
+        },
+        {
+          "path": "src/eeprom.c",
+          "sha256": "347718747954f1951a983d4a814fbefdd38b78c28155ade95136a18af5130249"
+        },
+        {
+          "path": "src/cat24c256_eeprom.c",
+          "sha256": "6f9d109560f1278e9fc1674974136063e53821447ed5da2e0f678dd3066e5bda"
+        },
+        {
+          "path": "src/scale.h",
+          "sha256": "d7ffa95de7ac33504229ef8f904f53b7e42de6ab23c7e82302c07150068c234a"
+        },
+        {
+          "path": "src/wireless.c",
+          "sha256": "1c4e0eafbf411a038ca4ea8a6ce4d4d011079287d9b521eb890c4abafd6bc5d9"
+        },
+        {
+          "path": "src/access_point_mode.c",
+          "sha256": "f15a3643e7b179ed788ea2d2a62fdbeb24807f22f5d7c8f9f1d5dc21fe8550d5"
+        },
+        {
+          "path": "src/rest_endpoints.c",
+          "sha256": "39f2c567984222063174b730a1461d799e5fa57b974e56857175462abf369b17"
+        },
+        {
+          "path": "src/motors.c",
+          "sha256": "2599369db41c5914faa74034b1b8b94e9c7763c1ff640c4779f1450764b9e988"
+        },
+        {
+          "path": "library/Trinamic-library/tmc2209.h",
+          "sha256": "0bfc2dd0f09491148358190fa1821e4205ae9bb839c9095d68bdb0dea098a9bc"
+        },
+        {
+          "path": "library/Trinamic-library/tmc2209.c",
+          "sha256": "b016ff2e254c1fe0a73bb1a4b021cea3eeb3736bee233b6e1e28e9bb90f08705"
+        }
+      ]
+    }
+  ],
+  "confirmed_powered_accessory_envelope": {
+    "servos": {
+      "count": 2,
+      "family": "MG90-class; exact supplied variant TBD",
+      "peak_current_a": null
+    },
+    "external_leds": {
+      "typical_count": 2,
+      "board_powered_design_count": 4,
+      "larger_chains": "Externally powered; board 5 V feed kept separate",
+      "reference_product": "Adafruit 4776 RGBW",
+      "reference_max_current_a_each_approx": 0.075,
+      "reference_four_pixel_allowance_a_approx": 0.3
+    },
+    "display_lighting": "Additional to external LEDs; source code emits three Mini12864 pixels."
+  },
+  "observations": [
+    {
+      "id": "APP-001",
+      "finding": "Both servo PWM channels updated together; no basis for a mutually exclusive load budget.",
+      "confidence": "high for source code; electrical currents unmeasured",
+      "source": "src/servo_gate.c",
+      "lines": [
+        47,
+        55
+      ]
+    },
+    {
+      "id": "APP-002",
+      "finding": "Default external chain has two RGBW pixels; chain-count enumeration offers one through sixteen. Display lighting has a separate three-pixel output.",
+      "confidence": "high for source code",
+      "sources": [
+        "src/neopixel_led.c:45",
+        "src/neopixel_led.c:83",
+        "src/neopixel_led.h:39"
+      ]
+    },
+    {
+      "id": "APP-003",
+      "finding": "Documented USB firmware update requires disconnecting main supply.",
+      "confidence": "high for documented procedure",
+      "source": "manuals/firmware_update_via_usb.md"
+    },
+    {
+      "id": "APP-004",
+      "finding": "Driver initialization failure enters a loop before scheduler start. Absence of motor power causing failure is a condition to test, not an observed hardware result.",
+      "confidence": "high for control flow; power-state outcome unverified",
+      "sources": [
+        "src/app.c:48",
+        "src/motors.c:665"
+      ]
+    },
+    {
+      "id": "APP-005",
+      "finding": "Platform dependencies extend beyond GPIO definitions: Pico SDK, FreeRTOS port, PIO, PWM, SPI/I2C/UART, and CYW43.",
+      "confidence": "high for source code",
+      "sources": [
+        "CMakeLists.txt",
+        "targets/raspberrypi_pico_w_config.h"
+      ]
+    },
+    {
+      "id": "APP-006",
+      "finding": "Separate Wi-Fi indicator and new power/status sensing were absent from the prior two-spare-GPIO scenario.",
+      "confidence": "planning inference",
+      "sources": [
+        "targets/raspberrypi_pico_w_config.h:10",
+        "src/wireless.c:376"
+      ]
+    },
+    {
+      "id": "APP-007",
+      "finding": "Motor-source comment labels sense resistance as ohms, while the linked library defines the parameter in milliohms. Not a V3 component selection.",
+      "confidence": "high for unit discrepancy",
+      "sources": [
+        "src/motors.c:48",
+        "library/Trinamic-library/tmc2209.h:67",
+        "library/Trinamic-library/tmc2209.c:235"
+      ]
+    },
+    {
+      "id": "APP-008",
+      "finding": "The motor source comment says peak current, but current_ma is assigned directly to the linked library configuration; its calculation and setter use RMS units. The user confirmed preserving RMS interpretation (DEC-008).",
+      "confidence": "high for source-code unit convention; no electrical measurement",
+      "sources": [
+        "src/motors.c:45",
+        "src/motors.c:271",
+        "library/Trinamic-library/tmc2209.c:141",
+        "library/Trinamic-library/tmc2209.c:235"
+      ]
+    }
+  ],
+  "external_sources": [
+    {
+      "publisher": "Adafruit",
+      "url": "https://www.adafruit.com/product/4776",
+      "basis": "Reference RGBW pixel identity and approximately 75 mA maximum per pixel."
+    },
+    {
+      "publisher": "TowerPro",
+      "url": "https://towerpro.com.tw/product/mg90s-3/",
+      "basis": "MG90S manufacturer information; stall current not specified on page."
+    },
+    {
+      "publisher": "Texas Instruments",
+      "url": "https://www.ti.com/product/TPS5450",
+      "basis": "5 A component rating; 5.5 V minimum input."
+    },
+    {
+      "publisher": "Espressif",
+      "url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32s3/api-guides/usb-serial-jtag-console.html",
+      "basis": "Native USB service capabilities."
+    }
+  ],
+  "confirmed_motor_current_setting": {
+    "decision": "DEC-008 / 2026-09-12",
+    "unit": "mA RMS per channel",
+    "default": 800,
+    "user_adjustable_upper_range": [
+      1200,
+      1500
+    ],
+    "remaining_conditions": [
+      "Exact supplied IC and fitted sense-component identity/ratings",
+      "Electrical supply and transient budget",
+      "Prototype electrical verification and normal-operation observations"
+    ],
+    "scope_clarification_decision": "DEC-016 / 2026-09-12",
+    "cooling": "Passive heatsinks, Fly TMC2209 StepStick reference, room-temperature use potentially inside a case",
+    "separate_thermal_design_required": false,
+    "continuous_upper_current_rating_claimed": false,
+    "upper_setting_recommended_normal_operation": false
+  }
+}

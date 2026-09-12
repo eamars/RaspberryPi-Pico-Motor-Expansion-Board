@@ -1,0 +1,882 @@
+{
+  "recorded_on": "2026-09-12",
+  "purpose": "Read-only planning inventory; not a design verification or a final pin assignment.",
+  "source_files": [
+    {
+      "path": "archive/motor_expansion_board_v2/pcb/pico_expansion_board.kicad_pcb",
+      "sha256": "7b184036ec74cfa7ea3cbde14c106a1f876897e72f4c0b82b1525a830018f09a"
+    },
+    {
+      "path": "archive/motor_expansion_board_v2/pcb/pico_expansion_board.kicad_sch",
+      "sha256": "780f416fe025d853604719fab0252259d03e35c2176428ed7d8315094aabdfda"
+    },
+    {
+      "path": ".git/v3-development-research-20260912/imported-owmc-before-cleanup/top_level_schematic.kicad_sch",
+      "sha256": "79a2b5fc5ce6bc6b0888e49ff8c88e9f620c35428d00d257fa49f05464a8a2fc",
+      "path_at_capture": "motor_expansion_board_v3/pcb/top_level_schematic.kicad_sch",
+      "role": "Historical placeholder; rollback evidence only, not distributed or needed by V3"
+    },
+    {
+      "path": "motor_expansion_board_v3/references/owmc/owmc.kicad_sch",
+      "sha256": "767247e1132cc35bd95a4045d4ab90956443ab52cb5b2b2be2eb4ef8f54d2b7d",
+      "path_at_capture": "C:/workspace/OpenWeaponMountComputer/pcb/owmc.kicad_sch"
+    },
+    {
+      "path": "motor_expansion_board_v3/references/owmc/power_supplies.kicad_sch",
+      "sha256": "f8aedbb217499786b6bc978726b33001ada5d81f6f17e467e17c5f0a9d90984e",
+      "path_at_capture": "C:/workspace/OpenWeaponMountComputer/pcb/power_supplies.kicad_sch"
+    }
+  ],
+  "reference_project": {
+    "git_head": "dce2f2533f86f468a69d2141414c9320d7366f53",
+    "working_copy_modifications": [
+      "pcb/power_supplies.kicad_sch"
+    ],
+    "proven_status": "Reported by user; the exact proven revision remains to be identified.",
+    "imported_owmc_pcb_byte_identical_to_reference": true,
+    "imported_owmc_schematic_identical_after_lf_normalization": false,
+    "imported_power_supplies_schematic_identical_after_lf_normalization": false,
+    "production_starting_point": false,
+    "selected_snapshot_manifest": "motor_expansion_board_v3/references/manifest.json"
+  },
+  "v2_mechanical": {
+    "revision_marking": "OpenTrickler Controller v2.1 on B.SilkS",
+    "method": "KiCad 10.0.4 pcbnew: Edge.Cuts endpoints and footprint pad drills; coordinate units mm.",
+    "baseline_status": "User confirmed archived v2.1 as the compatibility baseline on 2026-09-12 (DEC-007). Manufacturing tolerances and as-built fit checks remain open.",
+    "width_mm": 91.694,
+    "height_mm": 66.802,
+    "coordinate_datum_kicad_mm": [
+      70.104,
+      74.168
+    ],
+    "coordinate_direction": "X right, Y down, from upper-left outline extents.",
+    "primary_mount_hole_diameter_mm": 3.2,
+    "mount_pattern_mm": [
+      81.534,
+      56.642
+    ],
+    "mounting_holes": [
+      {
+        "reference": "H1",
+        "position_from_datum_mm": [
+          86.614,
+          5.08
+        ]
+      },
+      {
+        "reference": "H2",
+        "position_from_datum_mm": [
+          86.614,
+          61.722
+        ]
+      },
+      {
+        "reference": "H3",
+        "position_from_datum_mm": [
+          5.08,
+          61.722
+        ]
+      },
+      {
+        "reference": "H4",
+        "position_from_datum_mm": [
+          5.08,
+          5.08
+        ]
+      }
+    ],
+    "connector_footprint_anchors": [
+      {
+        "reference": "J1",
+        "value": "EXP1",
+        "footprint": "IDC-Header_2x05_P2.54mm_Vertical",
+        "position_from_datum_mm": [
+          40.386,
+          61.722
+        ],
+        "rotation_degrees": 90.0,
+        "role_note": "Retained interface candidate; verify mating geometry/pinout."
+      },
+      {
+        "reference": "J2",
+        "value": "EXP2",
+        "footprint": "IDC-Header_2x05_P2.54mm_Vertical",
+        "position_from_datum_mm": [
+          16.256,
+          61.722
+        ],
+        "rotation_degrees": 90.0,
+        "role_note": "Retained interface candidate; verify mating geometry/pinout."
+      },
+      {
+        "reference": "J3",
+        "value": "Conn_01x03_Socket",
+        "footprint": "JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",
+        "position_from_datum_mm": [
+          18.756,
+          4.826
+        ],
+        "rotation_degrees": 180.0,
+        "role_note": "Retained interface candidate; verify mating geometry/pinout."
+      },
+      {
+        "reference": "J4",
+        "value": "TMC2209 Motor 1",
+        "footprint": "Conn_StepStick_smaller_hole",
+        "position_from_datum_mm": [
+          24.892,
+          10.092
+        ],
+        "rotation_degrees": 180.0,
+        "role_note": "Existing StepStick socket; onboard IC integration replaces this internal module interface."
+      },
+      {
+        "reference": "J5",
+        "value": "TMC2209 Motor 2",
+        "footprint": "Conn_StepStick_smaller_hole",
+        "position_from_datum_mm": [
+          24.892,
+          33.782
+        ],
+        "rotation_degrees": 180.0,
+        "role_note": "Existing StepStick socket; onboard IC integration replaces this internal module interface."
+      },
+      {
+        "reference": "J6",
+        "value": "Motor 1",
+        "footprint": "JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+        "position_from_datum_mm": [
+          5.08,
+          15.36
+        ],
+        "rotation_degrees": -90.0,
+        "role_note": "Retained interface candidate; verify mating geometry/pinout."
+      },
+      {
+        "reference": "J7",
+        "value": "Motor 2",
+        "footprint": "JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+        "position_from_datum_mm": [
+          5.08,
+          38.902
+        ],
+        "rotation_degrees": -90.0,
+        "role_note": "Retained interface candidate; verify mating geometry/pinout."
+      },
+      {
+        "reference": "J8",
+        "value": "USB_C_Receptacle_USB2.0_14P",
+        "footprint": "USB_C_Receptacle_HRO_TYPE-C-31-M-17",
+        "position_from_datum_mm": [
+          71.882,
+          3.81
+        ],
+        "rotation_degrees": 180.0,
+        "role_note": "Retained interface candidate; verify mating geometry/pinout."
+      },
+      {
+        "reference": "J9",
+        "value": "Conn_02x02_Odd_Even",
+        "footprint": "PinHeader_2x02_P2.00mm_Vertical",
+        "position_from_datum_mm": [
+          79.788,
+          9.684
+        ],
+        "rotation_degrees": 0.0,
+        "role_note": "Retained interface candidate; verify mating geometry/pinout."
+      },
+      {
+        "reference": "J10",
+        "value": "~",
+        "footprint": "DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm",
+        "position_from_datum_mm": [
+          80.8077,
+          35.522
+        ],
+        "rotation_degrees": 90.0,
+        "role_note": "Retained interface candidate; verify mating geometry/pinout."
+      },
+      {
+        "reference": "J11",
+        "value": "Conn_01x03_Pin",
+        "footprint": "JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",
+        "position_from_datum_mm": [
+          60.532,
+          61.468
+        ],
+        "rotation_degrees": 0.0,
+        "role_note": "Retained interface candidate; verify mating geometry/pinout."
+      },
+      {
+        "reference": "J12",
+        "value": "Conn_01x03_Pin",
+        "footprint": "JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",
+        "position_from_datum_mm": [
+          72.938,
+          61.451
+        ],
+        "rotation_degrees": 0.0,
+        "role_note": "Retained interface candidate; verify mating geometry/pinout."
+      },
+      {
+        "reference": "J13",
+        "value": "Conn_01x03_Pin",
+        "footprint": "JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",
+        "position_from_datum_mm": [
+          62.698,
+          5.08
+        ],
+        "rotation_degrees": 180.0,
+        "role_note": "Retained interface candidate; verify mating geometry/pinout."
+      }
+    ],
+    "anchor_note": "Footprint origins are not necessarily connector centres or mating-face datums."
+  },
+  "v2_gpio_nets_native_kicad_export": [
+    {
+      "pico_physical_pin": "20",
+      "pin_name": "GPIO15_20",
+      "net": "BTN_EN1",
+      "node_count": 2
+    },
+    {
+      "pico_physical_pin": "19",
+      "pin_name": "GPIO14_19",
+      "net": "BTN_EN2",
+      "node_count": 2
+    },
+    {
+      "pico_physical_pin": "29",
+      "pin_name": "GPIO22_29",
+      "net": "BTN_ENC",
+      "node_count": 2
+    },
+    {
+      "pico_physical_pin": "16",
+      "pin_name": "GPIO12_16",
+      "net": "BTN_RST",
+      "node_count": 2
+    },
+    {
+      "pico_physical_pin": "15",
+      "pin_name": "GPIO11_15",
+      "net": "EEPROM_SCL",
+      "node_count": 3
+    },
+    {
+      "pico_physical_pin": "14",
+      "pin_name": "GPIO10_14",
+      "net": "EEPROM_SDA",
+      "node_count": 3
+    },
+    {
+      "pico_physical_pin": "26",
+      "pin_name": "GPIO20_26",
+      "net": "LCD_A0",
+      "node_count": 2
+    },
+    {
+      "pico_physical_pin": "22",
+      "pin_name": "GPIO17_22",
+      "net": "LCD_CS",
+      "node_count": 2
+    },
+    {
+      "pico_physical_pin": "25",
+      "pin_name": "GPIO19_25",
+      "net": "LCD_MOSI",
+      "node_count": 2
+    },
+    {
+      "pico_physical_pin": "27",
+      "pin_name": "GPIO21_27",
+      "net": "LCD_RST",
+      "node_count": 2
+    },
+    {
+      "pico_physical_pin": "24",
+      "pin_name": "GPIO18_24",
+      "net": "LED_SCK",
+      "node_count": 2
+    },
+    {
+      "pico_physical_pin": "31",
+      "pin_name": "GPIO26_ADC0_31",
+      "net": "LOGIC_OUT_1",
+      "node_count": 3
+    },
+    {
+      "pico_physical_pin": "32",
+      "pin_name": "GPIO27_ADC1_32",
+      "net": "LOGIC_OUT_2",
+      "node_count": 3
+    },
+    {
+      "pico_physical_pin": "34",
+      "pin_name": "GPIO28_ADC2_34",
+      "net": "LOGIC_OUT_3",
+      "node_count": 3
+    },
+    {
+      "pico_physical_pin": "4",
+      "pin_name": "GPIO2_4",
+      "net": "M1_DIR",
+      "node_count": 2
+    },
+    {
+      "pico_physical_pin": "9",
+      "pin_name": "GPIO6_9",
+      "net": "M1_EN",
+      "node_count": 2
+    },
+    {
+      "pico_physical_pin": "5",
+      "pin_name": "GPIO3_5",
+      "net": "M1_STEP",
+      "node_count": 2
+    },
+    {
+      "pico_physical_pin": "10",
+      "pin_name": "GPIO7_10",
+      "net": "M2_DIR",
+      "node_count": 2
+    },
+    {
+      "pico_physical_pin": "12",
+      "pin_name": "GPIO9_12",
+      "net": "M2_EN",
+      "node_count": 2
+    },
+    {
+      "pico_physical_pin": "11",
+      "pin_name": "GPIO8_11",
+      "net": "M2_STEP",
+      "node_count": 2
+    },
+    {
+      "pico_physical_pin": "7",
+      "pin_name": "GPIO5_7",
+      "net": "MOTOR_UART",
+      "node_count": 4
+    },
+    {
+      "pico_physical_pin": "17",
+      "pin_name": "GPIO13_17",
+      "net": "NEOPIXEL",
+      "node_count": 3
+    },
+    {
+      "pico_physical_pin": "2",
+      "pin_name": "GPIO1_2",
+      "net": "SCALE_UART_RX",
+      "node_count": 4
+    },
+    {
+      "pico_physical_pin": "1",
+      "pin_name": "GPIO0_1",
+      "net": "SCALE_UART_TX",
+      "node_count": 4
+    },
+    {
+      "pico_physical_pin": "21",
+      "pin_name": "GPIO16_21",
+      "net": "SPI0_MISO",
+      "node_count": 1
+    },
+    {
+      "pico_physical_pin": "6",
+      "pin_name": "GPIO4_6",
+      "net": "UART1_TX",
+      "node_count": 2
+    }
+  ],
+  "v2_gpio_note": "26 named GPIO nets; SPI0_MISO has one node (the MCU only). 25 have external connections.",
+  "bom_field_inventory": [
+    {
+      "source": "v2-schematic.json",
+      "component_count": 68,
+      "with_lcsc_field": 64,
+      "with_dedicated_mpn_field": 0
+    },
+    {
+      "source": "reference-schematic.json",
+      "component_count": 83,
+      "with_lcsc_field": 76,
+      "with_dedicated_mpn_field": 0
+    }
+  ],
+  "gpio_budget_scenario": {
+    "status": "Proposal, not committed capacity or a pin-level allocation.",
+    "soc_gpio_count": 45,
+    "flash_psram_reserved": 12,
+    "native_usb_reserved": 2,
+    "boot_strapping_reserved_conservatively": 4,
+    "motor_step_dir_enable": 6,
+    "motor_uart_tx_rx": 2,
+    "external_serial_tx_rx": 2,
+    "shared_i2c": 2,
+    "existing_logic_outputs": 3,
+    "one_display_mode_envelope": 10,
+    "spare_gpio_estimate": 2,
+    "assumptions": [
+      "Only one display mode operates at a time; shared signals require explicit electrical selection.",
+      "QSPI display and touch fit the ten-pin display envelope and reuse the allocated I2C bus.",
+      "Boot UART is not reserved as a separate runtime interface; native USB supplies routine debug.",
+      "No dedicated TMC DIAG/INDEX or extra sensors are included.",
+      "The MCU-only V2 SPI0_MISO net does not represent an external function to preserve.",
+      "No new power-valid, VBUS-sense, or power-control GPIO is included.",
+      "No separate GPIO is included for a replacement for the Pico wireless-device status LED.",
+      "The QSPI mode has no encoder or physical buttons, but retained Mini12864 still needs its original UI signals. Exact panel and touch resource allocation remain open; this does not yet establish additional spare pins."
+    ]
+  },
+  "sourcing_snapshot": [
+    {
+      "mpn": "ESP32-S3R8",
+      "manufacturer": "Espressif",
+      "lcsc": "C2913194",
+      "url": "https://www.lcsc.com/product-detail/C2913194.html",
+      "displayed_stock": 3571,
+      "basis": "Official LCSC product page accessed 2026-09-12; inventory is not reserved."
+    },
+    {
+      "mpn": "TMC2209-LA-T",
+      "manufacturer": "ADI/TRINAMIC",
+      "lcsc": "C2150710",
+      "url": "https://www.lcsc.com/product-detail/C2150710.html",
+      "displayed_stock": 3332,
+      "basis": "Official LCSC product page accessed 2026-09-12; inventory is not reserved."
+    },
+    {
+      "mpn": "W25Q128JVSIQ",
+      "manufacturer": "Winbond",
+      "lcsc": "C97521",
+      "url": "https://www.lcsc.com/product-detail/C97521.html",
+      "basis": "Official catalog identity checked; candidate from the reference design, not a locked BOM selection."
+    }
+  ],
+  "v2_power_connectivity": {
+    "method": "Native KiCad XML export of archived V2 schematic",
+    "power_sheet_sha256": "258a137bd65e36513ed9881ea440e6cefddad9538d4ae365ff9d21be0129cb6f",
+    "converter": "IC1 TPS5450DDA",
+    "j8_actual_library_part": "USB_C_Receptacle_PowerOnly_6P",
+    "j8_value_text": "USB_C_Receptacle_USB2.0_14P",
+    "main_rails": [
+      {
+        "net": "+3V3",
+        "nodes": [
+          {
+            "ref": "C11",
+            "pin": "1",
+            "pintype": "passive"
+          },
+          {
+            "ref": "J4",
+            "pin": "15",
+            "pinfunction": "VDD_15",
+            "pintype": "power_in"
+          },
+          {
+            "ref": "J5",
+            "pin": "15",
+            "pinfunction": "VDD_15",
+            "pintype": "power_in"
+          },
+          {
+            "ref": "J5",
+            "pin": "7",
+            "pinfunction": "MS1_7",
+            "pintype": "input"
+          },
+          {
+            "ref": "R11",
+            "pin": "2",
+            "pintype": "passive"
+          },
+          {
+            "ref": "R12",
+            "pin": "2",
+            "pintype": "passive"
+          },
+          {
+            "ref": "R4",
+            "pin": "2",
+            "pintype": "passive"
+          },
+          {
+            "ref": "R5",
+            "pin": "1",
+            "pintype": "passive"
+          },
+          {
+            "ref": "R6",
+            "pin": "1",
+            "pintype": "passive"
+          },
+          {
+            "ref": "U1",
+            "pin": "36",
+            "pinfunction": "3V3_36",
+            "pintype": "unspecified"
+          },
+          {
+            "ref": "U2",
+            "pin": "8",
+            "pinfunction": "VCC_8",
+            "pintype": "power_in"
+          },
+          {
+            "ref": "U4",
+            "pin": "16",
+            "pinfunction": "VCC_16",
+            "pintype": "power_in"
+          }
+        ]
+      },
+      {
+        "net": "+5V",
+        "nodes": [
+          {
+            "ref": "C15",
+            "pin": "1",
+            "pintype": "passive"
+          },
+          {
+            "ref": "C16",
+            "pin": "1",
+            "pintype": "passive"
+          },
+          {
+            "ref": "C17",
+            "pin": "1",
+            "pintype": "passive"
+          },
+          {
+            "ref": "C18",
+            "pin": "1",
+            "pintype": "passive"
+          },
+          {
+            "ref": "C8",
+            "pin": "1",
+            "pintype": "passive"
+          },
+          {
+            "ref": "C9",
+            "pin": "1",
+            "pintype": "passive"
+          },
+          {
+            "ref": "J1",
+            "pin": "10",
+            "pinfunction": "Pin_10_10",
+            "pintype": "passive"
+          },
+          {
+            "ref": "J11",
+            "pin": "2",
+            "pinfunction": "Pin_2_2",
+            "pintype": "passive"
+          },
+          {
+            "ref": "J12",
+            "pin": "2",
+            "pinfunction": "Pin_2_2",
+            "pintype": "passive"
+          },
+          {
+            "ref": "J13",
+            "pin": "2",
+            "pinfunction": "Pin_2_2",
+            "pintype": "passive"
+          },
+          {
+            "ref": "J2",
+            "pin": "10",
+            "pinfunction": "Pin_10_10",
+            "pintype": "passive"
+          },
+          {
+            "ref": "L1",
+            "pin": "2",
+            "pinfunction": "2_2",
+            "pintype": "passive"
+          },
+          {
+            "ref": "R3",
+            "pin": "2",
+            "pintype": "passive"
+          },
+          {
+            "ref": "R9",
+            "pin": "1",
+            "pintype": "passive"
+          },
+          {
+            "ref": "U1",
+            "pin": "39",
+            "pinfunction": "VSYS_39",
+            "pintype": "unspecified"
+          },
+          {
+            "ref": "U5",
+            "pin": "5",
+            "pinfunction": "VCC_5",
+            "pintype": "power_in"
+          },
+          {
+            "ref": "U6",
+            "pin": "5",
+            "pinfunction": "VCC_5",
+            "pintype": "power_in"
+          },
+          {
+            "ref": "U7",
+            "pin": "5",
+            "pinfunction": "VCC_5",
+            "pintype": "power_in"
+          },
+          {
+            "ref": "U8",
+            "pin": "5",
+            "pinfunction": "VCC_5",
+            "pintype": "power_in"
+          }
+        ]
+      },
+      {
+        "net": "VBUS",
+        "nodes": [
+          {
+            "ref": "C1",
+            "pin": "1",
+            "pintype": "passive"
+          },
+          {
+            "ref": "C2",
+            "pin": "1",
+            "pintype": "passive"
+          },
+          {
+            "ref": "C3",
+            "pin": "1",
+            "pintype": "passive"
+          },
+          {
+            "ref": "C4",
+            "pin": "1",
+            "pintype": "passive"
+          },
+          {
+            "ref": "C5",
+            "pin": "1",
+            "pintype": "passive"
+          },
+          {
+            "ref": "IC1",
+            "pin": "7",
+            "pinfunction": "VIN_7",
+            "pintype": "passive"
+          },
+          {
+            "ref": "J4",
+            "pin": "9",
+            "pinfunction": "VM_9",
+            "pintype": "power_in"
+          },
+          {
+            "ref": "J5",
+            "pin": "9",
+            "pinfunction": "VM_9",
+            "pintype": "power_in"
+          },
+          {
+            "ref": "J8",
+            "pin": "A9",
+            "pinfunction": "VBUS_A9",
+            "pintype": "passive"
+          },
+          {
+            "ref": "J8",
+            "pin": "B9",
+            "pinfunction": "VBUS_B9",
+            "pintype": "passive"
+          },
+          {
+            "ref": "R2",
+            "pin": "2",
+            "pintype": "passive"
+          },
+          {
+            "ref": "R7",
+            "pin": "1",
+            "pintype": "passive"
+          },
+          {
+            "ref": "R8",
+            "pin": "2",
+            "pintype": "passive"
+          }
+        ]
+      }
+    ],
+    "note": "Motor-module VM pins are on incoming VBUS. The 5 V rail supplies controller VSYS, display headers, accessory ports, and buffers.",
+    "j8_placed_pcb_footprint": {
+      "method": "KiCad 10.0.4 pcbnew native placed-footprint pad inspection",
+      "source": "archive/motor_expansion_board_v2/pcb/pico_expansion_board.kicad_pcb",
+      "source_sha256": "7b184036ec74cfa7ea3cbde14c106a1f876897e72f4c0b82b1525a830018f09a",
+      "library_item_name": "USB_C_Receptacle_HRO_TYPE-C-31-M-17",
+      "pads": [
+        {
+          "pad": "A5",
+          "net": "/power_supply/CC1"
+        },
+        {
+          "pad": "A9",
+          "net": "VBUS"
+        },
+        {
+          "pad": "A12",
+          "net": "GND"
+        },
+        {
+          "pad": "B5",
+          "net": "/power_supply/CC2"
+        },
+        {
+          "pad": "B9",
+          "net": "VBUS"
+        },
+        {
+          "pad": "B12",
+          "net": "GND"
+        },
+        {
+          "pad": "S1",
+          "net": "GND"
+        },
+        {
+          "pad": "S1",
+          "net": "GND"
+        },
+        {
+          "pad": "S1",
+          "net": "GND"
+        },
+        {
+          "pad": "S1",
+          "net": "GND"
+        }
+      ],
+      "usb_data_pads_present": false,
+      "note": "Six electrical contacts and four shield pads. The library item name does not establish a data-capable footprint."
+    }
+  },
+  "sourcing_policy": {
+    "lcsc": "Preferred",
+    "mellow_fly": "Accepted source for missing parts and TMC2209 inventory",
+    "tmc2209_inventory_basis": "User reports ample stock; exact MPN, quantity, and allocation not independently established."
+  },
+  "usb_service_direction": {
+    "confirmed": "USB-C PD power at the existing v2.1 position, with separate initial-programming/debug access (DEC-007).",
+    "proposed": [
+      "Vertical service USB connector",
+      "Optional omission of service connector in production",
+      "Programming and recovery contact pads matched to Mellow fixture",
+      "Controller-only power from protected PC USB branch"
+    ],
+    "protocol_note": "Ordinary USB-A-to-C cables can support USB 2.0 service data and 5 V, but do not carry USB-C PD CC negotiation for the required 12 V motor supply."
+  },
+  "confirmed_architecture_scope": {
+    "mcu": {
+      "part": "ESP32-S3R8",
+      "quantity": 1,
+      "decision": "DEC-009"
+    },
+    "pd_source": {
+      "required": "Compatible 12 V USB-PD PSU",
+      "accept_15_20_v_only_sources_required": false,
+      "decision": "DEC-010"
+    },
+    "driver_cooling": {
+      "method": "Passive heatsinks using Fly TMC2209 StepStick reference and manufacturer layout practices",
+      "environment": "Room temperature, potentially inside a case",
+      "separate_thermal_design_required": false,
+      "continuous_1500_ma_rms_board_rating_required": false,
+      "upper_setting_recommended_normal_operation": false,
+      "decision": "DEC-016"
+    },
+    "qspi_display": {
+      "diagonal_inch_range": [
+        3.5,
+        4.0
+      ],
+      "required_on_first_prototype": true,
+      "primary_sourcing_target": "Mellow3D/Fly AliExpress offering",
+      "encoder_required": false,
+      "physical_buttons_required": false,
+      "touch_requirement": "Proposed input method; not explicitly confirmed",
+      "exact_model": "TDO TS040WVS02CP-B1617A: qualification target, not production-approved",
+      "decisions": [
+        "DEC-011",
+        "DEC-012",
+        "DEC-015"
+      ],
+      "qualification": "Desk research complete; exact assembly/driver/power/cable and Mellow sourcing plus sample demonstration remain",
+      "display_bridge": "External display assembly contains a TR230S bridge with RISC-V core and supplied firmware; no second MCU on the V3 PCB"
+    },
+    "mechanical": {
+      "retained": [
+        "Archived v2.1 board outline",
+        "Mounting geometry",
+        "Existing connector placement and compatibility"
+      ],
+      "mandatory_existing_enclosure": false,
+      "decision": "DEC-013"
+    },
+    "deliverable_scope": {
+      "included": [
+        "PCB design",
+        "Manufacturing preparation",
+        "Hardware bring-up and interface test firmware",
+        "Static firmware-feasibility analysis before production"
+      ],
+      "separate": [
+        "Complete ESP32 application port",
+        "OTA implementation"
+      ],
+      "decision": "DEC-014"
+    },
+    "additional_io": {
+      "kind": "Remaining usable native GPIOs only",
+      "logic_voltage_v": 3.3,
+      "header_pitch_options_mm": [
+        2,
+        2.54
+      ],
+      "starting_pitch_mm": 2.54,
+      "minimum_count": null,
+      "priority": "Lower than required interfaces",
+      "application": "User-defined control signals only",
+      "expander_required": false,
+      "decision": "DEC-017"
+    },
+    "process": {
+      "decision": "DEC-018",
+      "existing_v3_cad": false,
+      "owmc_role": "Reference only, not starting PCB",
+      "pre_schematic": [
+        "Legacy-asset cleanup",
+        "Self-contained project resources and provenance",
+        "Complete intended net/endpoint specification",
+        "Numeric clearance/net-class rules with basis",
+        "Parent/child hierarchy and drawing conventions"
+      ],
+      "schematic_release": [
+        "Independent agent review against requirements",
+        "Findings resolved or explicitly dispositioned",
+        "Owner approval of exact reviewed revision before PCB implementation"
+      ],
+      "single_progress_tracker": "motor_expansion_board_v3/PROGRESS.md"
+    }
+  }
+}

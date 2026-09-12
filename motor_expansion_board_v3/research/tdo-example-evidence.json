@@ -1,0 +1,70 @@
+{
+  "source_url": "https://www.shtdo.com/Admin/Others/DownloadsPage.aspx?id=1805&nid=28&pre=1&ref=claproducts&t=ce1e104a43dbc409",
+  "archive_expected_bytes": 53369528,
+  "download_complete": false,
+  "downloaded_bytes": 7340032,
+  "note": "Bounded partial transfer; selected complete local ZIP members decompressed and checked against local-header size and CRC32. Central directory and remainder not downloaded. No code executed.",
+  "members": [
+    {
+      "archive_member": "CMakeLists.txt",
+      "size": 464,
+      "crc32": "c29411ac",
+      "sha256": "1b0576fdfaee2940879597bbe16400a60636b1837fdf5c5bd0a30a62a776e131"
+    },
+    {
+      "archive_member": "components/BSP/CMakeLists.txt",
+      "size": 622,
+      "crc32": "6b0eb210",
+      "sha256": "0ff430c2e62280e1326ad45440288b71d18cfc9aabb206c858c32ed278073693"
+    },
+    {
+      "archive_member": "components/BSP/SPILCD/qspi.c",
+      "size": 7006,
+      "crc32": "9e69a847",
+      "sha256": "1b8b112e3a69248a7e9eef4798d23eaa4a67e669534fadd8e73677f864201d7a"
+    },
+    {
+      "archive_member": "components/BSP/SPILCD/qspi.h",
+      "size": 2463,
+      "crc32": "792fd0d5",
+      "sha256": "4aab8d781b55fcd2da0cd2a855f5e35509a8e31dd67499bfec7700ec471bab37"
+    },
+    {
+      "archive_member": "components/BSP/SPILCD/qspilcd.c",
+      "size": 28466,
+      "crc32": "8cf8fb7b",
+      "sha256": "2e91050a6c202a98ed4cf2a01e19909613a9a607ddceda892dac22e121e6d084"
+    },
+    {
+      "archive_member": "components/BSP/SPILCD/qspilcd.h",
+      "size": 7003,
+      "crc32": "cefcf0de",
+      "sha256": "65567e442630d0076055f7b41d7390bd0fc040ac4f467711b3367e093414dfcf"
+    },
+    {
+      "archive_member": "components/BSP/TOUCH/gt9xxx.c",
+      "size": 13259,
+      "crc32": "54562757",
+      "sha256": "fb064bbd314d1850e2f884e46a6629c5b7037d068c9b7574d77482f9fa4b808e"
+    },
+    {
+      "archive_member": "components/BSP/TOUCH/gt9xxx.h",
+      "size": 4813,
+      "crc32": "66341d6b",
+      "sha256": "4123d9e4f11417e5d028bfb1b41bdc8ef5bf915347c71b6901c74a3d4155fc23"
+    },
+    {
+      "archive_member": "components/BSP/TOUCH/touch.c",
+      "size": 1737,
+      "crc32": "aae993d8",
+      "sha256": "a466dcbe1daa37420fe11b418cbcee7c66a7e7b170ad3c9bd0044cc7ed0cb7df"
+    },
+    {
+      "archive_member": "components/BSP/TOUCH/touch.h",
+      "size": 2858,
+      "crc32": "41cf7274",
+      "sha256": "35e235818c056c86de24f28f09a0752abb70ce47dee156b999a363fccb608ce8"
+    }
+  ],
+  "partial_archive_sha256": "294de366bf704bc3720c5c11d84377f7f8c7d0f96b844983ff09f3b6a6f13d15"
+}

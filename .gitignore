@@ -16,6 +16,7 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+.history/
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -30,6 +31,7 @@ fp-info-cache
 
 # Do not commit auto generated directory
 jlcpcb/
+!.agents/skills/jlcpcb/
 
 # Ignore temporary files
 *.lck

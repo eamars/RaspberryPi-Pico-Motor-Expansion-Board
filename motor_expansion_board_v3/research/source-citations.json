@@ -1,0 +1,216 @@
+{
+  "recorded_on": "2026-09-12",
+  "purpose": "Portable pinned citations replace local-workspace documentation links; source files are not production dependencies",
+  "files": [
+    {
+      "source_url": "https://github.com/eamars/OpenTrickler-RP2040-Controller/blob/4e384a384d714200eb5157a08e33d424e8e49f85/CMakeLists.txt",
+      "commit": "4e384a384d714200eb5157a08e33d424e8e49f85",
+      "sha256": "d75b8a8ad961fdbc5f57352f20207afc6af9a3a601e278ac47aeaef16fa14e99",
+      "path_at_capture": "C:/workspace/OpenTrickler-RP2040-Controller/CMakeLists.txt",
+      "purpose": "Cited static firmware/application evidence; no build-time dependency"
+    },
+    {
+      "source_url": "https://github.com/eamars/OpenTrickler-RP2040-Controller/blob/4e384a384d714200eb5157a08e33d424e8e49f85/src/app.c",
+      "commit": "4e384a384d714200eb5157a08e33d424e8e49f85",
+      "sha256": "b5ce1309fb2e9e7351c9864e893990cf2269bddb967b32f1f1ee4f4f56c76c3a",
+      "path_at_capture": "C:/workspace/OpenTrickler-RP2040-Controller/src/app.c",
+      "purpose": "Cited static firmware/application evidence; no build-time dependency"
+    },
+    {
+      "source_url": "https://github.com/eamars/OpenTrickler-RP2040-Controller/blob/4e384a384d714200eb5157a08e33d424e8e49f85/targets/raspberrypi_pico_w_config.h",
+      "commit": "4e384a384d714200eb5157a08e33d424e8e49f85",
+      "sha256": "8bd04c312606514d9876155e888486ca1911cdc4985bf23ea67aff4cffa91101",
+      "path_at_capture": "C:/workspace/OpenTrickler-RP2040-Controller/targets/raspberrypi_pico_w_config.h",
+      "purpose": "Cited static firmware/application evidence; no build-time dependency"
+    },
+    {
+      "source_url": "https://github.com/eamars/OpenTrickler-RP2040-Controller/blob/4e384a384d714200eb5157a08e33d424e8e49f85/src/gpio_irq_handler.h",
+      "commit": "4e384a384d714200eb5157a08e33d424e8e49f85",
+      "sha256": "67cae0adfc8160b94540e04855c341e9161394b57b6811cc268d55011cb70f2a",
+      "path_at_capture": "C:/workspace/OpenTrickler-RP2040-Controller/src/gpio_irq_handler.h",
+      "purpose": "Cited static firmware/application evidence; no build-time dependency"
+    },
+    {
+      "source_url": "https://github.com/eamars/OpenTrickler-RP2040-Controller/blob/4e384a384d714200eb5157a08e33d424e8e49f85/src/mini_12864_module.cpp",
+      "commit": "4e384a384d714200eb5157a08e33d424e8e49f85",
+      "sha256": "ca93cf83ca4bd9894f171ce6dd7d1bf6b0aaf810956b2c3f93d78f7a7a39e88f",
+      "path_at_capture": "C:/workspace/OpenTrickler-RP2040-Controller/src/mini_12864_module.cpp",
+      "purpose": "Cited static firmware/application evidence; no build-time dependency"
+    },
+    {
+      "source_url": "https://github.com/eamars/OpenTrickler-RP2040-Controller/blob/4e384a384d714200eb5157a08e33d424e8e49f85/src/stepper.pio",
+      "commit": "4e384a384d714200eb5157a08e33d424e8e49f85",
+      "sha256": "10274a30b7ddfb33802ea8aa0ecc1fff5bcc41bf1f7e442867a5acbc379bb855",
+      "path_at_capture": "C:/workspace/OpenTrickler-RP2040-Controller/src/stepper.pio",
+      "purpose": "Cited static firmware/application evidence; no build-time dependency"
+    },
+    {
+      "source_url": "https://github.com/eamars/OpenTrickler-RP2040-Controller/blob/4e384a384d714200eb5157a08e33d424e8e49f85/src/neopixel_led.c",
+      "commit": "4e384a384d714200eb5157a08e33d424e8e49f85",
+      "sha256": "1ee2aa1c3a762e82331121c3a6a6c9455904e11e17547c944c225c644d276a1e",
+      "path_at_capture": "C:/workspace/OpenTrickler-RP2040-Controller/src/neopixel_led.c",
+      "purpose": "Cited static firmware/application evidence; no build-time dependency"
+    },
+    {
+      "source_url": "https://github.com/eamars/OpenTrickler-RP2040-Controller/blob/4e384a384d714200eb5157a08e33d424e8e49f85/src/servo_gate.c",
+      "commit": "4e384a384d714200eb5157a08e33d424e8e49f85",
+      "sha256": "838a78ed12159472a35692c5570d8d7633117e5678ad06a9e6d2e8d647e1f0c4",
+      "path_at_capture": "C:/workspace/OpenTrickler-RP2040-Controller/src/servo_gate.c",
+      "purpose": "Cited static firmware/application evidence; no build-time dependency"
+    },
+    {
+      "source_url": "https://github.com/eamars/OpenTrickler-RP2040-Controller/blob/4e384a384d714200eb5157a08e33d424e8e49f85/src/motors.c",
+      "commit": "4e384a384d714200eb5157a08e33d424e8e49f85",
+      "sha256": "2599369db41c5914faa74034b1b8b94e9c7763c1ff640c4779f1450764b9e988",
+      "path_at_capture": "C:/workspace/OpenTrickler-RP2040-Controller/src/motors.c",
+      "purpose": "Cited static firmware/application evidence; no build-time dependency"
+    },
+    {
+      "source_url": "https://github.com/terjeio/Trinamic-library/blob/d7debfaffcb6e3d62c025455a629be6bd7e4d22d/tmc2209.c",
+      "commit": "d7debfaffcb6e3d62c025455a629be6bd7e4d22d",
+      "sha256": "b016ff2e254c1fe0a73bb1a4b021cea3eeb3736bee233b6e1e28e9bb90f08705",
+      "path_at_capture": "C:/workspace/OpenTrickler-RP2040-Controller/library/Trinamic-library/tmc2209.c",
+      "purpose": "Cited static firmware/application evidence; no build-time dependency"
+    },
+    {
+      "source_url": "https://github.com/eamars/OpenTrickler-RP2040-Controller/blob/4e384a384d714200eb5157a08e33d424e8e49f85/src/menu.c",
+      "commit": "4e384a384d714200eb5157a08e33d424e8e49f85",
+      "sha256": "b2e5f7e25ddc9e8d6c5611b3d1e79425e4ab7c49812b4e8ab3fa1381713b5151",
+      "path_at_capture": "C:/workspace/OpenTrickler-RP2040-Controller/src/menu.c",
+      "purpose": "Cited static firmware/application evidence; no build-time dependency"
+    },
+    {
+      "source_url": "https://github.com/eamars/OpenTrickler-RP2040-Controller/blob/4e384a384d714200eb5157a08e33d424e8e49f85/src/html/display_mirror.html",
+      "commit": "4e384a384d714200eb5157a08e33d424e8e49f85",
+      "sha256": "693b0b90cf5137423052cafcec5eba829edb964ce3d71ee5767394648c8ede26",
+      "path_at_capture": "C:/workspace/OpenTrickler-RP2040-Controller/src/html/display_mirror.html",
+      "purpose": "Cited static firmware/application evidence; no build-time dependency"
+    },
+    {
+      "source_url": "https://github.com/eamars/OpenTrickler-RP2040-Controller/blob/4e384a384d714200eb5157a08e33d424e8e49f85/src/FreeRTOSConfig.h",
+      "commit": "4e384a384d714200eb5157a08e33d424e8e49f85",
+      "sha256": "d2b38157e4a8cb6bc2a5a548dce8f35d5475f13cf70c94a2533df81ec7f2f177",
+      "path_at_capture": "C:/workspace/OpenTrickler-RP2040-Controller/src/FreeRTOSConfig.h",
+      "purpose": "Cited static firmware/application evidence; no build-time dependency"
+    },
+    {
+      "source_url": "https://github.com/eamars/OpenTrickler-RP2040-Controller/blob/4e384a384d714200eb5157a08e33d424e8e49f85/manuals/firmware_update_via_usb.md",
+      "commit": "4e384a384d714200eb5157a08e33d424e8e49f85",
+      "sha256": "756d09c8bccda6dc5196110e0075d51fbf662b82ce74ac08c36437925cb36aa7",
+      "path_at_capture": "C:/workspace/OpenTrickler-RP2040-Controller/manuals/firmware_update_via_usb.md",
+      "purpose": "Cited static firmware/application evidence; no build-time dependency"
+    },
+    {
+      "source_url": "https://github.com/eamars/OpenTrickler-RP2040-Controller/blob/4e384a384d714200eb5157a08e33d424e8e49f85/src/system_control.c",
+      "commit": "4e384a384d714200eb5157a08e33d424e8e49f85",
+      "sha256": "a92c9fe94923803cfb90e10f6043c31842b5b16cb27571a354b4f617a1862c98",
+      "path_at_capture": "C:/workspace/OpenTrickler-RP2040-Controller/src/system_control.c",
+      "purpose": "Cited static firmware/application evidence; no build-time dependency"
+    },
+    {
+      "source_url": "https://github.com/eamars/OpenTrickler-RP2040-Controller/blob/4e384a384d714200eb5157a08e33d424e8e49f85/src/common.c",
+      "commit": "4e384a384d714200eb5157a08e33d424e8e49f85",
+      "sha256": "3e57f8a80a42bb0c0d33743bda2cf182036472f3c57934693f3a6c31da345f00",
+      "path_at_capture": "C:/workspace/OpenTrickler-RP2040-Controller/src/common.c",
+      "purpose": "Cited static firmware/application evidence; no build-time dependency"
+    },
+    {
+      "source_url": "https://github.com/eamars/OpenTrickler-RP2040-Controller/blob/4e384a384d714200eb5157a08e33d424e8e49f85/src/eeprom.c",
+      "commit": "4e384a384d714200eb5157a08e33d424e8e49f85",
+      "sha256": "347718747954f1951a983d4a814fbefdd38b78c28155ade95136a18af5130249",
+      "path_at_capture": "C:/workspace/OpenTrickler-RP2040-Controller/src/eeprom.c",
+      "purpose": "Cited static firmware/application evidence; no build-time dependency"
+    },
+    {
+      "source_url": "https://github.com/eamars/OpenTrickler-RP2040-Controller/blob/4e384a384d714200eb5157a08e33d424e8e49f85/src/wireless.c",
+      "commit": "4e384a384d714200eb5157a08e33d424e8e49f85",
+      "sha256": "1c4e0eafbf411a038ca4ea8a6ce4d4d011079287d9b521eb890c4abafd6bc5d9",
+      "path_at_capture": "C:/workspace/OpenTrickler-RP2040-Controller/src/wireless.c",
+      "purpose": "Cited static firmware/application evidence; no build-time dependency"
+    },
+    {
+      "source_url": "https://github.com/eamars/OpenTrickler-RP2040-Controller/blob/4e384a384d714200eb5157a08e33d424e8e49f85/src/scale.c",
+      "commit": "4e384a384d714200eb5157a08e33d424e8e49f85",
+      "sha256": "b72e6dd45759434fa31ccabd1c1c98c8373cae7c29e6034cdef554ac1ddb60f2",
+      "path_at_capture": "C:/workspace/OpenTrickler-RP2040-Controller/src/scale.c",
+      "purpose": "Cited static firmware/application evidence; no build-time dependency"
+    },
+    {
+      "source_url": "https://github.com/eamars/OpenTrickler/blob/6a0b9711194d59aa796af89c6224d7331031c4ff/readme.md",
+      "commit": "6a0b9711194d59aa796af89c6224d7331031c4ff",
+      "sha256": "f09ce928998d934baa095cc602c30ccd142132f353a3a719e5e8dd7129b37f38",
+      "path_at_capture": "C:/workspace/OpenTrickler/readme.md",
+      "purpose": "Cited static firmware/application evidence; no build-time dependency"
+    },
+    {
+      "source_url": "https://github.com/eamars/OpenTrickler-RP2040-Controller/blob/4e384a384d714200eb5157a08e33d424e8e49f85/README.md",
+      "commit": "4e384a384d714200eb5157a08e33d424e8e49f85",
+      "sha256": "bd0c4888371ee9e1a8a732c836b7f74e7cb3de1cf1bb7c04bb3bb5b1b0e03dab",
+      "path_at_capture": "C:/workspace/OpenTrickler-RP2040-Controller/README.md",
+      "purpose": "Cited static firmware/application evidence; no build-time dependency"
+    },
+    {
+      "source_url": "https://github.com/eamars/OpenTrickler/blob/6a0b9711194d59aa796af89c6224d7331031c4ff/Manual/sourcing_guide.md",
+      "commit": "6a0b9711194d59aa796af89c6224d7331031c4ff",
+      "sha256": "f429e390069ac861becf3dcba66364ce44c58a0062e79e8f8aa722916229e98e",
+      "path_at_capture": "C:/workspace/OpenTrickler/Manual/sourcing_guide.md",
+      "purpose": "Cited static firmware/application evidence; no build-time dependency"
+    },
+    {
+      "source_url": "https://github.com/eamars/OpenTrickler/blob/6a0b9711194d59aa796af89c6224d7331031c4ff/CommunityContributions/eamars/neopixel_led_mod/readme.md",
+      "commit": "6a0b9711194d59aa796af89c6224d7331031c4ff",
+      "sha256": "779c5e71944a0bdf5e471d4c5f9b16d7e58f97a09294e7c23b8291ab272a2841",
+      "path_at_capture": "C:/workspace/OpenTrickler/CommunityContributions/eamars/neopixel_led_mod/readme.md",
+      "purpose": "Cited static firmware/application evidence; no build-time dependency"
+    },
+    {
+      "source_url": "https://github.com/eamars/OpenTrickler-RP2040-Controller/blob/4e384a384d714200eb5157a08e33d424e8e49f85/src/neopixel_led.h",
+      "commit": "4e384a384d714200eb5157a08e33d424e8e49f85",
+      "sha256": "135837e6b0aaa1235c6e7e8a9c9d0f39aa61a56e6c685d6f2ab3a165dcc8a27b",
+      "path_at_capture": "C:/workspace/OpenTrickler-RP2040-Controller/src/neopixel_led.h",
+      "purpose": "Cited static firmware/application evidence; no build-time dependency"
+    },
+    {
+      "source_url": "https://github.com/eamars/OpenTrickler-RP2040-Controller/blob/4e384a384d714200eb5157a08e33d424e8e49f85/src/display.c",
+      "commit": "4e384a384d714200eb5157a08e33d424e8e49f85",
+      "sha256": "1e94d86d1536254680a7e9e6f8a65d934bf2c0bfa0f774dcc297e371338aabee",
+      "path_at_capture": "C:/workspace/OpenTrickler-RP2040-Controller/src/display.c",
+      "purpose": "Cited static firmware/application evidence; no build-time dependency"
+    },
+    {
+      "source_url": "https://github.com/eamars/OpenTrickler-RP2040-Controller/blob/4e384a384d714200eb5157a08e33d424e8e49f85/src/rest_endpoints.c",
+      "commit": "4e384a384d714200eb5157a08e33d424e8e49f85",
+      "sha256": "39f2c567984222063174b730a1461d799e5fa57b974e56857175462abf369b17",
+      "path_at_capture": "C:/workspace/OpenTrickler-RP2040-Controller/src/rest_endpoints.c",
+      "purpose": "Cited static firmware/application evidence; no build-time dependency"
+    },
+    {
+      "source_url": "https://github.com/eamars/OpenTrickler-RP2040-Controller/blob/4e384a384d714200eb5157a08e33d424e8e49f85/src/eeprom.h",
+      "commit": "4e384a384d714200eb5157a08e33d424e8e49f85",
+      "sha256": "3145d30d85af015ff72862290c2646e48fcd5a08c4f3a7e71a63ae7766cec2ca",
+      "path_at_capture": "C:/workspace/OpenTrickler-RP2040-Controller/src/eeprom.h",
+      "purpose": "Cited static firmware/application evidence; no build-time dependency"
+    },
+    {
+      "source_url": "https://github.com/eamars/OpenTrickler-RP2040-Controller/blob/4e384a384d714200eb5157a08e33d424e8e49f85/src/cat24c256_eeprom.c",
+      "commit": "4e384a384d714200eb5157a08e33d424e8e49f85",
+      "sha256": "6f9d109560f1278e9fc1674974136063e53821447ed5da2e0f678dd3066e5bda",
+      "path_at_capture": "C:/workspace/OpenTrickler-RP2040-Controller/src/cat24c256_eeprom.c",
+      "purpose": "Cited static firmware/application evidence; no build-time dependency"
+    },
+    {
+      "source_url": "https://github.com/eamars/OpenTrickler-RP2040-Controller/blob/4e384a384d714200eb5157a08e33d424e8e49f85/src/access_point_mode.c",
+      "commit": "4e384a384d714200eb5157a08e33d424e8e49f85",
+      "sha256": "f15a3643e7b179ed788ea2d2a62fdbeb24807f22f5d7c8f9f1d5dc21fe8550d5",
+      "path_at_capture": "C:/workspace/OpenTrickler-RP2040-Controller/src/access_point_mode.c",
+      "purpose": "Cited static firmware/application evidence; no build-time dependency"
+    },
+    {
+      "source_url": "https://github.com/terjeio/Trinamic-library/blob/d7debfaffcb6e3d62c025455a629be6bd7e4d22d/tmc2209.h",
+      "commit": "d7debfaffcb6e3d62c025455a629be6bd7e4d22d",
+      "sha256": "0bfc2dd0f09491148358190fa1821e4205ae9bb839c9095d68bdb0dea098a9bc",
+      "path_at_capture": "C:/workspace/OpenTrickler-RP2040-Controller/library/Trinamic-library/tmc2209.h",
+      "purpose": "Cited static firmware/application evidence; no build-time dependency"
+    }
+  ]
+}
