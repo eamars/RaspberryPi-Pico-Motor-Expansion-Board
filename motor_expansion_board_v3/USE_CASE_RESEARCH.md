@@ -21,7 +21,9 @@ and require a selected 3.5-4 inch QSPI display to work on the first prototype,
 without encoder/buttons in that mode. Later decisions remove additional
 existing-case restrictions and limit this work to PCB/hardware bring-up plus
 static firmware feasibility; a full application/OTA port is separate (DEC-009
-through DEC-014). DEC-015 selects TDO TS040WVS02CP-B1617A for QSPI qualification
+through DEC-014). DEC-019 subsequently limits assistant delivery to the complete
+schematic, PCB layout and first preliminary BOM. The owner manages production;
+Mellow manufactures and performs initial functional testing. DEC-015 selects TDO TS040WVS02CP-B1617A for QSPI qualification
 through Mellow. DEC-016 specifies room-temperature use and the Fly TMC2209
 StepStick/heatsink reference, without a separate thermal design or continuous
 1.5 A RMS rating. DEC-017 assigns remaining usable native GPIOs to a lower-priority
@@ -75,12 +77,16 @@ exclusive electrical demand. It does not reveal actual motor current: that
 depends on the selected servo, its supply, mechanical load, and transient
 conditions.[^servo-code]
 
-The sourcing guide names MG90S; the agreed requirement currently says
-MG90-class. The precise supplied variant matters. TowerPro's MG90S product page
-provides operating and mechanical information but no stall-current limit.
-An exact supplier specification or measurements of the intended parts are still
-needed. A numerical current copied from a different small servo would not close
-this gap.[^sourcing][^servo-maker]
+The user directs use of the sourcing-guide baseline (DEC-019): **MG90S**, with
+the guide's recommendation for full metal and 180-degree rotation, linked as
+[AliExpress item 1005004550692203](https://www.aliexpress.com/item/1005004550692203.html).
+This settles the intended model/source. The listing could not be read through
+the current web tool, so no live SKU, stock or current rating is inferred.
+TowerPro's separate MG90S page gives no stall-current limit and does not prove
+that the linked seller supplies that manufacturer's exact unit. Peak-current
+evidence remains an engineering/supplier check, with Mellow performing any
+required physical measurement. Do not ask the owner to select the model again.
+[^sourcing][^servo-maker]
 
 The external lighting modification specifies two Adafruit 4776 RGBW button
 PCBs. Current firmware independently defaults to a two-pixel RGBW chain and
@@ -268,8 +274,8 @@ proposals. Servo current, exact display demand, component substitutions, voltage
 qualification, and prototype behaviour remain open. The report does not imply
 that the firmware was executed on ESP32 or that V3 electrical tests have passed.
 
-The next concrete inputs are the exact servo supply identity and current
-evidence, the retained Mini12864 revision and the chosen TDO assembly's interface,
+The next concrete inputs are servo current evidence, the retained Mini12864
+revision and the chosen TDO assembly's interface,
 power and cable details. No existing enclosure fit is mandatory; service access
 and fixture geometry are engineering choices. These determine the final power
 budget and pin allocation. Mellow/Fly is

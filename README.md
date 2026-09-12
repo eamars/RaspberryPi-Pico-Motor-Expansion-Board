@@ -6,6 +6,11 @@ V3 is a new design in specification and research; no V3 schematic or PCB exists 
 > You can purchase the board directly from Mellow 3D and ship worldwide now. 
 > LINK: https://www.aliexpress.com/item/1005008080766173.html
 
+V3 design delivery ends at the complete schematic, PCB layout and first
+preliminary BOM. The owner manages production; Mellow manufactures and performs
+initial functional testing. The independent schematic review and owner approval
+gate remain mandatory before V3 PCB implementation.
+
 The Raspberry Pi Pico Motor Expansion Board V2 vis designed to be used as the controller for [OpenTrickler](https://github.com/eamars/OpenTrickler). The board is designed to trickle certain amount of charges (e.g, gun powder) from the reservoir by reading measurements from the attached precision digital balance and actuate corresponding motors. 
 
 ![3d_view](resources/3d_view.png)

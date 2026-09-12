@@ -116,8 +116,16 @@
   "confirmed_powered_accessory_envelope": {
     "servos": {
       "count": 2,
-      "family": "MG90-class; exact supplied variant TBD",
-      "peak_current_a": null
+      "family": "MG90S per OpenTrickler sourcing guide",
+      "peak_current_a": null,
+      "guide_recommendation": "Full metal, 180-degree rotation",
+      "source_url": "https://www.aliexpress.com/item/1005004550692203.html",
+      "guide_url": "https://github.com/eamars/OpenTrickler/blob/6a0b9711194d59aa796af89c6224d7331031c4ff/Manual/sourcing_guide.md#servo-motors",
+      "decision": "DEC-019",
+      "model_source_question_resolved": true,
+      "live_listing_access": "Unavailable through web tool on 2026-09-12; no live SKU/stock/current specification asserted",
+      "manufacturer_of_linked_item": "Not independently established",
+      "current_evidence_owner": "Engineering sources; Mellow for physical measurement"
     },
     "external_leds": {
       "typical_count": 2,
@@ -245,5 +253,11 @@
     "separate_thermal_design_required": false,
     "continuous_upper_current_rating_claimed": false,
     "upper_setting_recommended_normal_operation": false
+  },
+  "delivery_ownership": {
+    "assistant": "Complete schematic, PCB layout and first preliminary BOM, plus static feasibility/design-review evidence",
+    "owner": "Production planning, purchasing and release",
+    "mellow": "Manufacturing and initial functional testing",
+    "decision": "DEC-019"
   }
 }

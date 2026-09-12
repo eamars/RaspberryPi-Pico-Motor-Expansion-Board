@@ -1,14 +1,25 @@
 {
   "checked_on": "2026-09-12",
-  "scope": "Documentation, provenance and cleanup verification; not electrical or physical design verification",
-  "requirements": 32,
+  "scope": "Documentation, DEC-019 ownership and source-guide checks; not schematic/PCB or physical acceptance",
+  "requirements": 33,
   "process_requirements": 7,
-  "work_register_entries": 41,
+  "work_register_entries": 42,
   "markdown_files": 12,
-  "local_links_checked": 121,
-  "file_hash_checks": 267,
-  "rollback_files": 203,
-  "retained_reference_files": 5,
+  "local_links_checked": 122,
+  "current_source_guide_hash_checks": 1,
+  "downstream_tasks_owned_externally": [
+    "P-02",
+    "P-03",
+    "P-04",
+    "P-05"
+  ],
   "active_v3_cad_files": 0,
+  "prior_cleanup_verification": {
+    "checked_on": "2026-09-12",
+    "file_hash_checks": 267,
+    "rollback_files": 203,
+    "retained_reference_files": 5,
+    "errors": []
+  },
   "errors": []
 }

@@ -835,16 +835,30 @@
     },
     "deliverable_scope": {
       "included": [
-        "PCB design",
-        "Manufacturing preparation",
-        "Hardware bring-up and interface test firmware",
-        "Static firmware-feasibility analysis before production"
+        "Complete schematic",
+        "Complete PCB layout",
+        "First preliminary BOM with per-board quantities",
+        "Static firmware-feasibility and design-review evidence",
+        "Independent schematic review and explicit owner approval before PCB implementation",
+        "Design/interface/assembly notes and remaining test needs"
+      ],
+      "owner_responsibilities": [
+        "Production management",
+        "Purchasing, batch quantities and scheduling",
+        "Downstream release decisions"
+      ],
+      "mellow_responsibilities": [
+        "Manufacturing",
+        "Initial functional testing"
       ],
       "separate": [
+        "Physical bring-up and test execution",
+        "Test-firmware implementation and factory fixture execution",
         "Complete ESP32 application port",
         "OTA implementation"
       ],
-      "decision": "DEC-014"
+      "assistant_endpoint": "Design and first preliminary-BOM handoff P-01",
+      "decision": "DEC-019"
     },
     "additional_io": {
       "kind": "Remaining usable native GPIOs only",

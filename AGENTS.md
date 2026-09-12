@@ -14,6 +14,15 @@ change. Do not create parallel task/status trackers. Requirements describe the
 agreed specification; research reports hold evidence; PROGRESS.md holds work
 status across research, schematic, placement, routing, BOM, checks and bring-up.
 
+DEC-019 limits assistant delivery to the completed schematic, PCB layout and
+first preliminary BOM, including static feasibility and design-review evidence.
+The owner manages production; Mellow manufactures and performs initial functional
+testing. Track downstream acceptance separately by owner in the same tracker;
+do not execute production management, purchasing or physical bring-up as assistant
+scope. Use per-board BOM quantities without asking for production batch size or
+schedule. Servo baseline is the MG90S identified in OpenTrickler's sourcing guide,
+with its full-metal 180-degree recommendation and AliExpress item 1005004550692203.
+
 The copied OWMC design is reference material only. There is no pre-existing V3
 schematic or PCB to continue. Before schematic implementation, complete the
 cleanup, self-contained resource audit, intended net/endpoint specification,

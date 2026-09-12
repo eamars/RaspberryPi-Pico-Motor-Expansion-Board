@@ -5,9 +5,12 @@ read-only investigations. [PROGRESS.md](PROGRESS.md) is the sole task/status
 tracker; this file records findings, evidence, consequences and verification
 limits. [REQUIREMENTS.md](REQUIREMENTS.md) remains the specification.
 
-The scope is PCB design and hardware bring-up with static firmware-feasibility
-analysis before production. Exactly one ESP32-S3R8 is required. A full ESP32
-application/OTA port is separately scoped. No schematic/layout changes,
+This research covers PCB interfaces and static firmware feasibility. DEC-019
+sets assistant delivery at the completed schematic, PCB layout and first
+preliminary BOM. The owner manages production and Mellow manufactures/performs
+initial functional testing. Application/OTA/test-firmware implementation and
+physical bring-up are downstream work. Exactly one ESP32-S3R8 is required.
+No schematic/layout changes,
 hardware operation, purchases or supplier messages were part of this research.
 
 Later user decisions retain QSPI and select the TDO candidate for Mellow sourcing
@@ -331,6 +334,10 @@ waveform checks, and power/reset/source-isolation measurements. RF checks and
 ordinary operating observations use recorded conditions. A separate thermal
 design and continuous 1.5 A RMS qualification are outside scope. These are planned acceptance
 checks; none passed through this static investigation.
+Under DEC-019 these physical checks belong to the owner/Mellow. The assistant
+delivers static feasibility, design constraints and test needs at P-01; it does
+not implement or run the downstream bring-up firmware. Read the action descriptions
+above in that ownership context.
 
 Firmware research used clean commit
 `4e384a384d714200eb5157a08e33d424e8e49f85`. Mechanical measurements used native

@@ -25,7 +25,7 @@ before that count becomes a commitment.
 
 The practical application is examined in
 [USE_CASE_RESEARCH.md](USE_CASE_RESEARCH.md). The supported accessory-power
-envelope is now **two MG90-class servos plus four external NeoPixels**, with
+envelope is now **two MG90S servos plus four external NeoPixels**, with
 display lighting additional and longer chains externally powered. The inherited
 5 V converter may be reduced once the real load budget supports it. Mellow/Fly
 may supply missing parts and its own TMC2209 stock; LCSC remains preferred.
@@ -39,17 +39,19 @@ driver, memory, and interface ICs support the single MCU.
 | MCU core | One directly fitted ESP32-S3R8 | Adapt the reference clock, reset/boot, decoupling, memory and RF circuits; 16 MB external flash is the reference-based starting point |
 | Input power | Compatible 12 V USB-PD PSU at the V2.1 USB-C position | Autonomous PD negotiation, voltage qualification, protection, source-current budget and defined failed-negotiation state |
 | Motor channels | Two onboard TMC2209s; 800 mA RMS default and adjustment up to 1.2-1.5 A RMS | Preserve existing motor connectors; Fly StepStick reference and passive heatsinks; no separate thermal design or continuous upper-current rating |
-| Accessory and controller rails | Two MG90-class servos, four external pixels, one selected display, controller and interface loads | Separate 5 V accessory and 3.3 V logic budgets; choose a smaller 5 V converter only if the load/transient evidence supports it |
+| Accessory and controller rails | Two sourcing-guide MG90S servos, four external pixels, one selected display, controller and interface loads | Separate 5 V accessory and 3.3 V logic budgets; choose a smaller 5 V converter only if the load/transient evidence supports it |
 | Display interfaces | Existing Mini12864 EXP1/EXP2 plus a working selected 3.5-4 inch QSPI display on prototype one, without encoder/buttons in QSPI mode | Qualify TDO TS040WVS02CP-B1617A for Mellow sourcing; verify exact driver/touch, power and cable, electrical display selection and GPIO/peripheral allocation |
 | Retained interfaces | Existing serial/RS232 connections, three buffered output channels, settings persistence and networking behaviour | Check cable pinouts and levels; preserve settings functionality with an explicit migration/storage format; EEPROM retention is the initial hardware approach |
 | Additional I/O | Remaining usable native GPIOs on a 2/2.54 mm header, for 3.3 V control signals only | Lower priority and no minimum count; start with a 2.54 mm header and document ground references, reset states and electrical limits |
 | Service and recovery | Separate initial-programming/debug access alongside main PD power | Optional vertical USB connector and fixture pads; controller-only PC power proposed; retain boot/reset access even if routine updates use OTA |
 | Mechanical and manufacturing | V2.1 outline, holes and external connection positions; no additional existing-case restriction; Mellow assembly with LCSC preferred | Establish internal heatsink/antenna/service clearances and Mellow's stack-up, assembly, sourcing and factory-test requirements |
 
-This development covers PCB design, manufacturing preparation and hardware
-bring-up, plus static firmware-feasibility analysis before production. The full
-ESP32 application port and OTA implementation are separate. Interface test
-firmware is included so the selected panel and other hardware can be brought up.
+The assistant delivers the complete schematic, PCB layout and first preliminary
+BOM, plus static firmware-feasibility and design-review evidence (DEC-019).
+The owner manages production; Mellow manufactures and performs initial functional
+testing. Physical bring-up and application/OTA/test-firmware implementation are
+downstream work. Retained hardware acceptance criteria still apply, but the
+assistant's handoff does not claim that those physical tests have passed.
 
 ESP32-S3R8 includes 8 MB of octal PSRAM and no in-package flash. External flash
 capacity and firmware partitioning must cover both the application and display
@@ -265,10 +267,10 @@ reopening them without a new reason. The remaining product choices are:
 | OQ-008 | Qualify TDO TS040WVS02CP-B1617A for Mellow sourcing and establish the retained Mini12864 revision | QSPI is retained; actual module revision, connector, driver, included touch, cable and maximum load still need closure |
 | OQ-015 | Internal placement, heatsink, service-access and antenna clearances | Engineering work within the preserved outline/holes/connector contract; no existing community case is mandatory |
 | OQ-011 | Adapt the identified Fly TMC2209 StepStick reference with verified component ratings | Official revision 1.0 evidence is recorded; scope is room-temperature use with passive heatsinks, without a separate thermal design or continuous upper-current rating |
-| OQ-012 | Exact representative servos and peak-load evidence | Two concurrent servo transients can determine the 5 V converter rating; quantity alone does not establish current |
+| OQ-012 | MG90S current/transient evidence | Model/source is settled by the sourcing guide, including item 1005004550692203; quantify overlapping demand through engineering sources and downstream Mellow measurements |
 | OQ-009/016 | Final spare-pin header allocation and reset/electrical documentation | Scope is settled: unused usable native GPIOs, 2/2.54 mm pitch, control signals only and no minimum count; required functions take priority |
-| OQ-006 | Interface contract and settings compatibility for the separately scoped application port | Scope is settled: PCB/hardware bring-up plus static firmware feasibility; full application/OTA implementation is separate |
-| OQ-013/017 | Service population variant, programming fixture, quantities, assembled-cost target, schedule and factory-test responsibilities | Fixes production variants, test-point access and the actual manufacturing handoff |
+| OQ-006 | Interface contract and settings compatibility for the separately scoped application port | Scope is settled: complete schematic/PCB and first preliminary BOM, with static firmware feasibility; physical testing and firmware implementation are downstream |
+| OQ-013/017 | Service population variant and design provisions for programming/test access | Owner handles production quantities, budget and schedule; Mellow handles manufacturing/initial tests. Provide relevant design notes without taking over factory execution |
 | OQ-016/017 | Fault/restart expectations and operating/test environment | Defines startup, brownout, loss-of-power, interface-protection and EMC/radio validation objectives |
 
 Proposed engineering defaults are controller-only PC service power, actuator
@@ -293,12 +295,12 @@ prototype result is claimed by this plan.
    affecting each block before fixing that block. Complete the intended
    net/endpoint specification, numeric net-class/clearance rules and deliberate
    parent/child sheet conventions before schematic implementation (G-01).
-2. **Run early functional probes.** On available ESP32 hardware, exercise flash/
-   PSRAM, USB loading/recovery, each chosen display and its controls, serial and
-   EEPROM interfaces, driver communication, and the required output peripherals.
-   Check timing/resource conflicts under concurrent display and network work.
-   Record actual results or hardware-access gaps. Use these results before
-   committing the final pin allocation; static pin counting is insufficient.
+2. **Establish static feasibility and test needs.** Check memory/peripheral
+   allocation, driver evidence, power/reset behavior and interface contracts.
+   Define the necessary physical checks for Mellow, including selected-display
+   behavior and concurrent waveform timing. Record gaps honestly; static analysis
+   does not establish runtime results. Test-firmware implementation and physical
+   probes are downstream work under DEC-019.
 3. **Build schematic and BOM together.** Use hierarchical sheets for the MCU,
    power/service paths, drivers, displays and retained/extra interfaces. Check
    every selected critical IC's pins, rails, support components and footprint
@@ -319,27 +321,23 @@ prototype result is claimed by this plan.
    access; place the RF/core and switching/high-current circuitry with the
    required return paths. Route against Mellow's agreed stack-up and rules,
    maintaining appropriate ground continuity, USB/RF geometry and thermal paths.
-6. **Check the manufactured result before fabrication.** Run DRC and schematic-
+6. **Review the layout and prepare the design handoff.** Run DRC and schematic-
    to-PCB comparisons; inspect critical footprints, mating orientation,
    reference-layout/EMC risks and the actual exported fabrication files. Prepare Gerbers, drills,
    BOM, placement files, assembly/variant drawings, stack-up notes, STEP model,
-   firmware/fixture instructions and prototype test procedure. Document every
+   interface/recovery notes and proposed physical acceptance checks. Document every
    unresolved finding and any validation that still requires hardware.
-7. **Bring up, measure and revise prototypes.** Verify rails and USB power modes,
-   failed PD negotiation, backfeed isolation, blank-board loading/recovery, both
-   display modes independently, retained interfaces and channel operation.
-   Measure electrical load transients, observe normal operation with the selected
-   heatsinks, and check radio/interface behaviour. Formal thermal characterization
-   is outside the requested design scope. Feed failures back into schematic/layout and
-   repeat the affected checks. Demonstrate the selected QSPI display on prototype
-   one as required; a header-only test does not close REQ-DISP-004.
-8. **Release the tested revision.** Reconcile the as-built BOM and population
-   variants with the CAD, firmware and measured limits. Deliver a versioned
-   manufacturing package, programming/recovery instructions, factory acceptance
-   procedure and verification record. Physical tests require assembled hardware
-   and instruments; name the responsible user/Mellow/lab role before scheduling
-   them. Deliver the static firmware feasibility and interface handoff alongside
-   the hardware; the complete application/OTA port is outside this scope.
+7. **Deliver the first preliminary BOM and stop.** Handoff the completed native
+   schematic/PCB, required reviews and approval record, static design evidence
+   and per-board BOM with exact parts/packages, sourcing identities, population
+   notes and unresolved procurement/validation items. This is the assistant's
+   P-01 endpoint; batch quantities and purchasing are the owner's responsibility.
+8. **Owner/Mellow downstream work.** The owner manages production. Mellow builds
+   the boards and performs initial functional tests, including power/service
+   behavior and the required first-prototype QSPI demonstration. They arrange
+   test images/fixtures and record measured results, production substitutions and
+   any subsequent revisions. These external tasks remain visible in the master
+   tracker but are not assistant delivery requirements.
 
 The known requirements support specification and cleanup work now. Schematic
 implementation waits for G-01; PCB implementation waits for the independent

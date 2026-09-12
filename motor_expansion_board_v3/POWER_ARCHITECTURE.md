@@ -157,7 +157,7 @@ separately. No mux is selected here.
 | MCU, flash, and required 3.3 V support | Peak rail demand, regulator efficiency, operating modes | TBD; do not use typical MCU current as the design ceiling |
 | Mini12864 | Exact model, its three lighting LEDs at required brightness, startup demand | TBD; these LEDs are additional to the external chain |
 | Required first-prototype QSPI display | Selected 3.5-4 inch panel/backlight and any touch supply rails, startup demand | Mellow/Fly AliExpress primary target; no encoder/buttons in this mode. Select the actual panel and control method before fixing the connector and power budget |
-| Two MG90-class servos | Exact variant and peak/current waveforms under the supported mechanical load | Quantity agreed; budget overlapping demand because firmware updates both channels together |
+| Two MG90S servos | Peak/current waveforms for the sourcing-guide baseline under the supported load | Model/source settled: full-metal 180-degree recommendation, AliExpress item 1005004550692203. Budget overlapping demand; physical measurement belongs to Mellow |
 | External NeoPixels | Four board-powered LEDs; typical installation uses two | Reference product is RGBW; approximately 0.30 A for four at full output. Longer chains externally powered |
 | Buffers and other small loads | Datasheet maxima and output loading | Connections identified; current values TBD |
 | Motor winding power | Separate 12 V PD budget; 800 mA RMS default, software adjustment up to 1.2-1.5 A RMS per channel | Use Fly reference practices and passive heatsinks for room-temperature operation; no separate thermal design or continuous upper-current rating. Winding current is not USB input current. Excluded from the 5 V buck budget; driver logic remains in its appropriate logic-rail budget |
@@ -184,7 +184,9 @@ if that indicator is retained separately.
 The referenced accessory uses Adafruit 4776 RGBW pixels, whose technical details
 give approximately 75 mA maximum per pixel; four therefore provisionally account
 for 0.30 A. The MG90S manufacturer's page does not specify a stall-current
-limit. Exact servo selection and measurement remain necessary. The firmware's
+limit. DEC-019 establishes the sourcing-guide MG90S as the selected baseline;
+the remaining current evidence is an engineering check, not a new owner-selection
+question. The firmware's
 two-channel update and the full accessory evidence are in
 [USE_CASE_RESEARCH.md](USE_CASE_RESEARCH.md).
 [Adafruit 4776](https://www.adafruit.com/product/4776),
@@ -200,6 +202,9 @@ both cable orientations, reset/recovery, hot plugging, failed negotiation,
 debug-only motor isolation, cross-source backfeed, and load/thermal behaviour
 on prototypes. Record the declared PC service-mode current and supported PD
 source range. These checks are proposed; none has been performed on V3 hardware.
+Under DEC-019, Mellow/owner execute physical testing after the assistant hands
+off the schematic, PCB layout and first preliminary BOM. This document supplies
+design and acceptance guidance; it does not assign physical bring-up to the assistant.
 
 Trust summary: net connectivity and regulator limits are supported by native
 files and manufacturer documentation. The recommended architecture is an
