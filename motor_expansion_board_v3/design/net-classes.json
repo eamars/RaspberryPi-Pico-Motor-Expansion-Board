@@ -1,0 +1,81 @@
+{
+  "units": "mm",
+  "stage": "Pre-capture design constraints; Mellow stackup confirmation and current-path calculation required before routing",
+  "board": {
+    "copper_layers": 4,
+    "nominal_thickness": 1.6,
+    "min_clearance": 0.15,
+    "min_track_width": 0.15,
+    "min_via_diameter": 0.6,
+    "min_via_drill": 0.3,
+    "copper_to_edge": 0.3,
+    "courtyard_clearance": 0.25
+  },
+  "classes": [
+    {
+      "name": "Default",
+      "clearance": 0.2,
+      "track_width": 0.25,
+      "via_diameter": 0.6,
+      "via_drill": 0.3,
+      "nets": "All unassigned3.3/5V control signals"
+    },
+    {
+      "name": "MotorPower",
+      "clearance": 0.25,
+      "track_width": 1.2,
+      "via_diameter": 0.8,
+      "via_drill": 0.4,
+      "nets": "VMOTOR and motor phase outputs; planes/wider copper where needed"
+    },
+    {
+      "name": "Accessory5V",
+      "clearance": 0.25,
+      "track_width": 1.2,
+      "via_diameter": 0.8,
+      "via_drill": 0.4,
+      "nets": "V5V; wide pours for combined servo load"
+    },
+    {
+      "name": "LogicSupply",
+      "clearance": 0.2,
+      "track_width": 0.5,
+      "via_diameter": 0.6,
+      "via_drill": 0.3,
+      "nets": "V3V3, V3V3_RF, VDD_SPI, V3V0"
+    },
+    {
+      "name": "USB",
+      "clearance": 0.2,
+      "track_width": 0.27,
+      "via_diameter": 0.6,
+      "via_drill": 0.3,
+      "diff_pair_width": 0.27,
+      "diff_pair_gap": 0.2,
+      "nets": "USB_DP/DN, USB_SW_DP/DN, SERVICE_DP/DN;90ohm target"
+    },
+    {
+      "name": "ClockMemoryDisplay",
+      "clearance": 0.2,
+      "track_width": 0.2,
+      "via_diameter": 0.6,
+      "via_drill": 0.3,
+      "nets": "FLASH_*, XTAL_*, DISP_* and I2C; keep clocks over continuousGND"
+    },
+    {
+      "name": "SwitchSense",
+      "clearance": 0.25,
+      "track_width": 0.5,
+      "via_diameter": 0.6,
+      "via_drill": 0.3,
+      "nets": "BUCK*_SW/BOOT and M*_SENSE_*; compact switch loops / separate Kelvin sense returns"
+    }
+  ],
+  "localized_exceptions": "0.15mm width/clearance only for fine-pitch breakout, reviewed in PCB DRC. Package pad gaps are audited against actual footprints; never waive unrelated routing.",
+  "impedance_basis": "USB starter geometry assumes0.18mm top dielectric,Er4.2,35um copper;approx90ohm. RF50ohm starter0.35mm over same dielectric. Recalculate with Mellow stackup before routing; these are not measured/guaranteed impedances.",
+  "routing_notes": [
+    "Power widths are starting minima, not a5A or motor continuous-current qualification. Use short/wide pours and multiple vias.",
+    "Keep return plane continuous under USB/RF/clock/QSPI. Avoid switch-node copper below the antenna/crystal.",
+    "Do not place vias in0805 pads. Exposed-pad vias follow IC reference and Mellow assembly practice."
+  ]
+}

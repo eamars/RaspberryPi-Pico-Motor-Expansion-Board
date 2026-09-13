@@ -1,0 +1,3221 @@
+{
+  "revision": "B1-V2-reset",
+  "purpose": "Intended physical connectivity before schematic capture",
+  "gpio_physical_pins": {
+    "0": 5,
+    "1": 6,
+    "2": 7,
+    "3": 8,
+    "4": 9,
+    "5": 10,
+    "6": 11,
+    "7": 12,
+    "8": 13,
+    "9": 14,
+    "10": 15,
+    "11": 16,
+    "12": 17,
+    "13": 18,
+    "14": 19,
+    "15": 21,
+    "16": 22,
+    "17": 23,
+    "18": 24,
+    "19": 25,
+    "20": 26,
+    "21": 27,
+    "38": 43,
+    "39": 44,
+    "40": 45,
+    "41": 47,
+    "42": 48,
+    "43": 49,
+    "44": 50,
+    "45": 51,
+    "46": 52,
+    "47": 37,
+    "48": 36
+  },
+  "gpio_signals": {
+    "0": "BOOT_N",
+    "1": "DISP_D3_PIXEL",
+    "2": "GPIO2",
+    "3": "GPIO3_STRAP",
+    "4": "PWM1",
+    "5": "PWM2",
+    "6": "PWM3_PIXEL",
+    "7": "I2C_SCL",
+    "8": "I2C_SDA",
+    "9": "DISP_BTN_IRQ",
+    "10": "DISP_CS",
+    "11": "DISP_D0_MOSI",
+    "12": "DISP_SCK",
+    "13": "DISP_D1_EN1",
+    "14": "DISP_D2_EN2",
+    "15": "SCALE_TX",
+    "16": "SCALE_RX",
+    "17": "TMC_TX",
+    "18": "TMC_RX",
+    "19": "USB_DN",
+    "20": "USB_DP",
+    "21": "MINI_BUTTON",
+    "38": "M1_STEP",
+    "39": "M2_STEP",
+    "40": "M1_DIR",
+    "41": "M2_DIR",
+    "42": "M1_EN_N",
+    "43": "DISP_RESET",
+    "44": "DISP_DC_TPRST",
+    "45": "GPIO45_STRAP",
+    "46": "GPIO46_STRAP_IN",
+    "47": "DISP_WAIT",
+    "48": "M2_EN_N"
+  },
+  "components": [
+    {
+      "ref": "U1",
+      "sheet": "root",
+      "group": "ESP32 core",
+      "symbol": "MCU_Espressif:ESP32-S3",
+      "value": "ESP32-S3R8",
+      "pins": {
+        "1": "RF_FEED",
+        "2": "V3V3_RF",
+        "3": "V3V3_RF",
+        "4": "CHIP_PU",
+        "5": "BOOT_N",
+        "6": "DISP_D3_PIXEL",
+        "7": "GPIO2",
+        "8": "GPIO3_STRAP",
+        "9": "PWM1",
+        "10": "PWM2",
+        "11": "PWM3_PIXEL",
+        "12": "I2C_SCL",
+        "13": "I2C_SDA",
+        "14": "DISP_BTN_IRQ",
+        "15": "DISP_CS",
+        "16": "DISP_D0_MOSI",
+        "17": "DISP_SCK",
+        "18": "DISP_D1_EN1",
+        "19": "DISP_D2_EN2",
+        "20": "V3V3",
+        "21": "SCALE_TX",
+        "22": "SCALE_RX",
+        "23": "TMC_TX",
+        "24": "TMC_RX",
+        "25": "USB_DN",
+        "26": "USB_DP",
+        "27": "MINI_BUTTON",
+        "28": null,
+        "29": "VDD_SPI",
+        "30": "FLASH_D3",
+        "31": "FLASH_D2",
+        "32": "FLASH_CS",
+        "33": "FLASH_CLK",
+        "34": "FLASH_D1",
+        "35": "FLASH_D0",
+        "36": "M2_EN_N",
+        "37": "DISP_WAIT",
+        "38": null,
+        "39": null,
+        "40": null,
+        "41": null,
+        "42": null,
+        "43": "M1_STEP",
+        "44": "M2_STEP",
+        "45": "M1_DIR",
+        "46": "V3V3",
+        "47": "M2_DIR",
+        "48": "M1_EN_N",
+        "49": "DISP_RESET",
+        "50": "DISP_DC_TPRST",
+        "51": "GPIO45_STRAP",
+        "52": "GPIO46_STRAP_IN",
+        "53": "XTAL_N",
+        "54": "XTAL_P",
+        "55": "V3V3",
+        "56": "V3V3",
+        "57": "GND"
+      },
+      "footprint": "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm",
+      "mpn": "ESP32-S3R8",
+      "manufacturer": "Espressif",
+      "properties": {
+        "LCSC": "C2913194",
+        "Datasheet": "https://documentation.espressif.com/esp32-s3_datasheet_en.pdf",
+        "Notes": "Exactly one MCU; 8MB internal octal PSRAM. Physical memory pads 28,38-42 stay NC."
+      }
+    },
+    {
+      "ref": "C19",
+      "sheet": "root",
+      "group": "ESP32 core",
+      "symbol": "Device:C",
+      "value": "100n",
+      "pins": {
+        "1": "V3V3",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X7R",
+        "Notes": "Place at U1 pin 20"
+      }
+    },
+    {
+      "ref": "C20",
+      "sheet": "root",
+      "group": "ESP32 core",
+      "symbol": "Device:C",
+      "value": "100n",
+      "pins": {
+        "1": "V3V3",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X7R",
+        "Notes": "Place at U1 pin 46"
+      }
+    },
+    {
+      "ref": "C21",
+      "sheet": "root",
+      "group": "ESP32 core",
+      "symbol": "Device:C",
+      "value": "100n",
+      "pins": {
+        "1": "V3V3",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X7R",
+        "Notes": "Place at U1 pin 55"
+      }
+    },
+    {
+      "ref": "C22",
+      "sheet": "root",
+      "group": "ESP32 core",
+      "symbol": "Device:C",
+      "value": "100n",
+      "pins": {
+        "1": "V3V3",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X7R",
+        "Notes": "Place at U1 pin 56"
+      }
+    },
+    {
+      "ref": "C23",
+      "sheet": "root",
+      "group": "ESP32 core",
+      "symbol": "Device:C",
+      "value": "10u",
+      "pins": {
+        "1": "V3V3",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X5R; effective >=5uF at 3.3V"
+      }
+    },
+    {
+      "ref": "L2",
+      "sheet": "root",
+      "group": "ESP32 core",
+      "symbol": "Device:L",
+      "value": "2nH",
+      "pins": {
+        "1": "V3V3",
+        "2": "V3V3_RF"
+      },
+      "footprint": "Inductor_SMD:L_0402_1005Metric",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Notes": "OWMC RF-supply reference; >=500mA. 0402 RF exception."
+      }
+    },
+    {
+      "ref": "C24",
+      "sheet": "root",
+      "group": "ESP32 core",
+      "symbol": "Device:C",
+      "value": "100n",
+      "pins": {
+        "1": "V3V3_RF",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X7R"
+      }
+    },
+    {
+      "ref": "C25",
+      "sheet": "root",
+      "group": "ESP32 core",
+      "symbol": "Device:C",
+      "value": "10u",
+      "pins": {
+        "1": "V3V3_RF",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X5R; effective >=5uF"
+      }
+    },
+    {
+      "ref": "U9",
+      "sheet": "root",
+      "group": "Flash and clock",
+      "symbol": "Memory_Flash:W25Q128JVS",
+      "value": "W25Q128JVSIQ",
+      "pins": {
+        "1": "FLASH_CS",
+        "2": "FLASH_D1",
+        "3": "FLASH_D2",
+        "4": "GND",
+        "5": "FLASH_D0",
+        "6": "FLASH_CLK",
+        "7": "FLASH_D3",
+        "8": "VDD_SPI"
+      },
+      "footprint": "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm",
+      "mpn": "W25Q128JVSIQ",
+      "manufacturer": "Winbond",
+      "properties": {
+        "Notes": "16MB external 3.3V Quad flash"
+      }
+    },
+    {
+      "ref": "R17",
+      "sheet": "root",
+      "group": "Flash and clock",
+      "symbol": "Device:R",
+      "value": "10k",
+      "pins": {
+        "1": "VDD_SPI",
+        "2": "FLASH_CS"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "C26",
+      "sheet": "root",
+      "group": "Flash and clock",
+      "symbol": "Device:C",
+      "value": "100n",
+      "pins": {
+        "1": "VDD_SPI",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X7R",
+        "Notes": "At U1 VDD_SPI"
+      }
+    },
+    {
+      "ref": "C27",
+      "sheet": "root",
+      "group": "Flash and clock",
+      "symbol": "Device:C",
+      "value": "1u",
+      "pins": {
+        "1": "VDD_SPI",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X7R"
+      }
+    },
+    {
+      "ref": "C28",
+      "sheet": "root",
+      "group": "Flash and clock",
+      "symbol": "Device:C",
+      "value": "100n",
+      "pins": {
+        "1": "VDD_SPI",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X7R",
+        "Notes": "At flash VCC"
+      }
+    },
+    {
+      "ref": "Y1",
+      "sheet": "root",
+      "group": "Flash and clock",
+      "symbol": "Device:Crystal_GND24",
+      "value": "40MHz CL10pF",
+      "pins": {
+        "1": "XTAL_P_LOAD",
+        "2": "GND",
+        "3": "XTAL_N",
+        "4": "GND"
+      },
+      "footprint": "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm",
+      "mpn": "Q22FA12800101",
+      "manufacturer": "Epson",
+      "properties": {
+        "LCSC": "C255898",
+        "Notes": "OWMC candidate; +/-10ppm. Small clock-package exception; source confirmation pending."
+      }
+    },
+    {
+      "ref": "L3",
+      "sheet": "root",
+      "group": "Flash and clock",
+      "symbol": "Device:L",
+      "value": "24nH",
+      "pins": {
+        "1": "XTAL_P",
+        "2": "XTAL_P_LOAD"
+      },
+      "footprint": "Inductor_SMD:L_0402_1005Metric",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "5%, RF inductor",
+        "Notes": "OWMC clock reference; 0402 clock exception"
+      }
+    },
+    {
+      "ref": "C29",
+      "sheet": "root",
+      "group": "Flash and clock",
+      "symbol": "Device:C",
+      "value": "10p",
+      "pins": {
+        "1": "XTAL_P_LOAD",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "50V C0G",
+        "Notes": "OWMC initial crystal loading; trim by measurement"
+      }
+    },
+    {
+      "ref": "C30",
+      "sheet": "root",
+      "group": "Flash and clock",
+      "symbol": "Device:C",
+      "value": "10p",
+      "pins": {
+        "1": "XTAL_N",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "50V C0G",
+        "Notes": "OWMC initial crystal loading; trim by measurement"
+      }
+    },
+    {
+      "ref": "R18",
+      "sheet": "root",
+      "group": "Reset and antenna",
+      "symbol": "Device:R",
+      "value": "10k",
+      "pins": {
+        "1": "V3V3",
+        "2": "CHIP_PU"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "C31",
+      "sheet": "root",
+      "group": "Reset and antenna",
+      "symbol": "Device:C",
+      "value": "1u",
+      "pins": {
+        "1": "CHIP_PU",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X7R"
+      }
+    },
+    {
+      "ref": "R19",
+      "sheet": "root",
+      "group": "Reset and antenna",
+      "symbol": "Device:R",
+      "value": "10k",
+      "pins": {
+        "1": "V3V3",
+        "2": "BOOT_N"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "R20",
+      "sheet": "root",
+      "group": "Reset and antenna",
+      "symbol": "Device:R",
+      "value": "10k",
+      "pins": {
+        "1": "GPIO45_STRAP",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "R21",
+      "sheet": "root",
+      "group": "Reset and antenna",
+      "symbol": "Device:R",
+      "value": "10k",
+      "pins": {
+        "1": "GPIO46_STRAP_IN",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "SW1",
+      "sheet": "root",
+      "group": "Reset and antenna",
+      "symbol": "Switch:SW_Push",
+      "value": "RESET",
+      "pins": {
+        "1": "CHIP_PU",
+        "2": "GND"
+      },
+      "footprint": "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92",
+      "mpn": "KH-6X6X6H-STM",
+      "manufacturer": "Kinghelm",
+      "properties": {
+        "LCSC": "C2837532",
+        "Notes": "Stock pads match V2 within 0.005mm. Actual switch nominal 6mm high; stock 4.3mm model is not height evidence. SW1 retains reset datum."
+      }
+    },
+    {
+      "ref": "SW2",
+      "sheet": "root",
+      "group": "Reset and antenna",
+      "symbol": "Switch:SW_Push",
+      "value": "BOOT",
+      "pins": {
+        "1": "BOOT_N",
+        "2": "GND"
+      },
+      "footprint": "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92",
+      "mpn": "KH-6X6X6H-STM",
+      "manufacturer": "Kinghelm",
+      "properties": {
+        "LCSC": "C2837532",
+        "Notes": "Stock pads match V2 within 0.005mm. Actual switch nominal 6mm high; stock 4.3mm model is not height evidence. SW1 retains reset datum."
+      }
+    },
+    {
+      "ref": "C32",
+      "sheet": "root",
+      "group": "Reset and antenna",
+      "symbol": "Device:C",
+      "value": "DNP",
+      "pins": {
+        "1": "RF_FEED",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "RF C0G tuning",
+        "DNP": true
+      }
+    },
+    {
+      "ref": "R22",
+      "sheet": "root",
+      "group": "Reset and antenna",
+      "symbol": "Device:R",
+      "value": "0R",
+      "pins": {
+        "1": "RF_FEED",
+        "2": "ANT_FEED"
+      },
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum",
+        "Notes": "Single OWMC pi matching network; RF tuning provision"
+      }
+    },
+    {
+      "ref": "C33",
+      "sheet": "root",
+      "group": "Reset and antenna",
+      "symbol": "Device:C",
+      "value": "DNP",
+      "pins": {
+        "1": "ANT_FEED",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "RF C0G tuning",
+        "DNP": true
+      }
+    },
+    {
+      "ref": "AE1",
+      "sheet": "root",
+      "group": "Reset and antenna",
+      "symbol": "Device:Antenna_Chip",
+      "value": "2450AT18A0100001E",
+      "pins": {
+        "1": "ANT_FEED",
+        "2": null
+      },
+      "footprint": "RF_Antenna:Johanson_2450AT18x100",
+      "mpn": "2450AT18A0100001E",
+      "manufacturer": "Johanson Technology",
+      "properties": {
+        "Datasheet": "https://www.johansontechnology.com/docs/3827/Antenna-2450AT18A0100001E-Rev4.0.pdf",
+        "Notes": "Pin 2 is mechanically soldered but electrically NC; preserve vendor RF keepout/tuning"
+      }
+    },
+    {
+      "ref": "U2",
+      "sheet": "root",
+      "group": "EEPROM and spare GPIO",
+      "symbol": "Memory_EEPROM:CAT24C256",
+      "value": "CAT24C256WI-GT3",
+      "pins": {
+        "1": "GND",
+        "2": "GND",
+        "3": "GND",
+        "4": "GND",
+        "5": "I2C_SDA",
+        "6": "I2C_SCL",
+        "7": "GND",
+        "8": "V3V3"
+      },
+      "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+      "mpn": "CAT24C256WI-GT3",
+      "manufacturer": "onsemi",
+      "properties": {
+        "LCSC": "C79987",
+        "Datasheet": "https://www.onsemi.com/pdf/datasheet/cat24c256-d.pdf",
+        "Notes": "V2 address 0x50; fixed address and writable as V2"
+      }
+    },
+    {
+      "ref": "C34",
+      "sheet": "root",
+      "group": "EEPROM and spare GPIO",
+      "symbol": "Device:C",
+      "value": "100n",
+      "pins": {
+        "1": "V3V3",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X7R"
+      }
+    },
+    {
+      "ref": "R5",
+      "sheet": "root",
+      "group": "EEPROM and spare GPIO",
+      "symbol": "Device:R",
+      "value": "2.2k",
+      "pins": {
+        "1": "V3V0",
+        "2": "I2C_SDA"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum",
+        "Notes": "Shared EEPROM/touch bus; use open drain, no 3.3V internal pullups"
+      }
+    },
+    {
+      "ref": "R6",
+      "sheet": "root",
+      "group": "EEPROM and spare GPIO",
+      "symbol": "Device:R",
+      "value": "2.2k",
+      "pins": {
+        "1": "V3V0",
+        "2": "I2C_SCL"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum",
+        "Notes": "Shared EEPROM/touch bus; use open drain, no 3.3V internal pullups"
+      }
+    },
+    {
+      "ref": "J15",
+      "sheet": "root",
+      "group": "EEPROM and spare GPIO",
+      "symbol": "Connector_Generic:Conn_02x03_Odd_Even",
+      "value": "SPARE GPIO 3V3",
+      "pins": {
+        "1": "GND",
+        "2": "GPIO2",
+        "3": "GPIO3_STRAP",
+        "4": "GPIO45_STRAP",
+        "5": "GPIO46_STRAP_IN",
+        "6": "V3V3"
+      },
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Notes": "Control only. GPIO2 ordinary IO with a low power-on glitch. GPIO3/45/46 boot restrictions. GPIO46 allocated to input use on this board, not a claim of a silicon limitation. Do not override boot pulls at reset."
+      }
+    },
+    {
+      "ref": "H1",
+      "sheet": "root",
+      "group": "EEPROM and spare GPIO",
+      "symbol": "Mechanical:MountingHole_Pad",
+      "value": "M3 GND",
+      "pins": {
+        "1": "GND"
+      },
+      "footprint": "MountingHole:MountingHole_3.2mm_M3_Pad_Via",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "in_bom": false
+      }
+    },
+    {
+      "ref": "H2",
+      "sheet": "root",
+      "group": "EEPROM and spare GPIO",
+      "symbol": "Mechanical:MountingHole_Pad",
+      "value": "M3 GND",
+      "pins": {
+        "1": "GND"
+      },
+      "footprint": "MountingHole:MountingHole_3.2mm_M3_Pad_Via",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "in_bom": false
+      }
+    },
+    {
+      "ref": "H3",
+      "sheet": "root",
+      "group": "EEPROM and spare GPIO",
+      "symbol": "Mechanical:MountingHole_Pad",
+      "value": "M3 GND",
+      "pins": {
+        "1": "GND"
+      },
+      "footprint": "MountingHole:MountingHole_3.2mm_M3_Pad_Via",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "in_bom": false
+      }
+    },
+    {
+      "ref": "H4",
+      "sheet": "root",
+      "group": "EEPROM and spare GPIO",
+      "symbol": "Mechanical:MountingHole_Pad",
+      "value": "M3 GND",
+      "pins": {
+        "1": "GND"
+      },
+      "footprint": "MountingHole:MountingHole_3.2mm_M3_Pad_Via",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "in_bom": false
+      }
+    },
+    {
+      "ref": "J8",
+      "sheet": "power",
+      "group": "12V PD input",
+      "symbol": "Connector:USB_C_Receptacle_PowerOnly_6P",
+      "value": "12V USB-PD",
+      "pins": {
+        "A5": "PD_CC1",
+        "B5": "PD_CC2",
+        "A9": "VMOTOR",
+        "B9": "VMOTOR",
+        "A12": "GND",
+        "B12": "GND",
+        "SH": "GND"
+      },
+      "footprint": "Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x-0190_6P_TopMnt_Horizontal",
+      "mpn": "USB4125-GF-A-0190",
+      "manufacturer": "GCT",
+      "properties": {
+        "Datasheet": "https://gct.co/connector/usb4125",
+        "Notes": "Retain archived mating plane; stock land pattern for actual GCT part. Require 12V PD source."
+      }
+    },
+    {
+      "ref": "U3",
+      "sheet": "power",
+      "group": "12V PD input",
+      "symbol": "Interface_USB:CH224K",
+      "value": "CH224K / 12V",
+      "pins": {
+        "1": "PD_VDD",
+        "2": "GND",
+        "3": "PD_VDD",
+        "4": "PD_DPDM",
+        "5": "PD_DPDM",
+        "6": "PD_CC2",
+        "7": "PD_CC1",
+        "8": "PD_SENSE",
+        "9": "GND",
+        "10": null,
+        "11": "GND"
+      },
+      "footprint": "Package_SO:SSOP-10-1EP_3.9x4.9mm_P1mm_EP2.1x3.3mm",
+      "mpn": "CH224K",
+      "manufacturer": "WCH",
+      "properties": {
+        "LCSC": "C970725",
+        "Notes": "Retain V2 CFG1=0,CFG2=0,CFG3=1 for 12V; PG unused. Pin11 exposed GND."
+      }
+    },
+    {
+      "ref": "R7",
+      "sheet": "power",
+      "group": "12V PD input",
+      "symbol": "Device:R",
+      "value": "10k",
+      "pins": {
+        "1": "VMOTOR",
+        "2": "PD_SENSE"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "R8",
+      "sheet": "power",
+      "group": "12V PD input",
+      "symbol": "Device:R",
+      "value": "1k",
+      "pins": {
+        "1": "VMOTOR",
+        "2": "PD_VDD"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "C6",
+      "sheet": "power",
+      "group": "12V PD input",
+      "symbol": "Device:C",
+      "value": "1u",
+      "pins": {
+        "1": "PD_VDD",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X7R"
+      }
+    },
+    {
+      "ref": "IC1",
+      "sheet": "power",
+      "group": "V2 5V converter",
+      "symbol": "Regulator_Switching:TPS5430DDA",
+      "value": "TPS5450DDAR",
+      "pins": {
+        "1": "BUCK5_BOOT",
+        "2": null,
+        "3": null,
+        "4": "BUCK5_FB",
+        "5": null,
+        "6": "GND",
+        "7": "VMOTOR",
+        "8": "BUCK5_SW",
+        "9": "GND"
+      },
+      "footprint": "Package_SO:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm",
+      "mpn": "TPS5450DDAR",
+      "manufacturer": "Texas Instruments",
+      "properties": {
+        "LCSC": "C114425",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tps5450.pdf",
+        "SymbolBasis": "Stock TPS5430DDA shares the numbered nine-pin function map; actual installed device is TPS5450DDAR.",
+        "Notes": "Retained V2 5A-class converter; floating EN enabled per datasheet. Rating is not measured board capacity."
+      }
+    },
+    {
+      "ref": "C3",
+      "sheet": "power",
+      "group": "V2 5V converter",
+      "symbol": "Device:C",
+      "value": "4.7u",
+      "pins": {
+        "1": "VMOTOR",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "50V X7R; retain V2 0805 land pattern, check DC bias"
+      }
+    },
+    {
+      "ref": "C4",
+      "sheet": "power",
+      "group": "V2 5V converter",
+      "symbol": "Device:C",
+      "value": "4.7u",
+      "pins": {
+        "1": "VMOTOR",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "50V X7R; retain V2 0805 land pattern, check DC bias"
+      }
+    },
+    {
+      "ref": "C5",
+      "sheet": "power",
+      "group": "V2 5V converter",
+      "symbol": "Device:C",
+      "value": "10n",
+      "pins": {
+        "1": "VMOTOR",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "50V X7R"
+      }
+    },
+    {
+      "ref": "C7",
+      "sheet": "power",
+      "group": "V2 5V converter",
+      "symbol": "Device:C",
+      "value": "10n",
+      "pins": {
+        "1": "BUCK5_BOOT",
+        "2": "BUCK5_SW"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "50V X7R"
+      }
+    },
+    {
+      "ref": "D4",
+      "sheet": "power",
+      "group": "V2 5V converter",
+      "symbol": "Device:D_Schottky",
+      "value": "SS54",
+      "pins": {
+        "1": "BUCK5_SW",
+        "2": "GND"
+      },
+      "footprint": "Diode_SMD:D_SMA",
+      "mpn": "SS54",
+      "manufacturer": "MDD",
+      "properties": {
+        "LCSC": "C22452",
+        "Rating": "40V 5A; SMA(DO-214AC)"
+      }
+    },
+    {
+      "ref": "L1",
+      "sheet": "power",
+      "group": "V2 5V converter",
+      "symbol": "Device:L",
+      "value": "15uH",
+      "pins": {
+        "1": "BUCK5_SW",
+        "2": "V5V"
+      },
+      "footprint": "Inductor_SMD:L_Sunlord_MWSA1004S",
+      "mpn": "MWSA1004S-150MT",
+      "manufacturer": "Sunlord",
+      "properties": {
+        "LCSC": "C151872",
+        "Datasheet": "https://media.digikey.com/pdf/Data%20Sheets/Shenzhen%20Sunlord/MWSA-S_Series_DS.pdf",
+        "Notes": "V2 component identity; use stock manufacturer land pattern instead of old custom pad geometry."
+      }
+    },
+    {
+      "ref": "C8",
+      "sheet": "power",
+      "group": "V2 5V converter",
+      "symbol": "Device:C_Polarized",
+      "value": "330uF",
+      "pins": {
+        "1": "V5V",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:CP_Elec_10x10.5",
+      "mpn": "RVT1V331M1010",
+      "manufacturer": "Honor Elec",
+      "properties": {
+        "LCSC": "C19606",
+        "Rating": "330uF 35V; ESR/loop compatibility to be checked",
+        "Notes": "Retained V2 component identity and stock land pattern; detailed source package/ESR check before PCB."
+      }
+    },
+    {
+      "ref": "C9",
+      "sheet": "power",
+      "group": "V2 5V converter",
+      "symbol": "Device:C",
+      "value": "10n",
+      "pins": {
+        "1": "V5V",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X7R"
+      }
+    },
+    {
+      "ref": "R9",
+      "sheet": "power",
+      "group": "V2 5V converter",
+      "symbol": "Device:R",
+      "value": "10k",
+      "pins": {
+        "1": "V5V",
+        "2": "BUCK5_FB"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "R10",
+      "sheet": "power",
+      "group": "V2 5V converter",
+      "symbol": "Device:R",
+      "value": "3.16k",
+      "pins": {
+        "1": "BUCK5_FB",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "IC2",
+      "sheet": "power",
+      "group": "3.3V controller supply",
+      "symbol": "Regulator_Switching:AP63203WU",
+      "value": "AP63203WU-7",
+      "pins": {
+        "1": "V3V3",
+        "2": "V5V",
+        "3": "V5V",
+        "4": "GND",
+        "5": "BUCK3_SW",
+        "6": "BUCK3_BOOT"
+      },
+      "footprint": "Package_TO_SOT_SMD:TSOT-23-6",
+      "mpn": "AP63203WU-7",
+      "manufacturer": "Diodes Incorporated",
+      "properties": {
+        "Datasheet": "https://www.diodes.com/datasheet/download/AP63200-AP63201-AP63203-AP63205.pdf",
+        "Notes": "Fixed 3.3V replacement for Pico regulator; use AP63203 component table"
+      }
+    },
+    {
+      "ref": "C35",
+      "sheet": "power",
+      "group": "3.3V controller supply",
+      "symbol": "Device:C",
+      "value": "10u",
+      "pins": {
+        "1": "V5V",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X5R; check effective input capacitance"
+      }
+    },
+    {
+      "ref": "C36",
+      "sheet": "power",
+      "group": "3.3V controller supply",
+      "symbol": "Device:C",
+      "value": "100n",
+      "pins": {
+        "1": "BUCK3_BOOT",
+        "2": "BUCK3_SW"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X7R"
+      }
+    },
+    {
+      "ref": "L4",
+      "sheet": "power",
+      "group": "3.3V controller supply",
+      "symbol": "Device:L",
+      "value": "4.7uH",
+      "pins": {
+        "1": "BUCK3_SW",
+        "2": "V3V3"
+      },
+      "footprint": "Inductor_SMD:L_Sunlord_MWSA0603S",
+      "mpn": "MWSA0603S-4R7MT",
+      "manufacturer": "Sunlord",
+      "properties": {
+        "LCSC": "C408447",
+        "Datasheet": "https://jlcpcb.com/partdetail/MWSA0603S-4R7MT/C408447",
+        "Rating": "20%,33mOhm max; 9A typical Isat / 6A typical Irms",
+        "Notes": "AP63203 section10 permits2.2-10uH. At5.085V input,2Aload:0.224App nominal,~0.30App with L-20%/f-6%; peak2.15A. Stock manufacturer land pattern."
+      }
+    },
+    {
+      "ref": "C37",
+      "sheet": "power",
+      "group": "3.3V controller supply",
+      "symbol": "Device:C",
+      "value": "22u",
+      "pins": {
+        "1": "V3V3",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X5R; verify effective capacitance against AP63203 table"
+      }
+    },
+    {
+      "ref": "C38",
+      "sheet": "power",
+      "group": "3.3V controller supply",
+      "symbol": "Device:C",
+      "value": "22u",
+      "pins": {
+        "1": "V3V3",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X5R; verify effective capacitance against AP63203 table"
+      }
+    },
+    {
+      "ref": "R2",
+      "sheet": "power",
+      "group": "Supply indicators",
+      "symbol": "Device:R",
+      "value": "4.7k",
+      "pins": {
+        "1": "VMOTOR",
+        "2": "D1_A"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "D1",
+      "sheet": "power",
+      "group": "Supply indicators",
+      "symbol": "Device:LED",
+      "value": "GREEN",
+      "pins": {
+        "1": "GND",
+        "2": "D1_A"
+      },
+      "footprint": "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Notes": "Retained V2 indicator function"
+      }
+    },
+    {
+      "ref": "R3",
+      "sheet": "power",
+      "group": "Supply indicators",
+      "symbol": "Device:R",
+      "value": "680R",
+      "pins": {
+        "1": "V5V",
+        "2": "D2_A"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "D2",
+      "sheet": "power",
+      "group": "Supply indicators",
+      "symbol": "Device:LED",
+      "value": "GREEN",
+      "pins": {
+        "1": "GND",
+        "2": "D2_A"
+      },
+      "footprint": "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Notes": "Retained V2 indicator function"
+      }
+    },
+    {
+      "ref": "R4",
+      "sheet": "power",
+      "group": "Supply indicators",
+      "symbol": "Device:R",
+      "value": "300R",
+      "pins": {
+        "1": "V3V3",
+        "2": "D3_A"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "D3",
+      "sheet": "power",
+      "group": "Supply indicators",
+      "symbol": "Device:LED",
+      "value": "GREEN",
+      "pins": {
+        "1": "GND",
+        "2": "D3_A"
+      },
+      "footprint": "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Notes": "Retained V2 indicator function"
+      }
+    },
+    {
+      "ref": "J16",
+      "sheet": "power",
+      "group": "Programming and native USB",
+      "symbol": "Connector:USB_C_Receptacle_USB2.0_16P",
+      "value": "SERVICE USB (DNP)",
+      "pins": {
+        "A1": "GND",
+        "A4": "SERVICE_VBUS",
+        "A5": "SVC_CC1",
+        "A6": "SERVICE_DP",
+        "A7": "SERVICE_DN",
+        "A8": null,
+        "A9": "SERVICE_VBUS",
+        "A12": "GND",
+        "B1": "GND",
+        "B4": "SERVICE_VBUS",
+        "B5": "SVC_CC2",
+        "B6": "SERVICE_DP",
+        "B7": "SERVICE_DN",
+        "B8": null,
+        "B9": "SERVICE_VBUS",
+        "B12": "GND",
+        "SH": "GND"
+      },
+      "footprint": "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12",
+      "mpn": "TYPE-C-31-M-12",
+      "manufacturer": "HRO",
+      "properties": {
+        "DNP": true,
+        "Notes": "Optional service receptacle; primary initial loading through pads. Main PD required. SERVICE_VBUS never supplies board rails."
+      }
+    },
+    {
+      "ref": "R23",
+      "sheet": "power",
+      "group": "Programming and native USB",
+      "symbol": "Device:R",
+      "value": "5.1k",
+      "pins": {
+        "1": "SVC_CC1",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum",
+        "Notes": "Independent Type-C Rd; socket option"
+      }
+    },
+    {
+      "ref": "R24",
+      "sheet": "power",
+      "group": "Programming and native USB",
+      "symbol": "Device:R",
+      "value": "5.1k",
+      "pins": {
+        "1": "SVC_CC2",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum",
+        "Notes": "Independent Type-C Rd; socket option"
+      }
+    },
+    {
+      "ref": "U12",
+      "sheet": "power",
+      "group": "Programming and native USB",
+      "symbol": "Interface_USB:TS3USB30EDGSR",
+      "value": "TS3USB30EDGSR",
+      "pins": {
+        "1": "GND",
+        "2": "USB_SW_DP",
+        "3": null,
+        "4": "SERVICE_DP",
+        "5": "GND",
+        "6": "SERVICE_DN",
+        "7": null,
+        "8": "USB_SW_DN",
+        "9": "USB_OE_N",
+        "10": "V3V3"
+      },
+      "footprint": "Package_SO:TSSOP-10_3x3mm_P0.5mm",
+      "mpn": "TS3USB30EDGSR",
+      "manufacturer": "Texas Instruments",
+      "properties": {
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/ts3usb30e.pdf",
+        "Notes": "Common ports face host; Ioff isolates an unpowered board. Unused D2 branch NC."
+      }
+    },
+    {
+      "ref": "Q1",
+      "sheet": "power",
+      "group": "Programming and native USB",
+      "symbol": "Transistor_FET:BSS138",
+      "value": "BSS138LT1G",
+      "pins": {
+        "1": "USB_PRESENT_GATE",
+        "2": "GND",
+        "3": "USB_OE_N"
+      },
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "mpn": "BSS138LT1G",
+      "manufacturer": "onsemi",
+      "properties": {
+        "Datasheet": "https://www.onsemi.com/pdf/datasheet/bss138lt1-d.pdf"
+      }
+    },
+    {
+      "ref": "R25",
+      "sheet": "power",
+      "group": "Programming and native USB",
+      "symbol": "Device:R",
+      "value": "10k",
+      "pins": {
+        "1": "V3V3",
+        "2": "USB_OE_N"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "R26",
+      "sheet": "power",
+      "group": "Programming and native USB",
+      "symbol": "Device:R",
+      "value": "1k",
+      "pins": {
+        "1": "SERVICE_VBUS",
+        "2": "USB_PRESENT_GATE"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "R27",
+      "sheet": "power",
+      "group": "Programming and native USB",
+      "symbol": "Device:R",
+      "value": "100k",
+      "pins": {
+        "1": "USB_PRESENT_GATE",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "R28",
+      "sheet": "power",
+      "group": "Programming and native USB",
+      "symbol": "Device:R",
+      "value": "3.3k",
+      "pins": {
+        "1": "SERVICE_VBUS",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "C39",
+      "sheet": "power",
+      "group": "Programming and native USB",
+      "symbol": "Device:C",
+      "value": "100n",
+      "pins": {
+        "1": "SERVICE_VBUS",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X7R"
+      }
+    },
+    {
+      "ref": "C40",
+      "sheet": "power",
+      "group": "Programming and native USB",
+      "symbol": "Device:C",
+      "value": "100n",
+      "pins": {
+        "1": "V3V3",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X7R"
+      }
+    },
+    {
+      "ref": "R29",
+      "sheet": "power",
+      "group": "Programming and native USB",
+      "symbol": "Device:R",
+      "value": "22R",
+      "pins": {
+        "1": "USB_DP",
+        "2": "USB_SW_DP"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "R30",
+      "sheet": "power",
+      "group": "Programming and native USB",
+      "symbol": "Device:R",
+      "value": "22R",
+      "pins": {
+        "1": "USB_DN",
+        "2": "USB_SW_DN"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "D7",
+      "sheet": "power",
+      "group": "Programming and native USB",
+      "symbol": "Power_Protection:USBLC6-2SC6",
+      "value": "USBLC6-2SC6",
+      "pins": {
+        "1": "SERVICE_DP",
+        "2": "GND",
+        "3": "SERVICE_DN",
+        "4": "SERVICE_DN",
+        "5": "SERVICE_VBUS",
+        "6": "SERVICE_DP"
+      },
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "mpn": "USBLC6-2SC6",
+      "manufacturer": "STMicroelectronics",
+      "properties": {
+        "Datasheet": "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+      }
+    },
+    {
+      "ref": "TP1",
+      "sheet": "power",
+      "group": "Programming and native USB",
+      "symbol": "Connector:TestPoint",
+      "value": "SERVICE_VBUS",
+      "pins": {
+        "1": "SERVICE_VBUS"
+      },
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "in_bom": false,
+        "Notes": "Factory 2.54mm grid; BOOT/EN pull to GND. 3.3V is measurement only, not an input."
+      }
+    },
+    {
+      "ref": "TP2",
+      "sheet": "power",
+      "group": "Programming and native USB",
+      "symbol": "Connector:TestPoint",
+      "value": "SERVICE_DP",
+      "pins": {
+        "1": "SERVICE_DP"
+      },
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "in_bom": false,
+        "Notes": "Factory 2.54mm grid; BOOT/EN pull to GND. 3.3V is measurement only, not an input."
+      }
+    },
+    {
+      "ref": "TP3",
+      "sheet": "power",
+      "group": "Programming and native USB",
+      "symbol": "Connector:TestPoint",
+      "value": "SERVICE_DN",
+      "pins": {
+        "1": "SERVICE_DN"
+      },
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "in_bom": false,
+        "Notes": "Factory 2.54mm grid; BOOT/EN pull to GND. 3.3V is measurement only, not an input."
+      }
+    },
+    {
+      "ref": "TP4",
+      "sheet": "power",
+      "group": "Programming and native USB",
+      "symbol": "Connector:TestPoint",
+      "value": "GND",
+      "pins": {
+        "1": "GND"
+      },
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "in_bom": false,
+        "Notes": "Factory 2.54mm grid; BOOT/EN pull to GND. 3.3V is measurement only, not an input."
+      }
+    },
+    {
+      "ref": "TP5",
+      "sheet": "power",
+      "group": "Programming and native USB",
+      "symbol": "Connector:TestPoint",
+      "value": "BOOT_N",
+      "pins": {
+        "1": "BOOT_N"
+      },
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "in_bom": false,
+        "Notes": "Factory 2.54mm grid; BOOT/EN pull to GND. 3.3V is measurement only, not an input."
+      }
+    },
+    {
+      "ref": "TP6",
+      "sheet": "power",
+      "group": "Programming and native USB",
+      "symbol": "Connector:TestPoint",
+      "value": "CHIP_PU",
+      "pins": {
+        "1": "CHIP_PU"
+      },
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "in_bom": false,
+        "Notes": "Factory 2.54mm grid; BOOT/EN pull to GND. 3.3V is measurement only, not an input."
+      }
+    },
+    {
+      "ref": "TP7",
+      "sheet": "power",
+      "group": "Programming and native USB",
+      "symbol": "Connector:TestPoint",
+      "value": "V3V3",
+      "pins": {
+        "1": "V3V3"
+      },
+      "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "in_bom": false,
+        "Notes": "Factory 2.54mm grid; BOOT/EN pull to GND. 3.3V is measurement only, not an input."
+      }
+    },
+    {
+      "ref": "R1",
+      "sheet": "motors",
+      "group": "Shared driver UART",
+      "symbol": "Device:R",
+      "value": "1k",
+      "pins": {
+        "1": "TMC_TX",
+        "2": "TMC_RX"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "U10",
+      "sheet": "motors",
+      "group": "Motor 1",
+      "symbol": "Driver_Motor:TMC2209-LA",
+      "value": "TMC2209-LA-T",
+      "pins": {
+        "1": "M1_B2",
+        "2": "M1_EN_N",
+        "3": "GND",
+        "4": "M1_CPO",
+        "5": "M1_CPI",
+        "6": "M1_VCP",
+        "7": "GND",
+        "8": "M1_5VOUT",
+        "9": "GND",
+        "10": "GND",
+        "11": null,
+        "12": null,
+        "13": "GND",
+        "14": "TMC_RX",
+        "15": "V3V3",
+        "16": "M1_STEP",
+        "17": "M1_VREF",
+        "18": "GND",
+        "19": "M1_DIR",
+        "20": "GND",
+        "21": "M1_A2",
+        "22": "VMOTOR",
+        "23": "M1_SENSE_A",
+        "24": "M1_A1",
+        "25": "GND",
+        "26": "M1_B1",
+        "27": "M1_SENSE_B",
+        "28": "VMOTOR",
+        "29": "GND"
+      },
+      "footprint": "Package_DFN_QFN:VQFN-28-1EP_5x5mm_P0.5mm_EP3.7x3.7mm",
+      "mpn": "TMC2209-LA-T",
+      "manufacturer": "Analog Devices / Trinamic",
+      "properties": {
+        "Datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2209_datasheet_rev1.09.pdf",
+        "Source": "Mellow TMC2209 inventory; exact supplied suffix confirmation pending",
+        "Notes": "Address 0; external 0.11ohm sensing, software current RMS. CLK grounded; passive heatsink/Fly reference."
+      }
+    },
+    {
+      "ref": "R31",
+      "sheet": "motors",
+      "group": "Motor 1",
+      "symbol": "Device:R",
+      "value": "10k",
+      "pins": {
+        "1": "V3V3",
+        "2": "M1_EN_N"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "R32",
+      "sheet": "motors",
+      "group": "Motor 1",
+      "symbol": "Device:R",
+      "value": "10k",
+      "pins": {
+        "1": "M1_STEP",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "R33",
+      "sheet": "motors",
+      "group": "Motor 1",
+      "symbol": "Device:R",
+      "value": "10k",
+      "pins": {
+        "1": "M1_DIR",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "R34",
+      "sheet": "motors",
+      "group": "Motor 1",
+      "symbol": "Device:R",
+      "value": "0.11R",
+      "pins": {
+        "1": "M1_SENSE_A",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_1206_3216Metric",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1W, 1%, low-inductance current sense",
+        "Notes": "1W,1%, low-inductance current sense; four-terminal routing at pads"
+      }
+    },
+    {
+      "ref": "R35",
+      "sheet": "motors",
+      "group": "Motor 1",
+      "symbol": "Device:R",
+      "value": "0.11R",
+      "pins": {
+        "1": "M1_SENSE_B",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_1206_3216Metric",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1W, 1%, low-inductance current sense",
+        "Notes": "1W,1%, low-inductance current sense; four-terminal routing at pads"
+      }
+    },
+    {
+      "ref": "R36",
+      "sheet": "motors",
+      "group": "Motor 1",
+      "symbol": "Device:R",
+      "value": "20k",
+      "pins": {
+        "1": "M1_5VOUT",
+        "2": "M1_VREF"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "R37",
+      "sheet": "motors",
+      "group": "Motor 1",
+      "symbol": "Device:R",
+      "value": "20k",
+      "pins": {
+        "1": "M1_VREF",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "C41",
+      "sheet": "motors",
+      "group": "Motor 1",
+      "symbol": "Device:C",
+      "value": "22n",
+      "pins": {
+        "1": "M1_CPO",
+        "2": "M1_CPI"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "50V X7R"
+      }
+    },
+    {
+      "ref": "C42",
+      "sheet": "motors",
+      "group": "Motor 1",
+      "symbol": "Device:C",
+      "value": "100n",
+      "pins": {
+        "1": "M1_VCP",
+        "2": "VMOTOR"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "50V X7R"
+      }
+    },
+    {
+      "ref": "C43",
+      "sheet": "motors",
+      "group": "Motor 1",
+      "symbol": "Device:C",
+      "value": "2.2u",
+      "pins": {
+        "1": "M1_5VOUT",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X7R"
+      }
+    },
+    {
+      "ref": "C44",
+      "sheet": "motors",
+      "group": "Motor 1",
+      "symbol": "Device:C",
+      "value": "100n",
+      "pins": {
+        "1": "V3V3",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X7R"
+      }
+    },
+    {
+      "ref": "C45",
+      "sheet": "motors",
+      "group": "Motor 1",
+      "symbol": "Device:C",
+      "value": "100n",
+      "pins": {
+        "1": "VMOTOR",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "50V X7R",
+        "Notes": "At VS pin 22"
+      }
+    },
+    {
+      "ref": "C46",
+      "sheet": "motors",
+      "group": "Motor 1",
+      "symbol": "Device:C",
+      "value": "100n",
+      "pins": {
+        "1": "VMOTOR",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "50V X7R",
+        "Notes": "At VS pin 28"
+      }
+    },
+    {
+      "ref": "C47",
+      "sheet": "motors",
+      "group": "Motor 1",
+      "symbol": "Device:C",
+      "value": "100n",
+      "pins": {
+        "1": "M1_VREF",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X7R"
+      }
+    },
+    {
+      "ref": "C1",
+      "sheet": "motors",
+      "group": "Motor 1",
+      "symbol": "Device:C_Polarized",
+      "value": "100uF 35V",
+      "pins": {
+        "1": "VMOTOR",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:CP_Elec_6.3x7.7",
+      "mpn": "EEHZK1V101XP",
+      "manufacturer": "Panasonic",
+      "properties": {
+        "LCSC": "C454360",
+        "Datasheet": "https://util01.industrial.panasonic.com/ea/utilities/ds/chr-vw/EEHZK1V101XP",
+        "Rating": "100uF 35V, 35mOhm ESR, 1.7A ripple at 100kHz",
+        "Notes": "Same V2 6.3x7.7mm envelope; hybrid capacitor selected for driver ripple current"
+      }
+    },
+    {
+      "ref": "J6",
+      "sheet": "motors",
+      "group": "Motor 1",
+      "symbol": "Connector_Generic:Conn_01x04",
+      "value": "MOTOR 1",
+      "pins": {
+        "1": "M1_B2",
+        "2": "M1_B1",
+        "3": "M1_A1",
+        "4": "M1_A2"
+      },
+      "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+      "mpn": "B4B-XH-A(LF)(SN)",
+      "manufacturer": "JST",
+      "properties": {
+        "Notes": "Retain V2 mating position and phase order"
+      }
+    },
+    {
+      "ref": "U11",
+      "sheet": "motors",
+      "group": "Motor 2",
+      "symbol": "Driver_Motor:TMC2209-LA",
+      "value": "TMC2209-LA-T",
+      "pins": {
+        "1": "M2_B2",
+        "2": "M2_EN_N",
+        "3": "GND",
+        "4": "M2_CPO",
+        "5": "M2_CPI",
+        "6": "M2_VCP",
+        "7": "GND",
+        "8": "M2_5VOUT",
+        "9": "V3V3",
+        "10": "GND",
+        "11": null,
+        "12": null,
+        "13": "GND",
+        "14": "TMC_RX",
+        "15": "V3V3",
+        "16": "M2_STEP",
+        "17": "M2_VREF",
+        "18": "GND",
+        "19": "M2_DIR",
+        "20": "GND",
+        "21": "M2_A2",
+        "22": "VMOTOR",
+        "23": "M2_SENSE_A",
+        "24": "M2_A1",
+        "25": "GND",
+        "26": "M2_B1",
+        "27": "M2_SENSE_B",
+        "28": "VMOTOR",
+        "29": "GND"
+      },
+      "footprint": "Package_DFN_QFN:VQFN-28-1EP_5x5mm_P0.5mm_EP3.7x3.7mm",
+      "mpn": "TMC2209-LA-T",
+      "manufacturer": "Analog Devices / Trinamic",
+      "properties": {
+        "Datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2209_datasheet_rev1.09.pdf",
+        "Source": "Mellow TMC2209 inventory; exact supplied suffix confirmation pending",
+        "Notes": "Address 1; external 0.11ohm sensing, software current RMS. CLK grounded; passive heatsink/Fly reference."
+      }
+    },
+    {
+      "ref": "R38",
+      "sheet": "motors",
+      "group": "Motor 2",
+      "symbol": "Device:R",
+      "value": "10k",
+      "pins": {
+        "1": "V3V3",
+        "2": "M2_EN_N"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "R39",
+      "sheet": "motors",
+      "group": "Motor 2",
+      "symbol": "Device:R",
+      "value": "10k",
+      "pins": {
+        "1": "M2_STEP",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "R40",
+      "sheet": "motors",
+      "group": "Motor 2",
+      "symbol": "Device:R",
+      "value": "10k",
+      "pins": {
+        "1": "M2_DIR",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "R41",
+      "sheet": "motors",
+      "group": "Motor 2",
+      "symbol": "Device:R",
+      "value": "0.11R",
+      "pins": {
+        "1": "M2_SENSE_A",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_1206_3216Metric",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1W, 1%, low-inductance current sense",
+        "Notes": "1W,1%, low-inductance current sense; four-terminal routing at pads"
+      }
+    },
+    {
+      "ref": "R42",
+      "sheet": "motors",
+      "group": "Motor 2",
+      "symbol": "Device:R",
+      "value": "0.11R",
+      "pins": {
+        "1": "M2_SENSE_B",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_1206_3216Metric",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1W, 1%, low-inductance current sense",
+        "Notes": "1W,1%, low-inductance current sense; four-terminal routing at pads"
+      }
+    },
+    {
+      "ref": "R43",
+      "sheet": "motors",
+      "group": "Motor 2",
+      "symbol": "Device:R",
+      "value": "20k",
+      "pins": {
+        "1": "M2_5VOUT",
+        "2": "M2_VREF"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "R44",
+      "sheet": "motors",
+      "group": "Motor 2",
+      "symbol": "Device:R",
+      "value": "20k",
+      "pins": {
+        "1": "M2_VREF",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "C48",
+      "sheet": "motors",
+      "group": "Motor 2",
+      "symbol": "Device:C",
+      "value": "22n",
+      "pins": {
+        "1": "M2_CPO",
+        "2": "M2_CPI"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "50V X7R"
+      }
+    },
+    {
+      "ref": "C49",
+      "sheet": "motors",
+      "group": "Motor 2",
+      "symbol": "Device:C",
+      "value": "100n",
+      "pins": {
+        "1": "M2_VCP",
+        "2": "VMOTOR"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "50V X7R"
+      }
+    },
+    {
+      "ref": "C50",
+      "sheet": "motors",
+      "group": "Motor 2",
+      "symbol": "Device:C",
+      "value": "2.2u",
+      "pins": {
+        "1": "M2_5VOUT",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X7R"
+      }
+    },
+    {
+      "ref": "C51",
+      "sheet": "motors",
+      "group": "Motor 2",
+      "symbol": "Device:C",
+      "value": "100n",
+      "pins": {
+        "1": "V3V3",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X7R"
+      }
+    },
+    {
+      "ref": "C52",
+      "sheet": "motors",
+      "group": "Motor 2",
+      "symbol": "Device:C",
+      "value": "100n",
+      "pins": {
+        "1": "VMOTOR",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "50V X7R",
+        "Notes": "At VS pin 22"
+      }
+    },
+    {
+      "ref": "C53",
+      "sheet": "motors",
+      "group": "Motor 2",
+      "symbol": "Device:C",
+      "value": "100n",
+      "pins": {
+        "1": "VMOTOR",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "50V X7R",
+        "Notes": "At VS pin 28"
+      }
+    },
+    {
+      "ref": "C54",
+      "sheet": "motors",
+      "group": "Motor 2",
+      "symbol": "Device:C",
+      "value": "100n",
+      "pins": {
+        "1": "M2_VREF",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X7R"
+      }
+    },
+    {
+      "ref": "C2",
+      "sheet": "motors",
+      "group": "Motor 2",
+      "symbol": "Device:C_Polarized",
+      "value": "100uF 35V",
+      "pins": {
+        "1": "VMOTOR",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:CP_Elec_6.3x7.7",
+      "mpn": "EEHZK1V101XP",
+      "manufacturer": "Panasonic",
+      "properties": {
+        "LCSC": "C454360",
+        "Datasheet": "https://util01.industrial.panasonic.com/ea/utilities/ds/chr-vw/EEHZK1V101XP",
+        "Rating": "100uF 35V, 35mOhm ESR, 1.7A ripple at 100kHz",
+        "Notes": "Same V2 6.3x7.7mm envelope; hybrid capacitor selected for driver ripple current"
+      }
+    },
+    {
+      "ref": "J7",
+      "sheet": "motors",
+      "group": "Motor 2",
+      "symbol": "Connector_Generic:Conn_01x04",
+      "value": "MOTOR 2",
+      "pins": {
+        "1": "M2_B2",
+        "2": "M2_B1",
+        "3": "M2_A1",
+        "4": "M2_A2"
+      },
+      "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+      "mpn": "B4B-XH-A(LF)(SN)",
+      "manufacturer": "JST",
+      "properties": {
+        "Notes": "Retain V2 mating position and phase order"
+      }
+    },
+    {
+      "ref": "U4",
+      "sheet": "interfaces",
+      "group": "Scale serial interface",
+      "symbol": "Interface_UART:MAX3232",
+      "value": "MAX3232ESE+",
+      "pins": {
+        "1": "RS_C1P",
+        "2": "RS_VP",
+        "3": "RS_C1N",
+        "4": "RS_C2P",
+        "5": "RS_C2N",
+        "6": "RS_VN",
+        "7": null,
+        "8": "GND",
+        "9": null,
+        "10": "GND",
+        "11": "SCALE_TX",
+        "12": "RS_LOGIC_RX",
+        "13": "RS_RX",
+        "14": "RS_TX",
+        "15": "GND",
+        "16": "V3V3"
+      },
+      "footprint": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm",
+      "mpn": "MAX3232ESE+",
+      "manufacturer": "Analog Devices / Maxim",
+      "properties": {
+        "Notes": "Retained V2 function; tie unused receiver/driver inputs low"
+      }
+    },
+    {
+      "ref": "C10",
+      "sheet": "interfaces",
+      "group": "Scale serial interface",
+      "symbol": "Device:C",
+      "value": "100n",
+      "pins": {
+        "1": "RS_C1P",
+        "2": "RS_C1N"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "25V X7R"
+      }
+    },
+    {
+      "ref": "C11",
+      "sheet": "interfaces",
+      "group": "Scale serial interface",
+      "symbol": "Device:C",
+      "value": "100n",
+      "pins": {
+        "1": "V3V3",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "25V X7R"
+      }
+    },
+    {
+      "ref": "C12",
+      "sheet": "interfaces",
+      "group": "Scale serial interface",
+      "symbol": "Device:C",
+      "value": "100n",
+      "pins": {
+        "1": "RS_C2P",
+        "2": "RS_C2N"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "25V X7R"
+      }
+    },
+    {
+      "ref": "C13",
+      "sheet": "interfaces",
+      "group": "Scale serial interface",
+      "symbol": "Device:C",
+      "value": "100n",
+      "pins": {
+        "1": "RS_VP",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "25V X7R"
+      }
+    },
+    {
+      "ref": "C14",
+      "sheet": "interfaces",
+      "group": "Scale serial interface",
+      "symbol": "Device:C",
+      "value": "100n",
+      "pins": {
+        "1": "RS_VN",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "25V X7R"
+      }
+    },
+    {
+      "ref": "J3",
+      "sheet": "interfaces",
+      "group": "Scale serial interface",
+      "symbol": "Connector_Generic:Conn_01x03",
+      "value": "SCALE TTL 3V3",
+      "pins": {
+        "1": "TTL_RX",
+        "2": "SCALE_TX",
+        "3": "GND"
+      },
+      "footprint": "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",
+      "mpn": "B3B-XH-A(LF)(SN)",
+      "manufacturer": "JST",
+      "properties": {}
+    },
+    {
+      "ref": "J17",
+      "sheet": "interfaces",
+      "group": "Scale serial interface",
+      "symbol": "Connector_Generic:Conn_01x03",
+      "value": "RX SELECT",
+      "pins": {
+        "1": "TTL_RX",
+        "2": "SCALE_RX",
+        "3": "RS_LOGIC_RX"
+      },
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Notes": "One shunt: 2-3 RS232 default, 1-2 TTL. Removes competing receiver outputs while preserving both V2 alternatives."
+      }
+    },
+    {
+      "ref": "J9",
+      "sheet": "interfaces",
+      "group": "Scale serial interface",
+      "symbol": "Connector_Generic:Conn_02x02_Odd_Even",
+      "value": "DB9 ROUTING",
+      "pins": {
+        "1": "DB9_2",
+        "2": "RS_TX",
+        "3": "RS_RX",
+        "4": "DB9_3"
+      },
+      "footprint": "Connector_PinHeader_2.00mm:PinHeader_2x02_P2.00mm_Vertical",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Notes": "Retain V2 2mm pitch and routing orientations"
+      }
+    },
+    {
+      "ref": "J10",
+      "sheet": "interfaces",
+      "group": "Scale serial interface",
+      "symbol": "Connector:DE9_Pins_MountingHoles",
+      "value": "DB9 MALE",
+      "pins": {
+        "1": null,
+        "2": "DB9_2",
+        "3": "DB9_3",
+        "4": null,
+        "5": "GND",
+        "6": null,
+        "7": null,
+        "8": null,
+        "9": null,
+        "SH": "GND"
+      },
+      "footprint": "Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "LCSC": "C426221",
+        "Notes": "Retain mating plane/fixing drills; stock SH replaces old 0 shell designation. Exact source match pending."
+      }
+    },
+    {
+      "ref": "R11",
+      "sheet": "interfaces",
+      "group": "Scale serial interface",
+      "symbol": "Device:R",
+      "value": "1k",
+      "pins": {
+        "1": "V3V3",
+        "2": "D5_A"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "D5",
+      "sheet": "interfaces",
+      "group": "Scale serial interface",
+      "symbol": "Device:LED",
+      "value": "RED",
+      "pins": {
+        "1": "SCALE_TX",
+        "2": "D5_A"
+      },
+      "footprint": "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {}
+    },
+    {
+      "ref": "R12",
+      "sheet": "interfaces",
+      "group": "Scale serial interface",
+      "symbol": "Device:R",
+      "value": "1k",
+      "pins": {
+        "1": "V3V3",
+        "2": "D6_A"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "D6",
+      "sheet": "interfaces",
+      "group": "Scale serial interface",
+      "symbol": "Device:LED",
+      "value": "BLUE",
+      "pins": {
+        "1": "SCALE_RX",
+        "2": "D6_A"
+      },
+      "footprint": "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {}
+    },
+    {
+      "ref": "U5",
+      "sheet": "interfaces",
+      "group": "5V accessory outputs",
+      "symbol": "74xGxx:74AHCT1G125",
+      "value": "SN74AHCT1G125DBVR",
+      "pins": {
+        "1": "GND",
+        "2": "PWM2",
+        "3": "GND",
+        "4": "J11_OUT",
+        "5": "V5V"
+      },
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "mpn": "SN74AHCT1G125DBVR",
+      "manufacturer": "Texas Instruments",
+      "properties": {
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/sn74ahct1g125.pdf",
+        "Notes": "Pin-compatible V2 buffer function; AHCT guarantees 3.3V high at 5V supply"
+      }
+    },
+    {
+      "ref": "C15",
+      "sheet": "interfaces",
+      "group": "5V accessory outputs",
+      "symbol": "Device:C",
+      "value": "100n",
+      "pins": {
+        "1": "V5V",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X7R"
+      }
+    },
+    {
+      "ref": "R13",
+      "sheet": "interfaces",
+      "group": "5V accessory outputs",
+      "symbol": "Device:R",
+      "value": "4.7k",
+      "pins": {
+        "1": "PWM2",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "J11",
+      "sheet": "interfaces",
+      "group": "5V accessory outputs",
+      "symbol": "Connector_Generic:Conn_01x03",
+      "value": "J11 5V OUT",
+      "pins": {
+        "1": "GND",
+        "2": "V5V",
+        "3": "J11_OUT"
+      },
+      "footprint": "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",
+      "mpn": "B3B-XH-A(LF)(SN)",
+      "manufacturer": "JST",
+      "properties": {}
+    },
+    {
+      "ref": "U6",
+      "sheet": "interfaces",
+      "group": "5V accessory outputs",
+      "symbol": "74xGxx:74AHCT1G125",
+      "value": "SN74AHCT1G125DBVR",
+      "pins": {
+        "1": "GND",
+        "2": "PWM1",
+        "3": "GND",
+        "4": "J12_OUT",
+        "5": "V5V"
+      },
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "mpn": "SN74AHCT1G125DBVR",
+      "manufacturer": "Texas Instruments",
+      "properties": {
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/sn74ahct1g125.pdf",
+        "Notes": "Pin-compatible V2 buffer function; AHCT guarantees 3.3V high at 5V supply"
+      }
+    },
+    {
+      "ref": "C16",
+      "sheet": "interfaces",
+      "group": "5V accessory outputs",
+      "symbol": "Device:C",
+      "value": "100n",
+      "pins": {
+        "1": "V5V",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X7R"
+      }
+    },
+    {
+      "ref": "R14",
+      "sheet": "interfaces",
+      "group": "5V accessory outputs",
+      "symbol": "Device:R",
+      "value": "4.7k",
+      "pins": {
+        "1": "PWM1",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "J12",
+      "sheet": "interfaces",
+      "group": "5V accessory outputs",
+      "symbol": "Connector_Generic:Conn_01x03",
+      "value": "J12 5V OUT",
+      "pins": {
+        "1": "GND",
+        "2": "V5V",
+        "3": "J12_OUT"
+      },
+      "footprint": "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",
+      "mpn": "B3B-XH-A(LF)(SN)",
+      "manufacturer": "JST",
+      "properties": {}
+    },
+    {
+      "ref": "U7",
+      "sheet": "interfaces",
+      "group": "5V accessory outputs",
+      "symbol": "74xGxx:74AHCT1G125",
+      "value": "SN74AHCT1G125DBVR",
+      "pins": {
+        "1": "GND",
+        "2": "PWM3_PIXEL",
+        "3": "GND",
+        "4": "J13_OUT",
+        "5": "V5V"
+      },
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "mpn": "SN74AHCT1G125DBVR",
+      "manufacturer": "Texas Instruments",
+      "properties": {
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/sn74ahct1g125.pdf",
+        "Notes": "Pin-compatible V2 buffer function; AHCT guarantees 3.3V high at 5V supply"
+      }
+    },
+    {
+      "ref": "C17",
+      "sheet": "interfaces",
+      "group": "5V accessory outputs",
+      "symbol": "Device:C",
+      "value": "100n",
+      "pins": {
+        "1": "V5V",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X7R"
+      }
+    },
+    {
+      "ref": "R15",
+      "sheet": "interfaces",
+      "group": "5V accessory outputs",
+      "symbol": "Device:R",
+      "value": "4.7k",
+      "pins": {
+        "1": "PWM3_PIXEL",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "J13",
+      "sheet": "interfaces",
+      "group": "5V accessory outputs",
+      "symbol": "Connector_Generic:Conn_01x03",
+      "value": "J13 5V OUT",
+      "pins": {
+        "1": "GND",
+        "2": "V5V",
+        "3": "J13_OUT"
+      },
+      "footprint": "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",
+      "mpn": "B3B-XH-A(LF)(SN)",
+      "manufacturer": "JST",
+      "properties": {}
+    },
+    {
+      "ref": "J1",
+      "sheet": "display_connector",
+      "group": "Retained Mini12864 headers",
+      "symbol": "Connector_Generic:Conn_02x05_Odd_Even",
+      "value": "EXP1 Mini12864",
+      "pins": {
+        "1": null,
+        "2": "DISP_BTN_IRQ",
+        "3": "DISP_CS",
+        "4": "DISP_DC_TPRST",
+        "5": "DISP_RESET",
+        "6": "MINI_PIXEL_5V",
+        "7": null,
+        "8": null,
+        "9": "GND",
+        "10": "V5V"
+      },
+      "footprint": "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Notes": "Retain V2 position, key and pinout. Only one display assembly attached; no hot-plug."
+      }
+    },
+    {
+      "ref": "J2",
+      "sheet": "display_connector",
+      "group": "Retained Mini12864 headers",
+      "symbol": "Connector_Generic:Conn_02x05_Odd_Even",
+      "value": "EXP2 Mini12864",
+      "pins": {
+        "1": null,
+        "2": "DISP_SCK",
+        "3": "DISP_D1_EN1",
+        "4": null,
+        "5": "DISP_D2_EN2",
+        "6": "DISP_D0_MOSI",
+        "7": null,
+        "8": "MINI_BUTTON_RAW",
+        "9": "GND",
+        "10": "V5V"
+      },
+      "footprint": "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Notes": "Pin10 remains V2 +5V. Supplied Mini must not fit a reset/KILL link shorting pin10 to GND."
+      }
+    },
+    {
+      "ref": "U8",
+      "sheet": "display_connector",
+      "group": "Retained Mini12864 headers",
+      "symbol": "74xGxx:74AHCT1G125",
+      "value": "SN74AHCT1G125DBVR",
+      "pins": {
+        "1": "GND",
+        "2": "DISP_D3_PIXEL",
+        "3": "GND",
+        "4": "MINI_PIXEL_5V",
+        "5": "V5V"
+      },
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "mpn": "SN74AHCT1G125DBVR",
+      "manufacturer": "Texas Instruments",
+      "properties": {
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/sn74ahct1g125.pdf"
+      }
+    },
+    {
+      "ref": "C18",
+      "sheet": "display_connector",
+      "group": "Retained Mini12864 headers",
+      "symbol": "Device:C",
+      "value": "100n",
+      "pins": {
+        "1": "V5V",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X7R"
+      }
+    },
+    {
+      "ref": "R16",
+      "sheet": "display_connector",
+      "group": "Retained Mini12864 headers",
+      "symbol": "Device:R",
+      "value": "4.7k",
+      "pins": {
+        "1": "DISP_D3_PIXEL",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum",
+        "Notes": "Shared with host-driven QSPI D3, never an external IRQ"
+      }
+    },
+    {
+      "ref": "U14",
+      "sheet": "display_connector",
+      "group": "Retained Mini12864 headers",
+      "symbol": "74xGxx:74LVC1G17",
+      "value": "SN74LVC1G17DBVR",
+      "pins": {
+        "1": null,
+        "2": "MINI_BUTTON_RAW",
+        "3": "GND",
+        "4": "MINI_BUTTON",
+        "5": "V3V3"
+      },
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "mpn": "SN74LVC1G17DBVR",
+      "manufacturer": "Texas Instruments",
+      "properties": {
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf",
+        "Notes": "One 5V-tolerant Schmitt input for the documented Mini reset-button risk. Dedicated GPIO21; cannot contend with QSPI WAIT."
+      }
+    },
+    {
+      "ref": "C55",
+      "sheet": "display_connector",
+      "group": "Retained Mini12864 headers",
+      "symbol": "Device:C",
+      "value": "100n",
+      "pins": {
+        "1": "V3V3",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X7R"
+      }
+    },
+    {
+      "ref": "R45",
+      "sheet": "display_connector",
+      "group": "Retained Mini12864 headers",
+      "symbol": "Device:R",
+      "value": "100k",
+      "pins": {
+        "1": "V3V3",
+        "2": "MINI_BUTTON_RAW"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "J14",
+      "sheet": "display_connector",
+      "group": "External QSPI display connector",
+      "symbol": "Connector_Generic_MountingPin:Conn_01x20_MountingPin",
+      "value": "EXTERNAL QSPI / TDO B1617A",
+      "pins": {
+        "1": "GND",
+        "2": "V5V",
+        "3": "GND",
+        "4": "DISP_CS",
+        "5": "GND",
+        "6": "DISP_D1_EN1",
+        "7": "DISP_D0_MOSI",
+        "8": "DISP_SCK",
+        "9": "DISP_D3_PIXEL",
+        "10": "DISP_D2_EN2",
+        "11": "DISP_RESET",
+        "12": "DISP_WAIT",
+        "13": null,
+        "14": null,
+        "15": "DISP_BTN_IRQ",
+        "16": "I2C_SDA",
+        "17": "I2C_SCL",
+        "18": "TP_RESET_N",
+        "19": "V3V0",
+        "20": "GND",
+        "MP": "GND"
+      },
+      "footprint": "Connector_FFC-FPC:Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal",
+      "mpn": "FH12-20S-0.5SH(55)",
+      "manufacturer": "Hirose",
+      "properties": {
+        "Datasheet": "https://www.hirose.com/en/product/p/CL0586-0524-9-55",
+        "Notes": "Board connector only. 20-contact pin table follows TDO spec pp5-9. FFC contact side/thickness/pin1 map and maximum load require supplier confirmation. Direct touch; bridge IRQ and D/C NC."
+      }
+    },
+    {
+      "ref": "C56",
+      "sheet": "display_connector",
+      "group": "External QSPI display connector",
+      "symbol": "Device:C",
+      "value": "10u",
+      "pins": {
+        "1": "V5V",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X5R",
+        "Notes": "At external display connector"
+      }
+    },
+    {
+      "ref": "R46",
+      "sheet": "display_connector",
+      "group": "External QSPI display connector",
+      "symbol": "Device:R",
+      "value": "47k",
+      "pins": {
+        "1": "V3V3",
+        "2": "DISP_CS"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum",
+        "Notes": "Deselect display during reset"
+      }
+    },
+    {
+      "ref": "R47",
+      "sheet": "display_connector",
+      "group": "External QSPI display connector",
+      "symbol": "Device:R",
+      "value": "47k",
+      "pins": {
+        "1": "V3V3",
+        "2": "DISP_WAIT"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum",
+        "DNP": true,
+        "Notes": "Populate only if WAIT output requires a pullup"
+      }
+    },
+    {
+      "ref": "U13",
+      "sheet": "display_connector",
+      "group": "Touch supply and reset",
+      "symbol": "Regulator_Linear:TLV75530PDBV",
+      "value": "TLV75530PDBVR",
+      "pins": {
+        "1": "V3V3",
+        "2": "GND",
+        "3": "V3V3",
+        "4": null,
+        "5": "V3V0"
+      },
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "mpn": "TLV75530PDBVR",
+      "manufacturer": "Texas Instruments",
+      "properties": {
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tlv755p.pdf",
+        "Notes": "Always fitted: touch supply and shared I2C pullups even in Mini mode. Touch operating range 2.8-3.3V."
+      }
+    },
+    {
+      "ref": "C57",
+      "sheet": "display_connector",
+      "group": "Touch supply and reset",
+      "symbol": "Device:C",
+      "value": "2.2u",
+      "pins": {
+        "1": "V3V3",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X7R"
+      }
+    },
+    {
+      "ref": "C58",
+      "sheet": "display_connector",
+      "group": "Touch supply and reset",
+      "symbol": "Device:C",
+      "value": "2.2u",
+      "pins": {
+        "1": "V3V0",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "16V X7R"
+      }
+    },
+    {
+      "ref": "Q2",
+      "sheet": "display_connector",
+      "group": "Touch supply and reset",
+      "symbol": "Transistor_FET:BSS138",
+      "value": "BSS138LT1G",
+      "pins": {
+        "1": "DISP_DC_TPRST",
+        "2": "GND",
+        "3": "TP_RESET_N"
+      },
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "mpn": "BSS138LT1G",
+      "manufacturer": "onsemi",
+      "properties": {
+        "Datasheet": "https://www.onsemi.com/pdf/datasheet/bss138lt1-d.pdf",
+        "Notes": "Open-drain 3.0V reset interface; MCU high asserts low. Same device as Q1; Rds(on) specified at2.75V. Avoid 3.3V push-pull injection through shared Mini DC pin."
+      }
+    },
+    {
+      "ref": "R48",
+      "sheet": "display_connector",
+      "group": "Touch supply and reset",
+      "symbol": "Device:R",
+      "value": "10k",
+      "pins": {
+        "1": "V3V0",
+        "2": "TP_RESET_N"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    },
+    {
+      "ref": "R49",
+      "sheet": "display_connector",
+      "group": "Touch supply and reset",
+      "symbol": "Device:R",
+      "value": "100k",
+      "pins": {
+        "1": "DISP_DC_TPRST",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "properties": {
+        "Rating": "1%, 0.125W minimum"
+      }
+    }
+  ],
+  "resource_checks": []
+}

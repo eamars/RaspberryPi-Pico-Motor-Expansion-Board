@@ -1,0 +1,2989 @@
+{
+  "RF_FEED": [
+    {
+      "ref": "U1",
+      "pin": "1",
+      "sheet": "root"
+    },
+    {
+      "ref": "C32",
+      "pin": "1",
+      "sheet": "root"
+    },
+    {
+      "ref": "R22",
+      "pin": "1",
+      "sheet": "root"
+    }
+  ],
+  "V3V3_RF": [
+    {
+      "ref": "U1",
+      "pin": "2",
+      "sheet": "root"
+    },
+    {
+      "ref": "U1",
+      "pin": "3",
+      "sheet": "root"
+    },
+    {
+      "ref": "L2",
+      "pin": "2",
+      "sheet": "root"
+    },
+    {
+      "ref": "C24",
+      "pin": "1",
+      "sheet": "root"
+    },
+    {
+      "ref": "C25",
+      "pin": "1",
+      "sheet": "root"
+    }
+  ],
+  "CHIP_PU": [
+    {
+      "ref": "U1",
+      "pin": "4",
+      "sheet": "root"
+    },
+    {
+      "ref": "R18",
+      "pin": "2",
+      "sheet": "root"
+    },
+    {
+      "ref": "C31",
+      "pin": "1",
+      "sheet": "root"
+    },
+    {
+      "ref": "SW1",
+      "pin": "1",
+      "sheet": "root"
+    },
+    {
+      "ref": "TP6",
+      "pin": "1",
+      "sheet": "power"
+    }
+  ],
+  "BOOT_N": [
+    {
+      "ref": "U1",
+      "pin": "5",
+      "sheet": "root"
+    },
+    {
+      "ref": "R19",
+      "pin": "2",
+      "sheet": "root"
+    },
+    {
+      "ref": "SW2",
+      "pin": "1",
+      "sheet": "root"
+    },
+    {
+      "ref": "TP5",
+      "pin": "1",
+      "sheet": "power"
+    }
+  ],
+  "DISP_D3_PIXEL": [
+    {
+      "ref": "U1",
+      "pin": "6",
+      "sheet": "root"
+    },
+    {
+      "ref": "U8",
+      "pin": "2",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "R16",
+      "pin": "1",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "J14",
+      "pin": "9",
+      "sheet": "display_connector"
+    }
+  ],
+  "GPIO2": [
+    {
+      "ref": "U1",
+      "pin": "7",
+      "sheet": "root"
+    },
+    {
+      "ref": "J15",
+      "pin": "2",
+      "sheet": "root"
+    }
+  ],
+  "GPIO3_STRAP": [
+    {
+      "ref": "U1",
+      "pin": "8",
+      "sheet": "root"
+    },
+    {
+      "ref": "J15",
+      "pin": "3",
+      "sheet": "root"
+    }
+  ],
+  "PWM1": [
+    {
+      "ref": "U1",
+      "pin": "9",
+      "sheet": "root"
+    },
+    {
+      "ref": "U6",
+      "pin": "2",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "R14",
+      "pin": "1",
+      "sheet": "interfaces"
+    }
+  ],
+  "PWM2": [
+    {
+      "ref": "U1",
+      "pin": "10",
+      "sheet": "root"
+    },
+    {
+      "ref": "U5",
+      "pin": "2",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "R13",
+      "pin": "1",
+      "sheet": "interfaces"
+    }
+  ],
+  "PWM3_PIXEL": [
+    {
+      "ref": "U1",
+      "pin": "11",
+      "sheet": "root"
+    },
+    {
+      "ref": "U7",
+      "pin": "2",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "R15",
+      "pin": "1",
+      "sheet": "interfaces"
+    }
+  ],
+  "I2C_SCL": [
+    {
+      "ref": "U1",
+      "pin": "12",
+      "sheet": "root"
+    },
+    {
+      "ref": "U2",
+      "pin": "6",
+      "sheet": "root"
+    },
+    {
+      "ref": "R6",
+      "pin": "2",
+      "sheet": "root"
+    },
+    {
+      "ref": "J14",
+      "pin": "17",
+      "sheet": "display_connector"
+    }
+  ],
+  "I2C_SDA": [
+    {
+      "ref": "U1",
+      "pin": "13",
+      "sheet": "root"
+    },
+    {
+      "ref": "U2",
+      "pin": "5",
+      "sheet": "root"
+    },
+    {
+      "ref": "R5",
+      "pin": "2",
+      "sheet": "root"
+    },
+    {
+      "ref": "J14",
+      "pin": "16",
+      "sheet": "display_connector"
+    }
+  ],
+  "DISP_BTN_IRQ": [
+    {
+      "ref": "U1",
+      "pin": "14",
+      "sheet": "root"
+    },
+    {
+      "ref": "J1",
+      "pin": "2",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "J14",
+      "pin": "15",
+      "sheet": "display_connector"
+    }
+  ],
+  "DISP_CS": [
+    {
+      "ref": "U1",
+      "pin": "15",
+      "sheet": "root"
+    },
+    {
+      "ref": "J1",
+      "pin": "3",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "J14",
+      "pin": "4",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "R46",
+      "pin": "2",
+      "sheet": "display_connector"
+    }
+  ],
+  "DISP_D0_MOSI": [
+    {
+      "ref": "U1",
+      "pin": "16",
+      "sheet": "root"
+    },
+    {
+      "ref": "J2",
+      "pin": "6",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "J14",
+      "pin": "7",
+      "sheet": "display_connector"
+    }
+  ],
+  "DISP_SCK": [
+    {
+      "ref": "U1",
+      "pin": "17",
+      "sheet": "root"
+    },
+    {
+      "ref": "J2",
+      "pin": "2",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "J14",
+      "pin": "8",
+      "sheet": "display_connector"
+    }
+  ],
+  "DISP_D1_EN1": [
+    {
+      "ref": "U1",
+      "pin": "18",
+      "sheet": "root"
+    },
+    {
+      "ref": "J2",
+      "pin": "3",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "J14",
+      "pin": "6",
+      "sheet": "display_connector"
+    }
+  ],
+  "DISP_D2_EN2": [
+    {
+      "ref": "U1",
+      "pin": "19",
+      "sheet": "root"
+    },
+    {
+      "ref": "J2",
+      "pin": "5",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "J14",
+      "pin": "10",
+      "sheet": "display_connector"
+    }
+  ],
+  "V3V3": [
+    {
+      "ref": "U1",
+      "pin": "20",
+      "sheet": "root"
+    },
+    {
+      "ref": "U1",
+      "pin": "46",
+      "sheet": "root"
+    },
+    {
+      "ref": "U1",
+      "pin": "55",
+      "sheet": "root"
+    },
+    {
+      "ref": "U1",
+      "pin": "56",
+      "sheet": "root"
+    },
+    {
+      "ref": "C19",
+      "pin": "1",
+      "sheet": "root"
+    },
+    {
+      "ref": "C20",
+      "pin": "1",
+      "sheet": "root"
+    },
+    {
+      "ref": "C21",
+      "pin": "1",
+      "sheet": "root"
+    },
+    {
+      "ref": "C22",
+      "pin": "1",
+      "sheet": "root"
+    },
+    {
+      "ref": "C23",
+      "pin": "1",
+      "sheet": "root"
+    },
+    {
+      "ref": "L2",
+      "pin": "1",
+      "sheet": "root"
+    },
+    {
+      "ref": "R18",
+      "pin": "1",
+      "sheet": "root"
+    },
+    {
+      "ref": "R19",
+      "pin": "1",
+      "sheet": "root"
+    },
+    {
+      "ref": "U2",
+      "pin": "8",
+      "sheet": "root"
+    },
+    {
+      "ref": "C34",
+      "pin": "1",
+      "sheet": "root"
+    },
+    {
+      "ref": "J15",
+      "pin": "6",
+      "sheet": "root"
+    },
+    {
+      "ref": "IC2",
+      "pin": "1",
+      "sheet": "power"
+    },
+    {
+      "ref": "L4",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "C37",
+      "pin": "1",
+      "sheet": "power"
+    },
+    {
+      "ref": "C38",
+      "pin": "1",
+      "sheet": "power"
+    },
+    {
+      "ref": "R4",
+      "pin": "1",
+      "sheet": "power"
+    },
+    {
+      "ref": "U12",
+      "pin": "10",
+      "sheet": "power"
+    },
+    {
+      "ref": "R25",
+      "pin": "1",
+      "sheet": "power"
+    },
+    {
+      "ref": "C40",
+      "pin": "1",
+      "sheet": "power"
+    },
+    {
+      "ref": "TP7",
+      "pin": "1",
+      "sheet": "power"
+    },
+    {
+      "ref": "U10",
+      "pin": "15",
+      "sheet": "motors"
+    },
+    {
+      "ref": "R31",
+      "pin": "1",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C44",
+      "pin": "1",
+      "sheet": "motors"
+    },
+    {
+      "ref": "U11",
+      "pin": "9",
+      "sheet": "motors"
+    },
+    {
+      "ref": "U11",
+      "pin": "15",
+      "sheet": "motors"
+    },
+    {
+      "ref": "R38",
+      "pin": "1",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C51",
+      "pin": "1",
+      "sheet": "motors"
+    },
+    {
+      "ref": "U4",
+      "pin": "16",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "C11",
+      "pin": "1",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "R11",
+      "pin": "1",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "R12",
+      "pin": "1",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "U14",
+      "pin": "5",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "C55",
+      "pin": "1",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "R45",
+      "pin": "1",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "R46",
+      "pin": "1",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "R47",
+      "pin": "1",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "U13",
+      "pin": "1",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "U13",
+      "pin": "3",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "C57",
+      "pin": "1",
+      "sheet": "display_connector"
+    }
+  ],
+  "SCALE_TX": [
+    {
+      "ref": "U1",
+      "pin": "21",
+      "sheet": "root"
+    },
+    {
+      "ref": "U4",
+      "pin": "11",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "J3",
+      "pin": "2",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "D5",
+      "pin": "1",
+      "sheet": "interfaces"
+    }
+  ],
+  "SCALE_RX": [
+    {
+      "ref": "U1",
+      "pin": "22",
+      "sheet": "root"
+    },
+    {
+      "ref": "J17",
+      "pin": "2",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "D6",
+      "pin": "1",
+      "sheet": "interfaces"
+    }
+  ],
+  "TMC_TX": [
+    {
+      "ref": "U1",
+      "pin": "23",
+      "sheet": "root"
+    },
+    {
+      "ref": "R1",
+      "pin": "1",
+      "sheet": "motors"
+    }
+  ],
+  "TMC_RX": [
+    {
+      "ref": "U1",
+      "pin": "24",
+      "sheet": "root"
+    },
+    {
+      "ref": "R1",
+      "pin": "2",
+      "sheet": "motors"
+    },
+    {
+      "ref": "U10",
+      "pin": "14",
+      "sheet": "motors"
+    },
+    {
+      "ref": "U11",
+      "pin": "14",
+      "sheet": "motors"
+    }
+  ],
+  "USB_DN": [
+    {
+      "ref": "U1",
+      "pin": "25",
+      "sheet": "root"
+    },
+    {
+      "ref": "R30",
+      "pin": "1",
+      "sheet": "power"
+    }
+  ],
+  "USB_DP": [
+    {
+      "ref": "U1",
+      "pin": "26",
+      "sheet": "root"
+    },
+    {
+      "ref": "R29",
+      "pin": "1",
+      "sheet": "power"
+    }
+  ],
+  "MINI_BUTTON": [
+    {
+      "ref": "U1",
+      "pin": "27",
+      "sheet": "root"
+    },
+    {
+      "ref": "U14",
+      "pin": "4",
+      "sheet": "display_connector"
+    }
+  ],
+  "VDD_SPI": [
+    {
+      "ref": "U1",
+      "pin": "29",
+      "sheet": "root"
+    },
+    {
+      "ref": "U9",
+      "pin": "8",
+      "sheet": "root"
+    },
+    {
+      "ref": "R17",
+      "pin": "1",
+      "sheet": "root"
+    },
+    {
+      "ref": "C26",
+      "pin": "1",
+      "sheet": "root"
+    },
+    {
+      "ref": "C27",
+      "pin": "1",
+      "sheet": "root"
+    },
+    {
+      "ref": "C28",
+      "pin": "1",
+      "sheet": "root"
+    }
+  ],
+  "FLASH_D3": [
+    {
+      "ref": "U1",
+      "pin": "30",
+      "sheet": "root"
+    },
+    {
+      "ref": "U9",
+      "pin": "7",
+      "sheet": "root"
+    }
+  ],
+  "FLASH_D2": [
+    {
+      "ref": "U1",
+      "pin": "31",
+      "sheet": "root"
+    },
+    {
+      "ref": "U9",
+      "pin": "3",
+      "sheet": "root"
+    }
+  ],
+  "FLASH_CS": [
+    {
+      "ref": "U1",
+      "pin": "32",
+      "sheet": "root"
+    },
+    {
+      "ref": "U9",
+      "pin": "1",
+      "sheet": "root"
+    },
+    {
+      "ref": "R17",
+      "pin": "2",
+      "sheet": "root"
+    }
+  ],
+  "FLASH_CLK": [
+    {
+      "ref": "U1",
+      "pin": "33",
+      "sheet": "root"
+    },
+    {
+      "ref": "U9",
+      "pin": "6",
+      "sheet": "root"
+    }
+  ],
+  "FLASH_D1": [
+    {
+      "ref": "U1",
+      "pin": "34",
+      "sheet": "root"
+    },
+    {
+      "ref": "U9",
+      "pin": "2",
+      "sheet": "root"
+    }
+  ],
+  "FLASH_D0": [
+    {
+      "ref": "U1",
+      "pin": "35",
+      "sheet": "root"
+    },
+    {
+      "ref": "U9",
+      "pin": "5",
+      "sheet": "root"
+    }
+  ],
+  "M2_EN_N": [
+    {
+      "ref": "U1",
+      "pin": "36",
+      "sheet": "root"
+    },
+    {
+      "ref": "U11",
+      "pin": "2",
+      "sheet": "motors"
+    },
+    {
+      "ref": "R38",
+      "pin": "2",
+      "sheet": "motors"
+    }
+  ],
+  "DISP_WAIT": [
+    {
+      "ref": "U1",
+      "pin": "37",
+      "sheet": "root"
+    },
+    {
+      "ref": "J14",
+      "pin": "12",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "R47",
+      "pin": "2",
+      "sheet": "display_connector"
+    }
+  ],
+  "M1_STEP": [
+    {
+      "ref": "U1",
+      "pin": "43",
+      "sheet": "root"
+    },
+    {
+      "ref": "U10",
+      "pin": "16",
+      "sheet": "motors"
+    },
+    {
+      "ref": "R32",
+      "pin": "1",
+      "sheet": "motors"
+    }
+  ],
+  "M2_STEP": [
+    {
+      "ref": "U1",
+      "pin": "44",
+      "sheet": "root"
+    },
+    {
+      "ref": "U11",
+      "pin": "16",
+      "sheet": "motors"
+    },
+    {
+      "ref": "R39",
+      "pin": "1",
+      "sheet": "motors"
+    }
+  ],
+  "M1_DIR": [
+    {
+      "ref": "U1",
+      "pin": "45",
+      "sheet": "root"
+    },
+    {
+      "ref": "U10",
+      "pin": "19",
+      "sheet": "motors"
+    },
+    {
+      "ref": "R33",
+      "pin": "1",
+      "sheet": "motors"
+    }
+  ],
+  "M2_DIR": [
+    {
+      "ref": "U1",
+      "pin": "47",
+      "sheet": "root"
+    },
+    {
+      "ref": "U11",
+      "pin": "19",
+      "sheet": "motors"
+    },
+    {
+      "ref": "R40",
+      "pin": "1",
+      "sheet": "motors"
+    }
+  ],
+  "M1_EN_N": [
+    {
+      "ref": "U1",
+      "pin": "48",
+      "sheet": "root"
+    },
+    {
+      "ref": "U10",
+      "pin": "2",
+      "sheet": "motors"
+    },
+    {
+      "ref": "R31",
+      "pin": "2",
+      "sheet": "motors"
+    }
+  ],
+  "DISP_RESET": [
+    {
+      "ref": "U1",
+      "pin": "49",
+      "sheet": "root"
+    },
+    {
+      "ref": "J1",
+      "pin": "5",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "J14",
+      "pin": "11",
+      "sheet": "display_connector"
+    }
+  ],
+  "DISP_DC_TPRST": [
+    {
+      "ref": "U1",
+      "pin": "50",
+      "sheet": "root"
+    },
+    {
+      "ref": "J1",
+      "pin": "4",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "Q2",
+      "pin": "1",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "R49",
+      "pin": "1",
+      "sheet": "display_connector"
+    }
+  ],
+  "GPIO45_STRAP": [
+    {
+      "ref": "U1",
+      "pin": "51",
+      "sheet": "root"
+    },
+    {
+      "ref": "R20",
+      "pin": "1",
+      "sheet": "root"
+    },
+    {
+      "ref": "J15",
+      "pin": "4",
+      "sheet": "root"
+    }
+  ],
+  "GPIO46_STRAP_IN": [
+    {
+      "ref": "U1",
+      "pin": "52",
+      "sheet": "root"
+    },
+    {
+      "ref": "R21",
+      "pin": "1",
+      "sheet": "root"
+    },
+    {
+      "ref": "J15",
+      "pin": "5",
+      "sheet": "root"
+    }
+  ],
+  "XTAL_N": [
+    {
+      "ref": "U1",
+      "pin": "53",
+      "sheet": "root"
+    },
+    {
+      "ref": "Y1",
+      "pin": "3",
+      "sheet": "root"
+    },
+    {
+      "ref": "C30",
+      "pin": "1",
+      "sheet": "root"
+    }
+  ],
+  "XTAL_P": [
+    {
+      "ref": "U1",
+      "pin": "54",
+      "sheet": "root"
+    },
+    {
+      "ref": "L3",
+      "pin": "1",
+      "sheet": "root"
+    }
+  ],
+  "GND": [
+    {
+      "ref": "U1",
+      "pin": "57",
+      "sheet": "root"
+    },
+    {
+      "ref": "C19",
+      "pin": "2",
+      "sheet": "root"
+    },
+    {
+      "ref": "C20",
+      "pin": "2",
+      "sheet": "root"
+    },
+    {
+      "ref": "C21",
+      "pin": "2",
+      "sheet": "root"
+    },
+    {
+      "ref": "C22",
+      "pin": "2",
+      "sheet": "root"
+    },
+    {
+      "ref": "C23",
+      "pin": "2",
+      "sheet": "root"
+    },
+    {
+      "ref": "C24",
+      "pin": "2",
+      "sheet": "root"
+    },
+    {
+      "ref": "C25",
+      "pin": "2",
+      "sheet": "root"
+    },
+    {
+      "ref": "U9",
+      "pin": "4",
+      "sheet": "root"
+    },
+    {
+      "ref": "C26",
+      "pin": "2",
+      "sheet": "root"
+    },
+    {
+      "ref": "C27",
+      "pin": "2",
+      "sheet": "root"
+    },
+    {
+      "ref": "C28",
+      "pin": "2",
+      "sheet": "root"
+    },
+    {
+      "ref": "Y1",
+      "pin": "2",
+      "sheet": "root"
+    },
+    {
+      "ref": "Y1",
+      "pin": "4",
+      "sheet": "root"
+    },
+    {
+      "ref": "C29",
+      "pin": "2",
+      "sheet": "root"
+    },
+    {
+      "ref": "C30",
+      "pin": "2",
+      "sheet": "root"
+    },
+    {
+      "ref": "C31",
+      "pin": "2",
+      "sheet": "root"
+    },
+    {
+      "ref": "R20",
+      "pin": "2",
+      "sheet": "root"
+    },
+    {
+      "ref": "R21",
+      "pin": "2",
+      "sheet": "root"
+    },
+    {
+      "ref": "SW1",
+      "pin": "2",
+      "sheet": "root"
+    },
+    {
+      "ref": "SW2",
+      "pin": "2",
+      "sheet": "root"
+    },
+    {
+      "ref": "C32",
+      "pin": "2",
+      "sheet": "root"
+    },
+    {
+      "ref": "C33",
+      "pin": "2",
+      "sheet": "root"
+    },
+    {
+      "ref": "U2",
+      "pin": "1",
+      "sheet": "root"
+    },
+    {
+      "ref": "U2",
+      "pin": "2",
+      "sheet": "root"
+    },
+    {
+      "ref": "U2",
+      "pin": "3",
+      "sheet": "root"
+    },
+    {
+      "ref": "U2",
+      "pin": "4",
+      "sheet": "root"
+    },
+    {
+      "ref": "U2",
+      "pin": "7",
+      "sheet": "root"
+    },
+    {
+      "ref": "C34",
+      "pin": "2",
+      "sheet": "root"
+    },
+    {
+      "ref": "J15",
+      "pin": "1",
+      "sheet": "root"
+    },
+    {
+      "ref": "H1",
+      "pin": "1",
+      "sheet": "root"
+    },
+    {
+      "ref": "H2",
+      "pin": "1",
+      "sheet": "root"
+    },
+    {
+      "ref": "H3",
+      "pin": "1",
+      "sheet": "root"
+    },
+    {
+      "ref": "H4",
+      "pin": "1",
+      "sheet": "root"
+    },
+    {
+      "ref": "J8",
+      "pin": "A12",
+      "sheet": "power"
+    },
+    {
+      "ref": "J8",
+      "pin": "B12",
+      "sheet": "power"
+    },
+    {
+      "ref": "J8",
+      "pin": "SH",
+      "sheet": "power"
+    },
+    {
+      "ref": "U3",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "U3",
+      "pin": "9",
+      "sheet": "power"
+    },
+    {
+      "ref": "U3",
+      "pin": "11",
+      "sheet": "power"
+    },
+    {
+      "ref": "C6",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "IC1",
+      "pin": "6",
+      "sheet": "power"
+    },
+    {
+      "ref": "IC1",
+      "pin": "9",
+      "sheet": "power"
+    },
+    {
+      "ref": "C3",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "C4",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "C5",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "D4",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "C8",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "C9",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "R10",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "IC2",
+      "pin": "4",
+      "sheet": "power"
+    },
+    {
+      "ref": "C35",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "C37",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "C38",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "D1",
+      "pin": "1",
+      "sheet": "power"
+    },
+    {
+      "ref": "D2",
+      "pin": "1",
+      "sheet": "power"
+    },
+    {
+      "ref": "D3",
+      "pin": "1",
+      "sheet": "power"
+    },
+    {
+      "ref": "J16",
+      "pin": "A1",
+      "sheet": "power"
+    },
+    {
+      "ref": "J16",
+      "pin": "A12",
+      "sheet": "power"
+    },
+    {
+      "ref": "J16",
+      "pin": "B1",
+      "sheet": "power"
+    },
+    {
+      "ref": "J16",
+      "pin": "B12",
+      "sheet": "power"
+    },
+    {
+      "ref": "J16",
+      "pin": "SH",
+      "sheet": "power"
+    },
+    {
+      "ref": "R23",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "R24",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "U12",
+      "pin": "1",
+      "sheet": "power"
+    },
+    {
+      "ref": "U12",
+      "pin": "5",
+      "sheet": "power"
+    },
+    {
+      "ref": "Q1",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "R27",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "R28",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "C39",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "C40",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "D7",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "TP4",
+      "pin": "1",
+      "sheet": "power"
+    },
+    {
+      "ref": "U10",
+      "pin": "3",
+      "sheet": "motors"
+    },
+    {
+      "ref": "U10",
+      "pin": "7",
+      "sheet": "motors"
+    },
+    {
+      "ref": "U10",
+      "pin": "9",
+      "sheet": "motors"
+    },
+    {
+      "ref": "U10",
+      "pin": "10",
+      "sheet": "motors"
+    },
+    {
+      "ref": "U10",
+      "pin": "13",
+      "sheet": "motors"
+    },
+    {
+      "ref": "U10",
+      "pin": "18",
+      "sheet": "motors"
+    },
+    {
+      "ref": "U10",
+      "pin": "20",
+      "sheet": "motors"
+    },
+    {
+      "ref": "U10",
+      "pin": "25",
+      "sheet": "motors"
+    },
+    {
+      "ref": "U10",
+      "pin": "29",
+      "sheet": "motors"
+    },
+    {
+      "ref": "R32",
+      "pin": "2",
+      "sheet": "motors"
+    },
+    {
+      "ref": "R33",
+      "pin": "2",
+      "sheet": "motors"
+    },
+    {
+      "ref": "R34",
+      "pin": "2",
+      "sheet": "motors"
+    },
+    {
+      "ref": "R35",
+      "pin": "2",
+      "sheet": "motors"
+    },
+    {
+      "ref": "R37",
+      "pin": "2",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C43",
+      "pin": "2",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C44",
+      "pin": "2",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C45",
+      "pin": "2",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C46",
+      "pin": "2",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C47",
+      "pin": "2",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C1",
+      "pin": "2",
+      "sheet": "motors"
+    },
+    {
+      "ref": "U11",
+      "pin": "3",
+      "sheet": "motors"
+    },
+    {
+      "ref": "U11",
+      "pin": "7",
+      "sheet": "motors"
+    },
+    {
+      "ref": "U11",
+      "pin": "10",
+      "sheet": "motors"
+    },
+    {
+      "ref": "U11",
+      "pin": "13",
+      "sheet": "motors"
+    },
+    {
+      "ref": "U11",
+      "pin": "18",
+      "sheet": "motors"
+    },
+    {
+      "ref": "U11",
+      "pin": "20",
+      "sheet": "motors"
+    },
+    {
+      "ref": "U11",
+      "pin": "25",
+      "sheet": "motors"
+    },
+    {
+      "ref": "U11",
+      "pin": "29",
+      "sheet": "motors"
+    },
+    {
+      "ref": "R39",
+      "pin": "2",
+      "sheet": "motors"
+    },
+    {
+      "ref": "R40",
+      "pin": "2",
+      "sheet": "motors"
+    },
+    {
+      "ref": "R41",
+      "pin": "2",
+      "sheet": "motors"
+    },
+    {
+      "ref": "R42",
+      "pin": "2",
+      "sheet": "motors"
+    },
+    {
+      "ref": "R44",
+      "pin": "2",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C50",
+      "pin": "2",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C51",
+      "pin": "2",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C52",
+      "pin": "2",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C53",
+      "pin": "2",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C54",
+      "pin": "2",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C2",
+      "pin": "2",
+      "sheet": "motors"
+    },
+    {
+      "ref": "U4",
+      "pin": "8",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "U4",
+      "pin": "10",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "U4",
+      "pin": "15",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "C11",
+      "pin": "2",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "C13",
+      "pin": "2",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "C14",
+      "pin": "2",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "J3",
+      "pin": "3",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "J10",
+      "pin": "5",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "J10",
+      "pin": "SH",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "U5",
+      "pin": "1",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "U5",
+      "pin": "3",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "C15",
+      "pin": "2",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "R13",
+      "pin": "2",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "J11",
+      "pin": "1",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "U6",
+      "pin": "1",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "U6",
+      "pin": "3",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "C16",
+      "pin": "2",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "R14",
+      "pin": "2",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "J12",
+      "pin": "1",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "U7",
+      "pin": "1",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "U7",
+      "pin": "3",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "C17",
+      "pin": "2",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "R15",
+      "pin": "2",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "J13",
+      "pin": "1",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "J1",
+      "pin": "9",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "J2",
+      "pin": "9",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "U8",
+      "pin": "1",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "U8",
+      "pin": "3",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "C18",
+      "pin": "2",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "R16",
+      "pin": "2",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "U14",
+      "pin": "3",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "C55",
+      "pin": "2",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "J14",
+      "pin": "1",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "J14",
+      "pin": "3",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "J14",
+      "pin": "5",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "J14",
+      "pin": "20",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "J14",
+      "pin": "MP",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "C56",
+      "pin": "2",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "U13",
+      "pin": "2",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "C57",
+      "pin": "2",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "C58",
+      "pin": "2",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "Q2",
+      "pin": "2",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "R49",
+      "pin": "2",
+      "sheet": "display_connector"
+    }
+  ],
+  "XTAL_P_LOAD": [
+    {
+      "ref": "Y1",
+      "pin": "1",
+      "sheet": "root"
+    },
+    {
+      "ref": "L3",
+      "pin": "2",
+      "sheet": "root"
+    },
+    {
+      "ref": "C29",
+      "pin": "1",
+      "sheet": "root"
+    }
+  ],
+  "ANT_FEED": [
+    {
+      "ref": "R22",
+      "pin": "2",
+      "sheet": "root"
+    },
+    {
+      "ref": "C33",
+      "pin": "1",
+      "sheet": "root"
+    },
+    {
+      "ref": "AE1",
+      "pin": "1",
+      "sheet": "root"
+    }
+  ],
+  "V3V0": [
+    {
+      "ref": "R5",
+      "pin": "1",
+      "sheet": "root"
+    },
+    {
+      "ref": "R6",
+      "pin": "1",
+      "sheet": "root"
+    },
+    {
+      "ref": "J14",
+      "pin": "19",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "U13",
+      "pin": "5",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "C58",
+      "pin": "1",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "R48",
+      "pin": "1",
+      "sheet": "display_connector"
+    }
+  ],
+  "PD_CC1": [
+    {
+      "ref": "J8",
+      "pin": "A5",
+      "sheet": "power"
+    },
+    {
+      "ref": "U3",
+      "pin": "7",
+      "sheet": "power"
+    }
+  ],
+  "PD_CC2": [
+    {
+      "ref": "J8",
+      "pin": "B5",
+      "sheet": "power"
+    },
+    {
+      "ref": "U3",
+      "pin": "6",
+      "sheet": "power"
+    }
+  ],
+  "VMOTOR": [
+    {
+      "ref": "J8",
+      "pin": "A9",
+      "sheet": "power"
+    },
+    {
+      "ref": "J8",
+      "pin": "B9",
+      "sheet": "power"
+    },
+    {
+      "ref": "R7",
+      "pin": "1",
+      "sheet": "power"
+    },
+    {
+      "ref": "R8",
+      "pin": "1",
+      "sheet": "power"
+    },
+    {
+      "ref": "IC1",
+      "pin": "7",
+      "sheet": "power"
+    },
+    {
+      "ref": "C3",
+      "pin": "1",
+      "sheet": "power"
+    },
+    {
+      "ref": "C4",
+      "pin": "1",
+      "sheet": "power"
+    },
+    {
+      "ref": "C5",
+      "pin": "1",
+      "sheet": "power"
+    },
+    {
+      "ref": "R2",
+      "pin": "1",
+      "sheet": "power"
+    },
+    {
+      "ref": "U10",
+      "pin": "22",
+      "sheet": "motors"
+    },
+    {
+      "ref": "U10",
+      "pin": "28",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C42",
+      "pin": "2",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C45",
+      "pin": "1",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C46",
+      "pin": "1",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C1",
+      "pin": "1",
+      "sheet": "motors"
+    },
+    {
+      "ref": "U11",
+      "pin": "22",
+      "sheet": "motors"
+    },
+    {
+      "ref": "U11",
+      "pin": "28",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C49",
+      "pin": "2",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C52",
+      "pin": "1",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C53",
+      "pin": "1",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C2",
+      "pin": "1",
+      "sheet": "motors"
+    }
+  ],
+  "PD_VDD": [
+    {
+      "ref": "U3",
+      "pin": "1",
+      "sheet": "power"
+    },
+    {
+      "ref": "U3",
+      "pin": "3",
+      "sheet": "power"
+    },
+    {
+      "ref": "R8",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "C6",
+      "pin": "1",
+      "sheet": "power"
+    }
+  ],
+  "PD_DPDM": [
+    {
+      "ref": "U3",
+      "pin": "4",
+      "sheet": "power"
+    },
+    {
+      "ref": "U3",
+      "pin": "5",
+      "sheet": "power"
+    }
+  ],
+  "PD_SENSE": [
+    {
+      "ref": "U3",
+      "pin": "8",
+      "sheet": "power"
+    },
+    {
+      "ref": "R7",
+      "pin": "2",
+      "sheet": "power"
+    }
+  ],
+  "BUCK5_BOOT": [
+    {
+      "ref": "IC1",
+      "pin": "1",
+      "sheet": "power"
+    },
+    {
+      "ref": "C7",
+      "pin": "1",
+      "sheet": "power"
+    }
+  ],
+  "BUCK5_FB": [
+    {
+      "ref": "IC1",
+      "pin": "4",
+      "sheet": "power"
+    },
+    {
+      "ref": "R9",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "R10",
+      "pin": "1",
+      "sheet": "power"
+    }
+  ],
+  "BUCK5_SW": [
+    {
+      "ref": "IC1",
+      "pin": "8",
+      "sheet": "power"
+    },
+    {
+      "ref": "C7",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "D4",
+      "pin": "1",
+      "sheet": "power"
+    },
+    {
+      "ref": "L1",
+      "pin": "1",
+      "sheet": "power"
+    }
+  ],
+  "V5V": [
+    {
+      "ref": "L1",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "C8",
+      "pin": "1",
+      "sheet": "power"
+    },
+    {
+      "ref": "C9",
+      "pin": "1",
+      "sheet": "power"
+    },
+    {
+      "ref": "R9",
+      "pin": "1",
+      "sheet": "power"
+    },
+    {
+      "ref": "IC2",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "IC2",
+      "pin": "3",
+      "sheet": "power"
+    },
+    {
+      "ref": "C35",
+      "pin": "1",
+      "sheet": "power"
+    },
+    {
+      "ref": "R3",
+      "pin": "1",
+      "sheet": "power"
+    },
+    {
+      "ref": "U5",
+      "pin": "5",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "C15",
+      "pin": "1",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "J11",
+      "pin": "2",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "U6",
+      "pin": "5",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "C16",
+      "pin": "1",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "J12",
+      "pin": "2",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "U7",
+      "pin": "5",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "C17",
+      "pin": "1",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "J13",
+      "pin": "2",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "J1",
+      "pin": "10",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "J2",
+      "pin": "10",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "U8",
+      "pin": "5",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "C18",
+      "pin": "1",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "J14",
+      "pin": "2",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "C56",
+      "pin": "1",
+      "sheet": "display_connector"
+    }
+  ],
+  "BUCK3_SW": [
+    {
+      "ref": "IC2",
+      "pin": "5",
+      "sheet": "power"
+    },
+    {
+      "ref": "C36",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "L4",
+      "pin": "1",
+      "sheet": "power"
+    }
+  ],
+  "BUCK3_BOOT": [
+    {
+      "ref": "IC2",
+      "pin": "6",
+      "sheet": "power"
+    },
+    {
+      "ref": "C36",
+      "pin": "1",
+      "sheet": "power"
+    }
+  ],
+  "D1_A": [
+    {
+      "ref": "R2",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "D1",
+      "pin": "2",
+      "sheet": "power"
+    }
+  ],
+  "D2_A": [
+    {
+      "ref": "R3",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "D2",
+      "pin": "2",
+      "sheet": "power"
+    }
+  ],
+  "D3_A": [
+    {
+      "ref": "R4",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "D3",
+      "pin": "2",
+      "sheet": "power"
+    }
+  ],
+  "SERVICE_VBUS": [
+    {
+      "ref": "J16",
+      "pin": "A4",
+      "sheet": "power"
+    },
+    {
+      "ref": "J16",
+      "pin": "A9",
+      "sheet": "power"
+    },
+    {
+      "ref": "J16",
+      "pin": "B4",
+      "sheet": "power"
+    },
+    {
+      "ref": "J16",
+      "pin": "B9",
+      "sheet": "power"
+    },
+    {
+      "ref": "R26",
+      "pin": "1",
+      "sheet": "power"
+    },
+    {
+      "ref": "R28",
+      "pin": "1",
+      "sheet": "power"
+    },
+    {
+      "ref": "C39",
+      "pin": "1",
+      "sheet": "power"
+    },
+    {
+      "ref": "D7",
+      "pin": "5",
+      "sheet": "power"
+    },
+    {
+      "ref": "TP1",
+      "pin": "1",
+      "sheet": "power"
+    }
+  ],
+  "SVC_CC1": [
+    {
+      "ref": "J16",
+      "pin": "A5",
+      "sheet": "power"
+    },
+    {
+      "ref": "R23",
+      "pin": "1",
+      "sheet": "power"
+    }
+  ],
+  "SERVICE_DP": [
+    {
+      "ref": "J16",
+      "pin": "A6",
+      "sheet": "power"
+    },
+    {
+      "ref": "J16",
+      "pin": "B6",
+      "sheet": "power"
+    },
+    {
+      "ref": "U12",
+      "pin": "4",
+      "sheet": "power"
+    },
+    {
+      "ref": "D7",
+      "pin": "1",
+      "sheet": "power"
+    },
+    {
+      "ref": "D7",
+      "pin": "6",
+      "sheet": "power"
+    },
+    {
+      "ref": "TP2",
+      "pin": "1",
+      "sheet": "power"
+    }
+  ],
+  "SERVICE_DN": [
+    {
+      "ref": "J16",
+      "pin": "A7",
+      "sheet": "power"
+    },
+    {
+      "ref": "J16",
+      "pin": "B7",
+      "sheet": "power"
+    },
+    {
+      "ref": "U12",
+      "pin": "6",
+      "sheet": "power"
+    },
+    {
+      "ref": "D7",
+      "pin": "3",
+      "sheet": "power"
+    },
+    {
+      "ref": "D7",
+      "pin": "4",
+      "sheet": "power"
+    },
+    {
+      "ref": "TP3",
+      "pin": "1",
+      "sheet": "power"
+    }
+  ],
+  "SVC_CC2": [
+    {
+      "ref": "J16",
+      "pin": "B5",
+      "sheet": "power"
+    },
+    {
+      "ref": "R24",
+      "pin": "1",
+      "sheet": "power"
+    }
+  ],
+  "USB_SW_DP": [
+    {
+      "ref": "U12",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "R29",
+      "pin": "2",
+      "sheet": "power"
+    }
+  ],
+  "USB_SW_DN": [
+    {
+      "ref": "U12",
+      "pin": "8",
+      "sheet": "power"
+    },
+    {
+      "ref": "R30",
+      "pin": "2",
+      "sheet": "power"
+    }
+  ],
+  "USB_OE_N": [
+    {
+      "ref": "U12",
+      "pin": "9",
+      "sheet": "power"
+    },
+    {
+      "ref": "Q1",
+      "pin": "3",
+      "sheet": "power"
+    },
+    {
+      "ref": "R25",
+      "pin": "2",
+      "sheet": "power"
+    }
+  ],
+  "USB_PRESENT_GATE": [
+    {
+      "ref": "Q1",
+      "pin": "1",
+      "sheet": "power"
+    },
+    {
+      "ref": "R26",
+      "pin": "2",
+      "sheet": "power"
+    },
+    {
+      "ref": "R27",
+      "pin": "1",
+      "sheet": "power"
+    }
+  ],
+  "M1_B2": [
+    {
+      "ref": "U10",
+      "pin": "1",
+      "sheet": "motors"
+    },
+    {
+      "ref": "J6",
+      "pin": "1",
+      "sheet": "motors"
+    }
+  ],
+  "M1_CPO": [
+    {
+      "ref": "U10",
+      "pin": "4",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C41",
+      "pin": "1",
+      "sheet": "motors"
+    }
+  ],
+  "M1_CPI": [
+    {
+      "ref": "U10",
+      "pin": "5",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C41",
+      "pin": "2",
+      "sheet": "motors"
+    }
+  ],
+  "M1_VCP": [
+    {
+      "ref": "U10",
+      "pin": "6",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C42",
+      "pin": "1",
+      "sheet": "motors"
+    }
+  ],
+  "M1_5VOUT": [
+    {
+      "ref": "U10",
+      "pin": "8",
+      "sheet": "motors"
+    },
+    {
+      "ref": "R36",
+      "pin": "1",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C43",
+      "pin": "1",
+      "sheet": "motors"
+    }
+  ],
+  "M1_VREF": [
+    {
+      "ref": "U10",
+      "pin": "17",
+      "sheet": "motors"
+    },
+    {
+      "ref": "R36",
+      "pin": "2",
+      "sheet": "motors"
+    },
+    {
+      "ref": "R37",
+      "pin": "1",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C47",
+      "pin": "1",
+      "sheet": "motors"
+    }
+  ],
+  "M1_A2": [
+    {
+      "ref": "U10",
+      "pin": "21",
+      "sheet": "motors"
+    },
+    {
+      "ref": "J6",
+      "pin": "4",
+      "sheet": "motors"
+    }
+  ],
+  "M1_SENSE_A": [
+    {
+      "ref": "U10",
+      "pin": "23",
+      "sheet": "motors"
+    },
+    {
+      "ref": "R34",
+      "pin": "1",
+      "sheet": "motors"
+    }
+  ],
+  "M1_A1": [
+    {
+      "ref": "U10",
+      "pin": "24",
+      "sheet": "motors"
+    },
+    {
+      "ref": "J6",
+      "pin": "3",
+      "sheet": "motors"
+    }
+  ],
+  "M1_B1": [
+    {
+      "ref": "U10",
+      "pin": "26",
+      "sheet": "motors"
+    },
+    {
+      "ref": "J6",
+      "pin": "2",
+      "sheet": "motors"
+    }
+  ],
+  "M1_SENSE_B": [
+    {
+      "ref": "U10",
+      "pin": "27",
+      "sheet": "motors"
+    },
+    {
+      "ref": "R35",
+      "pin": "1",
+      "sheet": "motors"
+    }
+  ],
+  "M2_B2": [
+    {
+      "ref": "U11",
+      "pin": "1",
+      "sheet": "motors"
+    },
+    {
+      "ref": "J7",
+      "pin": "1",
+      "sheet": "motors"
+    }
+  ],
+  "M2_CPO": [
+    {
+      "ref": "U11",
+      "pin": "4",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C48",
+      "pin": "1",
+      "sheet": "motors"
+    }
+  ],
+  "M2_CPI": [
+    {
+      "ref": "U11",
+      "pin": "5",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C48",
+      "pin": "2",
+      "sheet": "motors"
+    }
+  ],
+  "M2_VCP": [
+    {
+      "ref": "U11",
+      "pin": "6",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C49",
+      "pin": "1",
+      "sheet": "motors"
+    }
+  ],
+  "M2_5VOUT": [
+    {
+      "ref": "U11",
+      "pin": "8",
+      "sheet": "motors"
+    },
+    {
+      "ref": "R43",
+      "pin": "1",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C50",
+      "pin": "1",
+      "sheet": "motors"
+    }
+  ],
+  "M2_VREF": [
+    {
+      "ref": "U11",
+      "pin": "17",
+      "sheet": "motors"
+    },
+    {
+      "ref": "R43",
+      "pin": "2",
+      "sheet": "motors"
+    },
+    {
+      "ref": "R44",
+      "pin": "1",
+      "sheet": "motors"
+    },
+    {
+      "ref": "C54",
+      "pin": "1",
+      "sheet": "motors"
+    }
+  ],
+  "M2_A2": [
+    {
+      "ref": "U11",
+      "pin": "21",
+      "sheet": "motors"
+    },
+    {
+      "ref": "J7",
+      "pin": "4",
+      "sheet": "motors"
+    }
+  ],
+  "M2_SENSE_A": [
+    {
+      "ref": "U11",
+      "pin": "23",
+      "sheet": "motors"
+    },
+    {
+      "ref": "R41",
+      "pin": "1",
+      "sheet": "motors"
+    }
+  ],
+  "M2_A1": [
+    {
+      "ref": "U11",
+      "pin": "24",
+      "sheet": "motors"
+    },
+    {
+      "ref": "J7",
+      "pin": "3",
+      "sheet": "motors"
+    }
+  ],
+  "M2_B1": [
+    {
+      "ref": "U11",
+      "pin": "26",
+      "sheet": "motors"
+    },
+    {
+      "ref": "J7",
+      "pin": "2",
+      "sheet": "motors"
+    }
+  ],
+  "M2_SENSE_B": [
+    {
+      "ref": "U11",
+      "pin": "27",
+      "sheet": "motors"
+    },
+    {
+      "ref": "R42",
+      "pin": "1",
+      "sheet": "motors"
+    }
+  ],
+  "RS_C1P": [
+    {
+      "ref": "U4",
+      "pin": "1",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "C10",
+      "pin": "1",
+      "sheet": "interfaces"
+    }
+  ],
+  "RS_VP": [
+    {
+      "ref": "U4",
+      "pin": "2",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "C13",
+      "pin": "1",
+      "sheet": "interfaces"
+    }
+  ],
+  "RS_C1N": [
+    {
+      "ref": "U4",
+      "pin": "3",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "C10",
+      "pin": "2",
+      "sheet": "interfaces"
+    }
+  ],
+  "RS_C2P": [
+    {
+      "ref": "U4",
+      "pin": "4",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "C12",
+      "pin": "1",
+      "sheet": "interfaces"
+    }
+  ],
+  "RS_C2N": [
+    {
+      "ref": "U4",
+      "pin": "5",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "C12",
+      "pin": "2",
+      "sheet": "interfaces"
+    }
+  ],
+  "RS_VN": [
+    {
+      "ref": "U4",
+      "pin": "6",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "C14",
+      "pin": "1",
+      "sheet": "interfaces"
+    }
+  ],
+  "RS_LOGIC_RX": [
+    {
+      "ref": "U4",
+      "pin": "12",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "J17",
+      "pin": "3",
+      "sheet": "interfaces"
+    }
+  ],
+  "RS_RX": [
+    {
+      "ref": "U4",
+      "pin": "13",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "J9",
+      "pin": "3",
+      "sheet": "interfaces"
+    }
+  ],
+  "RS_TX": [
+    {
+      "ref": "U4",
+      "pin": "14",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "J9",
+      "pin": "2",
+      "sheet": "interfaces"
+    }
+  ],
+  "TTL_RX": [
+    {
+      "ref": "J3",
+      "pin": "1",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "J17",
+      "pin": "1",
+      "sheet": "interfaces"
+    }
+  ],
+  "DB9_2": [
+    {
+      "ref": "J9",
+      "pin": "1",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "J10",
+      "pin": "2",
+      "sheet": "interfaces"
+    }
+  ],
+  "DB9_3": [
+    {
+      "ref": "J9",
+      "pin": "4",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "J10",
+      "pin": "3",
+      "sheet": "interfaces"
+    }
+  ],
+  "D5_A": [
+    {
+      "ref": "R11",
+      "pin": "2",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "D5",
+      "pin": "2",
+      "sheet": "interfaces"
+    }
+  ],
+  "D6_A": [
+    {
+      "ref": "R12",
+      "pin": "2",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "D6",
+      "pin": "2",
+      "sheet": "interfaces"
+    }
+  ],
+  "J11_OUT": [
+    {
+      "ref": "U5",
+      "pin": "4",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "J11",
+      "pin": "3",
+      "sheet": "interfaces"
+    }
+  ],
+  "J12_OUT": [
+    {
+      "ref": "U6",
+      "pin": "4",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "J12",
+      "pin": "3",
+      "sheet": "interfaces"
+    }
+  ],
+  "J13_OUT": [
+    {
+      "ref": "U7",
+      "pin": "4",
+      "sheet": "interfaces"
+    },
+    {
+      "ref": "J13",
+      "pin": "3",
+      "sheet": "interfaces"
+    }
+  ],
+  "MINI_PIXEL_5V": [
+    {
+      "ref": "J1",
+      "pin": "6",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "U8",
+      "pin": "4",
+      "sheet": "display_connector"
+    }
+  ],
+  "MINI_BUTTON_RAW": [
+    {
+      "ref": "J2",
+      "pin": "8",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "U14",
+      "pin": "2",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "R45",
+      "pin": "2",
+      "sheet": "display_connector"
+    }
+  ],
+  "TP_RESET_N": [
+    {
+      "ref": "J14",
+      "pin": "18",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "Q2",
+      "pin": "3",
+      "sheet": "display_connector"
+    },
+    {
+      "ref": "R48",
+      "pin": "2",
+      "sheet": "display_connector"
+    }
+  ]
+}

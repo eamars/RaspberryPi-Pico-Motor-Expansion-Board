@@ -1,0 +1,445 @@
+{
+  "custom_symbols": 0,
+  "custom_footprints": 0,
+  "footprints": [
+    {
+      "lib_id": "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "SW1",
+        "SW2"
+      ],
+      "sha256": "657bf2d66e347e176095f1b8d26b03d57a4200924d0283a5cbd1c162a84a24c8"
+    },
+    {
+      "lib_id": "Capacitor_SMD:CP_Elec_10x10.5",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "C8"
+      ],
+      "sha256": "9adfed611af8618f3005c45a488d77c7ebcc78947e8125e73f9764681feda8f5"
+    },
+    {
+      "lib_id": "Capacitor_SMD:CP_Elec_6.3x7.7",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "C1",
+        "C2"
+      ],
+      "sha256": "088048bda0294d2326e48456db204003313ad81022f0bcb69a96b049dcd7bfe0"
+    },
+    {
+      "lib_id": "Capacitor_SMD:C_0402_1005Metric",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "C29",
+        "C30",
+        "C32",
+        "C33"
+      ],
+      "sha256": "3d8a1dc70b71dbc3a5786560f7f9d0cabe99f1182653b072cde5046e4e3f6fc4"
+    },
+    {
+      "lib_id": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "C19",
+        "C20",
+        "C21",
+        "C22",
+        "C23",
+        "C24",
+        "C25",
+        "C26",
+        "C27",
+        "C28",
+        "C31",
+        "C34",
+        "C6",
+        "C3",
+        "C4",
+        "C5",
+        "C7",
+        "C9",
+        "C35",
+        "C36",
+        "C37",
+        "C38",
+        "C39",
+        "C40",
+        "C41",
+        "C42",
+        "C43",
+        "C44",
+        "C45",
+        "C46",
+        "C47",
+        "C48",
+        "C49",
+        "C50",
+        "C51",
+        "C52",
+        "C53",
+        "C54",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C18",
+        "C55",
+        "C56",
+        "C57",
+        "C58"
+      ],
+      "sha256": "4ff5ae9bd9bdd9ae457d396a074f7e07bf6684320715d188ca2b32a04d6f99ce"
+    },
+    {
+      "lib_id": "Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "J10"
+      ],
+      "sha256": "75e936635bbae012a64eb1481f18aea54da3065f657624990509b7a8bb1f8822"
+    },
+    {
+      "lib_id": "Connector_FFC-FPC:Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "J14"
+      ],
+      "sha256": "dc6604cb87cb3a425b8f72f16e8871a4198ff551e07f5eb2e1c2924a6407a695"
+    },
+    {
+      "lib_id": "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "J1",
+        "J2"
+      ],
+      "sha256": "f09638eab7c3f56c55d63753960d7174980fad732c3fd58e20245e349484239e"
+    },
+    {
+      "lib_id": "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "J3",
+        "J11",
+        "J12",
+        "J13"
+      ],
+      "sha256": "51ee7a7eec6d350fd2274c04610a51dbf02e76a65c6d1976a776495f8d9b7cb4"
+    },
+    {
+      "lib_id": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "J6",
+        "J7"
+      ],
+      "sha256": "4589a858b38de8a948196f3bbfceca9d026829b55f2ac6f77335609be3dec2b0"
+    },
+    {
+      "lib_id": "Connector_PinHeader_2.00mm:PinHeader_2x02_P2.00mm_Vertical",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "J9"
+      ],
+      "sha256": "f27b0f037a0a62d62d4c4cb57366302f4626c567dc452b9b7d6f042a4affd687"
+    },
+    {
+      "lib_id": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "J17"
+      ],
+      "sha256": "6a7dba97d6e733fd9d5f12d2d57f2cde29e8393e15b08d8b3e41bf2b430d83ed"
+    },
+    {
+      "lib_id": "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "J15"
+      ],
+      "sha256": "1b527f8c7fdfa9dc5cbf8ad9308f7caf2c1e19617ab6a1aeb0ff0acfc2247777"
+    },
+    {
+      "lib_id": "Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x-0190_6P_TopMnt_Horizontal",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "J8"
+      ],
+      "sha256": "fe0f57bc33066689d3b565eeef6f4c42fce060a3f2df00b00279861c0ade4c2f"
+    },
+    {
+      "lib_id": "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "J16"
+      ],
+      "sha256": "8d292db4e16dbd391bfc6c79366047ce1799e687d970810736a41426e88619b3"
+    },
+    {
+      "lib_id": "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "Y1"
+      ],
+      "sha256": "2e2c4a00ddab45537abaa0c440b3b582366ca0fd5ad2967dae50baa80fedb130"
+    },
+    {
+      "lib_id": "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "D1",
+        "D2",
+        "D3",
+        "D5",
+        "D6"
+      ],
+      "sha256": "e206b177eaf6d01bb998ee87486a2827524e9633de2f12646fa6fa72361dfa6c"
+    },
+    {
+      "lib_id": "Diode_SMD:D_SMA",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "D4"
+      ],
+      "sha256": "e2d049a54ef961e231eb8e7e769078a3c44feb8475a7bdafba01c6646a5144f3"
+    },
+    {
+      "lib_id": "Inductor_SMD:L_0402_1005Metric",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "L2",
+        "L3"
+      ],
+      "sha256": "6419f2d4bf2736ba4afea3839fc79d0ddf05d09f9047dca3d70b65dfe5280da2"
+    },
+    {
+      "lib_id": "Inductor_SMD:L_Sunlord_MWSA0603S",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "L4"
+      ],
+      "sha256": "e9abc434e679ccecbf818e082ac05ddb942b9212677e2b4cba03024b93983b0b"
+    },
+    {
+      "lib_id": "Inductor_SMD:L_Sunlord_MWSA1004S",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "L1"
+      ],
+      "sha256": "3f17e7056870d3434a97dd77cd5c551fb441851d30ece15a64296ebb4f4bd59f"
+    },
+    {
+      "lib_id": "MountingHole:MountingHole_3.2mm_M3_Pad_Via",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "H1",
+        "H2",
+        "H3",
+        "H4"
+      ],
+      "sha256": "9c37bdafbed14717f852c13e9d3d8f49e0483da873b757d422585f0aaea59037"
+    },
+    {
+      "lib_id": "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "U1"
+      ],
+      "sha256": "78f2dc877324fb8e04069bf085f16eaff36f724b5d9b3577f30dab8eaf10a0a4"
+    },
+    {
+      "lib_id": "Package_DFN_QFN:VQFN-28-1EP_5x5mm_P0.5mm_EP3.7x3.7mm",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "U10",
+        "U11"
+      ],
+      "sha256": "324c1bdf1208a5b32224e0fdbbabf27bdb7b1e1a6b8b0241210f2b3a7fb076b4"
+    },
+    {
+      "lib_id": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "U4"
+      ],
+      "sha256": "a3e0cad48591b1bf41f77aa964868c62b28d32f1014a42a763a17ac184231f7f"
+    },
+    {
+      "lib_id": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "U2"
+      ],
+      "sha256": "3c9b63198dd4dbf5e6c28c84702c29fad46a35103b821a19306c4ac888ad8e76"
+    },
+    {
+      "lib_id": "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "U9"
+      ],
+      "sha256": "728e44941d9abc0835ce409dc25dd239ac6c9d7b63e6892491dd71bda43e6878"
+    },
+    {
+      "lib_id": "Package_SO:SSOP-10-1EP_3.9x4.9mm_P1mm_EP2.1x3.3mm",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "U3"
+      ],
+      "sha256": "3d544792cd3d961ab7abb596dd2ccb1c526d85e0b4a589f1cd70f4c24f54343b"
+    },
+    {
+      "lib_id": "Package_SO:TSSOP-10_3x3mm_P0.5mm",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "U12"
+      ],
+      "sha256": "e54c3d2d0c55b0b4f834390bf39f761cf5314cc77aac950ad7fe1d9f61803c66"
+    },
+    {
+      "lib_id": "Package_SO:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "IC1"
+      ],
+      "sha256": "1a0b0c845aa96b2ef7e4cda46632eb64b51f9f47d524761587124b96eafc195a"
+    },
+    {
+      "lib_id": "Package_TO_SOT_SMD:SOT-23",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "Q1",
+        "Q2"
+      ],
+      "sha256": "7fb2859c6463f3a37966a1a20c31d8bfe7d4e8459d00bb165d5a7488270816c5"
+    },
+    {
+      "lib_id": "Package_TO_SOT_SMD:SOT-23-5",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "U5",
+        "U6",
+        "U7",
+        "U8",
+        "U14",
+        "U13"
+      ],
+      "sha256": "684a94089f59798a46492dac8dd0242edfa4d915e76a210abdca369e4faa4f9b"
+    },
+    {
+      "lib_id": "Package_TO_SOT_SMD:SOT-23-6",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "D7"
+      ],
+      "sha256": "ea29040bed73e5dfa455e36f2c9324b0de7782c5a6cf79040b7d885ff766fdb4"
+    },
+    {
+      "lib_id": "Package_TO_SOT_SMD:TSOT-23-6",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "IC2"
+      ],
+      "sha256": "06b16e157385f8d7fbca5e0c323669c3aa880358789d44a456e62290be2400e3"
+    },
+    {
+      "lib_id": "RF_Antenna:Johanson_2450AT18x100",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "AE1"
+      ],
+      "sha256": "cd9abe37d5f926fdff17fe83183f8cb4c924dd14b587119150ae36d7ce8c61f8"
+    },
+    {
+      "lib_id": "Resistor_SMD:R_0402_1005Metric",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "R22"
+      ],
+      "sha256": "6ed88b70926af431471c0ccaf6a55485f8cedab01cce4d1d4f3298a6cb6cef2c"
+    },
+    {
+      "lib_id": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "R17",
+        "R18",
+        "R19",
+        "R20",
+        "R21",
+        "R5",
+        "R6",
+        "R7",
+        "R8",
+        "R9",
+        "R10",
+        "R2",
+        "R3",
+        "R4",
+        "R23",
+        "R24",
+        "R25",
+        "R26",
+        "R27",
+        "R28",
+        "R29",
+        "R30",
+        "R1",
+        "R31",
+        "R32",
+        "R33",
+        "R36",
+        "R37",
+        "R38",
+        "R39",
+        "R40",
+        "R43",
+        "R44",
+        "R11",
+        "R12",
+        "R13",
+        "R14",
+        "R15",
+        "R16",
+        "R45",
+        "R46",
+        "R47",
+        "R48",
+        "R49"
+      ],
+      "sha256": "fb326cf83cae995ce84db4ec340d672042a8496cfa81333f6deda72c8546ba3a"
+    },
+    {
+      "lib_id": "Resistor_SMD:R_1206_3216Metric",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "R34",
+        "R35",
+        "R41",
+        "R42"
+      ],
+      "sha256": "f45a0f7c60b15463e1126a75a9ff484349ecd1861de62f1cbff41574e03b7643"
+    },
+    {
+      "lib_id": "TestPoint:TestPoint_Pad_D1.5mm",
+      "source": "Installed KiCad10 library; not copied",
+      "refs": [
+        "TP1",
+        "TP2",
+        "TP3",
+        "TP4",
+        "TP5",
+        "TP6",
+        "TP7"
+      ],
+      "sha256": "501dd0ac7ff91f9b1b6f7906a9ac2404c862f91dcfc9bbc9533f769f1a36b984"
+    }
+  ]
+}

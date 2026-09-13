@@ -1,0 +1,1777 @@
+{
+  "schematic": "motor_expansion_board_v3\\pcb\\motor_expansion_board_v3.kicad_sch",
+  "convention": {
+    "field_mapping": {
+      "mpn": "MPN",
+      "manufacturer": "Manufacturer",
+      "lcsc": "LCSC"
+    },
+    "populated_counts": {
+      "mpn": 38,
+      "manufacturer": 38,
+      "lcsc": 14
+    },
+    "preferred_distributor": "lcsc",
+    "names_canonical": true,
+    "suggested_fields": [
+      "MPN",
+      "Manufacturer",
+      "LCSC"
+    ]
+  },
+  "stats": {
+    "schematic_files": [
+      "motor_expansion_board_v3\\pcb\\motor_expansion_board_v3.kicad_sch",
+      "motor_expansion_board_v3\\pcb\\power.kicad_sch",
+      "motor_expansion_board_v3\\pcb\\motors.kicad_sch",
+      "motor_expansion_board_v3\\pcb\\interfaces.kicad_sch",
+      "motor_expansion_board_v3\\pcb\\display_connector.kicad_sch"
+    ],
+    "total_bom_lines": 69,
+    "total_components": 155,
+    "dnp_lines": 3,
+    "active_lines": 66,
+    "active_components": 151,
+    "with_mpn": 31,
+    "without_mpn": 35,
+    "with_datasheet": 17,
+    "without_datasheet": 49,
+    "with_digikey": 0,
+    "without_digikey": 66,
+    "with_mouser": 0,
+    "without_mouser": 66,
+    "with_lcsc": 13,
+    "without_lcsc": 53,
+    "with_element14": 0,
+    "without_element14": 66
+  },
+  "bom": [
+    {
+      "value": "2450AT18A0100001E",
+      "footprint": "RF_Antenna:Johanson_2450AT18x100",
+      "mpn": "2450AT18A0100001E",
+      "manufacturer": "Johanson Technology",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "https://www.johansontechnology.com/docs/3827/Antenna-2450AT18A0100001E-Rev4.0.pdf",
+      "description": "",
+      "bom_comments": [
+        "Pin 2 is mechanically soldered but electrically NC; preserve vendor RF keepout/tuning"
+      ],
+      "references": [
+        "AE1"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "other",
+      "gaps": [
+        "lcsc"
+      ]
+    },
+    {
+      "value": "100uF 35V",
+      "footprint": "Capacitor_SMD:CP_Elec_6.3x7.7",
+      "mpn": "EEHZK1V101XP",
+      "manufacturer": "Panasonic",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C454360",
+      "element14": "",
+      "datasheet": "https://util01.industrial.panasonic.com/ea/utilities/ds/chr-vw/EEHZK1V101XP",
+      "description": "",
+      "bom_comments": [
+        "Same V2 6.3x7.7mm envelope; hybrid capacitor selected for driver ripple current"
+      ],
+      "references": [
+        "C1",
+        "C2"
+      ],
+      "quantity": 2,
+      "dnp": false,
+      "type": "capacitor",
+      "gaps": []
+    },
+    {
+      "value": "4.7u",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [],
+      "references": [
+        "C3",
+        "C4"
+      ],
+      "quantity": 2,
+      "dnp": false,
+      "type": "capacitor",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "10n",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [],
+      "references": [
+        "C5",
+        "C7",
+        "C9"
+      ],
+      "quantity": 3,
+      "dnp": false,
+      "type": "capacitor",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "330uF",
+      "footprint": "Capacitor_SMD:CP_Elec_10x10.5",
+      "mpn": "RVT1V331M1010",
+      "manufacturer": "Honor Elec",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C19606",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [
+        "Retained V2 component identity and stock land pattern; detailed source package/ESR check before PCB."
+      ],
+      "references": [
+        "C8"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "capacitor",
+      "gaps": [
+        "datasheet"
+      ]
+    },
+    {
+      "value": "100n",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [
+        "Place at U1 pin 20",
+        "Place at U1 pin 46",
+        "Place at U1 pin 55",
+        "Place at U1 pin 56",
+        "At U1 VDD_SPI",
+        "At flash VCC",
+        "At VS pin 22",
+        "At VS pin 28"
+      ],
+      "references": [
+        "C19",
+        "C20",
+        "C21",
+        "C22",
+        "C24",
+        "C26",
+        "C28",
+        "C34",
+        "C36",
+        "C39",
+        "C40",
+        "C45",
+        "C46",
+        "C44",
+        "C42",
+        "C47",
+        "C52",
+        "C53",
+        "C51",
+        "C49",
+        "C54",
+        "C10",
+        "C12",
+        "C11",
+        "C13",
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C18",
+        "C55"
+      ],
+      "quantity": 31,
+      "dnp": false,
+      "type": "capacitor",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "10u",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [
+        "At external display connector"
+      ],
+      "references": [
+        "C23",
+        "C25",
+        "C35",
+        "C56"
+      ],
+      "quantity": 4,
+      "dnp": false,
+      "type": "capacitor",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "1u",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [],
+      "references": [
+        "C27",
+        "C31",
+        "C6"
+      ],
+      "quantity": 3,
+      "dnp": false,
+      "type": "capacitor",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "10p",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [
+        "OWMC initial crystal loading; trim by measurement"
+      ],
+      "references": [
+        "C29",
+        "C30"
+      ],
+      "quantity": 2,
+      "dnp": false,
+      "type": "capacitor",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "DNP",
+      "footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [],
+      "references": [
+        "C32",
+        "C33"
+      ],
+      "quantity": 2,
+      "dnp": true,
+      "type": "capacitor",
+      "gaps": []
+    },
+    {
+      "value": "22u",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [],
+      "references": [
+        "C37",
+        "C38"
+      ],
+      "quantity": 2,
+      "dnp": false,
+      "type": "capacitor",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "22n",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [],
+      "references": [
+        "C41",
+        "C48"
+      ],
+      "quantity": 2,
+      "dnp": false,
+      "type": "capacitor",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "2.2u",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [],
+      "references": [
+        "C43",
+        "C50",
+        "C57",
+        "C58"
+      ],
+      "quantity": 4,
+      "dnp": false,
+      "type": "capacitor",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "GREEN",
+      "footprint": "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [
+        "Retained V2 indicator function"
+      ],
+      "references": [
+        "D1",
+        "D2",
+        "D3"
+      ],
+      "quantity": 3,
+      "dnp": false,
+      "type": "diode",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "SS54",
+      "footprint": "Diode_SMD:D_SMA",
+      "mpn": "SS54",
+      "manufacturer": "MDD",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C22452",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [],
+      "references": [
+        "D4"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "diode",
+      "gaps": [
+        "datasheet"
+      ]
+    },
+    {
+      "value": "RED",
+      "footprint": "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [],
+      "references": [
+        "D5"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "diode",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "BLUE",
+      "footprint": "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [],
+      "references": [
+        "D6"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "diode",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "USBLC6-2SC6",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "mpn": "USBLC6-2SC6",
+      "manufacturer": "STMicroelectronics",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "https://www.st.com/resource/en/datasheet/usblc6-2.pdf",
+      "description": "",
+      "bom_comments": [],
+      "references": [
+        "D7"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "diode",
+      "gaps": [
+        "lcsc"
+      ]
+    },
+    {
+      "value": "TPS5450DDAR",
+      "footprint": "Package_SO:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm",
+      "mpn": "TPS5450DDAR",
+      "manufacturer": "Texas Instruments",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C114425",
+      "element14": "",
+      "datasheet": "https://www.ti.com/lit/ds/symlink/tps5450.pdf",
+      "description": "",
+      "bom_comments": [
+        "Retained V2 5A-class converter; floating EN enabled per datasheet. Rating is not measured board capacity."
+      ],
+      "references": [
+        "IC1"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "other",
+      "gaps": []
+    },
+    {
+      "value": "AP63203WU-7",
+      "footprint": "Package_TO_SOT_SMD:TSOT-23-6",
+      "mpn": "AP63203WU-7",
+      "manufacturer": "Diodes Incorporated",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "https://www.diodes.com/datasheet/download/AP63200-AP63201-AP63203-AP63205.pdf",
+      "description": "",
+      "bom_comments": [
+        "Fixed 3.3V replacement for Pico regulator; use AP63203 component table"
+      ],
+      "references": [
+        "IC2"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "other",
+      "gaps": [
+        "lcsc"
+      ]
+    },
+    {
+      "value": "EXP1 Mini12864",
+      "footprint": "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [
+        "Retain V2 position, key and pinout. Only one display assembly attached; no hot-plug."
+      ],
+      "references": [
+        "J1"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "connector",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "EXP2 Mini12864",
+      "footprint": "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [
+        "Pin10 remains V2 +5V. Supplied Mini must not fit a reset/KILL link shorting pin10 to GND."
+      ],
+      "references": [
+        "J2"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "connector",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "SCALE TTL 3V3",
+      "footprint": "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",
+      "mpn": "B3B-XH-A(LF)(SN)",
+      "manufacturer": "JST",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [],
+      "references": [
+        "J3"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "connector",
+      "gaps": [
+        "datasheet",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "MOTOR 1",
+      "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+      "mpn": "B4B-XH-A(LF)(SN)",
+      "manufacturer": "JST",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [
+        "Retain V2 mating position and phase order"
+      ],
+      "references": [
+        "J6"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "connector",
+      "gaps": [
+        "datasheet",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "MOTOR 2",
+      "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+      "mpn": "B4B-XH-A(LF)(SN)",
+      "manufacturer": "JST",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [
+        "Retain V2 mating position and phase order"
+      ],
+      "references": [
+        "J7"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "connector",
+      "gaps": [
+        "datasheet",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "12V USB-PD",
+      "footprint": "Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x-0190_6P_TopMnt_Horizontal",
+      "mpn": "USB4125-GF-A-0190",
+      "manufacturer": "GCT",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "https://gct.co/connector/usb4125",
+      "description": "",
+      "bom_comments": [
+        "Retain archived mating plane; stock land pattern for actual GCT part. Require 12V PD source."
+      ],
+      "references": [
+        "J8"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "connector",
+      "gaps": [
+        "lcsc"
+      ]
+    },
+    {
+      "value": "DB9 ROUTING",
+      "footprint": "Connector_PinHeader_2.00mm:PinHeader_2x02_P2.00mm_Vertical",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [
+        "Retain V2 2mm pitch and routing orientations"
+      ],
+      "references": [
+        "J9"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "connector",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "DB9 MALE",
+      "footprint": "Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C426221",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [
+        "Retain mating plane/fixing drills; stock SH replaces old 0 shell designation. Exact source match pending."
+      ],
+      "references": [
+        "J10"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "connector",
+      "gaps": [
+        "mpn"
+      ]
+    },
+    {
+      "value": "J11 5V OUT",
+      "footprint": "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",
+      "mpn": "B3B-XH-A(LF)(SN)",
+      "manufacturer": "JST",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [],
+      "references": [
+        "J11"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "connector",
+      "gaps": [
+        "datasheet",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "J12 5V OUT",
+      "footprint": "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",
+      "mpn": "B3B-XH-A(LF)(SN)",
+      "manufacturer": "JST",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [],
+      "references": [
+        "J12"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "connector",
+      "gaps": [
+        "datasheet",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "J13 5V OUT",
+      "footprint": "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical",
+      "mpn": "B3B-XH-A(LF)(SN)",
+      "manufacturer": "JST",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [],
+      "references": [
+        "J13"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "connector",
+      "gaps": [
+        "datasheet",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "TDO B1617A / 20p FFC",
+      "footprint": "Connector_FFC-FPC:Hirose_FH12-20S-0.5SH_1x20-1MP_P0.50mm_Horizontal",
+      "mpn": "FH12-20S-0.5SH(55)",
+      "manufacturer": "Hirose",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "https://www.hirose.com/en/product/p/CL0586-0524-9-55",
+      "description": "",
+      "bom_comments": [
+        "Board connector only. 20-contact pin table follows TDO spec pp5-9. FFC contact side/thickness/pin1 map and maximum load require supplier confirmation. Direct touch; bridge IRQ and D/C NC."
+      ],
+      "references": [
+        "J14"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "connector",
+      "gaps": [
+        "lcsc"
+      ]
+    },
+    {
+      "value": "SPARE GPIO 3V3",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [
+        "Control only. GPIO2 ordinary IO with a low power-on glitch. GPIO3/45/46 boot restrictions. GPIO46 allocated to input use on this board, not a claim of a silicon limitation. Do not override boot pulls at reset."
+      ],
+      "references": [
+        "J15"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "connector",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "SERVICE USB (DNP)",
+      "footprint": "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12",
+      "mpn": "TYPE-C-31-M-12",
+      "manufacturer": "HRO",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [
+        "Optional service receptacle; primary initial loading through pads. Main PD required. SERVICE_VBUS never supplies board rails."
+      ],
+      "references": [
+        "J16"
+      ],
+      "quantity": 1,
+      "dnp": true,
+      "type": "connector",
+      "gaps": []
+    },
+    {
+      "value": "RX SELECT",
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [
+        "One shunt: 2-3 RS232 default, 1-2 TTL. Removes competing receiver outputs while preserving both V2 alternatives."
+      ],
+      "references": [
+        "J17"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "connector",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "15uH",
+      "footprint": "Inductor_SMD:L_Sunlord_MWSA1004S",
+      "mpn": "MWSA1004S-150MT",
+      "manufacturer": "Sunlord",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C151872",
+      "element14": "",
+      "datasheet": "https://media.digikey.com/pdf/Data%20Sheets/Shenzhen%20Sunlord/MWSA-S_Series_DS.pdf",
+      "description": "",
+      "bom_comments": [
+        "V2 component identity; use stock manufacturer land pattern instead of old custom pad geometry."
+      ],
+      "references": [
+        "L1"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "inductor",
+      "gaps": []
+    },
+    {
+      "value": "2nH",
+      "footprint": "Inductor_SMD:L_0402_1005Metric",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [
+        "OWMC RF-supply reference; >=500mA. 0402 RF exception."
+      ],
+      "references": [
+        "L2"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "inductor",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "24nH",
+      "footprint": "Inductor_SMD:L_0402_1005Metric",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [
+        "OWMC clock reference; 0402 clock exception"
+      ],
+      "references": [
+        "L3"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "inductor",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "4.7uH",
+      "footprint": "Inductor_SMD:L_Sunlord_MWSA0603S",
+      "mpn": "MWSA0603S-4R7MT",
+      "manufacturer": "Sunlord",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C408447",
+      "element14": "",
+      "datasheet": "https://jlcpcb.com/partdetail/MWSA0603S-4R7MT/C408447",
+      "description": "",
+      "bom_comments": [
+        "AP63203 section10 permits2.2-10uH. At5.085V input,2Aload:0.224App nominal,~0.30App with L-20%/f-6%; peak2.15A. Stock manufacturer land pattern."
+      ],
+      "references": [
+        "L4"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "inductor",
+      "gaps": []
+    },
+    {
+      "value": "BSS138LT1G",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "mpn": "BSS138LT1G",
+      "manufacturer": "onsemi",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "https://www.onsemi.com/pdf/datasheet/bss138lt1-d.pdf",
+      "description": "",
+      "bom_comments": [
+        "Open-drain 3.0V reset interface; MCU high asserts low. Same device as Q1; Rds(on) specified at2.75V. Avoid 3.3V push-pull injection through shared Mini DC pin."
+      ],
+      "references": [
+        "Q1",
+        "Q2"
+      ],
+      "quantity": 2,
+      "dnp": false,
+      "type": "transistor",
+      "gaps": [
+        "lcsc"
+      ]
+    },
+    {
+      "value": "4.7k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [
+        "Shared with host-driven QSPI D3, never an external IRQ"
+      ],
+      "references": [
+        "R2",
+        "R13",
+        "R14",
+        "R15",
+        "R16"
+      ],
+      "quantity": 5,
+      "dnp": false,
+      "type": "resistor",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "680R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [],
+      "references": [
+        "R3"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "resistor",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "300R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [],
+      "references": [
+        "R4"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "resistor",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "2.2k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [
+        "Shared EEPROM/touch bus; use open drain, no 3.3V internal pullups"
+      ],
+      "references": [
+        "R5",
+        "R6"
+      ],
+      "quantity": 2,
+      "dnp": false,
+      "type": "resistor",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [],
+      "references": [
+        "R8",
+        "R26",
+        "R1",
+        "R11",
+        "R12"
+      ],
+      "quantity": 5,
+      "dnp": false,
+      "type": "resistor",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "3.16k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [],
+      "references": [
+        "R10"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "resistor",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "10k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [],
+      "references": [
+        "R17",
+        "R18",
+        "R19",
+        "R20",
+        "R21",
+        "R7",
+        "R9",
+        "R25",
+        "R31",
+        "R32",
+        "R33",
+        "R38",
+        "R39",
+        "R40",
+        "R48"
+      ],
+      "quantity": 15,
+      "dnp": false,
+      "type": "resistor",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "0R",
+      "footprint": "Resistor_SMD:R_0402_1005Metric",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [
+        "Single OWMC pi matching network; RF tuning provision"
+      ],
+      "references": [
+        "R22"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "resistor",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "5.1k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [
+        "Independent Type-C Rd; socket option"
+      ],
+      "references": [
+        "R23",
+        "R24"
+      ],
+      "quantity": 2,
+      "dnp": false,
+      "type": "resistor",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "100k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [],
+      "references": [
+        "R27",
+        "R45",
+        "R49"
+      ],
+      "quantity": 3,
+      "dnp": false,
+      "type": "resistor",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "3.3k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [],
+      "references": [
+        "R28"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "resistor",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "22R",
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [],
+      "references": [
+        "R29",
+        "R30"
+      ],
+      "quantity": 2,
+      "dnp": false,
+      "type": "resistor",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "0.11R",
+      "footprint": "Resistor_SMD:R_1206_3216Metric",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [
+        "1W,1%, low-inductance current sense; four-terminal routing at pads"
+      ],
+      "references": [
+        "R34",
+        "R35",
+        "R41",
+        "R42"
+      ],
+      "quantity": 4,
+      "dnp": false,
+      "type": "resistor",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "20k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [],
+      "references": [
+        "R36",
+        "R37",
+        "R43",
+        "R44"
+      ],
+      "quantity": 4,
+      "dnp": false,
+      "type": "resistor",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "47k",
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [
+        "Deselect display during reset"
+      ],
+      "references": [
+        "R46"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "resistor",
+      "gaps": [
+        "mpn",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "47k (DNP)",
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "mpn": "",
+      "manufacturer": "",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [
+        "Populate only if WAIT output requires a pullup"
+      ],
+      "references": [
+        "R47"
+      ],
+      "quantity": 1,
+      "dnp": true,
+      "type": "resistor",
+      "gaps": []
+    },
+    {
+      "value": "RESET",
+      "footprint": "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92",
+      "mpn": "KH-6X6X6H-STM",
+      "manufacturer": "Kinghelm",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C2837532",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [
+        "Stock pads match V2 within 0.005mm. Actual switch nominal 6mm high; stock 4.3mm model is not height evidence. SW1 retains reset datum."
+      ],
+      "references": [
+        "SW1"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "switch",
+      "gaps": [
+        "datasheet"
+      ]
+    },
+    {
+      "value": "BOOT",
+      "footprint": "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92",
+      "mpn": "KH-6X6X6H-STM",
+      "manufacturer": "Kinghelm",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C2837532",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [
+        "Stock pads match V2 within 0.005mm. Actual switch nominal 6mm high; stock 4.3mm model is not height evidence. SW1 retains reset datum."
+      ],
+      "references": [
+        "SW2"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "switch",
+      "gaps": [
+        "datasheet"
+      ]
+    },
+    {
+      "value": "ESP32-S3R8",
+      "footprint": "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm",
+      "mpn": "ESP32-S3R8",
+      "manufacturer": "Espressif",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C2913194",
+      "element14": "",
+      "datasheet": "https://documentation.espressif.com/esp32-s3_datasheet_en.pdf",
+      "description": "",
+      "bom_comments": [
+        "Exactly one MCU; 8MB internal octal PSRAM. Physical memory pads 28,38-42 stay NC."
+      ],
+      "references": [
+        "U1"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "ic",
+      "gaps": []
+    },
+    {
+      "value": "CAT24C256WI-GT3",
+      "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+      "mpn": "CAT24C256WI-GT3",
+      "manufacturer": "onsemi",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C79987",
+      "element14": "",
+      "datasheet": "https://www.onsemi.com/pdf/datasheet/cat24c256-d.pdf",
+      "description": "",
+      "bom_comments": [
+        "V2 address 0x50; fixed address and writable as V2"
+      ],
+      "references": [
+        "U2"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "ic",
+      "gaps": []
+    },
+    {
+      "value": "CH224K / 12V",
+      "footprint": "Package_SO:SSOP-10-1EP_3.9x4.9mm_P1mm_EP2.1x3.3mm",
+      "mpn": "CH224K",
+      "manufacturer": "WCH",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C970725",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [
+        "Retain V2 CFG1=0,CFG2=0,CFG3=1 for 12V; PG unused. Pin11 exposed GND."
+      ],
+      "references": [
+        "U3"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "ic",
+      "gaps": [
+        "datasheet"
+      ]
+    },
+    {
+      "value": "MAX3232ESE+",
+      "footprint": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm",
+      "mpn": "MAX3232ESE+",
+      "manufacturer": "Analog Devices / Maxim",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [
+        "Retained V2 function; tie unused receiver/driver inputs low"
+      ],
+      "references": [
+        "U4"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "ic",
+      "gaps": [
+        "datasheet",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "74AHCT1G125",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "mpn": "SN74AHCT1G125DBVR",
+      "manufacturer": "Texas Instruments",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "https://www.ti.com/lit/ds/symlink/sn74ahct1g125.pdf",
+      "description": "",
+      "bom_comments": [
+        "Pin-compatible V2 buffer function; AHCT guarantees 3.3V high at 5V supply"
+      ],
+      "references": [
+        "U5",
+        "U6",
+        "U7",
+        "U8"
+      ],
+      "quantity": 4,
+      "dnp": false,
+      "type": "ic",
+      "gaps": [
+        "lcsc"
+      ]
+    },
+    {
+      "value": "W25Q128JVSIQ",
+      "footprint": "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm",
+      "mpn": "W25Q128JVSIQ",
+      "manufacturer": "Winbond",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [
+        "16MB external 3.3V Quad flash"
+      ],
+      "references": [
+        "U9"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "ic",
+      "gaps": [
+        "datasheet",
+        "lcsc"
+      ]
+    },
+    {
+      "value": "TMC2209-LA-T",
+      "footprint": "Package_DFN_QFN:VQFN-28-1EP_5x5mm_P0.5mm_EP3.7x3.7mm",
+      "mpn": "TMC2209-LA-T",
+      "manufacturer": "Analog Devices / Trinamic",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2209_datasheet_rev1.09.pdf",
+      "description": "",
+      "bom_comments": [
+        "Address 0; external 0.11ohm sensing, software current RMS. CLK grounded; passive heatsink/Fly reference.",
+        "Address 1; external 0.11ohm sensing, software current RMS. CLK grounded; passive heatsink/Fly reference."
+      ],
+      "references": [
+        "U10",
+        "U11"
+      ],
+      "quantity": 2,
+      "dnp": false,
+      "type": "ic",
+      "gaps": [
+        "lcsc"
+      ]
+    },
+    {
+      "value": "TS3USB30EDGSR",
+      "footprint": "Package_SO:TSSOP-10_3x3mm_P0.5mm",
+      "mpn": "TS3USB30EDGSR",
+      "manufacturer": "Texas Instruments",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "https://www.ti.com/lit/ds/symlink/ts3usb30e.pdf",
+      "description": "",
+      "bom_comments": [
+        "Common ports face host; Ioff isolates an unpowered board. Unused D2 branch NC."
+      ],
+      "references": [
+        "U12"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "ic",
+      "gaps": [
+        "lcsc"
+      ]
+    },
+    {
+      "value": "TLV75530PDBVR",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "mpn": "TLV75530PDBVR",
+      "manufacturer": "Texas Instruments",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "https://www.ti.com/lit/ds/symlink/tlv755p.pdf",
+      "description": "",
+      "bom_comments": [
+        "Always fitted: touch supply and shared I2C pullups even in Mini mode. Touch operating range 2.8-3.3V."
+      ],
+      "references": [
+        "U13"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "ic",
+      "gaps": [
+        "lcsc"
+      ]
+    },
+    {
+      "value": "74LVC1G17",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "mpn": "SN74LVC1G17DBVR",
+      "manufacturer": "Texas Instruments",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "",
+      "element14": "",
+      "datasheet": "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf",
+      "description": "",
+      "bom_comments": [
+        "One 5V-tolerant Schmitt input for the documented Mini reset-button risk. Dedicated GPIO21; cannot contend with QSPI WAIT."
+      ],
+      "references": [
+        "U14"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "ic",
+      "gaps": [
+        "lcsc"
+      ]
+    },
+    {
+      "value": "40MHz CL10pF",
+      "footprint": "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm",
+      "mpn": "Q22FA12800101",
+      "manufacturer": "Epson",
+      "digikey": "",
+      "mouser": "",
+      "lcsc": "C255898",
+      "element14": "",
+      "datasheet": "",
+      "description": "",
+      "bom_comments": [
+        "OWMC candidate; +/-10ppm. Small clock-package exception; source confirmation pending."
+      ],
+      "references": [
+        "Y1"
+      ],
+      "quantity": 1,
+      "dnp": false,
+      "type": "crystal",
+      "gaps": [
+        "datasheet"
+      ]
+    }
+  ],
+  "unrecognized_fields": null
+}

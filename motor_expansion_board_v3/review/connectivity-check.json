@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "contract_nets": 116,
+  "connected_endpoints": 551,
+  "explicit_nc_endpoints": 37,
+  "component_instances": 166,
+  "schematic_sheets": 5,
+  "global_signal_labels": 0,
+  "errors": [],
+  "erc_errors": 0,
+  "erc_warnings": 0,
+  "source_hashes": {
+    "pcb/display_connector.kicad_sch": "0e6c9d366cbc12420a4b152898c2b9118bc336b9ed7ef222d652a23a6ea4f0b7",
+    "pcb/interfaces.kicad_sch": "0d891e1cc6a53087163b59ecb9d11a5b2300da12e4081eb6dbd96973b40028b0",
+    "pcb/motors.kicad_sch": "a83bd6036476dbe141f3a2d9b3e4499390c32ea9066d38b732e1b968aadab0f5",
+    "pcb/motor_expansion_board_v3.kicad_sch": "40645ebb151ab6495bef7ab9d88cccd5e624aa68e4fd15b8e546a6289acedbb5",
+    "pcb/power.kicad_sch": "f48cb38867dae5f4169983fb76b84d42da3aefc9785074f143782099cf5f55d4"
+  }
+}

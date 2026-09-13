@@ -10,9 +10,8 @@ of a new board.[^system][^firmware]
 The principal development decisions are now clearer. The main supply is 12 V
 USB-PD. The supported board-powered accessory envelope is two MG90-class servos
 and four external NeoPixels, with the selected display counted separately.
-Longer LED chains have an external supply. A dedicated programming/debug
-connection with a separate controller power path is the recommended way to
-support a PC connection alongside PD power. These decisions and proposals are
+Longer LED chains have an external supply. The corrected design uses a separate programming/debug data connection with
+main PD power required. Its service VBUS does not power the board. These decisions and proposals are
 distinguished in [REQUIREMENTS.md](REQUIREMENTS.md).
 
 Subsequent requirements fix the V3 PCB to one ESP32-S3R8 MCU, retain the

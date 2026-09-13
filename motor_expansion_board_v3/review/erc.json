@@ -1,0 +1,57 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-13T03:06:02",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.4",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/529147e4-b841-5d87-9ec4-bc71522c024e",
+            "violations": []
+        },
+        {
+            "path": "/Power / USB service/",
+            "uuid_path": "/529147e4-b841-5d87-9ec4-bc71522c024e/023eae80-9650-5a8e-8024-563d60d706a6",
+            "violations": []
+        },
+        {
+            "path": "/Two motor drivers/",
+            "uuid_path": "/529147e4-b841-5d87-9ec4-bc71522c024e/a5abbe63-776c-5c80-ad91-eb02eb618d79",
+            "violations": []
+        },
+        {
+            "path": "/Serial / 5 V outputs/",
+            "uuid_path": "/529147e4-b841-5d87-9ec4-bc71522c024e/224899bf-a3ea-5418-9d66-dfe3cf7e0d00",
+            "violations": []
+        },
+        {
+            "path": "/External displays/",
+            "uuid_path": "/529147e4-b841-5d87-9ec4-bc71522c024e/8a5759d3-aaaf-5595-942f-e746302b10ea",
+            "violations": []
+        }
+    ],
+    "source": "motor_expansion_board_v3.kicad_sch"
+}

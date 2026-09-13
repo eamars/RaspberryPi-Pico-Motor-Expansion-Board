@@ -1,0 +1,76 @@
+{
+  "sources": [
+    {
+      "mpn_family": "AP63203",
+      "url": "https://www.diodes.com/datasheet/download/AP63200-AP63201-AP63203-AP63205.pdf",
+      "retrieved": "2026-09-13",
+      "path": "AP63203.pdf",
+      "sha256": "ef99daa3789d835bc025dfcb4c605c5c2e6d3e7223e86d40b33e6b497ea5a722"
+    },
+    {
+      "mpn_family": "TS3USB30E",
+      "url": "https://www.ti.com/lit/ds/symlink/ts3usb30e.pdf",
+      "retrieved": "2026-09-13",
+      "path": "TS3USB30E.pdf",
+      "sha256": "4192abb453098c3cb626397d8d1d966805b1040562b2a1dcbc1d728849f95d27"
+    },
+    {
+      "mpn_family": "BSS138LT1G",
+      "url": "https://www.onsemi.com/pdf/datasheet/bss138lt1-d.pdf",
+      "retrieved": "2026-09-13",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "mpn_family": "USBLC6-2SC6",
+      "url": "https://www.st.com/resource/en/datasheet/usblc6-2.pdf",
+      "retrieved": "2026-09-13",
+      "error": "The read operation timed out"
+    },
+    {
+      "mpn_family": "SN74AHCT1G125",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74ahct1g125.pdf",
+      "retrieved": "2026-09-13",
+      "path": "SN74AHCT1G125.pdf",
+      "sha256": "dbaf49b3af33690fc7f7356afe387e7815a56b8bb73fe1e88bf794f4fb8e0d2f"
+    },
+    {
+      "mpn_family": "CAT24C256",
+      "url": "https://www.onsemi.com/pdf/datasheet/cat24c256-d.pdf",
+      "retrieved": "2026-09-13",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "mpn_family": "TMC2209",
+      "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/TMC2209_datasheet_rev1.09.pdf",
+      "retrieved": "2026-09-13",
+      "error": "The read operation timed out"
+    },
+    {
+      "mpn_family": "MAX3232",
+      "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX3222-MAX3241.pdf",
+      "retrieved": "2026-09-13",
+      "error": "The read operation timed out"
+    },
+    {
+      "mpn_family": "MWSA-S",
+      "url": "https://media.digikey.com/pdf/Data%20Sheets/Shenzhen%20Sunlord/MWSA-S_Series_DS.pdf",
+      "retrieved": "2026-09-13",
+      "path": "MWSA-S.pdf",
+      "sha256": "20c2dbc43149c070a45df90718705b99cf8fb95880cf818fa17a2185c1ef93d3"
+    },
+    {
+      "mpn_family": "RVT1V331M1010",
+      "url": "https://datasheet.lcsc.com/datasheet/pdf/4ec4cfc2b89f173d2532ed891957b1a7.pdf?productCode=C19606",
+      "retrieved": "2026-09-13",
+      "path": "RVT1V331M1010.pdf",
+      "sha256": "285ae57abc097a56fae89388feef643b79f8d7c2901d6457de4bc00a5f91ce1b"
+    },
+    {
+      "mpn_family": "2N7002K",
+      "url": "https://assets.nexperia.com/documents/data-sheet/2N7002K.pdf",
+      "retrieved": "2026-09-13",
+      "path": "2N7002K.pdf",
+      "sha256": "9602564999426f47985729cc8e89596a3ac9f417bdecc6de090558f18f141a2e"
+    }
+  ]
+}

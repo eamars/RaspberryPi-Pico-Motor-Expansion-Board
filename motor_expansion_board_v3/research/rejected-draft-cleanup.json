@@ -1,0 +1,424 @@
+{
+  "date": "2026-09-13",
+  "reason": "Owner-approved reset after rejected expanded schematic; preserve V2.1 functional baseline and OWMC drawing style",
+  "rollback": ".git/rejected-v3-draft-20260913",
+  "files": [
+    {
+      "path": "design/capture-map.json",
+      "bytes": 214396,
+      "sha256": "291a33a8438a5ceb08981893c96ca48015e851daa6587fe408a623e2792e2612"
+    },
+    {
+      "path": "design/capture-record.json",
+      "bytes": 8970,
+      "sha256": "81168267b91e5842468708cd3f7daba0485389f826cd2dbde1b0df4743b4c937"
+    },
+    {
+      "path": "design/drawing-plan.json",
+      "bytes": 12578,
+      "sha256": "9573ee335c666842ba590e1c85eeb0d4cfc102d81845c645eec8b38c8e3d3f71"
+    },
+    {
+      "path": "design/net-intent.json",
+      "bytes": 110764,
+      "sha256": "f9b6dbce4ff8e8942cb3a523b2384babbde19e993bb4df442afd39c9fada20dd"
+    },
+    {
+      "path": "design/PRE_CAPTURE_REVIEW.md",
+      "bytes": 6311,
+      "sha256": "e7178acb30293d8adaf34bd38648d3879c12b9d9851b6f6396f0bf2bc6c524d0"
+    },
+    {
+      "path": "design/ROUTING_RULES.md",
+      "bytes": 3850,
+      "sha256": "b9fbbfeb6d361046b262b958ea6d3ea5bd961f586ffc1426fb0f45ea39ca0792"
+    },
+    {
+      "path": "design/SCHEMATIC_CONTRACT.md",
+      "bytes": 9050,
+      "sha256": "a09655bcf2ee2a2d7d27b032d60a17d8c792e16fa11058f1dc174851d392792d"
+    },
+    {
+      "path": "review/capability_mode.json",
+      "bytes": 257,
+      "sha256": "5245370e8f032f9fbc091cc07f955861515cd3ab67557b16449cf11aacf54c27"
+    },
+    {
+      "path": "review/connectivity-check.json",
+      "bytes": 448,
+      "sha256": "be21f5ba44e8af8d179f29ded100b81bc7d9b9400b788dfa4121ce4fa3e81cd5"
+    },
+    {
+      "path": "review/erc.json",
+      "bytes": 4038,
+      "sha256": "ea33e4eba5548377d7b8a9091d68749485164ba04cbc2cd6ce3ad78d2e1b65f7"
+    },
+    {
+      "path": "review/initial-connectivity-differences.json",
+      "bytes": 6722,
+      "sha256": "0d2e7a6ef8faa81262f2f5ecc974d427f9658aa82ea2e1fa26b5bbb30909c3de"
+    },
+    {
+      "path": "review/opentrickler_v3.pdf",
+      "bytes": 982260,
+      "sha256": "d7c483bb69ab1174b18e60d8d6ebd6aa0af8e9087759ee9b53a4bc46d3de0f0e"
+    },
+    {
+      "path": "review/opentrickler_v3.xml",
+      "bytes": 555327,
+      "sha256": "b22a23316bb6214d28204db4bf8b1675af05b79995ae36ef5e12733be47f3145"
+    },
+    {
+      "path": "review/schematic-analysis.json",
+      "bytes": 10735418,
+      "sha256": "610604a043d6f982e3ebb3da8d83f0181961a66f0549e666f25122eee0bfdb8e"
+    },
+    {
+      "path": "tools/cache_datasheets.py",
+      "bytes": 1683,
+      "sha256": "e2d92545fe9285219c8898b3e37d356fa4bbe20cf7190a36208853c411e5def9"
+    },
+    {
+      "path": "tools/cad_assets.py",
+      "bytes": 16691,
+      "sha256": "717d19d848d4643ae4bc59c15bf0a474ea26eee68dcaa3b9cb200bc5706b38b6"
+    },
+    {
+      "path": "tools/capture_schematic.py",
+      "bytes": 13646,
+      "sha256": "11a932b06b20b61c4e01728687a0f009dc568e1d76d0a085a6654ab6a212c528"
+    },
+    {
+      "path": "tools/check_native_netlist.py",
+      "bytes": 2475,
+      "sha256": "bc72e4e0040972f5aa765932cb343ced5d3d129266b53822fe72894feb49e820"
+    },
+    {
+      "path": "tools/drawing_plan.py",
+      "bytes": 7880,
+      "sha256": "e17aaed687cc2d3316b014189c55fe27f9ddf530a6655291a7391867e2c543e0"
+    },
+    {
+      "path": "tools/net_intent.py",
+      "bytes": 36706,
+      "sha256": "ae3b20025667cd5239c4c57336029a2db6b751d6650e0995750d4d661a83f4a5"
+    },
+    {
+      "path": "tools/retained_footprints.py",
+      "bytes": 2031,
+      "sha256": "b1a9dfab641ef84d375e1d4145f236eb058d8aed53329091dfcc05577f961898"
+    },
+    {
+      "path": "tools/__pycache__/cad_assets.cpython-312.pyc",
+      "bytes": 20955,
+      "sha256": "91d5d9f89d53fe1a0aef7bbfac45447a0e377dceadfa5750048325dc8f4d1de6"
+    },
+    {
+      "path": "pcb/display.kicad_sch",
+      "bytes": 31665,
+      "sha256": "bec19cc0527fc556730c229e90f90cae8c8d4a2e7f934b16181a38466e646f30"
+    },
+    {
+      "path": "pcb/display_mini.kicad_sch",
+      "bytes": 94339,
+      "sha256": "1b3a8057c963a13a31f90fee527e0fe674f4ba4fde34e67db719d2f27994b31a"
+    },
+    {
+      "path": "pcb/display_qspi.kicad_sch",
+      "bytes": 88637,
+      "sha256": "35b13a903f850cf8a5ee99d427b6380143b7ef08249fbfb6802df69823b083a5"
+    },
+    {
+      "path": "pcb/display_select.kicad_sch",
+      "bytes": 109863,
+      "sha256": "f8a75315edf4628e5846c8e86d8e8d0ed4740e89486faeec3922c0ab7af4d0ca"
+    },
+    {
+      "path": "pcb/legacy_io.kicad_sch",
+      "bytes": 6699,
+      "sha256": "54b89b2a5c924b77dc7e2ab413feffa32dff62a1fc1d269137df904ef95e21e1"
+    },
+    {
+      "path": "pcb/legacy_outputs.kicad_sch",
+      "bytes": 72378,
+      "sha256": "bddecea46df2b08853abbec04b849a1df443ad8264a11e1041147807b828d094"
+    },
+    {
+      "path": "pcb/legacy_serial.kicad_sch",
+      "bytes": 58051,
+      "sha256": "47bcc7f472a34f7e8371f0430052e06fda5b23cdb07e1f2678a161cc0166dfb6"
+    },
+    {
+      "path": "pcb/mcu.kicad_sch",
+      "bytes": 139379,
+      "sha256": "1b40a10dc1ce8c145dc37ff651b69a732b962b3365e315902f38a328f3aa3247"
+    },
+    {
+      "path": "pcb/motor_0.kicad_sch",
+      "bytes": 75049,
+      "sha256": "e007526431e6e483bba687dee6c353ae10330d01d01a16bee124e84d5f497566"
+    },
+    {
+      "path": "pcb/motor_1.kicad_sch",
+      "bytes": 75054,
+      "sha256": "4c2d021883e0ef87408c669171b5c55f5fe58912cf031a8561b802d2122f3f97"
+    },
+    {
+      "path": "pcb/opentrickler_v3.kicad_pro",
+      "bytes": 610,
+      "sha256": "1a9b54f3d851c5c9c2ba0fb1105bc1b40558de2a52999e5f0b17460fb8dddf0f"
+    },
+    {
+      "path": "pcb/opentrickler_v3.kicad_sch",
+      "bytes": 37046,
+      "sha256": "1b5403212c20dadd8e541b9ece2210c41f7bb5a8cbde51454aae9c48ccbe0beb"
+    },
+    {
+      "path": "pcb/pd_input.kicad_sch",
+      "bytes": 102121,
+      "sha256": "b89362d62f57c36927bd51353a24843243b3a3d1c1d3c199b39f0b47f549a2ea"
+    },
+    {
+      "path": "pcb/power.kicad_sch",
+      "bytes": 2118,
+      "sha256": "a41ade2f2e7115af984da7d4af808f097d605388a770779db14985976200dc74"
+    },
+    {
+      "path": "pcb/rails.kicad_sch",
+      "bytes": 58684,
+      "sha256": "877ae7f21d26b0e9c0267f4ceecde0beab0b4249532ceeb2ed5ed2a66ddc575a"
+    },
+    {
+      "path": "pcb/service.kicad_sch",
+      "bytes": 76425,
+      "sha256": "abd983f8f536972c0a738979b1bb228fd9542c37760f01d40ea403a515ad8bfd"
+    },
+    {
+      "path": "pcb/sym-lib-table",
+      "bytes": 177,
+      "sha256": "02eb721cd731ee6979644eadf4b7533d7becaf828f3f96df412a69db2e5e7481"
+    },
+    {
+      "path": "pcb/fp-lib-table",
+      "bytes": 179,
+      "sha256": "d2027c1e84b6651c84a91bbbee25c1502c969e014e1c84606227c06cd7acf991"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Button_Switch_SMD_SW_SPST_TL3342.kicad_mod",
+      "bytes": 9613,
+      "sha256": "de527d8ebc9cc816fd231d0bf858a8f7fe20b49c67afdc2e50857657e00acf1a"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Capacitor_SMD_C_0402_1005Metric.kicad_mod",
+      "bytes": 1886,
+      "sha256": "bd82081eb7b42ca51bdef8a8b88d9320f8a91497a19a457a7e205746d61023db"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Capacitor_SMD_C_0603_1608Metric.kicad_mod",
+      "bytes": 1878,
+      "sha256": "1e6b6b6f0b0bd4f7a656a9fdb1353cb0c3ee3bd8d15e22d138fe0e9bf5f84867"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Capacitor_SMD_C_0805_2012Metric.kicad_mod",
+      "bytes": 1980,
+      "sha256": "17924209aa863ddee18549e96493e1f445f3d93bb2c3063fc182c8ca74293f4e"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Capacitor_SMD_C_1206_3216Metric.kicad_mod",
+      "bytes": 1888,
+      "sha256": "c1d38c8ab0074d122f3d856db13271466db7de657f977ec057f79bf7487369c5"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Capacitor_SMD_CP_Elec_10x10.5.kicad_mod",
+      "bytes": 5454,
+      "sha256": "62c0235df529b8d1bf48e115ae83043d6a70fb39f83357ff8d22dde33b4c63d5"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Capacitor_SMD_CP_Elec_6.3x7.7.kicad_mod",
+      "bytes": 5438,
+      "sha256": "7ff2ca99982e777f618e21186198b601eafb81c4cc3d1bba19a374b4fac97a4c"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Connector_IDC_IDC-Header_2x05_P2.54mm_Vertical.kicad_mod",
+      "bytes": 5983,
+      "sha256": "ca255e759184e8ae6d31bf2183efa48693e49f18264dbaf8fc64e78ca9c16b36"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Connector_JST_JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical.kicad_mod",
+      "bytes": 3538,
+      "sha256": "0995fa601068e71b382dd114ff121a57a9c530caa9bd753713b86a24b8aa5718"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Connector_JST_JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod",
+      "bytes": 3683,
+      "sha256": "68514d7eaa5e3db873e8c598655fee811270566019fe3d5e49a09c8d0cf26f56"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Connector_PinHeader_2.00mm_PinHeader_2x02_P2.00mm_Vertical.kicad_mod",
+      "bytes": 3253,
+      "sha256": "aed2f36fcec7e0b569272d48ab33da6128ba2ca8cd376d7c18c4a55538351e8c"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Connector_PinHeader_2.54mm_PinHeader_1x03_P2.54mm_Vertical.kicad_mod",
+      "bytes": 2953,
+      "sha256": "abac5bad2abb9ff9cd1c0d63ef9a8bec8b208f3be7681b14c558fe6036552d55"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Connector_USB_USB_C_Receptacle_GCT_USB4085.kicad_mod",
+      "bytes": 8040,
+      "sha256": "b19bb016fa612015e03b8743fa1b855c518bb776b32c2294bd21419d8440fa44"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Crystal_Crystal_SMD_2016-4Pin_2.0x1.6mm.kicad_mod",
+      "bytes": 2064,
+      "sha256": "2112dd8686e9cdce276c22d1e3ad01f674d8269be996265c3b176b881b5011f7"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/DE9_V21_Retained.kicad_mod",
+      "bytes": 11001,
+      "sha256": "6d84cbc8a8e3b6b0f42a2935f8a81ff03335c5ba84194fd391221f4878da39d1"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Diode_SMD_D_SMC.kicad_mod",
+      "bytes": 4670,
+      "sha256": "ca8d12844071c56a4d355b2c40a8d8156fd720ee586188aa5f442aec4a9e4901"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/EXP1_V21_Retained.kicad_mod",
+      "bytes": 9820,
+      "sha256": "2a38d7308c12fde5d5047946d68aeb1708faf9c160af199f9c4f224d98a3cae7"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/EXP2_V21_Retained.kicad_mod",
+      "bytes": 9820,
+      "sha256": "5c8c9114c843f615bfc269e3099d02c99fcf258cec10602dbe7065f3b558b121"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Inductor_SMD_L_0402_1005Metric.kicad_mod",
+      "bytes": 1574,
+      "sha256": "52b9e194cb7ea9d26ac5cc6b6d97454eaa7dccaacb703f4df35cc8faebb67739"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Jumper_SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm.kicad_mod",
+      "bytes": 3100,
+      "sha256": "2bee44937b5579282cc4c22b6baa63e57f8de3977e2c155175ebfacdd29e1b3e"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Package_DFN_QFN_QFN-28-1EP_5x5mm_P0.5mm_EP3.1x3.1mm.kicad_mod",
+      "bytes": 9848,
+      "sha256": "a9a14c5629e0365fe59323b21b8fbf94b97151bcd514cfc16b0686b9d802ec4a"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Package_DFN_QFN_QFN-56-1EP_7x7mm_P0.4mm_EP4x4mm.kicad_mod",
+      "bytes": 13430,
+      "sha256": "aa92ac46e39e4ffcd0832ee34ac6bf0fba390926b9d0c109f0196c419d690ac0"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Package_DFN_QFN_Texas_UQFN-8_1.5x1.5mm_P0.5mm.kicad_mod",
+      "bytes": 5366,
+      "sha256": "ea8e12b30f58fddc1664afe44762634ddd3af95d3d2b2fe948181fedf0404a9e"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Package_SO_SOIC-16_3.9x9.9mm_P1.27mm.kicad_mod",
+      "bytes": 5902,
+      "sha256": "aeaf5b242fb6f802e7a9b08a5857d58c4dbf387cad273736268f560efbc9490e"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Package_SO_SOIC-8_3.9x4.9mm_P1.27mm.kicad_mod",
+      "bytes": 4713,
+      "sha256": "05a021caa9853a78ed393b8f932178d34c976031d619a0e874060f1d0705181d"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Package_SO_SOIC-8_5.3x5.3mm_P1.27mm.kicad_mod",
+      "bytes": 5034,
+      "sha256": "3879193aa4a54420d9034ab4c153a1e832b3914c174e05c039ae636fad31265c"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Package_SO_TSSOP-14_4.4x5mm_P0.65mm.kicad_mod",
+      "bytes": 5547,
+      "sha256": "1e877bf7a54960bd5e6d0812908bd852d3435e751280c6da659c165345f14f89"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Package_SO_TSSOP-16_4.4x5mm_P0.65mm.kicad_mod",
+      "bytes": 5411,
+      "sha256": "57a48ad3e3632906491ddc7b0d7e15cc5b1ce2f54214fb0a1a5c266a93c2fd08"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Package_SO_TSSOP-20_4.4x6.5mm_P0.65mm.kicad_mod",
+      "bytes": 5869,
+      "sha256": "8b07808cbbb132ef81699429e610e7c91b398281a54f15615e772b5761f8cc96"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Package_SO_VSSOP-8_2.3x2mm_P0.5mm.kicad_mod",
+      "bytes": 4176,
+      "sha256": "b883cf4633d1ef1f6367d7f96dc269634d537d8472e59d88d8f717379a3d7faa"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Package_TO_SOT_SMD_SOT-23-5.kicad_mod",
+      "bytes": 4919,
+      "sha256": "02bdd43b92cf24330261cbe500b2d39a322d55a09ad95d0d2e9a7033fae81a2d"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Package_TO_SOT_SMD_SOT-23-6.kicad_mod",
+      "bytes": 4415,
+      "sha256": "7b3d70c98d9fd3014745d40fef77519a6b03ee8337d3a91b96b3cb5426cefa06"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Package_TO_SOT_SMD_SOT-23.kicad_mod",
+      "bytes": 4649,
+      "sha256": "e33b18227cf5bed77faa8da32f4d8ad85767d0baeb64d4a6efb004e042112906"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Package_TO_SOT_SMD_SOT-353_SC-70-5.kicad_mod",
+      "bytes": 5062,
+      "sha256": "cf7d08b5654033d61db0ca00b0d617006f181216ea78aca9ba0efbe1539f1d9e"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Resistor_SMD_R_0402_1005Metric.kicad_mod",
+      "bytes": 1887,
+      "sha256": "f92a9a1cf257aa4f52324e5154fd43c6172a15ae313ac346ece4a3d1cb72b995"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Resistor_SMD_R_0603_1608Metric.kicad_mod",
+      "bytes": 1893,
+      "sha256": "6eeb6767be1326344f6b4f18368ea64d0ffffa37a53aa640ae20dab406991a85"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/Resistor_SMD_R_1206_3216Metric.kicad_mod",
+      "bytes": 1893,
+      "sha256": "a1f6daecbc14ebc9cc8fa77e5c80d2fa6d36daa2872db0a4e0d28ca7fa8506d7"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/RF_Antenna_Johanson_2450AT18x100.kicad_mod",
+      "bytes": 3864,
+      "sha256": "b7aba0ec44d2bee853280cffe8ec1a820364063bd1fb6b377ede9e7b0be552f2"
+    },
+    {
+      "path": "pcb/libraries/footprints/OpenTricklerV3.pretty/TestPoint_TestPoint_Pad_D1.5mm.kicad_mod",
+      "bytes": 1864,
+      "sha256": "ce462cf009d17448d385d9569515e920a306001ee8c6a52d834be8bfa289f694"
+    },
+    {
+      "path": "pcb/libraries/symbols/OpenTricklerV3.kicad_sym",
+      "bytes": 182356,
+      "sha256": "2e0acb61f76282fa1a3c6bc62e912ed161fb828381c75aaa5e5b90621f444139"
+    },
+    {
+      "path": "pcb/libraries/LIBRARY_LICENSES.md",
+      "bytes": 1407,
+      "sha256": "ed816d7e1c59c40237c28fb69469827861551d55b9fa47b8b2e23f29d4e105fd"
+    },
+    {
+      "path": "pcb/libraries/manifest.json",
+      "bytes": 79734,
+      "sha256": "bf9f5a151b49174ea05d56840e757cc2b8dc14cc5fa1fdc6f031b66e59bc7ad7"
+    },
+    {
+      "path": "pcb/libraries/retained-connectors.json",
+      "bytes": 2659,
+      "sha256": "f1f19640beedeeb2c367aaa114d105153cca2ec8f9e938a7ddb7a8a2b75fc44f"
+    }
+  ],
+  "hash_verified": true,
+  "retained": "V2 archive, necessary references/datasheets, requirements/tracker and updated README files"
+}

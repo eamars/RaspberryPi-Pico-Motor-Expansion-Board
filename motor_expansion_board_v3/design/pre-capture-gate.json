@@ -1,0 +1,19 @@
+{
+  "ready_for_capture": true,
+  "recorded_utc": "2026-09-12T14:49:00.659779+00:00",
+  "intent_sha256": "05bfc6f607892d36325c893f9d068717b1d3d630f8a244c62a467590dac9c2c2",
+  "component_instances": 166,
+  "named_nets": 116,
+  "total_sheets": 5,
+  "basis": [
+    "Owner Proceed authorization, V2/OWMC study and83-file reversible cleanup",
+    "Exact numbered endpoints and NC intent, all installed symbols/footprints resolve and all symbol pins have footprint pads",
+    "Numeric net classes and routing/stackup assumptions recorded before capture",
+    "Independent pin-capability check: corrected GPIO36/37 and glitch-free motor enables"
+  ],
+  "later_checks": [
+    "Retained C8 ESR/loop and exact source package check before PCB",
+    "FFC contact orientation/assembly max current and Mini KILL-link compatibility before producing prototype",
+    "No firmware-port work: owner clarified pin suitability is sufficient"
+  ]
+}

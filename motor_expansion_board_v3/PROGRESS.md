@@ -1,28 +1,37 @@
 # V3 master progress tracker
 
-Updated: 2026-09-12. This is the **only implementation progress tracker** for
+Updated: 2026-09-13. This is the **only implementation progress tracker** for
 V3. Requirements and decisions live in [REQUIREMENTS.md](REQUIREMENTS.md);
 architecture and process are described in [DEVELOPMENT_SUMMARY.md](DEVELOPMENT_SUMMARY.md).
 Research reports hold evidence, not competing task-status lists.
 
 Assistant scope: complete schematic, PCB layout and the first preliminary BOM
-for exactly one ESP32-S3R8, with static firmware-feasibility and design-review
-evidence. **Stop at that design/BOM handoff.** The owner manages production;
+for exactly one ESP32-S3R8, with pin-capability and design-review evidence (DEC-022). **Stop at that design/BOM handoff.** The owner manages production;
 Mellow manufactures and performs initial functional testing (DEC-019).
 Physical bring-up, production management and application/OTA/test-firmware
 implementation are downstream responsibilities, not assistant deliverables.
 No separate thermal-design exercise or continuous 1.5 A RMS rating is required;
 use the Fly TMC2209 StepStick/passive-heatsink reference for room-temperature use.
 
-Current stage: requested compatibility and reference investigations complete;
-pre-design cleanup and specification work are in progress. **No V3 schematic or
-PCB exists yet.** Copied OWMC files are reference material only (DEC-018).
-The consolidated
-[research report](COMPATIBILITY_RESEARCH.md) records MECH-01..07, ELEC-01..13,
-FW-01..12 and DISP-01..05.
-Next deliverable: a clean, self-contained project resource structure and the
-pre-schematic connectivity, clearance and hierarchy specification. Schematic
-implementation cannot begin until gate G-01 passes.
+Current stage: **owner authorized the V2-based restart (DEC-021).** The rejected
+draft, library copies and generators were moved to local rollback: 83 files,
+all hashes checked; see [cleanup evidence](research/rejected-draft-cleanup.json).
+The V2 archive and necessary references remain unchanged. G-01 is complete. The corrected five-sheet native schematic is captured.
+KiCad ERC reports 0 errors / 0 warnings; 116 intended nets and 551 connected endpoints
+reconcile, with 37 explicit NC endpoints. Independent schematic review and its
+bounded drawing recheck are complete. **G-02 is waiting for owner approval of B1.**
+Open the [review package](review/README.md); all remaining qualifications are recorded below.
+No V3 PCB exists. Review evidence from the earlier rejected draft is superseded.
+
+[V2 circuit and OWMC style study](research/V2_DESIGN_STUDY.md) records the direct
+reading of all four V2 sheets, native PCB/footprints and both OWMC schematic pages.
+DEC-020 limits changes to the Pico replacement, integrated drivers and external
+display connection, subject to the existing agreed compatibility requirements.
+Use the owner's hierarchical-sheet style, no more than five sheets total,
+installed KiCad libraries first and V2's practical hand-solder footprint intent.
+No CAD edits were made during the study. The subsequent reset is now authorized.
+G-02 still requires independent review
+of the completed schematic and explicit owner approval before PCB implementation.
 
 ## Status rules
 
@@ -30,6 +39,9 @@ implementation cannot begin until gate G-01 passes.
 - **In progress**: active work with an identified next action.
 - **Waiting**: a named decision, dependency, hardware item or external result is needed.
 - **Planned**: authorized work has not started.
+- **Paused**: the owner stopped implementation; do not resume dependent work.
+- **Reopened**: earlier completion no longer satisfies corrected requirements;
+  redo the affected definition/review before the gate can pass.
 - **External**: recorded downstream work owned by the user/Mellow; not an
   assistant deliverable or a prerequisite to calling the preliminary handoff done.
 - Track discovered corrective actions here using stable IDs; do not mark a
@@ -48,36 +60,37 @@ implementation cannot begin until gate G-01 passes.
 | --- | --- | --- | --- |
 | R-01 | Audit and refresh workspace electronics skills | Done | Pinned upstream release, provenance/backups and tool validation in [skills record](../.agents/SKILLS.md) |
 | R-02 | Extract V2.1 baseline and reference inventories | Done | Native geometry, nets and source hashes in [design inventory](research/design-inventory.json); application sources in [application inventory](research/application-inventory.json) |
-| R-03 | Maintain requirements and scope | In progress | DEC-001 through DEC-019 captured in [requirements](REQUIREMENTS.md); complete design and first preliminary BOM, then owner/Mellow handle production and initial testing |
+| R-03 | Maintain requirements and scope | In progress | DEC-020/021 constrain and resume the V2-based design; DEC-022 excludes firmware rework and application-port analysis. Keep requirements and active design evidence synchronized. |
 | R-04 | Initial mechanical incompatibility research | Done | mechanical_compatibility agent: MECH-01..07 in [research report](COMPATIBILITY_RESEARCH.md); corrective actions below remain open |
 | R-05 | Initial electrical incompatibility research | Done | electrical_compatibility agent: ELEC-01..13 in [research report](COMPATIBILITY_RESEARCH.md), with source/manufacturer evidence and limits |
-| R-06 | Initial static firmware compatibility research | Done | firmware_feasibility agent: FW-01..12 and candidate peripheral allocation in [research report](COMPATIBILITY_RESEARCH.md); final production feasibility remains V-00 |
+| R-06 | Initial static firmware compatibility research | Done | firmware_feasibility agent: FW-01..12 and candidate peripheral allocation in [research report](COMPATIBILITY_RESEARCH.md); pin-capability scope now recorded under V-00 |
 | R-07 | Mellow/Fly catalog and QSPI fallback research | Done | mellow_display_research agent: verified Mellow candidates do not meet strict QSPI; TDO TS040WVS02CP-B1617A is a sourced QSPI lead requiring qualification, DISP-05 |
 | R-08 | Fly TMC2209 reference investigation | Done | Official revision 1.0 schematic, UART/heatsink illustrations and adaptation limits recorded in [research report](COMPATIBILITY_RESEARCH.md#fly-tmc2209-reference-implementation); no separate thermal-design project |
 | R-09 | TDO selected-candidate desk qualification | Done | [TDO evidence](COMPATIBILITY_RESEARCH.md#tdo-desk-qualification): numbered pins, 8/12/9-signal options and actual ESP32 transport code reviewed; example targets another panel/touch. Supplier and sample closure remains A-05 |
 | R-10 | Resolve servo baseline from the sourcing guide | Done | [Pinned guide](https://github.com/eamars/OpenTrickler/blob/6a0b9711194d59aa796af89c6224d7331031c4ff/Manual/sourcing_guide.md#servo-motors) names MG90S, recommends full metal/180 degrees and links item 1005004550692203. Model/source question closed; current evidence remains A-03 |
-| C-01 | Audit and clean copied reference assets | Done | Independent dependency audit completed; all 203 imported files moved to verified rollback. [Cleanup inventory](research/asset-cleanup.json) and [five retained references](references/manifest.json) preserve evidence. Active CAD area has documentation only; archived V2.1 is untouched |
-| C-02 | Establish self-contained project libraries/resources | In progress | [Library conventions](pcb/libraries/README.md) and [adoption manifest](pcb/libraries/manifest.json) created; no foreign production assets adopted yet. Qualify needed parts, create local tables as assets are adopted, and verify fresh-checkout resolution |
-| C-03 | Maintain documentation and artifact references | In progress | Existing-V3 assumption and moved links corrected; portable citations recorded. [Current validation](research/documentation-validation.json) passes; keep READMEs/exports synchronized with every later revision under REQ-PROC-002 |
-| A-01 | Architecture and interface contract | In progress | [Power architecture](POWER_ARCHITECTURE.md) and [overview](DEVELOPMENT_SUMMARY.md) drafted; reconcile compatibility findings and freeze settled blocks |
-| A-02 | Exact GPIO/peripheral/memory allocation | In progress | Preliminary count exists; complete pin-level matrix after R-05/R-06/R-07, including straps, memory, USB, display, diagnostics and spare I/O |
-| A-03 | Electrical power and transient budget | In progress | Complete source/rail/transient budgets for two servos, four LEDs, selected display, controller and drivers; upper motor software setting is not a continuous board-current rating |
-| A-04 | Connector and mechanical contract | In progress | Include complete rounded outline, all connector fixing holes/body/key datums and placed J8 geometry from MECH-01 through MECH-04; select new service/display/heatsink geometry |
-| A-05 | Qualify the selected TDO QSPI display interface for design | Waiting | Desk work R-09 done. Exact B1617A assembly/driver/touch/power/drawing/cable facts must support the schematic. Distinguish interface feasibility from downstream Mellow sourcing and sample demonstration; physical acceptance remains P-03 |
-| A-06 | Specify intended netlist, net classes and clearances | Planned | REQ-PROC-005: complete named-net/endpoint and connector-pin contract plus numeric clearance matrix, width/via rules and basis before schematic work. Later exported netlist must match this specification |
-| A-07 | Specify schematic hierarchy and drawing conventions | Planned | REQ-PROC-006: top-level functional blocks, child-sheet responsibilities/ports, signal flow, power/decoupling context, symbol/text grid and junction/label conventions |
-| G-01 | Pre-schematic readiness gate | Waiting | C-01/C-02 preparation, A-01 through A-07 and initial critical-part/library checks must establish complete circuit-affecting contracts. No unresolved net/pin/clearance assumptions may silently pass into schematic implementation |
-| S-01 | MCU core schematic | Planned | One ESP32-S3R8, flash/PSRAM configuration, clock, reset/boot, RF and decoupling checked against reference and manufacturer evidence |
-| S-02 | PD, rail conversion, protection and service power schematic | Planned | Implement A-03 and power modes, reverse-current blocking, voltage qualification and unpowered-domain behaviour |
-| S-03 | Two onboard TMC2209 schematic blocks | Planned | Correct support circuitry/current configuration and retained motor interfaces, with passive-heatsink implementation constraints |
-| S-04 | Mini12864 and selected QSPI display schematic | Waiting | A-05 must establish the selected assembly's connector, control/input method, voltage and GPIO contract |
-| S-05 | Retained serial/output/storage and additional I/O schematic | Planned | Preserve external cable compatibility, levels and functions; expose remaining usable native GPIOs on a 2/2.54 mm control header with GND, using 2.54 mm as the starting point; no minimum count |
-| B-01 | First preliminary BOM and component candidates | In progress | Fill symbol properties and export per-board references/quantities, exact MPN/package, LCSC or Mellow source, population/alternate notes and dated evidence. Explicitly flag unconfirmed supply/validation; no order quantities, purchasing or final production allocation |
-| B-02 | Symbol/footprint and population-variant audit | Planned | MECH-03/07: resolve J8 actual connector identity versus misleading library/model naming, and replace reference display/service placeholders with verified interfaces; audit all part/pad mappings and variants |
-| V-00 | Final static firmware-feasibility gate | Waiting | REQ-VER-001: exact panel, completed GPIO/peripheral/memory/reset matrix and disposition of hardware-affecting FW findings. Initial research alone does not pass this gate |
-| V-01 | Schematic electrical review and ERC | Planned | Critical pin/rail review, power and reset cases, applicable calculations/simulation and disposition of all findings; depends on S-01 through S-05 |
-| V-03 | Mandatory independent schematic review against requirements | Planned | REQ-PROC-007: independent agent reviews the exact schematic revision, requirement matrix, intended/exported nets, ERC, BOM/footprints, hierarchy/readability and power/reset cases; findings and dispositions recorded before G-02 |
-| G-02 | Owner approval of reviewed schematic | Planned | Prepare completed V-01/V-03 evidence and exact revision/hash for owner review. Explicit owner approval is required before PCB implementation. Not ready to request approval yet; no approval is inferred from earlier authorization to design |
+| R-11 | Study V2 circuits/assembly intent and OWMC schematic style | Done | [Direct study](research/V2_DESIGN_STUDY.md): four V2 sheets, power/serial/output/motor nets, placed footprints, hand-solder intent and two OWMC pages with explicit parent/child ports. Establishes scope/style, not electrical release |
+| C-01 | Audit and clean copied reference assets | Done | Initial copied-reference cleanup, [83-file rejected-draft cleanup](research/rejected-draft-cleanup.json) and [18 unused datasheets](research/unused-datasheets-cleanup.json) complete with hash-checked rollback copies. V2 archive untouched. |
+| C-02 | Establish self-contained project libraries/resources | Done | [Resource audit](design/library-audit.json): all 166 instances use installed KiCad assets; zero custom symbols/footprints. The [datasheet cache](datasheets/README.md) records retained evidence and download gaps. Exact pad/source qualifications remain B-02. |
+| C-03 | Maintain documentation and artifact references | Done | Current READMEs, requirements, pin check, design/power descriptions, source cache and [B1 review index](review/README.md) match the corrected design. Local links, source hashes and untouched V2 baseline checked at this gate. |
+| A-01 | Architecture and interface contract | Done | [Intended circuit](design/net-intent.json): V2-based controller, two onboard drivers and external display connection. Main PD required for USB service; no controller power mux or display-selection circuitry. |
+| A-02 | Exact GPIO/peripheral/memory allocation | Done | [Independent pin-capability check](research/PIN_CAPABILITY_CHECK.md): physical pin36=GPIO48/pin37=GPIO47, R8 reserved pads, nativeUSB19/20 and all required functions. Motor EN uses GPIO42/48. |
+| A-03 | Electrical power and transient budget | Done | [Power design](POWER_ARCHITECTURE.md) records the two-servo/four-LED plus controller/display planning allocation and its limits. Retain V2's TPS5450 capacity; actual servo/display peaks and aggregate PD demand remain external P-04 measurements, not a guaranteed simultaneous-load rating. |
+| A-04 | Connector and mechanical contract | Done | [V2 mechanical inventory](research/design-inventory.json) and [direct study](research/V2_DESIGN_STUDY.md) define outline/holes/retained datums. Applying and locking them in a fresh PCB remains L-01 after owner approval. |
+| A-05 | Qualify the external QSPI display connection | In progress | TDO numbered connector, QSPI/direct-touch pin capability and voltage interfaces are captured. Supplied FFC contact orientation, maximum module load and Mellow sourcing remain B-02/DISP-05 qualifications. One display is physically connected at a time. |
+| A-06 | Specify intended netlist, net classes and clearances | Done | [116 named nets/endpoints](design/net-endpoints.json) and [numeric classes/clearances](design/net-classes.json) recorded before capture. Stackup-dependent impedance geometry is an explicit routing-stage assumption. |
+| A-07 | Specify schematic hierarchy and drawing conventions | Done | [Five-sheet hierarchy](design/hierarchy.json): populated parent, four coherent children; both motors on one sheet, matching sheet pins/hierarchical labels, no global labels. |
+| G-01 | Pre-schematic readiness gate | Done | [Initial pre-capture gate](design/pre-capture-gate-initial.json) predates corrected CAD. The [current contract](design/pre-capture-gate.json) includes subsequent L4/Q2 part amendments; 166 instances, all pin/pad resources resolve. Later source/package checks are explicit. |
+| S-01 | MCU core schematic | Done | B1 populated parent captures the ESP32 core, flash/clock/RF/reset/EEPROM and available spare GPIO. Independent review remains V-03. |
+| S-02 | Power and programming/service schematic | Done | B1 power child retains V2 PD/TPS5450, adds AP63203 and separate USB data service/pads. SERVICE_VBUS has no board-supply connection. |
+| S-03 | Two onboard TMC2209 schematic blocks | Done | B1 motors child contains both complete TMC2209 channels, external 0.11 ohm / 1 W sensing, shared UART and V2 phase-connector order. |
+| S-04 | Retained display headers and external QSPI connector | Done | B1 display child retains EXP1/2 and adds an external TDO 20-contact FFC plus necessary touch/interface parts. |
+| S-05 | Retained serial/output/storage and additional I/O schematic | Done | B1 interfaces child retains serial/output ports; a receiver-selection shunt avoids output contention and AHCT buffers accept 3.3 V high at 5 V. EEPROM/spare GPIO are on the parent. |
+| B-01 | First preliminary BOM and component candidates | In progress | Export from the corrected design with per-board references/quantities, exact MPN/package and LCSC/Mellow source evidence. Rejected draft candidate counts are not a preliminary BOM handoff |
+| B-02 | Symbol/footprint and population-variant audit | In progress | All stock symbol/pad sets resolve; J8, TPS5450 and Sunlord land patterns are identified. Finish actual FFC/cable, switch/model, bulk-capacitor and supplier/package qualifications; preserve DNP service socket and RF tuning options in the preliminary BOM. |
+| V-00 | ESP32 pin-capability check | Done | Owner clarified: only establish that pins can serve their purpose; firmware needs rework separately. Independent pin-capability review passed; capture/export reconciliation remains V-01. |
+| V-01 | Schematic electrical review and ERC | Done | [Native ERC](review/erc.json): 0 errors / 0 warnings. [Reconciliation](review/connectivity-check.json): 116 nets, 551 connected and 37 NC endpoints match. Final five-page render inspected; [independent findings](review/INDEPENDENT_SCHEMATIC_REVIEW.md) are dispositioned below. |
+| V-03 | Mandatory independent schematic review against requirements | Done | [Independent B1 review](review/INDEPENDENT_SCHEMATIC_REVIEW.md) and drawing-only renewal complete. Verdict: suitable for owner schematic review; no remaining definitive connection blocker. Exact native/export/image hashes recorded; ISR-02..06 remain bounded qualifications. |
+| G-02 | Owner approval of reviewed schematic | Waiting | Owner approval of the exact [B1 review package](review/README.md), identified by [artifact hashes](review/package-manifest.json), is required before PCB implementation under REQ-PROC-007. No approval has been inferred. Schematic review is ready; no V3 PCB exists. |
 | L-01 | Create and lock V2.1-compatible PCB geometry | Planned | After G-02, create a fresh V3 PCB using full archived V2.1 outline/corners, mounting and connector-fixing datums. OWMC PCB is reference-only and is not a starting layout |
 | L-02 | Placement, RF and heatsink layout | Planned | Fit power/core/interface blocks and heatsinks against A-04; use a real Mellow stack-up, sound return paths and ordinary manufacturer exposed-pad/copper/via practices |
 | L-03 | Routing and copper zones | Planned | Route required nets, USB/RF and power paths, fill zones and inspect return paths; depends on accepted placement and schematic |
@@ -93,7 +106,7 @@ implementation cannot begin until gate G-01 passes.
 
 | Item | Current position | Work affected |
 | --- | --- | --- |
-| QSPI panel | TDO TS040WVS02CP-B1617A is the user-selected 3.95-inch QSPI qualification target. Exact driver/touch, connector/cable/drawing, maximum current and Mellow sourcing evidence remain necessary | A-05, A-02/A-03, S-04, P-03 |
+| QSPI panel | TDO TS040WVS02CP-B1617A is the selected 3.95-inch QSPI target. Board pin suitability is checked. Supplied connector/cable geometry, maximum current and Mellow sourcing remain qualifications; firmware driver work is excluded by DEC-022 | A-05, B-02, external P-03 |
 | Driver reference implementation | Fly reference identified under R-08. Adapt its support circuitry and heatsink construction using manufacturer guidance; exact supplied IC identity and full V3 component ratings remain engineering/BOM work. Thermal scope is settled by DEC-016 | S-03, B-01/B-02, L-02 |
 | Servo load evidence | Use two MG90S servos from the guide's full-metal 180-degree recommendation and item 1005004550692203. Identity question is closed; current/transient evidence is engineering work, with physical measurement by Mellow if needed | A-03, S-02, external P-04 |
 | Extra I/O | Scope settled by DEC-017: remaining usable native 3.3 V GPIOs on a 2/2.54 mm control header, lower priority and no minimum count. Finish required display/service/power resources before assigning spares | A-02, S-05 |
@@ -101,45 +114,68 @@ implementation cannot begin until gate G-01 passes.
 
 ## Compatibility actions
 
+The following register retains initial research evidence. Its suggested circuitry,
+operating modes and mitigation methods must be reassessed under DEC-020 before
+implementation; a previous Planned/In-progress entry does not authorize keeping
+that feature. The reopened work register above controls current execution.
+
 | Finding | Action | Status | Completion evidence needed |
 | --- | --- | --- | --- |
 | MECH-01 | Create and lock the complete V2.1 PCB mechanical baseline | Planned | DEC-018 corrects the initial WIP assumption: no V3 PCB exists. Compare fresh L-01 geometry with archived V2.1, including outline/corners, holes and connector fixings |
 | MECH-02 | Preserve DB9 fixing drills, shell overhang and mating geometry | Planned | Selected connector drawing matched to the archived placed footprint |
-| MECH-03 | Establish J8 power connector identity and preserve actual mating geometry | In progress | Exact manufacturer drawing/pad mapping; no automatic stock-footprint substitution by name |
+| MECH-03 | Establish J8 power connector identity and preserve actual mating geometry | Done | GCT USB4125 stock footprint preserves the studied mating body/anchor; source pin mapping uses SH instead of old S1. Stock land differences are documented for PCB application. |
 | MECH-04 | Preserve connector side, rotation, key/latch direction and pad-to-function mapping | Planned | Connector compatibility matrix and cable/plug fit check |
 | MECH-05 | Design actual driver/heatsink assemblies and relocate conflicting internal components | Planned | Placement/collision review including capacitors and access to motor/EXP plugs |
 | MECH-06 | Replace unrealistic archived stack-up metadata with a real fabrication stack-up | Planned | Mellow stack-up, thickness and connector-Z assumptions documented before routing |
 | MECH-07 | Define actual new display and programming-fixture interfaces | Waiting | Selected display pinout and factory fixture/contact geometry |
-| ELEC-01 | Correct the four 5 V buffer input-threshold/enable implementations | Planned | Selected part satisfies 3.3 V input-high, output drive and power-off/reset behavior |
-| ELEC-02 | Isolate/select J3 versus MAX3232 receive sources | Planned | Retained connector mapping with no competing receiver drive in supported modes |
-| ELEC-03 | Separate raw PD and service/controller/accessory net names and protection references | Planned | Native connectivity review proves no accidental VBUS merge or high-voltage USB clamp connection |
-| ELEC-04 | Extract the complete MCU support circuit across reference sheet boundaries | Planned | RF/core supplies, reset, boot and USB support remain complete after PMIC removal |
-| ELEC-05 | Close memory/strapping/peripheral pin constraints | In progress | Exact A-02 matrix, including memory voltage and reliable recovery states |
-| ELEC-06 | Record operating limits and apply the requested Fly/heatsink reference | Planned | DEC-016 settles scope; R-08 identifies reference. Review ordinary manufacturer implementation in S-03/L-02 and record normal bring-up observations; no formal thermal model or continuous 1.5 A RMS claim |
-| ELEC-07 | Implement complete bare-IC TMC2209 channels and sensing contract | Planned | Datasheet support circuit, fitted sensing/OTP assumptions and firmware units agree |
-| ELEC-08 | Handle motor-driver reset while controller service power remains present | Planned | Power validity, hardware inhibition and deliberate reinitialization contract checked in P-02/P-04 |
-| ELEC-09 | Account for local motor capacitance and regenerative/fault energy | Planned | Power-switch, clamp and discharge assessment plus measured rail excursion |
-| ELEC-10 | Define inactive-display isolation and verify signal levels | Waiting | Selected modules, connection rules, pin pull-up rails and power-off limits known |
-| ELEC-11 | Complete Type-C service and factory recovery interface | Planned | CC/data/power paths and GPIO0/EN fixture access verified in all adopted service modes |
+| ELEC-01 | Correct the four 5 V buffer input-threshold/enable implementations | Done | U5-U8 use SN74AHCT1G125DBVR with the V2 pin-compatible SOT23-5 function and a guaranteed 3.3 V input high at 5 V. |
+| ELEC-02 | Isolate/select J3 versus MAX3232 receive sources | Done | J17 selects TTL or RS232 RX with a 3-pin shunt. Both V2 external connector pin maps remain; native export shows no tied receiver outputs. |
+| ELEC-03 | Separate raw PD and service/controller/accessory net names and protection references | Done | Separate VMOTOR/V5V/V3V3/SERVICE_VBUS names and physical endpoints reconcile. Service 5 V never joins board rails. |
+| ELEC-04 | Extract the complete MCU support circuit across reference sheet boundaries | Done | One ESP32-S3R8 core is captured with power, clock, flash, RF and reset support. OWMC PMIC was not adopted. |
+| ELEC-05 | Close memory/strapping/peripheral pin constraints | Done | Independent pin check and native net reconciliation close numbered memory/strap/USB/peripheral allocation. |
+| ELEC-06 | Record operating limits and apply the requested Fly/heatsink reference | In progress | B1 captures the Fly/manufacturer driver support approach and excludes a continuous 1.5 A RMS claim. Apply ordinary exposed-pad/copper/heatsink practices during L-02; physical observations remain external P-04. |
+| ELEC-07 | Implement complete bare-IC TMC2209 channels and sensing contract | Done | Independent B1 review checks both numbered TMC2209 circuits, external 0.11 ohm / 1 W sensing and the range calculation. Exact shunt MPN and supplied OTP variant remain B-02; runtime configuration is external. |
+| ELEC-08 | Handle motor-driver reset while controller service power remains present | Done | Main PD powers service operation; driver EN defaults inactive. PC-only controller operation is not implemented. Physical attach/reset testing remains external. |
+| ELEC-09 | Account for local motor capacitance and regenerative/fault energy | In progress | Local motor bulk capacitors are captured. Retained raw-PD topology has no new reverse blocker or clamp; ISR-05 records the unmeasured regenerative/transient limitation. Review copper/layout in L-02 and leave rail-excursion tests to P-04. |
+| ELEC-10 | Define inactive-display isolation and verify signal levels | In progress | One physically connected display at a time; power-off cable changes. Pin/voltage mapping is captured; exact Mini KILL-link and supplied FFC/module checks remain ISR-03/04. |
+| ELEC-11 | Complete Type-C service and factory recovery interface | Done | Independent CC pulldowns, USB data isolation and factory VBUS/DP/DN/GND/BOOT/EN/sense pads are captured; native ERC and net checks pass. Main PD is required. |
 | ELEC-12 | Revalidate antenna placement/matching in V3 | Planned | Exact antenna identity, clearance/stack-up and tuning provisions; measured RF evidence |
-| ELEC-13 | Close the 5 V load/transient budget before reducing converter rating | Waiting | Representative servo and selected-display demand plus controller losses quantified |
-| FW-01 | Specify the ESP32 platform and initialization contract | Planned | Document SDK/toolchain choice, task-stack/startup differences and application handoff; test-target implementation is downstream |
-| FW-02 | Complete both display modes' pin/resource/reset ownership | In progress | A-02 matrix covers power/service/diagnostic signals and justified spare I/O count |
-| FW-03 | Document ESP32 GPIO/interrupt migration requirements | Planned | Address high-numbered GPIOs and queue-initialization ordering in static feasibility; Mellow/downstream firmware owner performs implementation and tests |
-| FW-04 | Establish waveform peripheral/clock/timing contract | Planned | Specify MCPWM/LEDC/RMT allocation and concurrent-interface test needs; measured timing remains external P-02/P-04 |
-| FW-05 | Specify driver UART and current-unit contract | Planned | Addresses, transport, fitted sensing and RMS units match schematic; communication/current measurement is external P-02/P-04 |
-| FW-06 | Qualify display-driver feasibility and exclusive initialization contract | Waiting | Resolve A-05 hardware-affecting driver/interface facts; actual demonstration remains Mellow/owner P-03 |
-| FW-07 | Define QSPI input and future UI/mirroring contract | Waiting | Preserve Mini12864 controls and allocate the selected touch interface; touch runtime test belongs to external P-03 |
-| FW-08 | Budget fitted flash/PSRAM/internal memory | Planned | Specify memory configuration and selected-panel buffer/DMA allocation; actual memory tests are external P-02 |
-| FW-09 | Define controller-only service and restart output behavior | Planned | Complete power/reset/output-state contract; source isolation needs external measurement and is not proved by firmware state alone |
-| FW-10 | Specify native USB loading and ROM recovery | Planned | Pin/boot/fixture access and recovery procedure defined; Mellow performs actual blank-board loading and recovery checks |
-| FW-11 | Document EEPROM schema/CRC/identity handoff | Planned | Read-only legacy fixtures and an explicit compatibility/migration policy; full migration implementation is separate |
-| FW-12 | Document radio/serial hardware and application expectations | Planned | Record network/API/status and UART interface contracts with downstream physical checks; application port remains separate |
+| ELEC-13 | Close the 5 V load/transient budget before reducing converter rating | External | No converter reduction is made. The retained capacity and planning allocation are documented in A-03; representative servo/display demand and rail droop are Mellow/owner P-04 measurements. |
+| FW-01 | Specify the ESP32 platform and initialization contract | External | DEC-022 excludes firmware rework/application-port analysis. Hardware pin capability is covered by A-02; firmware implementation and runtime acceptance belong to the owner/Mellow. |
+| FW-02 | Complete both display modes' pin/resource/reset ownership | Done | DEC-022 limits work to pin purpose. Mini controls and external QSPI/direct touch fit the completed allocation. |
+| FW-03 | Document ESP32 GPIO/interrupt migration requirements | External | DEC-022 excludes firmware rework/application-port analysis. Hardware pin capability is covered by A-02; firmware implementation and runtime acceptance belong to the owner/Mellow. |
+| FW-04 | Establish waveform peripheral/clock/timing contract | Done | Pins support the required PWM/step/pixel functions through ESP32 peripherals. Exact firmware scheduling and runtime timing are outside scope by DEC-022. |
+| FW-05 | Specify driver UART and current-unit contract | Done | UART addresses 0/1, separate STEP/DIR/EN, external 0.11 ohm sensing and RMS units are recorded. Actual current/communication tests remain external. |
+| FW-06 | Qualify display-driver feasibility and exclusive initialization contract | External | DEC-022 excludes firmware rework/application-port analysis. Hardware pin capability is covered by A-02; firmware implementation and runtime acceptance belong to the owner/Mellow. |
+| FW-07 | Define QSPI input and future UI/mirroring contract | External | DEC-022 excludes firmware rework/application-port analysis. Hardware pin capability is covered by A-02; firmware implementation and runtime acceptance belong to the owner/Mellow. |
+| FW-08 | Budget fitted flash/PSRAM/internal memory | External | DEC-022 excludes firmware rework/application-port analysis. Hardware pin capability is covered by A-02; firmware implementation and runtime acceptance belong to the owner/Mellow. |
+| FW-09 | Define controller-only service and restart output behavior | Done | Main PD is required; USB VBUS is sensing only. Boot pin behavior is checked without depending on application firmware. |
+| FW-10 | Specify native USB loading and ROM recovery | Done | GPIO19/20 native USB and BOOT/RESET contacts are allocated. Physical blank-board loading/recovery is Mellow testing. |
+| FW-11 | Document EEPROM schema/CRC/identity handoff | External | DEC-022 excludes firmware rework/application-port analysis. Hardware pin capability is covered by A-02; firmware implementation and runtime acceptance belong to the owner/Mellow. |
+| FW-12 | Document radio/serial hardware and application expectations | External | DEC-022 excludes firmware rework/application-port analysis. Hardware pin capability is covered by A-02; firmware implementation and runtime acceptance belong to the owner/Mellow. |
 | DISP-01..04 | Disposition documented Mellow products against the strict QSPI requirement | Done | [Sourced candidate comparison](COMPATIBILITY_RESEARCH.md): ordinary SPI, UART smart screen, host computer and HDMI/DSI alternatives do not meet the present requirement |
-| DISP-05 | Qualify selected TDO QSPI candidate for Mellow sourcing | Waiting | R-09 desk evidence complete; exact driver/WAIT/touch/power/cable/drawing and sample/supplier confirmation remain before BOM approval; no order or supplier contact made |
+| DISP-05 | Qualify selected TDO QSPI candidate for Mellow sourcing | Waiting | TDO numbered host interface and pin capability are captured. Exact WAIT/touch output levels, load, cable and supplier confirmation remain ISR-03 before final connector/BOM commitment. No supplier contact or order was made. |
+
+## Independent B1 review dispositions
+
+The [independent report](review/INDEPENDENT_SCHEMATIC_REVIEW.md) holds the review
+basis and findings. Their live work status is recorded only here.
+
+| Finding | Status | Disposition and responsible stage |
+| --- | --- | --- |
+| ISR-01 | Done | Q2 changed to BSS138LT1G with the same 1=gate, 2=source, 3=drain mapping; independent amended-part check passed. GPIO44 may assert touch reset at boot; driving it low releases reset. |
+| ISR-02 | Planned | B-02 / before final component and PCB commitment: establish C8 switching-frequency ESR/filter suitability or qualify an equivalent capacitor. Nominal ripple/package evidence alone does not close TPS5450 loop stability. |
+| ISR-03 | Waiting | B-02 / A-05: supplied TDO assembly must establish FFC contact face/pin-1 mapping, maximum/inrush load and WAIT/touch-interrupt electrical outputs. Board pin capability is checked; physical demonstration remains external P-03. |
+| ISR-04 | Waiting | B-02 / P-03: verify the supplied Mini12864 revision and cable have no KILL link that shorts retained EXP2.10 +5 V when pressed. The dedicated button buffer addresses input voltage, not a panel-internal short. |
+| ISR-05 | External | Mellow/owner P-02/P-04: power cycling, USB attach/detach, servo/display transients and motor deceleration. Retained raw PD topology has no added voltage qualification or specified regenerative-energy absorption. No such test result is claimed. |
+| ISR-06 | In progress | B-01/B-02: choose exact commodity passives, effective ceramic capacitance, low-inductance shunts and mechanical variants. D4 is nominated as MDD SS54/C22452 in SMA and still needs source/package qualification. No positive lifecycle/stock result exists. |
 
 ## Current decisions that should not be reopened without cause
 
+- Motor Expansion Board V3: V2.1 plus Pico replacement, onboard TMC2209s and an
+  external display connector. OWMC is the schematic-style/selective MCU reference.
+  At most five sheets total; explicit hierarchical ports, standard KiCad assets
+  first and V2's larger hand-solder footprint intent (DEC-020).
 - Exactly one directly fitted ESP32-S3R8 MCU.
 - OWMC assets are reference-only; there is no pre-existing V3 CAD. Cleanup,
   self-contained libraries and net/clearance/hierarchy specification precede
@@ -159,14 +195,24 @@ implementation cannot begin until gate G-01 passes.
 - Remaining usable native GPIOs go to a 2/2.54 mm 3.3 V control header, lower
   priority with no minimum count; 2.54 mm is the starting choice (DEC-017).
 - Complete schematic, PCB layout and first preliminary BOM, then hand off.
-  Static firmware feasibility remains required; owner/Mellow handle production
-  and physical testing. Full application/OTA/test-firmware implementation is
-  separate (DEC-019).
+  Check pin-purpose suitability only; firmware rework and application-port
+  analysis are excluded (DEC-022). Owner/Mellow handle production and physical
+  testing (DEC-019).
 - Servo baseline is MG90S as specified in the OpenTrickler sourcing guide;
   model/source selection is settled and should not be asked again (DEC-019).
 
 ## Change log
 
+- 2026-09-13: DEC-021 authorizes the reset. Reversibly moved and hash-verified
+  83 rejected draft/tool/library files; kept V2.1, necessary references and
+  datasheets. Corrected specification underway; no new CAD captured yet.
+- 2026-09-13: Owner rejected the expanded 15-sheet draft, library duplication,
+  small-footprint defaults and product/display scope drift; stopped CAD work.
+  Completed direct V2 circuit/footprint and OWMC hierarchy/style study (R-11).
+  Reopened architecture, pin allocation, netlist, hierarchy/library work and G-01;
+  marked schematic/BOM implementation paused. Earlier clean ERC/native-netlist
+  results apply only to the rejected draft. No PCB exists and no CAD was modified
+  during this study. Independent final schematic review/owner approval remain open.
 - 2026-09-12: Created the single master tracker at the user's request. Launched
   separate read-only mechanical, electrical and firmware research agents plus
   Mellow/Fly display research. Linked the tracker from root guidance and README.
@@ -202,3 +248,18 @@ implementation cannot begin until gate G-01 passes.
   initial testing to Mellow; kept downstream acceptance in this same tracker as
   External work. Resolved MG90S identity/source from the guide and removed batch,
   budget/schedule and physical-test ownership questions from assistant prerequisites.
+
+- 2026-09-13: Captured the corrected five-sheet B1 schematic after G-01. All
+  assets are shipped KiCad libraries. Native ERC0/0 and116nets/551connected/37NC
+  reconciliation pass. Independent review started. DEC-022 narrows firmware
+  work to pin-purpose suitability. L4 resolved to stock Sunlord4.7uH within
+  the AP63203 permitted range; original pre-capture gate retained as evidence.
+
+- 2026-09-13: Completed independent B1 schematic review and bounded drawing
+  renewal. Corrected Q2 low-voltage MOSFET choice, readable revision fields and
+  shared motor ground graphics. Native ERC remains 0/0; 116 nets, 551 connected
+  and 37 NC endpoints reconcile. Qualified pin purpose only under DEC-022.
+  Added all six independent findings to this tracker, retained explicit source/
+  prototype gaps, cleaned 18 unused datasheets with hash-checked rollback and
+  prepared the exact review package. G-02 waits for owner approval; no PCB work
+  or production has started.

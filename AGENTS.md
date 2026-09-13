@@ -1,6 +1,10 @@
 # Project context
 
-V3 is the work-in-progress board. For V3 planning or design changes, read
+V3 means the Motor Expansion Board V3 PCB, retaining V2.1 functions and external
+compatibility with three core changes: one ESP32-S3R8 in place of the Pico,
+two onboard TMC2209s in place of StepSticks, and an external display connector.
+OpenTrickler is application context. Do not expand this into a product or display
+module design. For V3 planning or design changes, read
 [motor_expansion_board_v3/REQUIREMENTS.md](motor_expansion_board_v3/REQUIREMENTS.md)
 first. Maintain it as requirements and design objectives are agreed in
 conversation. Keep user-confirmed requirements, proposed choices, open questions,
@@ -15,7 +19,9 @@ agreed specification; research reports hold evidence; PROGRESS.md holds work
 status across research, schematic, placement, routing, BOM, checks and bring-up.
 
 DEC-019 limits assistant delivery to the completed schematic, PCB layout and
-first preliminary BOM, including static feasibility and design-review evidence.
+first preliminary BOM, including pin-capability verification and design-review evidence. DEC-022
+excludes firmware rework and application-port analysis: confirm only that the
+selected pins can serve their intended purposes.
 The owner manages production; Mellow manufactures and performs initial functional
 testing. Track downstream acceptance separately by owner in the same tracker;
 do not execute production management, purchasing or physical bring-up as assistant
@@ -23,8 +29,19 @@ scope. Use per-board BOM quantities without asking for production batch size or
 schedule. Servo baseline is the MG90S identified in OpenTrickler's sourcing guide,
 with its full-metal 180-degree recommendation and AliExpress item 1005004550692203.
 
-The copied OWMC design is reference material only. There is no pre-existing V3
-schematic or PCB to continue. Before schematic implementation, complete the
+The owner stopped the expanded 15-sheet draft, then explicitly authorized the
+V2-based reset with "Proceed" on 2026-09-13. Cleanup, corrected specification
+and schematic capture/review may proceed. The rejected draft is not a baseline.
+Read [the V2 and OWMC study](motor_expansion_board_v3/research/V2_DESIGN_STUDY.md).
+Use V2.1 for circuits, mechanical compatibility and assembly intent. Use the
+owner's OWMC parent/child-sheet style: coherent grouped circuits, at most five
+sheets total, explicit hierarchical sheet pins/labels between sheets and local
+labels within pages. Prefer installed KiCad symbols/footprints; do not duplicate
+stock assets. Retain V2's larger hand-solder pads where suitable and justify
+exceptions. Keep only needed custom assets and reference evidence locally.
+
+The copied OWMC design is reference material only. No V3 schematic or PCB existed
+when this project began. Before resumed schematic implementation, complete the
 cleanup, self-contained resource audit, intended net/endpoint specification,
 numeric clearance/net-class rules and hierarchy conventions in the master
 tracker's pre-schematic gate. Do not inherit the reference project's libraries

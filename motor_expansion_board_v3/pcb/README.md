@@ -1,33 +1,30 @@
-# V3 active CAD
+# Motor Expansion Board V3 CAD
 
-No V3 schematic or PCB exists yet. The imported OWMC project and old placeholders
-were removed from this directory under DEC-018; see the
-[cleanup evidence](../research/asset-cleanup.json). Necessary reference material
-is separated under [references](../references/README.md).
+Open [motor_expansion_board_v3.kicad_pro](motor_expansion_board_v3.kicad_pro)
+with KiCad 10 and its standard libraries. The populated
+[root schematic](motor_expansion_board_v3.kicad_sch) contains four child sheets:
+[power](power.kicad_sch), [motors](motors.kicad_sch),
+[serial/outputs](interfaces.kicad_sch) and
+[external display connections](display_connector.kicad_sch).
 
-Use [PROGRESS.md](../PROGRESS.md) as the only work tracker. Gate G-01 requires
-cleanup/resource preparation, intended net/endpoint and pin allocation, numeric
-clearance/net-class rules and schematic hierarchy conventions before drawing.
-The implementation netlist must later reconcile with that specification.
+The [B1 review package](../review/README.md),
+[review PDF](../review/motor_expansion_board_v3.pdf),
+[native ERC](../review/erc.json) and
+[connection reconciliation](../review/connectivity-check.json) accompany the
+editable sources. Use [PROGRESS.md](../PROGRESS.md) for status and the mandatory
+independent review / owner approval gate. No V3 PCB has been created yet.
 
-Future production files belong here under a V3-specific basename, proposed as
-`opentrickler_v3`. Parent and child sheets belong to this project and use relative
-sheet paths. The top sheet should describe functional connections; children
-should own coherent MCU, power/service, motor, display and retained-interface
-circuits with explicit ports. Final sheet boundaries are specified under A-07.
+All current symbol and footprint IDs refer to shipped KiCad assets. The normal
+embedded symbol cache is part of each schematic; it is not a duplicate custom
+library. See the [resource audit](../design/library-audit.json) and
+[library conventions](libraries/README.md). No personal/other-project library
+paths or imported OWMC design rules are needed.
 
-The independent schematic review must assess both connectivity and rendered
-readability against all requirements. Owner approval of its exact reviewed
-revision is mandatory under G-02 before PCB implementation. The archived V2.1
-geometry defines the board, mounting and retained connectors; OWMC is not a
-starting PCB.
+The intended netlist, numeric clearances and hierarchy were specified before
+capture under [design](../design/). Review outputs live under [review](../review/).
+The rejected 15-sheet draft and its generators/libraries were removed reversibly;
+[cleanup evidence](../research/rejected-draft-cleanup.json) records the rollback.
 
-Custom production assets belong under [libraries](libraries/README.md), with local
-tables in this directory. Do not point active CAD into references, archives,
-another checkout, personal libraries or the rollback backup. Select a real
-fabrication stack-up and write new rules; no imported `.kicad_pro` or `.kicad_dru`
-has been adopted.
-
-Keep generated review/export artifacts under the future `../outputs/` tree,
-separated by reviewed revision and purpose. Keep manufacturing releases separate
-from scratch exports. Update documentation and links as each artifact is created.
+Native KiCad edits are supported. The capture tool checks prior generated hashes
+and refuses to overwrite subsequent manual CAD edits. Treat CAD edits as work to
+preserve; reconcile the contract, exports and review before regenerating.

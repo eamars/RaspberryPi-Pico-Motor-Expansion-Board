@@ -1,0 +1,62 @@
+{
+  "total_sheets": 5,
+  "paper": "A3",
+  "style": "Populated parent, four coherent children. Matching named sheet pins and hierarchical labels; local labels inside each sheet; GND power symbols only. No global_label objects.",
+  "ports": {
+    "power": {
+      "CHIP_PU": "bidirectional",
+      "BOOT_N": "bidirectional",
+      "V3V3": "output",
+      "USB_DN": "bidirectional",
+      "USB_DP": "bidirectional",
+      "VMOTOR": "output",
+      "V5V": "output"
+    },
+    "motors": {
+      "V3V3": "input",
+      "TMC_TX": "input",
+      "TMC_RX": "bidirectional",
+      "M2_EN_N": "input",
+      "M1_STEP": "input",
+      "M2_STEP": "input",
+      "M1_DIR": "input",
+      "M2_DIR": "input",
+      "M1_EN_N": "input",
+      "VMOTOR": "input"
+    },
+    "interfaces": {
+      "PWM1": "input",
+      "PWM2": "input",
+      "PWM3_PIXEL": "input",
+      "V3V3": "input",
+      "SCALE_TX": "input",
+      "SCALE_RX": "output",
+      "V5V": "input"
+    },
+    "display_connector": {
+      "DISP_D3_PIXEL": "input",
+      "I2C_SCL": "bidirectional",
+      "I2C_SDA": "bidirectional",
+      "DISP_BTN_IRQ": "bidirectional",
+      "DISP_CS": "input",
+      "DISP_D0_MOSI": "input",
+      "DISP_SCK": "input",
+      "DISP_D1_EN1": "bidirectional",
+      "DISP_D2_EN2": "bidirectional",
+      "V3V3": "input",
+      "MINI_BUTTON": "output",
+      "DISP_WAIT": "output",
+      "DISP_RESET": "input",
+      "DISP_DC_TPRST": "input",
+      "V3V0": "output",
+      "V5V": "input"
+    }
+  },
+  "pages": {
+    "root": "ESP32 core, flash/clock/RF/reset, EEPROM, spare header and four child instances",
+    "power": "V2 PD/5V supply, added3.3V regulator, separate USB service and indicators/pads",
+    "motors": "Both TMC2209 channels, local support and shared addressed UART",
+    "interfaces": "V2 serial alternatives/selection and all three5V outputs",
+    "display_connector": "Retained Mini headers and external QSPI connector, touch supply/reset"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "source_snapshot": "B1 before L4 source amendment;26partnumbers",
+  "findings": [
+    {
+      "inductor": {
+        "ref": "L3",
+        "value": "24nH",
+        "henries": 2.4000000000000003e-08
+      },
+      "capacitor": {
+        "ref": "C29",
+        "value": "10p",
+        "farads": 1e-11,
+        "package": "0402",
+        "esr_ohm": 5.0,
+        "dielectric": "X7R"
+      },
+      "resonant_hz": 324873667.18,
+      "impedance_ohms": 48.99,
+      "shared_net": "XTAL_P_LOAD",
+      "resonant_formatted": "324.87 MHz",
+      "detector": "detect_lc_filters",
+      "rule_id": "LC-DET",
+      "category": "passive_filters",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "LC filter at 324873667.18Hz",
+      "description": "LC filter or resonant network detected",
+      "components": [
+        "C29",
+        "L3"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "Passive Filters",
+        "impact": "",
+        "standard_ref": ""
+      },
+      "provenance": {
+        "evidence": "lc_topology",
+        "confidence": "deterministic",
+        "claimed_components": [
+          "L3",
+          "C29"
+        ],
+        "excluded_by": [],
+        "suppressed_candidates": []
+      },
+      "detection_id": "lc_filters:f33b37b81248",
+      "stages": [
+        "schematic"
+      ],
+      "finding_id": "schematic:lc_filters-f33b37b81248"
+    }
+  ],
+  "limitations": "Do not treat unavailable distributor results as a positive lifecycle or stock claim. L4 Sunlord listing checked separately."
+}

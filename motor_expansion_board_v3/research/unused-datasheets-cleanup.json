@@ -1,0 +1,115 @@
+{
+  "date": "2026-09-13",
+  "reason": "Parts removed with the rejected expanded design; reversible cleanup, no archived V2 or active component source removed.",
+  "files": [
+    {
+      "file": "TXU0104.pdf",
+      "bytes": 2551508,
+      "sha256": "91679293075d88947b9633a3efa2f8bd1d7d05ffeddd86ae0bda497c07721121",
+      "rollback": ".git/rejected-v3-draft-20260913/unused-datasheets/TXU0104.pdf"
+    },
+    {
+      "file": "TS3USB31ERSER.pdf",
+      "bytes": 1316332,
+      "sha256": "b33c728a099c9f32d3acae56125b13bb88bad6f8925ddf32be69a3bd8908d940",
+      "rollback": ".git/rejected-v3-draft-20260913/unused-datasheets/TS3USB31ERSER.pdf"
+    },
+    {
+      "file": "TRS3232EIDR.pdf",
+      "bytes": 2442292,
+      "sha256": "ac7524ad04e3e5d168843d48e85f7cf43275a01e64f22899dd1e4f89591b79b6",
+      "rollback": ".git/rejected-v3-draft-20260913/unused-datasheets/TRS3232EIDR.pdf"
+    },
+    {
+      "file": "TPS62162.pdf",
+      "bytes": 2784747,
+      "sha256": "abc824ca04ee985ede3a513172ccdd2a42c8e1fdcfc3af5acdbe2c1af31aaa72",
+      "rollback": ".git/rejected-v3-draft-20260913/unused-datasheets/TPS62162.pdf"
+    },
+    {
+      "file": "TPS26630RGER.pdf",
+      "bytes": 5728602,
+      "sha256": "bb61314ace65ed37684bd07f541fc676081d7cf81cb24020e7c5c2065bfe16b2",
+      "rollback": ".git/rejected-v3-draft-20260913/unused-datasheets/TPS26630RGER.pdf"
+    },
+    {
+      "file": "TPS2553DBVR.pdf",
+      "bytes": 2091666,
+      "sha256": "88e453700cea2b263cdb5b44fce1e883e0f6d3b975457f879ac1423eeea42071",
+      "rollback": ".git/rejected-v3-draft-20260913/unused-datasheets/TPS2553DBVR.pdf"
+    },
+    {
+      "file": "TMUX1574.pdf",
+      "bytes": 2518744,
+      "sha256": "e728f7dbb2a05665c98752fe113662b859ecf6988dc8c58e02a9b49265839867",
+      "rollback": ".git/rejected-v3-draft-20260913/unused-datasheets/TMUX1574.pdf"
+    },
+    {
+      "file": "TLV803E.pdf",
+      "bytes": 2343229,
+      "sha256": "8c0e1447e9f5edfc933912d7f30d3a11867d052b43b3ff75e45309aa461a651b",
+      "rollback": ".git/rejected-v3-draft-20260913/unused-datasheets/TLV803E.pdf"
+    },
+    {
+      "file": "TLV3012BIDBVR.pdf",
+      "bytes": 1624948,
+      "sha256": "02993c016420887ee4f1ab2fa640e7596c9c1324a73f4f72bee3b32adec38df3",
+      "rollback": ".git/rejected-v3-draft-20260913/unused-datasheets/TLV3012BIDBVR.pdf"
+    },
+    {
+      "file": "TCA9406.pdf",
+      "bytes": 917164,
+      "sha256": "fdb80d682fbacd5ef18cbafc57e4d9375a295daa38da33721af6e055f8a7da61",
+      "rollback": ".git/rejected-v3-draft-20260913/unused-datasheets/TCA9406.pdf"
+    },
+    {
+      "file": "SSC54-M3_57T.pdf",
+      "bytes": 130177,
+      "sha256": "2f2838332978441a16f3eda47cbf02adf0cf9970e9fcbb42bb16bde9e36d4f51",
+      "rollback": ".git/rejected-v3-draft-20260913/unused-datasheets/SSC54-M3_57T.pdf"
+    },
+    {
+      "file": "SRP1038A-150M.pdf",
+      "bytes": 453568,
+      "sha256": "92c761c358a1e5a3915a936f6f0795096bb6b965617bb5c408bd8be30ad285af",
+      "rollback": ".git/rejected-v3-draft-20260913/unused-datasheets/SRP1038A-150M.pdf"
+    },
+    {
+      "file": "SN74LVC1G08DBVR.pdf",
+      "bytes": 2837825,
+      "sha256": "30b963cc44233cf3ca35c891ff987c8323a2244ecc765e23296ec96ca4b42666",
+      "rollback": ".git/rejected-v3-draft-20260913/unused-datasheets/SN74LVC1G08DBVR.pdf"
+    },
+    {
+      "file": "SMCJ14A-M3_57T.pdf",
+      "bytes": 111095,
+      "sha256": "d9b1dafa25c0fa45eeb22fc4258fbdee3cafffb0bd14741e3cd9e35ea98f8e4c",
+      "rollback": ".git/rejected-v3-draft-20260913/unused-datasheets/SMCJ14A-M3_57T.pdf"
+    },
+    {
+      "file": "CSD19537Q3.pdf",
+      "bytes": 979540,
+      "sha256": "d74d65b7815d46d642a11c89834ee71245ae6d3541595df2b4fcfa21dfbd4903",
+      "rollback": ".git/rejected-v3-draft-20260913/unused-datasheets/CSD19537Q3.pdf"
+    },
+    {
+      "file": "74LVC541APW.pdf",
+      "bytes": 264997,
+      "sha256": "33cdbbe38f7bdda978a5fb7ecb5802f1b22653cdbaa0d8506585bb4e8ec992c7",
+      "rollback": ".git/rejected-v3-draft-20260913/unused-datasheets/74LVC541APW.pdf"
+    },
+    {
+      "file": "74LVC1G07GV.pdf",
+      "bytes": 295728,
+      "sha256": "55b6b5b85932bc1db1ff8bc6c242cfc56476eb3cdda22a47395e184f22dfa90f",
+      "rollback": ".git/rejected-v3-draft-20260913/unused-datasheets/74LVC1G07GV.pdf"
+    },
+    {
+      "file": "74LVC125APW.pdf",
+      "bytes": 278122,
+      "sha256": "49d64a9b9d253b9587093dbcb8b93f1cb4033686e52957842dd347920cf87930",
+      "rollback": ".git/rejected-v3-draft-20260913/unused-datasheets/74LVC125APW.pdf"
+    }
+  ],
+  "hash_checks_passed": true
+}

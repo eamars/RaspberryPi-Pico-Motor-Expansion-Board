@@ -36,3 +36,7 @@ jlcpcb/
 # Ignore temporary files
 *.lck
 \#auto_saved_files\#
+
+# Local Python analysis/capture caches
+__pycache__/
+*.py[cod]
